@@ -1,4 +1,4 @@
-# Stardew Valley Mod
+# Stardew Valley Mods
 
 ## Description
 
