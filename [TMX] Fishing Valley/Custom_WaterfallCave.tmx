@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="3">
+ <editorsettings>
+  <export target="Custom_WaterfallCave.tmx" format="tmx"/>
+ </editorsettings>
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="Light" value="4 1 4 7 1 4 11 1 4"/>
+  <property name="Warp" value="7 9 Custom_JungleFalls 23 10 5 4 Custom_JungleJapesMain 3 47"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="zcave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="mine_dark_dangerous.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="325" name="zdesert" tilewidth="16" tileheight="16" tilecount="368" columns="16">
+  <image source="DesertTiles.png" width="256" height="368"/>
+ </tileset>
+ <tileset firstgid="693" name="zoldman" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Festivals.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1717" name="zabc" tilewidth="16" tileheight="16" tilecount="1368" columns="72">
+  <image source="night_market_tilesheet_objects.png" width="1152" height="312"/>
+  <tile id="1213">
+   <animation>
+    <frame tileid="1213" duration="300"/>
+    <frame tileid="1214" duration="300"/>
+    <frame tileid="1213" duration="300"/>
+    <frame tileid="1215" duration="300"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Paths" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Paths"/>
+ <layer id="3" name="Back" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+255,255,175,175,175,175,175,175,175,175,175,175,175,175,0,
+175,175,175,175,175,175,175,175,175,175,175,175,175,175,0,
+175,175,175,175,175,275,175,175,175,175,175,175,175,175,0,
+175,175,175,175,175,175,175,175,175,175,175,175,175,175,0,
+175,175,175,175,175,175,175,175,175,175,175,175,175,175,0,
+175,175,175,175,175,175,175,175,175,175,175,175,175,175,0,
+81,175,175,175,175,175,175,175,175,175,80,80,80,80,0,
+81,80,80,80,80,80,175,175,175,80,80,80,80,80,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <layer id="5" name="Buildings" width="15" height="10">
+  <data encoding="csv">
+105,122,126,127,126,127,126,127,128,129,126,127,128,129,0,
+121,138,138,139,142,143,142,143,144,145,142,143,144,145,0,
+137,154,154,155,158,159,160,161,158,159,160,161,195,196,0,
+153,170,170,171,0,0,0,2930,0,0,559,0,560,212,0,
+185,0,560,0,0,0,0,3002,0,0,575,0,576,228,0,
+201,0,576,0,0,0,0,0,0,0,0,558,0,244,0,
+217,0,1287,557,0,0,0,0,0,0,0,574,1286,260,0,
+233,234,0,573,0,0,0,0,0,242,251,252,252,243,0,
+0,250,251,252,251,252,253,0,257,258,0,0,0,0,0,
+0,0,0,0,0,0,269,0,273,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="2" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="BaitTrader"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Front" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,134,0,0,150,0,0,0,134,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

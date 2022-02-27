@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="17">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="Doors" value="32 10 1 120 39 10 1 120 46 10 1 120"/>
+  <property name="Light" value="8 2 6 19 2 6 30 9 6 34 9 6 37 9 6 41 9 6 44 9 6 14 16 6 20 16 6 25 19 6 34 19 6"/>
+  <property name="Warp" value="12 29 Custom_FishingResortExterior 16 11 14 2 Custom_JungleJapesMain 2 48 15 2 Custom_JungleJapesMain 3 48"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="zIndoors" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2213" name="zInterior" tilewidth="16" tileheight="16" tilecount="4352" columns="32">
+  <image source="TownIndoors.png" width="512" height="2176"/>
+ </tileset>
+ <tileset firstgid="6565" name="zoutside" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="8540" name="zsubmarine" tilewidth="16" tileheight="16" tilecount="528" columns="24">
+  <image source="submarine_tilesheet.png" width="384" height="352"/>
+ </tileset>
+ <tileset firstgid="9068" name="Zfestival" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Festivals.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="10092" name="zstadium" tilewidth="16" tileheight="16" tilecount="76" columns="4">
+  <image source="stadium_tiles.png" width="64" height="304"/>
+ </tileset>
+ <layer id="1" name="Paths" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Paths"/>
+ <layer id="3" name="Back" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlr1OwzAUhQ0iT8DWveob8KtkZUECMZWiZO3CxIBKeYAuTEhIFQMrj8DrYUs59HB6nf7ELR2w9Ml1nKT+fO0bd51z3X/W5tIAfQNPn+o+9d0YoC+Uo45zxx33U9AeLujnMqQaxDzuDdA39oyoHlHfgwF7XPkxXdO40M6z5n6rTIiYx4sB+t49U6qn1PdqgL4w1nUoIvA9MY/Dvd/uoc3zGsrnwQz0Pe7PQEnhUdWE9kdv/lqTh4I+Hn+TB2jjofNe1OuvIr9teyyD5VBk87EpKR7FDnvwXKsH7xm4LHov7xNc4/0Re27V8Td5nHhOPWeec3FAHcpQcFTDA23+HTxifdjn63rw3Pc9t56B507iUJFHKBNnF3hMjPvgYb3DylfLeujaGXmePGPPc32trLHub0PTe9p4YO1gX+eR9ro5XeH8obT1gIu139krFZoP23qoC/voOljlP7YBzy876fdCvf563JYHc+HiwG0XPRAHoN8EZpc9kIOwlvhsHngjOGfh+V7NLnnwN11zE+eURXFTrLNn6pzB+U9zquZ49tC4NVHJ+/Usl8pDY2J9IzQX59ny3wcdf5Vt1yMWD83N1pniqxc/N/N/bsrDOjdYHlacLJrmY1MePJ9lNu/IHtYzCo87Nh+b8uC1i7FrXPDf1jlG1z/HLLbXUnpYtfWb10JsLfJeWBSrTXjonGuO4WuWh+brJjguKT3yLL4+rP2MZ63cvGw+LrN0HiBP/L5UfAMgA2nk
+  </data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <layer id="5" name="Buildings" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzNl8lPFEEUh6t7BPeDxn9AHdK4xO3mclEPauLJE6InDZvxYBAQjV64yBAPRh1UIolBo0CMUXBwvUiCLOISEfeLHkSM+1/gN5muTE9NddPD9EzmJV9eVb3qnver6rypKhFClOSZVbBaw5oAYlYOkL+h6qiAnRpq7Fg5lDl8mSO21BBil+JlrMqDyiL9uDTd3LhFioVoKU78hk7HQQ0yn2PQ6PCNjthW8q5VvIydnAbS3GJdaOj20HEKZoWEmA1zQom+zKeG3A5AG+2ZJvPMZGwu7Xmwn3gXdDt0ZGttIdtbybFhNIx46IhbKc8tg+X28zKfCLm1GIkxi5xLHTpW0F5pJmJyXhA6rpD7A/J4CI9s78RLh2pe+UwVG4AnMOLBoIeO6+j4QL4f4ZPtnXjpaCYegRZlPypY40pDr2ORmRyrYk61vR9C8zt+18+P6XTItZPrMwRPYTSLWK51fBXudXnCY47fWKmP/IPQEa/Ddex9PTQY+hqt1ne/sW2wHXbkQYesxVFDX6Pbbd9qxy9b6THJISM91iz0327QOqTFDO94nx2/arnPOa15R6fIr45cWjY64rXCT42Oz5tU8KrxmSLr1XR1uK2BOtdrrYK06epwq6cTyjy/e54PdDri9c9p84v044WuIzqD8yY5d0O9SEWn4zHniX6z8HTE0DGMhhGI0p/Af4PbSt2U399nNHwxs7uX6e5k2eoYR8ckeX+3v6NB/BDEFB3yP9jgLGiGEv31+A2wETaFknNqaR+GOqiHBjgCjXDU5cyZqY6/rOU/U2Rs8v93MXksCSXau/HlsAf22mP78GfgLJyDKLTCebgAFwPSsYD3LAxlrkPaZp7d4nhe3r167f1rot8DvXAHYtAHd+Ee3A9Ix1res85FR1M44Xs8zhSqqXevDngFY/AaxuENvIV38D4gHW52g++6Ax038X3ouFXkT4d69+r3sde51DFK3s/gObyAl4qOiD9ZntYZzr2OH+T9E37Bb/ij6OhytI+z5ifsde+wUvvOeHU4tT+UBx1TmVPHJXJqt/O+ZqX2nfHmcPr8QtKRrWWrY0Ck3+/9nquHM5gb1Pnc774U0tlP8h8A03Mc
+  </data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="1" name="TileData" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Hey, did you know that you can sell fish on this counter? They also sell Farm Totems for the late night fisherman, that is until they fix the resort beds.&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="304" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="FishShop"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="512" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Locked, I should try another door&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="624" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="736" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="576" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Don't mind me, I'm just waiting for my fishing partner.&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="256" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="ColaMachine"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="288" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Prairie"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Arcade_Minecart"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="320" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;I lost my last coin in these arcades machines, I have no regrets.&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="272" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Looks like he is loosing&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="304" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;She seems focused, better not disrupt&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="512" y="368" width="16" height="16">
+   <properties>
+    <property name="Action" value=""/>
+    <property name="Shop" value="BuffShop"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="656" y="400" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Can't a man enjoy his tuna sandwich in peace&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="480" y="416" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;You eat fish in order to catch more fish, but who caught the first fish?&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="592" y="416" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;Unfortunately for me they only sell fish based foods. The problem? I'm vegetarian&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Front" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztz7EJgEAMheF33HLqDvbqDta6ie6im2jpAKZUQbQ5LsX/QeBIcvAiAfCoiFJpVcV7fwjSGL7/L7az/thLrbH8rVX3uGOybPNLvuPS3+y9O7gD/tQJZjn0CWYAAAAAACCPExJYC4A=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzqENADAIAEEM+0/SsCICW09I7szbjwAAAACAv5fTyt0PgAsaWOcBZw==
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

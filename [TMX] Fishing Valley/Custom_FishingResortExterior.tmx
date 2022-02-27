@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="59">
+ <properties>
+  <property name="Outdoors" value="true"/>
+  <property name="SeasonOverride" value="summer"/>
+  <property name="TouchAction" value="DesertBus"/>
+  <property name="Warp" value="13 17 BusStop 12 11"/>
+  <property name="skipWeedGrowth" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="zbeach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
+  <image source="summer_beach.png" width="272" height="496"/>
+  <tile id="141">
+   <animation>
+    <frame tileid="141" duration="250"/>
+    <frame tileid="142" duration="250"/>
+    <frame tileid="143" duration="250"/>
+    <frame tileid="144" duration="250"/>
+    <frame tileid="145" duration="250"/>
+    <frame tileid="146" duration="250"/>
+    <frame tileid="147" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="158">
+   <animation>
+    <frame tileid="158" duration="250"/>
+    <frame tileid="159" duration="250"/>
+    <frame tileid="160" duration="250"/>
+    <frame tileid="161" duration="250"/>
+    <frame tileid="162" duration="250"/>
+    <frame tileid="163" duration="250"/>
+    <frame tileid="164" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="564" name="zcustom_fish_shop" tilewidth="16" tileheight="16" tilecount="300" columns="20">
+  <image source="zcustom_fish_shop.png" width="320" height="240"/>
+ </tileset>
+ <tileset firstgid="864" name="zoutdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="637">
+   <animation>
+    <frame tileid="637" duration="250"/>
+    <frame tileid="638" duration="250"/>
+    <frame tileid="639" duration="250"/>
+    <frame tileid="640" duration="250"/>
+    <frame tileid="641" duration="250"/>
+    <frame tileid="642" duration="250"/>
+    <frame tileid="643" duration="250"/>
+    <frame tileid="644" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2839" name="ztown" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="summer_town.png" width="512" height="1152"/>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzN1stKAzEUBuCQCTi7PoAXdOEVxLG2Cl5ot650qXvpC7gUxafwDRSfQcHLwrVLR2gfo3XrH6ZhjnHSSWqmZuAjZ0LK/DkThnYFY90K9eAFzon1OMMhAhHncy1ok/sqs5Xlm4YZmCV5TuA0kHxSE7ZhJ/45H0o+6QiO/5BPXnJ84Iw98mw01XKkvx1Y5BvFNp+83rkdtR/puSCfCz3LG/QJuf8vnhs4SEXm02O+3nDP1ELE2HxkHvVaqXnoX1/87peer4lnNSLzqNdKbdg/mxymHutZpFeRv5u0pH9zpKZU/8bt26h89H0kpDdJQf/qpKbUXNX5pFu4K3Dv4XyVSQvoZ+HJsA/TfiZN5dPPpY/vhw8f/5jjbCpsV5Y6Dmt9urbUcVjr0zj9O5xg/y4t3Tis9ekicLv4r7YH+yycmt4fBG4RlmAZVmAV1gKa34AENqEOW9AIaP4b81bwMA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="1" name="TileData" x="464" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="480" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="496" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="512" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="528" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="544" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="560" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="576" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="592" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="608" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="624" y="0" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="464" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="480" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="496" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="512" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="528" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="544" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="560" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="576" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="592" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="608" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="624" y="16" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="464" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="480" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="496" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="512" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="528" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="28" name="TileData" x="544" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="560" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="576" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="592" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="32" name="TileData" x="608" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="624" y="32" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="464" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="480" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="496" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="512" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="528" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="544" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="560" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="576" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="592" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="608" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="624" y="48" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="464" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="tue"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="480" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="tue"/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="496" y="64" width="16" height="16">
+   <properties>
+    <property name="water" value="T²"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="512" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="528" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="544" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="560" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value="T²"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="576" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="592" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="608" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="624" y="64" width="16" height="16">
+   <properties>
+    <property name="Water" value=" T² "/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="624" y="96" width="16" height="16">
+   <properties>
+    <property name="Warp" value="-20 -20 Town -20 -20"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="208" y="288" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="DesertBus"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1UlPFEEUwPGiamRoIHpDZRHFD8CwiGfDRcHlrje4ueCHcIGbitvFNe5yI5FFUQ8mQsANPLOMggoXDS6JGtB/Z7pD2Vb3WAhJH3jJLz01VfXq1XRXjywQ4oAS4iBUvhD71UI7hz4/3M9+W3Ltob9XCWPkhPRvSwhRj1TCPM8UR8hxFMfU3+0ZR4jWQvO8YfpHQurT+6W2R7++HRb1XSDHRVzycuntE1KIkziFdpy2cAZncQ7nMe0srr571NGFbu9+6u1r5L2OG7iJWxZu4w7uokNm9r6Y++vGS2o5hBYcVpl2Fzm70YNe3JcL40dXRed7wNg+PMQjPPbm+vU1odnADdN3H6jnOFrRpjLtQXIO4Rme44U012LcL2NfYRgjeB2oz4Z7Bty4TE1XcNV75sfIOY4JpPEGby1MYgrv8N6rby/r7bP0FP0BA5gl52d8wVd8i7BRmX2n7wd+SvM62bh1jGMiII1c8ieRh8IQDvJREDFmNdYo8zrZpCPOUTE5S1AaoQwbUB7y+21CBTYb3pMDIe/OqPe+H/4zWRk416mAKlSjBrUafU4dthrWS4fUkO29r0d94Fz/a+hzGtBoMdc2gud6ueboMe382Z4kz5SKHmMbMyHzTc/XR9qfIvYyR9/8Mt4DPUzPVx7n1LH8zwuLuVz2gl8QSf6zIaGQSC7NGv8TRdSwFuuwHsUoQSnKYlBfJTWkUIVq1KAWW1AXg/q2ezU0cG3ETuzCbuyJQX0rsRJLGZ14EuNr3OM3F/Ph/w==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="58" name="TileData" x="256" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 12 27 Custom_FishingResortInterior 600 2100"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Paths" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB
+  </data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAKOMDEwHAXiY0yo4u1MmGpwqaUluAG06yYQ3wLijUC8CWp3D5Ib/IHsACZUtfQCb4B2vQXid0jugrnzA1QsGUinMGGqpQtgZmBgBGImZojbPIHYC81+uBiSWnqDHgJh0suEoLcA8VZ6hiGRoHcQumkUjIJRMApGwSgYBaOAngAAKOMdQw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlDcOwkAQRS32qOSS1JE7YkfuiB25I/ZQ40NwCHgSICzLIgnZSMyTnrzjWe38Ym1NEwThl3ArTfOgVzmdxJo4uRKY/HI+3fVZz0yFXFWsvZDPxx4/BjD4ZP/xjQxGQoZzo6yHOMKxuvTCGFGXXsyUIUWdxgxmn+Q7Pcj3qGemfJ2T45nHAhaxpO69G3XqBjaxZfN9bTOvg13sYR8HpgwT6inOcG5zvgXzlrjCNW5wa5Fhx7u9g9/6gdn6j/5rBEEQBOEfOQOTUycZ
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
