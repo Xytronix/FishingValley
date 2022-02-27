@@ -1,0 +1,21 @@
+{
+	"Name": "Coral Grouper",
+	"Description": "A small grouper that inhabits reefs.",
+	"Category": "Fish",
+	"Edibility": 30,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

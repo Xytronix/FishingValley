@@ -1,0 +1,21 @@
+{
+	"Name": "Blue Legs Hermit Crab",
+	"Description": "This hermit crab is often kept in aquariums due to it's colours.",
+	"Category": "Fish",
+	"Edibility": 0,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

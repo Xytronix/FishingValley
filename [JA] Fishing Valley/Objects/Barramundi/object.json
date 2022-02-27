@@ -1,0 +1,22 @@
+{
+	"Name": "Barramundi",
+	"Description": "It inhabits rivers but descends to estuaries to spawn.",
+	"Category": "Fish",
+	"Edibility": 30,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Willy"],
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

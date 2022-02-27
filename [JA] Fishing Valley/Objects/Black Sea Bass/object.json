@@ -1,0 +1,21 @@
+{
+	"Name": "Black Sea Bass",
+	"Description": "The black sea bass is commonly found around rocks or rocky bottoms.",
+	"Category": "Fish",
+	"Edibility": 35,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 120,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

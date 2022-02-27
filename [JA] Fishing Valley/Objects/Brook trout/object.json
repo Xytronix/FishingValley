@@ -1,0 +1,21 @@
+{
+	"Name": "Brook Trout",
+	"Description": "This trout can hybridise with the brown trout, creating the tiger trout.",
+	"Category": "Fish",
+	"Edibility": 35,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

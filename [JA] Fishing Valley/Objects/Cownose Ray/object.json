@@ -1,0 +1,21 @@
+{
+	"Name": "Cownose Ray",
+	"Description": "Named for the shape of its head, which when observed from above resembles a cow’s nose,",
+	"Category": "Fish",
+	"Edibility": 25,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 110,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

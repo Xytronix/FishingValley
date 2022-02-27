@@ -1,0 +1,25 @@
+{
+	"Name": "Axolotl",
+	"Description": "An aquatic salamander that retained tapole traits.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Amphibian",
+	"Edibility": 0,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 70,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Demetrius"],
+		"Like": ["Vincent", "Sebastian"],
+		"Hate": ["Haley", "Jas", "Jodi","Caroline",]
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

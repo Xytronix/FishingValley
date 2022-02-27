@@ -1,0 +1,21 @@
+{
+	"Name": "Arapaima",
+	"Description": "This large fish is dependend on the surface air to breathe as it's gills aren't very good .",
+	"Category": "Fish",
+	"Edibility": 80,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 280,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

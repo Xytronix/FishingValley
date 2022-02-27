@@ -1,0 +1,22 @@
+{
+	"Name": "Cave Salamander",
+	"Description": "This amphibian can live all it's life inside of caves. Some individuals live outside caves. ",
+	"Category": "Fish",
+    "CategoryTextOverride": "Amphibian",
+	"Edibility": -75,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 60,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}
