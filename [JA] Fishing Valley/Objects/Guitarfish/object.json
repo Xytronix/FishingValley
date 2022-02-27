@@ -1,0 +1,22 @@
+{
+	"Name": "Guitarfish",
+	"Description": "Looks like a cross between a shark and a ray",
+	"Category": "Fish",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 70,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Willy"],
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

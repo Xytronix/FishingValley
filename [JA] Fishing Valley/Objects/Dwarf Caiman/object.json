@@ -1,0 +1,22 @@
+{
+	"Name": "Dwarf Caiman",
+	"Description": "The so called dwarf is almost your size.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Reptile",
+	"Edibility": 60,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 250,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

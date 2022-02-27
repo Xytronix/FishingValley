@@ -1,0 +1,22 @@
+{
+	"Name": "Horseshoe Crab",
+	"Description": "Their blue blood is often used in medical research.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Arachnid",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

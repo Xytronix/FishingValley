@@ -1,0 +1,21 @@
+{
+	"Name": "Goliath Grouper",
+	"Description": "A large grouper that changes gender when it grows.",
+	"Category": "Fish",
+	"Edibility": 45,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 220,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}
