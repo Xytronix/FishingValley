@@ -17,18 +17,18 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ## Plans for the future
 
--[] Add more fish
--[] Remake some fish sprites
--[] Aquarium sprites
+- [ ] Add more fish
+- [ ] Remake some fish sprites
+- [ ] Aquarium sprites
 
--[] Add a Temperate and a Cold fishing zone
--[] More Music
--[] More Shops for easy access to fishing gear
--[] Maybe an upgrade to the iridium fishing rod
--[] Maybe a few quests 
--[] Fishing Contests Events
--[] More ambiance NPCs and maybe a real one
--[] A way to implement a toll system for fishing and rentable beds
+- [ ] Add a Temperate and a Cold fishing zone
+- [ ] More Music
+- [ ] More Shops for easy access to fishing gear
+- [ ] Maybe an upgrade to the iridium fishing rod
+- [ ] Maybe a few quests 
+- [ ] Fishing Contests Events
+- [ ] More ambiance NPCs and maybe a real one
+- [ ] A way to implement a toll system for fishing and rentable beds
 
 
 ## Compatibility
