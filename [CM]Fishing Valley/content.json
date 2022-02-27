@@ -1,0 +1,77 @@
+{
+	"Music" : [
+	{
+		"Id": "JungleTheme",
+		"File": "JungleTheme.ogg",
+		"Loop": true,
+		"Ambient": false,
+		"Preload": false
+	},
+    {
+		"Id": "WaterfallSounds",
+		"File": "WaterfallSounds.ogg",
+		"Loop": true,
+		"Ambient": true,
+		"Preload": false
+	},
+    {
+		"Id": "WaterDrop",
+		"File": "WaterDrop.ogg",
+		"Loop": true,
+		"Ambient": true,
+		"Preload": false
+	},
+	{
+		"Id": "JungleSounds",
+		"File": "JungleSounds.ogg",
+		"Ambient": true,
+		"Loop": true,
+		"Preload": false
+	},
+	],
+
+	"Locations": [
+
+  {
+
+            "Location": "Custom_JungleJapesMain",
+            "MusicId": "cm:JungleTheme",
+
+        },
+
+
+        {
+
+            "Location": "Custom_FishingResortInterior",
+            "MusicId": "Saloon1",
+
+        },
+
+        {
+
+            "Location": "Custom_JungleRiver",
+            "MusicId": "cm:JungleSounds",
+        },
+
+        {
+
+            "Location": "Custom_JungleBay",
+            "MusicId": "cm:JungleTheme",
+        },
+        {
+
+            "Location": "Custom_JungleFalls",
+            "MusicId": "cm:WaterfallSounds",
+        },
+		{
+
+            "Location": "Custom_WaterfallCave",
+            "MusicId": "cm:WaterDrop",
+        },
+		{
+
+            "Location": "Custom_JungleCave",
+            "MusicId": "cm:WaterDrop",
+        },
+    ]
+}

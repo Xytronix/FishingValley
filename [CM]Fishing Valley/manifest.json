@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Fishing Valley Music",
+  "Author": "Seiyn",
+  "Version": "1.0",
+  "Description": "Music for Fishing",
+  "UniqueID": "Seiyn.FishingMusic",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.3"
+  }
+}
