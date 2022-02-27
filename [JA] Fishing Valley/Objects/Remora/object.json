@@ -1,0 +1,21 @@
+{
+	"Name": "Remora",
+	"Description": "Has a sucker on top of the head and uses it to attach itself to larger animals.",
+	"Category": "Fish",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

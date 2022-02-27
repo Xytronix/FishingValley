@@ -1,0 +1,22 @@
+{
+	"Name": "Vampire Crab",
+	"Description": "A small freshwater crab, harmless despite it's name.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Crustacean",
+	"Edibility": 5,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 50,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

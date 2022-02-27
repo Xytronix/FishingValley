@@ -1,0 +1,21 @@
+{
+	"Name": "Opah",
+	"Description": "This fish can control it's body temperature.",
+	"Category": "Fish",
+	"Edibility": 80,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 200,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

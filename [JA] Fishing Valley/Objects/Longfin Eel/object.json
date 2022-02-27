@@ -1,0 +1,21 @@
+{
+	"Name": "Longfin Eel",
+	"Description": "Some individuals can live up to 100 years, they only breed once in their life.",
+	"Category": "Fish",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 150,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

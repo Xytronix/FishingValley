@@ -1,0 +1,21 @@
+{
+	"Name": "Zebra Shovelnose Catfish",
+	"Description": "This catfish thrives in very fast flowing rivers.",
+	"Category": "Fish",
+	"Edibility": 30,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

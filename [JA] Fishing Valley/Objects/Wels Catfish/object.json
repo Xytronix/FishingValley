@@ -1,0 +1,21 @@
+{
+	"Name": "Wels Catfish",
+	"Description": "This huge catfish sucks it's prey whole.",
+	"Category": "Fish",
+	"Edibility": 45,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 150,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

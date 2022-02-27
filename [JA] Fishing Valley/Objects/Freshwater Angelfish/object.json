@@ -1,0 +1,22 @@
+{
+	"Name": "Freshwater Angelfish",
+	"Description": "Aquarium breeds have many colours and patterns.",
+	"Category": "Fish",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 60,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Willy"],
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

@@ -1,0 +1,22 @@
+{
+	"Name": "Redline Puffer",
+	"Description": "A large freshwater pufferfish from land far away, curently endangered.",
+	"Category": "Fish",
+	"Edibility": -45,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 180,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Willy"],
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

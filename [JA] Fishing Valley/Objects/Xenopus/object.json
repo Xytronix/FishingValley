@@ -1,0 +1,25 @@
+{
+	"Name": "Xenopus",
+	"Description": "Used in genetic and embryonal research around the world.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Amphibian",
+	"Edibility": 20,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 50,
+	"IsColored": false,
+	"GiftTastes":
+	{
+        "Love": ["Demetrius"],
+		"Like": ["Vincent", "Sebastian"],
+		"Hate": ["Haley", "Jas", "Jodi","Caroline",]
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

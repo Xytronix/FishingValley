@@ -1,0 +1,22 @@
+{
+	"Name": "Mantis Shrimp",
+	"Description": "They use their claws to punch prey or predator alike.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Crustacean",
+	"Edibility": 20,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

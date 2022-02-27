@@ -1,0 +1,21 @@
+{
+	"Name": "Giant Trevally",
+	"Description": "A fish sought by competitive anglers.",
+	"Category": "Fish",
+	"Edibility": 30,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 200,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

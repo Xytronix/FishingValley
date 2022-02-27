@@ -1,0 +1,22 @@
+{
+	"Name": "Siamese Tiger Perch",
+	"Description": "The aquarium trade made this fish quite rare to find. ",
+	"Category": "Fish",
+    "CategoryTextOverride": "Mammal",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

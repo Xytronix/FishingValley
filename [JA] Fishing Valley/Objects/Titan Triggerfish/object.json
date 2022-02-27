@@ -1,0 +1,21 @@
+{
+	"Name": "Titan Triggerfish",
+	"Description": "A very territorial fish with a bad temper.",
+	"Category": "Fish",
+	"Edibility": 45,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 120,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

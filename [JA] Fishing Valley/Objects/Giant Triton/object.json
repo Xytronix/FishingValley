@@ -1,0 +1,22 @@
+{
+	"Name": "Giant Triton",
+	"Description": "A huge sea snail known to feed on sea stars.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Mollusc",
+	"Edibility": 30,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

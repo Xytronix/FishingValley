@@ -1,0 +1,21 @@
+{
+	"Name": "Paraiba Catfish",
+	"Description": "A huge catfish even by large catfish standards. Very prized by aquarist and fishermen alike.",
+	"Category": "Fish",
+	"Edibility": 100,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 350,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

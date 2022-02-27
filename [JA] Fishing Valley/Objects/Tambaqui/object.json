@@ -1,0 +1,21 @@
+{
+	"Name": "Tambaqui",
+	"Description": "This fish can hybridise with pacu.",
+	"Category": "Fish",
+	"Edibility": 45,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

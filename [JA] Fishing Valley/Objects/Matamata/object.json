@@ -1,0 +1,22 @@
+{
+	"Name": "Matamata",
+	"Description": "A predatory turtle that looks like a group of dead leafs.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Reptile",
+	"Edibility": 40,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 150,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

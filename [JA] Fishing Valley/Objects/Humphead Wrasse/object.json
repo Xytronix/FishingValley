@@ -1,0 +1,21 @@
+{
+	"Name": "Humphead Wrasse",
+	"Description": "The hump in its head grows as the fish ages, the larger the hump, the older the fish.",
+	"Category": "Fish",
+	"Edibility": 60,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 200,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

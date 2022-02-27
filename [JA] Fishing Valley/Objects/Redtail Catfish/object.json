@@ -1,0 +1,21 @@
+{
+	"Name": "Redtail Catfish",
+	"Description": "The large size and rapid growth of this fish makes it a tank buster in the aquarium hobby, as it outgrows almost all aquariums.",
+	"Category": "Fish",
+	"Edibility": 60,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 180,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

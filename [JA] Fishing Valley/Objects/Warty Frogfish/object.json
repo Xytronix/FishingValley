@@ -1,0 +1,21 @@
+{
+	"Name": "Warty Frogfish",
+	"Description": "A species of anglerfish that inhabits coral reefs, can change it's colour to blend with surrondings.",
+	"Category": "Fish",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 110,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

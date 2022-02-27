@@ -1,0 +1,22 @@
+{
+	"Name": "Giant Deepwater Crab",
+	"Description": "Watch out for that giant claw.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Crustacean",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 150,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

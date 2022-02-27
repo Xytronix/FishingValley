@@ -1,0 +1,21 @@
+{
+	"Name": "Waterfall Climbing Loach",
+	"Description": "Can use it's fins to climb rocky walls.",
+	"Category": "Fish",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

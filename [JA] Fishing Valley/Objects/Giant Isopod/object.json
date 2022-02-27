@@ -1,0 +1,22 @@
+{
+	"Name": "Giant Isopod",
+	"Description": "A deep water crustacean related to the land pillbug.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Crustacean",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 200,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}

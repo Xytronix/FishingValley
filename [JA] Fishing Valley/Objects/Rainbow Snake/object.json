@@ -1,0 +1,22 @@
+{
+	"Name": "Rainbow Snake",
+	"Description": "A beautiful semi-aquatic snake that likes to feed on eels.",
+	"Category": "Fish",
+    "CategoryTextOverride": "Reptile",
+	"Edibility": 15,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+	},
+	"NameLocalization":
+	{
+
+	},
+	"DescriptionLocalization":
+	{
+
+	},
+}
