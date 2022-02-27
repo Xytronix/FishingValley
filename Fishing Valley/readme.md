@@ -17,18 +17,18 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ## Plans for the future
 
-- [] Add more fish
-- [] Remake some fish sprites
-- [] Aquarium sprites
+-[] Add more fish
+-[] Remake some fish sprites
+-[] Aquarium sprites
 
-- [] Add a Temperate and a Cold fishing zone
-- [] More Music
-- [] More Shops for easy access to fishing gear
-- [] Maybe an upgrade to the iridium fishing rod
-- [] Maybe a few quests 
-- [] Fishing Contests Events
-- [] More ambiance NPCs and maybe a real one
-- [] A way to implement a toll system for fishing and rentable beds
+-[] Add a Temperate and a Cold fishing zone
+-[] More Music
+-[] More Shops for easy access to fishing gear
+-[] Maybe an upgrade to the iridium fishing rod
+-[] Maybe a few quests 
+-[] Fishing Contests Events
+-[] More ambiance NPCs and maybe a real one
+-[] A way to implement a toll system for fishing and rentable beds
 
 
 ## Compatibility
@@ -58,6 +58,5 @@ I'm a 1 man team, with very limited coding knownledge, so odds are no.
 - Everyone on the SVD discord that helped me
 
 ## See also
-* [Technical documentation](technical.md)
-* [Release notes](release-notes.md)
+* [Changelog](changelog.md)
 * [Nexus](https://www.nexusmods.com/stardewvalley/mods/8668)
