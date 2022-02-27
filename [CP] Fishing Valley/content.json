@@ -1,0 +1,134 @@
+{
+   "Format": "1.22.0",
+
+
+"Changes": [
+
+
+      {
+         "Action": "EditData",
+         "Target": "Data/Locations",
+		"When": { "HasMod |contains=spacechase0.JsonAssets": "true" },
+         "Entries": {
+
+		 "Custom_JungleBay": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Goliath Grouper}} -1/{{spacechase0.JsonAssets/ObjectId:Warty Frogfish}} -1 {{spacechase0.JsonAssets/ObjectId:Remora}} -1 {{spacechase0.JsonAssets/ObjectId:Rainbow Runner}} -1 {{spacechase0.JsonAssets/ObjectId:Titan Triggerfish}} -1 {{spacechase0.JsonAssets/ObjectId:Humphead Wrasse}} -1 {{spacechase0.JsonAssets/ObjectId:Coral Grouper}} -1 {{spacechase0.JsonAssets/ObjectId:Bamboo Shark}} -1 {{spacechase0.JsonAssets/ObjectId:Panther Grouper}} -1 {{spacechase0.JsonAssets/ObjectId:Giant Trevally}} -1 {{spacechase0.JsonAssets/ObjectId:Goliath Grouper}} -1/{{spacechase0.JsonAssets/ObjectId:Goliath Grouper}} -1/{{spacechase0.JsonAssets/ObjectId:Goliath Grouper}} -1/-1",
+		 "Custom_JungleJapesMain": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Redline Puffer}} -1 {{spacechase0.JsonAssets/ObjectId:Halfmoon Betta}} -1 {{spacechase0.JsonAssets/ObjectId:Giant Gourami}} -1 {{spacechase0.JsonAssets/ObjectId:Freshwater Angelfish}} -1 {{spacechase0.JsonAssets/ObjectId:Saratoga}} -1 {{spacechase0.JsonAssets/ObjectId:Red Tiger Oscar}} -1 {{spacechase0.JsonAssets/ObjectId:Matamata}} -1 {{spacechase0.JsonAssets/ObjectId:Tambaqui}} -1 {{spacechase0.JsonAssets/ObjectId:Electric Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/-1",
+		 "Custom_JungleRiver": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Warty Frogfish}} -1 {{spacechase0.JsonAssets/ObjectId:Paraiba Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:Redtail Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:King Emperor Piranha}} -1 {{spacechase0.JsonAssets/ObjectId:Fire Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Bichir}} -1 {{spacechase0.JsonAssets/ObjectId:Arapaima}} -1 {{spacechase0.JsonAssets/ObjectId:Dwarf Caiman}} -1 {{spacechase0.JsonAssets/ObjectId:Black Diamond Stingray}} -1 {{spacechase0.JsonAssets/ObjectId:Barramundi}} -1 {{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/-1",
+		 "Custom_JungleFalls": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Longfin Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Bull Shark}} -1 {{spacechase0.JsonAssets/ObjectId:Zebra Shovelnose Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:Yellow Anaconda}} -1 {{spacechase0.JsonAssets/ObjectId:Vampire Crab}} -1 {{spacechase0.JsonAssets/ObjectId:Siamese Tiger Perch}} -1 {{spacechase0.JsonAssets/ObjectId:River Dolphin}} -1 {{spacechase0.JsonAssets/ObjectId:Rainbow Snake}} -1 {{spacechase0.JsonAssets/ObjectId:Payara}} -1 {{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/-1",
+		 "Custom_JungleCave": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Cave Salamander}} -1 {{spacechase0.JsonAssets/ObjectId:Olm}} -1 {{spacechase0.JsonAssets/ObjectId:Waterfall Climbing Loach}} -1 {{spacechase0.JsonAssets/ObjectId:Cave Molly}} -1 {{spacechase0.JsonAssets/ObjectId:Blind Cave Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/-1",
+                    },
+        },
+
+    {
+         "Action": "EditData",
+         "Target": "Data/Fish",
+		 "When": { "HasMod |contains=spacechase0.JsonAssets": true },
+         "Entries": {
+                     "{{spacechase0.JsonAssets/ObjectId:Goliath Grouper}}": "Goliath Grouper/65/dart/50/70/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/3",
+					 "{{spacechase0.JsonAssets/ObjectId:Giant Trevally}}": "Giant Trevally/75/dart/35/50/800 1700/summer/sunny/683 .4/2/.2/.2/4",
+					 "{{spacechase0.JsonAssets/ObjectId:Panther Grouper}}": "Panther Grouper/40/sinker/18/27/800 1800/summer/sunny/683 .4/6/.4/.6/2",
+                     "{{spacechase0.JsonAssets/ObjectId:Bamboo Shark}}": "Bamboo Shark/60/mixed/16/32/1800 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+                     "{{spacechase0.JsonAssets/ObjectId:Coral Grouper}}": "Coral Grouper/45/sinker/6/15/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+                     "{{spacechase0.JsonAssets/ObjectId:Humphead Wrasse}}": "Humphead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+                      "{{spacechase0.JsonAssets/ObjectId:Titan Triggerfish}}": "Titan Triggerfish/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+                     "{{spacechase0.JsonAssets/ObjectId:Guppy}}": "Guppy/15/smooth/1/2/600 1800/spring summer/both/683 .4/4/.6/.4/0",
+					  "{{spacechase0.JsonAssets/ObjectId:Barramundi}}": "Barramundi/75/floater/43/60/600 2600/spring summer/both/683 .4/4/.6/.4/4",
+                     "{{spacechase0.JsonAssets/ObjectId:Electric Eel}}": "Electric Eel/40/smooth/57/70/600 2600/summer/sunny/683 .4/2/.2/.2/3",
+                     "{{spacechase0.JsonAssets/ObjectId:Tambaqui}}": "Tambaqui/30/mixed/22/38/600 1700/summer fall/both/683 .4/4/.6/.4/2",
+                     "{{spacechase0.JsonAssets/ObjectId:Matamata}}": "Matamata/45/sinker/11/18/900 1800/summer/sunny/683 .4/2/.2/.2/2",
+                     "{{spacechase0.JsonAssets/ObjectId:Red Tiger Oscar}}": "Red Tiger Oscar/45/mixed/10/15/600 1600/summer/both/683 .4/4/.6/.4/2",
+                     "{{spacechase0.JsonAssets/ObjectId:Saratoga}}": "Saratoga/65/floater/14/35/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
+					 "{{spacechase0.JsonAssets/ObjectId:Freshwater Angelfish}}": "Freshwater Angelfish/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
+					 "{{spacechase0.JsonAssets/ObjectId:Giant Gourami}}": "Giant Gourami/85/smooth/17/27/600 2600/summer/both/683 .4/6/.4/.6/4",
+					 "{{spacechase0.JsonAssets/ObjectId:Halfmoon Betta}}": "Halfmoon Betta/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+					 "{{spacechase0.JsonAssets/ObjectId:Redline Puffer}}": "Redline Puffer/60/dart/9/15/1800 2600/summer/both/683 .4/2/.2/.2/4",
+                     "{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}}": "Red Eye Piranha/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
+                      "{{spacechase0.JsonAssets/ObjectId:Black Diamond Stingray}}": "Black Diamond Stingray/35/sinker/16/30/600 1600/spring summer fall winter/sunny/683 .4/6/.4/.6/3",
+					 "{{spacechase0.JsonAssets/ObjectId:Dwarf Caiman}}": "Dwarf Caiman/80/dart/45/65/900 1700/spring summer fall winter/sunny/683 .4/2/.2/.2/7",
+ 					 "{{spacechase0.JsonAssets/ObjectId:Arapaima}}": "Arapaima/60/dart/80/120/600 1800/summer/sunny/683 .4/2/.2/.2/6",
+					"{{spacechase0.JsonAssets/ObjectId:Bichir}}": "Bichir/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Fire Eel}}": "Fire Eel/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
+					 "{{spacechase0.JsonAssets/ObjectId:King Emperor Piranha}}": "King Emperor Piranha/25/smooth/7/17/600 2600/summer/both/683 .4/4/.6/.4/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Redtail Catfish}}": "Redtail Catfish/50/dart/40/55/1800 2600/summer/both/683 .4/6/.4/.6/4",
+					 "{{spacechase0.JsonAssets/ObjectId:Paraiba Catfish}}": "Paraiba Catfish/70/dart/100/133/1800 2600/summer/rainy/683 .4/2/.2/.2/6",
+					 "{{spacechase0.JsonAssets/ObjectId:Rainbow Runner}}": "Rainbow Runner/60/mixed/35/50/600 2600/summer/sunny/683 .4/6/.4/.6/3",
+					 "{{spacechase0.JsonAssets/ObjectId:Remora}}": "Remora/40/smooth/15/35/1200 2000/summer/both/683 .4/4/.6/.4/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Warty Frogfish}}": "Warty Frogfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}}": "Aquatic Caecilian/40/smooth/13/22/600 2600/summer/both/683 .4/4/.6/.4/2",
+					 "{{spacechase0.JsonAssets/ObjectId:Payara}}": "Payara/50/mixed/27/43/600 2600/summer/both/683 .4/2/.2/.2/4",
+					 "{{spacechase0.JsonAssets/ObjectId:Rainbow Snake}}": "Rainbow Snake/50/smooth/40/62/900 1800/summer/sunny/683 .4/6/.4/.6/2",
+					 "{{spacechase0.JsonAssets/ObjectId:River Dolphin}}": "River Dolphin/75/dart/70/95/600 2600/summer/both/683 .4/1/.1/.1/6",
+					 "{{spacechase0.JsonAssets/ObjectId:Siamese Tiger Perch}}": "Siamese Tiger Perch/20/mixed/7/16/600 2600/summer/both/683 .4/2/.3/.2/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Vampire Crab}}": "Vampire Crab/15/mixed/1/2/600 1800/summer/both/683 .4/4/.6/.4/1",
+					 "{{spacechase0.JsonAssets/ObjectId:Yellow Anaconda}}": "Yellow Anaconda/80/smooth/120/190/900 1800/summer/sunny/683 .4/2/.2/.2/6",
+					 "{{spacechase0.JsonAssets/ObjectId:Zebra Shovelnose Catfish}}": "Zebra Shovelnose Catfish/40/smooth/15/23/1600 2600/summer/rainy/683 .4/6/.4/.6/3",
+					"{{spacechase0.JsonAssets/ObjectId:Bull Shark}}": "Bull Shark/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
+					"{{spacechase0.JsonAssets/ObjectId:Longfin Eel}}": "Longfin Eel/50/sinker/38/55/1800 2600/summer/rainy/683 .4/2/.2/.2/3",
+					"{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}}": "Dragon Snakehead/50/smooth/1/4/600 2600/summer/both/683 .4/4/.6/.4/0",
+					"{{spacechase0.JsonAssets/ObjectId:Blind Cave Eel}}": "Blind Cave Eel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+					"{{spacechase0.JsonAssets/ObjectId:Cave Molly}}": "Cave Molly/20/mixed/1/5/600 2600/summer/both/683 .4/4/.6/.4/0",
+					"{{spacechase0.JsonAssets/ObjectId:Waterfall Climbing Loach}}": "Waterfall Climbing Loach/20/dart/1/2/600 2600/summer/both/683 .4/6/.4/.6/0",
+					"{{spacechase0.JsonAssets/ObjectId:Olm}}": "Olm/50/mixed/5/12/600 2600/summer/both/683 .4/2/.2/.2/3",
+					"{{spacechase0.JsonAssets/ObjectId:Cave Salamander}}": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1",
+
+
+         },
+           },
+
+		  {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Spring",
+          "Target": "Data/Fish",
+		  "When": {"Season":"spring", "HasMod | contains=spacechase0.JsonAssets": true},
+          "Entries": {
+              "{{spacechase0.JsonAssets/ObjectId:Albino Xenopus}}": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
+              "{{spacechase0.JsonAssets/ObjectId:Axolotl}}": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+              "{{spacechase0.JsonAssets/ObjectId:Fire Salamander}}": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
+              "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+              "{{spacechase0.JsonAssets/ObjectId:Xenopus}}": "Xenopus/trap/.2/682 .45/freshwater/2/5",
+              "{{spacechase0.JsonAssets/ObjectId:Giant Deepwater Crab}}": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
+              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+              },
+                },
+            {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Summer",
+          "Target": "Data/Fish",
+		  "When": {"Season":"summer", "HasMod | contains=spacechase0.JsonAssets": true},
+          "Entries": {
+              "{{spacechase0.JsonAssets/ObjectId:Albino Xenopus}}": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
+              "{{spacechase0.JsonAssets/ObjectId:Xenopus}}": "Xenopus/trap/.2/682 .45/freshwater/2/5",
+              "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+              "{{spacechase0.JsonAssets/ObjectId:Blue Legs Hermit Crab}}": "Blue Legs Hermit Crab/trap/.2/682 .45/ocean/1/2",
+              "{{spacechase0.JsonAssets/ObjectId:Giant Triton}}": "Giant Triton/trap/.1/682 .45/ocean/12/20",
+              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+              "{{spacechase0.JsonAssets/ObjectId:Mantis Shrimp}}": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12",
+              },
+                },
+                {
+	      "Action": "EditData",
+		  "LogName": "Crabpot Fall",
+          "Target": "Data/Fish",
+		  "When": {"Season":"fall", "HasMod | contains=spacechase0.JsonAssets": true},
+          "Entries": {
+              "{{spacechase0.JsonAssets/ObjectId:Axolotl}}": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+              "{{spacechase0.JsonAssets/ObjectId:Fire Salamander}}": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
+              "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+              "{{spacechase0.JsonAssets/ObjectId:Giant Deepwater Crab}}": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
+              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+              },
+                },
+{
+	      "Action": "EditData",
+		  "LogName": "Crabpot Winter",
+          "Target": "Data/Fish",
+		  "When": {"Season":"winter", "HasMod | contains=spacechase0.JsonAssets": true},
+          "Entries": {
+              "{{spacechase0.JsonAssets/ObjectId:Axolotl}}": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+              "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+              "{{spacechase0.JsonAssets/ObjectId:Giant Isopod}}": "Giant Isopod/trap/.05/682 .45/ocean/7/15",
+
+                },
+},
+   ]
+}
