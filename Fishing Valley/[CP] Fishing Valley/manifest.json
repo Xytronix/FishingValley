@@ -4,7 +4,7 @@
   "Author": "Seiyn and Xytronix",
   "Description": "More fishes for Stardew Valley",
   "Version": "0.7",
-  "UniqueID": "FishingValley",
+  "UniqueID": "Seiyn.FishingValley",
   "UpdateKeys": [ "Nexus:8668" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
