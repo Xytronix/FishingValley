@@ -3,7 +3,7 @@
   "Name": "Fishing Valley CP",
   "Author": "Seiyn and Xytronix",
   "Description": "More fishes for Stardew Valley",
-  "Version": "1.0",
+  "Version": "0.7",
   "UniqueID": "Seiyn.Fishing",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
