@@ -15,8 +15,8 @@
 		 "Custom_JungleJapesMain": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Redline Puffer}} -1 {{spacechase0.JsonAssets/ObjectId:Halfmoon Betta}} -1 {{spacechase0.JsonAssets/ObjectId:Giant Gourami}} -1 {{spacechase0.JsonAssets/ObjectId:Freshwater Angelfish}} -1 {{spacechase0.JsonAssets/ObjectId:Saratoga}} -1 {{spacechase0.JsonAssets/ObjectId:Red Tiger Oscar}} -1 {{spacechase0.JsonAssets/ObjectId:Matamata}} -1 {{spacechase0.JsonAssets/ObjectId:Tambaqui}} -1 {{spacechase0.JsonAssets/ObjectId:Electric Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/{{spacechase0.JsonAssets/ObjectId:Guppy}} -1/-1",
 		 "Custom_JungleRiver": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Warty Frogfish}} -1 {{spacechase0.JsonAssets/ObjectId:Paraiba Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:Redtail Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:King Emperor Piranha}} -1 {{spacechase0.JsonAssets/ObjectId:Fire Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Bichir}} -1 {{spacechase0.JsonAssets/ObjectId:Arapaima}} -1 {{spacechase0.JsonAssets/ObjectId:Dwarf Caiman}} -1 {{spacechase0.JsonAssets/ObjectId:Black Diamond Stingray}} -1 {{spacechase0.JsonAssets/ObjectId:Barramundi}} -1 {{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/{{spacechase0.JsonAssets/ObjectId:Red Eye Piranha}} -1/-1",
 		 "Custom_JungleFalls": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Longfin Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Bull Shark}} -1 {{spacechase0.JsonAssets/ObjectId:Zebra Shovelnose Catfish}} -1 {{spacechase0.JsonAssets/ObjectId:Yellow Anaconda}} -1 {{spacechase0.JsonAssets/ObjectId:Vampire Crab}} -1 {{spacechase0.JsonAssets/ObjectId:Siamese Tiger Perch}} -1 {{spacechase0.JsonAssets/ObjectId:River Dolphin}} -1 {{spacechase0.JsonAssets/ObjectId:Rainbow Snake}} -1 {{spacechase0.JsonAssets/ObjectId:Payara}} -1 {{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/{{spacechase0.JsonAssets/ObjectId:Aquatic Caecilian}} -1/-1",
-		 "Custom_JungleCave": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Cave Salamander}} -1 {{spacechase0.JsonAssets/ObjectId:Olm}} -1 {{spacechase0.JsonAssets/ObjectId:Waterfall Climbing Loach}} -1 {{spacechase0.JsonAssets/ObjectId:Cave Molly}} -1 {{spacechase0.JsonAssets/ObjectId:Blind Cave Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/-1",
-                    },
+		 "Custom_JungleCave": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Cave Salamander}} -1 {{spacechase0.JsonAssets/ObjectId:Olm}} -1 {{spacechase0.JsonAssets/ObjectId:Waterfall Climbing Loach}} -1 {{spacechase0.JsonAssets/ObjectId:Cave Molly}} -1 {{spacechase0.JsonAssets/ObjectId:Blind Cave Eel}} -1 {{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/{{spacechase0.JsonAssets/ObjectId:Dragon Snakehead}} -1/-1"
+                    }
         },
 
     {
@@ -69,10 +69,10 @@
 					"{{spacechase0.JsonAssets/ObjectId:Cave Molly}}": "Cave Molly/20/mixed/1/5/600 2600/summer/both/683 .4/4/.6/.4/0",
 					"{{spacechase0.JsonAssets/ObjectId:Waterfall Climbing Loach}}": "Waterfall Climbing Loach/20/dart/1/2/600 2600/summer/both/683 .4/6/.4/.6/0",
 					"{{spacechase0.JsonAssets/ObjectId:Olm}}": "Olm/50/mixed/5/12/600 2600/summer/both/683 .4/2/.2/.2/3",
-					"{{spacechase0.JsonAssets/ObjectId:Cave Salamander}}": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1",
+					"{{spacechase0.JsonAssets/ObjectId:Cave Salamander}}": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1"
 
 
-         },
+         }
            },
 
 		  {
@@ -87,8 +87,8 @@
               "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
               "{{spacechase0.JsonAssets/ObjectId:Xenopus}}": "Xenopus/trap/.2/682 .45/freshwater/2/5",
               "{{spacechase0.JsonAssets/ObjectId:Giant Deepwater Crab}}": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
-              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              },
+              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20"
+              }
                 },
             {
 	      "Action": "EditData",
@@ -102,8 +102,8 @@
               "{{spacechase0.JsonAssets/ObjectId:Blue Legs Hermit Crab}}": "Blue Legs Hermit Crab/trap/.2/682 .45/ocean/1/2",
               "{{spacechase0.JsonAssets/ObjectId:Giant Triton}}": "Giant Triton/trap/.1/682 .45/ocean/12/20",
               "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              "{{spacechase0.JsonAssets/ObjectId:Mantis Shrimp}}": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12",
-              },
+              "{{spacechase0.JsonAssets/ObjectId:Mantis Shrimp}}": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12"
+              }
                 },
                 {
 	      "Action": "EditData",
@@ -115,8 +115,8 @@
               "{{spacechase0.JsonAssets/ObjectId:Fire Salamander}}": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
               "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
               "{{spacechase0.JsonAssets/ObjectId:Giant Deepwater Crab}}": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
-              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              },
+              "{{spacechase0.JsonAssets/ObjectId:Horseshoe Crab}}": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20"
+              }
                 },
 {
 	      "Action": "EditData",
@@ -126,9 +126,9 @@
           "Entries": {
               "{{spacechase0.JsonAssets/ObjectId:Axolotl}}": "Axolotl/trap/.1/682 .45/freshwater/5/12",
               "{{spacechase0.JsonAssets/ObjectId:Ramshorn Snail}}": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
-              "{{spacechase0.JsonAssets/ObjectId:Giant Isopod}}": "Giant Isopod/trap/.05/682 .45/ocean/7/15",
+              "{{spacechase0.JsonAssets/ObjectId:Giant Isopod}}": "Giant Isopod/trap/.05/682 .45/ocean/7/15"
 
-                },
-},
+                }
+}
    ]
 }

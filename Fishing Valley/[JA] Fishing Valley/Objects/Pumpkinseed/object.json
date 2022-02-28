@@ -1,15 +1,15 @@
 {
-	"Name": "Halfmoon Betta",
-	"Description": "Require both a filter and heater in aquariums and no, they do not live in dirty puddles of water.",
+	"Name": "Pumpkinseed",
+	"Description": "It is a freshwater fish typically referred as a sunfish. Typically found in warm lakes.",
 	"Category": "Fish",
-	"Edibility": 5,
+	"Edibility": 35,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
 	"Price": 100,
 	"IsColored": false,
 	"GiftTastes":
 	{
-        "Love": ["Willy"]
+        "Like": ["Willy"]
 	},
 	"NameLocalization":
 	{

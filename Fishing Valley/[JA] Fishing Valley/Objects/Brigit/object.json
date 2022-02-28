@@ -1,5 +1,5 @@
 {
-	"Name": "Golden Trout",
+	"Name": "Brigit",
 	"Description": "A small colourful trout.",
 	"Category": "Fish",
 	"Edibility": 10,
@@ -17,5 +17,5 @@
 	"DescriptionLocalization":
 	{
 
-	},
+	}
 }

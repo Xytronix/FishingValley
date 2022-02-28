@@ -1,15 +1,15 @@
 {
-	"Name": "Halfmoon Betta",
-	"Description": "Require both a filter and heater in aquariums and no, they do not live in dirty puddles of water.",
+	"Name": "Hellbender",
+	"Description": "People believe it comes from hell, because of the odd look. In reality it is a harmless aquatic salamander.",
 	"Category": "Fish",
 	"Edibility": 5,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 100,
+	"Price": 50,
 	"IsColored": false,
 	"GiftTastes":
 	{
-        "Love": ["Willy"]
+        "Hate": ["Willy"]
 	},
 	"NameLocalization":
 	{

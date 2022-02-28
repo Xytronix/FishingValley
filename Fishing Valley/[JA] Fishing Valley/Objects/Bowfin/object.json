@@ -1,11 +1,11 @@
 {
-	"Name": "Torpedo Ray",
-	"Description": "An electric ray, their discharges were used to treat pain in ancient times.",
+	"Name": "Bowfin",
+	"Description": "Is a bony fish able to breathe both water and air",
 	"Category": "Fish",
-	"Edibility": 25,
+	"Edibility": 0,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 90,
+	"Price": 100,
 	"IsColored": false,
 	"GiftTastes":
 	{

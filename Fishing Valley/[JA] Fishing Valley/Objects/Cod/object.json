@@ -11,7 +11,7 @@
 	{
         "Love": ["Gus"],
 		"Like": ["Jodi", "Willy"],
-		"Hate": ["Abigail", "Vincent",]
+		"Hate": ["Abigail", "Vincent"]
 	},
 	"NameLocalization":
 	{
@@ -20,5 +20,5 @@
 	"DescriptionLocalization":
 	{
 
-	},
+	}
 }

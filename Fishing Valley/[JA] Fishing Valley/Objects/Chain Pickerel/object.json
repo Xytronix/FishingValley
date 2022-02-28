@@ -1,11 +1,11 @@
 {
-	"Name": "Halfmoon Betta",
-	"Description": "Require both a filter and heater in aquariums and no, they do not live in dirty puddles of water.",
+	"Name": "Chain Pickerel",
+	"Description": "This freshwater fish with sharp teeth is also known to eat frogs, snakes as same as insects. Be aware of it!",
 	"Category": "Fish",
-	"Edibility": 5,
+	"Edibility": 35,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 100,
+	"Price": 200,
 	"IsColored": false,
 	"GiftTastes":
 	{

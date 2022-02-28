@@ -27,7 +27,7 @@
 		"Ambient": true,
 		"Loop": true,
 		"Preload": false
-	},
+	}
 	],
 
 	"Locations": [
@@ -35,7 +35,7 @@
   {
 
             "Location": "Custom_JungleJapesMain",
-            "MusicId": "cm:JungleTheme",
+            "MusicId": "cm:JungleTheme"
 
         },
 
@@ -43,35 +43,35 @@
         {
 
             "Location": "Custom_FishingResortInterior",
-            "MusicId": "Saloon1",
+            "MusicId": "Saloon1"
 
         },
 
         {
 
             "Location": "Custom_JungleRiver",
-            "MusicId": "cm:JungleSounds",
+            "MusicId": "cm:JungleSounds"
         },
 
         {
 
             "Location": "Custom_JungleBay",
-            "MusicId": "cm:JungleTheme",
+            "MusicId": "cm:JungleTheme"
         },
         {
 
             "Location": "Custom_JungleFalls",
-            "MusicId": "cm:WaterfallSounds",
+            "MusicId": "cm:WaterfallSounds"
         },
 		{
 
             "Location": "Custom_WaterfallCave",
-            "MusicId": "cm:WaterDrop",
+            "MusicId": "cm:WaterDrop"
         },
 		{
 
             "Location": "Custom_JungleCave",
-            "MusicId": "cm:WaterDrop",
-        },
+            "MusicId": "cm:WaterDrop"
+        }
     ]
 }
