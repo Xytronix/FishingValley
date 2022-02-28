@@ -9,13 +9,13 @@
     "MinimumVersion": "1.3.4"
   },
   "Dependencies": [
-   {
+    {
       "UniqueID": "DaisyNiko.Tilesheets",
       "IsRequired": true
-   },
+    },
     {
       "UniqueID": "Platonymous.Toolkit",
       "IsRequired": true
-   }
+    }
   ]
 }

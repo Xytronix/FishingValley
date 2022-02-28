@@ -1,12 +1,11 @@
 {
-   "Name": "Fishing Valley JA",
-   "Author": "Seiyn and Xytronix",
-   "Description": "More fish for fishing lovers!",
-   "Version": "1.0.0",
-   "MinimumApiVersion": "3.9.4",
-   "UniqueID": "Seiyn.Fish",
-    "ContentPackFor": {
-      "UniqueID": "spacechase0.JsonAssets"
-    }
-
+  "Name": "Fishing Valley JA",
+  "Author": "Seiyn and Xytronix",
+  "Description": "More fish for fishing lovers!",
+  "Version": "1.0.0",
+  "MinimumApiVersion": "3.9.4",
+  "UniqueID": "Seiyn.Fish",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
 }

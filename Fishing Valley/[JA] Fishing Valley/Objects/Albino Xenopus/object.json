@@ -1,25 +1,18 @@
 {
-	"Name": "Albino Xenopus",
-	"Description": "The Albino version of the Xenopus frog .",
-	"Category": "Fish",
-    "CategoryTextOverride": "Amphibian",
-	"Edibility": 20,
-	"EdibleIsDrink": false,
-	"EdibleBuffs": null,
-	"Price": 60,
-	"IsColored": false,
-	"GiftTastes":
-	{
-        "Love": ["Demetrius"],
-		"Like": ["Vincent", "Sebastian"],
-		"Hate": ["Haley", "Jas", "Jodi","Caroline"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
-	}
+  "Name": "Albino Xenopus",
+  "Description": "The Albino version of the Xenopus frog .",
+  "Category": "Fish",
+  "CategoryTextOverride": "Amphibian",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 60,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Demetrius"],
+    "Like": ["Vincent", "Sebastian"],
+    "Hate": ["Haley", "Jas", "Jodi", "Caroline"]
+  },
+  "NameLocalization": {},
+  "DescriptionLocalization": {}
 }

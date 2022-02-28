@@ -1,36 +1,34 @@
 [
-	
-	{
-		"Id": "JungleTheme",
-		"FilePath": "JungleTheme.ogg",
-        "Category": "Music",
-		"Settings": {
-            "Loop": true
-        }
-		
-	},
-    {
-		"Id": "WaterfallSounds",
-		"FilePath": "WaterfallSounds.ogg",
-        "Category": "Ambient",
-		"Settings": {
-            "Loop": true
-        }
-	},
-    {
-		"Id": "WaterDrop",
-		"FilePath": "WaterDrop.ogg",
-        "Category": "Ambient",
-		"Settings": {
-            "Loop": true
-        }
-	},
-	{
-		"Id": "JungleSounds",
-		"FilePath": "JungleSounds.ogg",
-        "Category": "Ambient",
-		"Settings": {
-            "Loop": true
-        }
-	}
+  {
+    "Id": "JungleTheme",
+    "FilePath": "JungleTheme.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "WaterfallSounds",
+    "FilePath": "WaterfallSounds.ogg",
+    "Category": "Ambient",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "WaterDrop",
+    "FilePath": "WaterDrop.ogg",
+    "Category": "Ambient",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "JungleSounds",
+    "FilePath": "JungleSounds.ogg",
+    "Category": "Ambient",
+    "Settings": {
+      "Loop": true
+    }
+  }
 ]

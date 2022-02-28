@@ -1,12 +1,11 @@
 {
-   "Name": "Fishing Valley Shops",
-   "Author": "Seiyn and Xytronix",
-   "Description": "Shops for anglers!",
-   "Version": "1.0.0",
-   "MinimumApiVersion": "3.9.4",
-   "UniqueID": "Seiyn.FishShops",
-    "ContentPackFor": {
-      "UniqueID": "Cherry.ShopTileFramework"
-    }
-
+  "Name": "Fishing Valley Shops",
+  "Author": "Seiyn and Xytronix",
+  "Description": "Shops for anglers!",
+  "Version": "1.0.0",
+  "MinimumApiVersion": "3.9.4",
+  "UniqueID": "Seiyn.FishShops",
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
 }

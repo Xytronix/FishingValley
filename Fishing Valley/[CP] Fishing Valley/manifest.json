@@ -1,22 +1,21 @@
 {
-
   "Name": "Fishing Valley",
   "Author": "Seiyn and Xytronix",
   "Description": "More fishes for Stardew Valley",
   "Version": "0.7",
   "UniqueID": "Seiyn.FishingValley",
-  "UpdateKeys": [ "Nexus:8668" ],
+  "UpdateKeys": ["Nexus:8668"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
     {
-       "UniqueID": "hootless.BusLocations",
-       "IsRequired": true
+      "UniqueID": "hootless.BusLocations",
+      "IsRequired": true
     },
-     {
-       "UniqueID": "ZeroMeters.SAAT.Mod",
-       "IsRequired": true
+    {
+      "UniqueID": "ZeroMeters.SAAT.Mod",
+      "IsRequired": true
     },
     {
       "UniqueID": "Cherry.ShopTileFramework",
@@ -35,8 +34,8 @@
       "IsRequired": true
     },
     {
-       "UniqueID": "spacechase0.JsonAssets",
-       "IsRequired": true
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true
     }
   ]
 }

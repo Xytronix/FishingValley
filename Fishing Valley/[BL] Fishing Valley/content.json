@@ -1,8 +1,8 @@
 {
-	"mapname":"Custom_FishingResortExterior",
-	"displayname":"Albatross Fishing Resort",
-	"destinationX":13,
-	"destinationY":19,
-	"arrivalFacing":2,
-	"ticketPrice":750
+  "mapname": "Custom_FishingResortExterior",
+  "displayname": "Albatross Fishing Resort",
+  "destinationX": 13,
+  "destinationY": 19,
+  "arrivalFacing": 2,
+  "ticketPrice": 750
 }

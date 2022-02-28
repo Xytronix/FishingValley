@@ -1,12 +1,11 @@
 {
-   "Name": "Fishing Valley Bus Location",
-   "Author": "Seiyn and Xytronix",
-   "Description": "Adds the Fishing Resort",
-   "Version": "1.0.0",
-   "MinimumApiVersion": "3.9.4",
-   "UniqueID": "Seiyn.Resort",
-    "ContentPackFor": {
-      "UniqueID": "hootless.BusLocations"
-    }
-
+  "Name": "Fishing Valley Bus Location",
+  "Author": "Seiyn and Xytronix",
+  "Description": "Adds the Fishing Resort",
+  "Version": "1.0.0",
+  "MinimumApiVersion": "3.9.4",
+  "UniqueID": "Seiyn.Resort",
+  "ContentPackFor": {
+    "UniqueID": "hootless.BusLocations"
+  }
 }

@@ -1,45 +1,44 @@
 {
-"loadLate":true,
-  "addMaps": 
-  [
+  "loadLate": true,
+  "addMaps": [
     {
-      "name": "Custom_FishingResortExterior", 
-      "file": "Custom_FishingResortExterior.tmx" 
+      "name": "Custom_FishingResortExterior",
+      "file": "Custom_FishingResortExterior.tmx"
     },
 
     {
-      "name": "Custom_FishingResortInterior", 
+      "name": "Custom_FishingResortInterior",
       "file": "Custom_FishingResortInterior.tmx"
     },
 
- {
-      "name": "Custom_JungleRiver", 
+    {
+      "name": "Custom_JungleRiver",
       "file": "Custom_JungleRiver.tmx"
     },
 
-{
-      "name": "Custom_WaterfallCave", 
-      "file": "Custom_WaterfallCave.tmx" 
+    {
+      "name": "Custom_WaterfallCave",
+      "file": "Custom_WaterfallCave.tmx"
     },
 
-{
-      "name": "Custom_JungleFalls", 
-      "file": "Custom_JungleFalls.tbin" 
+    {
+      "name": "Custom_JungleFalls",
+      "file": "Custom_JungleFalls.tbin"
     },
 
-     {
-      "name": "Custom_JungleCave", 
-      "file": "Custom_JungleCave.tmx" 
+    {
+      "name": "Custom_JungleCave",
+      "file": "Custom_JungleCave.tmx"
     },
 
-{
-      "name": "Custom_JungleBay", 
-      "file": "Custom_JungleBay.tbin" 
+    {
+      "name": "Custom_JungleBay",
+      "file": "Custom_JungleBay.tbin"
     },
 
- {
-      "name": "Custom_JungleJapesMain", 
-      "file": "Custom_JungleJapesMain.tmx" 
+    {
+      "name": "Custom_JungleJapesMain",
+      "file": "Custom_JungleJapesMain.tmx"
     }
-	]
-	}
+  ]
+}
