@@ -11,11 +11,11 @@
   "Dependencies": [
    {
       "UniqueID": "DaisyNiko.Tilesheets",
-      "IsRequired": true,
+      "IsRequired": true
    },
     {
       "UniqueID": "Platonymous.Toolkit",
-      "IsRequired": true,
-   },
+      "IsRequired": true
+   }
   ]
 }

@@ -1,45 +1,45 @@
 {
 "loadLate":true,
-  "addMaps": // New Maps
+  "addMaps": 
   [
     {
-      "name": "Custom_FishingResortExterior", // Name of the new Location
-      "file": "Custom_FishingResortExterior.tmx", // Filename inside the ContentPacks folder
+      "name": "Custom_FishingResortExterior", 
+      "file": "Custom_FishingResortExterior.tmx" 
     },
 
     {
-      "name": "Custom_FishingResortInterior", // Name of the new Location
-      "file": "Custom_FishingResortInterior.tmx", // Filename inside the ContentPacks folder
+      "name": "Custom_FishingResortInterior", 
+      "file": "Custom_FishingResortInterior.tmx"
     },
 
  {
-      "name": "Custom_JungleRiver", // Name of the new Location
-      "file": "Custom_JungleRiver.tmx", // Filename inside the ContentPacks folder
+      "name": "Custom_JungleRiver", 
+      "file": "Custom_JungleRiver.tmx"
     },
 
 {
-      "name": "Custom_WaterfallCave", // Name of the new Location
-      "file": "Custom_WaterfallCave.tmx", // Filename inside the ContentPacks folder
+      "name": "Custom_WaterfallCave", 
+      "file": "Custom_WaterfallCave.tmx" 
     },
 
 {
-      "name": "Custom_JungleFalls", // Name of the new Location
-      "file": "Custom_JungleFalls.tbin", // Filename inside the ContentPacks folder
+      "name": "Custom_JungleFalls", 
+      "file": "Custom_JungleFalls.tbin" 
     },
 
      {
-      "name": "Custom_JungleCave", // Name of the new Location
-      "file": "Custom_JungleCave.tmx", // Filename inside the ContentPacks folder
+      "name": "Custom_JungleCave", 
+      "file": "Custom_JungleCave.tmx" 
     },
 
 {
-      "name": "Custom_JungleBay", // Name of the new Location
-      "file": "Custom_JungleBay.tbin", // Filename inside the ContentPacks folder
+      "name": "Custom_JungleBay", 
+      "file": "Custom_JungleBay.tbin" 
     },
 
  {
-      "name": "Custom_JungleJapesMain", // Name of the new Location
-      "file": "Custom_JungleJapesMain.tmx", // Filename inside the ContentPacks folder
-    },
-	],
+      "name": "Custom_JungleJapesMain", 
+      "file": "Custom_JungleJapesMain.tmx" 
+    }
+	]
 	}

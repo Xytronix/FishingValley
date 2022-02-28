@@ -12,9 +12,9 @@
 		   "StockPrice": 500,
 		  "ItemType": "Object",
 		  "ItemNames": ["Warp Totem: Farm"]
-		},
+		}
 	
-					],
+					]
 		},
 
 
@@ -54,80 +54,80 @@
 				{
 		  "StockPrice": 450,
 		  "ItemType": "Object",
-		  "ItemNames": ["Carp Surprise"],
+		  "ItemNames": ["Carp Surprise"]
 		},
 				{
 		  "StockPrice": 300,
 		  "ItemType": "Object",
-		  "ItemNames": ["Trout Soup"],
+		  "ItemNames": ["Trout Soup"]
 		},
 				{
 		  "StockPrice": 360,
 		  "ItemType": "Object",
-		  "ItemNames": ["Fried Eel"],
+		  "ItemNames": ["Fried Eel"]
 		},
 		       {
 		  "StockPrice": 525,
 		  "ItemType": "Object",
-		  "ItemNames": ["Spicy Eel"],
+		  "ItemNames": ["Spicy Eel"]
 		},
 		{
 		  "StockPrice": 250,
 		  "ItemType": "Object",
-		  "ItemNames": ["Sashimi"],
+		  "ItemNames": ["Sashimi"]
 		},
 		
 		{
 		  "StockPrice": 650,
 		  "ItemType": "Object",
-		  "ItemNames": ["Maki Roll"],
+		  "ItemNames": ["Maki Roll"]
 		},
 		
 		{
 		  "StockPrice": 650,
 		  "ItemType": "Object",
-		  "ItemNames": ["Dish o' The Sea"],
+		  "ItemNames": ["Dish o' The Sea"]
 		},
 		
 		{
 		  "StockPrice": 1500,
 		  "ItemType": "Object",
-		  "ItemNames": ["Seafoam Pudding"],
+		  "ItemNames": ["Seafoam Pudding"]
 		},
 		
 				{
 		  "StockPrice": 400,
 		  "ItemType": "Object",
-		  "ItemNames": ["Chowder"],
+		  "ItemNames": ["Chowder"]
 		},
 				{
 		  "StockPrice": 525,
 		  "ItemType": "Object",
-		  "ItemNames": ["Fish Stew"],
+		  "ItemNames": ["Fish Stew"]
 		},
 						{
 		  "StockPrice": 500,
 		  "ItemType": "Object",
-		  "ItemNames": ["Escargot"],
+		  "ItemNames": ["Escargot"]
 		},
 						{
 		  "StockPrice": 625,
 		  "ItemType": "Object",
-		  "ItemNames": ["Lobster Bisque"],
+		  "ItemNames": ["Lobster Bisque"]
 		},
 							{
 		  "StockPrice": 700,
 		  "ItemType": "Object",
-		  "ItemNames": ["Crab Cakes"],
+		  "ItemNames": ["Crab Cakes"]
 		},
 							{
 		  "StockPrice": 500,
 		  "ItemType": "Object",
-		  "ItemNames": ["Shrimp Cocktail"],
-		},
+		  "ItemNames": ["Shrimp Cocktail"]
+		}
 		
 		
-					],
+					]
 		},
 
 
@@ -167,24 +167,24 @@
 				{
 		  "StockPrice": 750,
 		  "ItemType": "Object",
-		  "ItemNames": ["Cork Bobber"],
+		  "ItemNames": ["Cork Bobber"]
 		},
 				{
 		  "StockPrice": 1000,
 		  "ItemType": "Object",
-		  "ItemNames": ["Barbed Hook"],
+		  "ItemNames": ["Barbed Hook"]
 		},
 				{
 		  "StockPrice": 1000,
 		  "ItemType": "Object",
-		  "ItemNames": ["Dressed Spinner"],
+		  "ItemNames": ["Dressed Spinner"]
 		},
 		       {
 		  "StockPrice": 1000,
 		  "ItemType": "Object",
-		  "ItemNames": ["Magnet"],
-		},
-					],
+		  "ItemNames": ["Magnet"]
+		}
+					]
 		},
 
 		{
@@ -207,7 +207,7 @@
 		  "StockCurrencyStack": 5,
 		  "ItemType": "Object",
 		  "ItemNames": ["Magic Bait"]
-		},
+		}
 
 					]
 				}
