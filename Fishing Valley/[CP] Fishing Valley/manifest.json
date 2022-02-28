@@ -8,5 +8,35 @@
   "UpdateKeys": [ "Nexus:8668" ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
-  }
+  },
+  "Dependencies": [
+    {
+       "UniqueID": "hootless.BusLocations",
+       "IsRequired": true
+    },
+     {
+       "UniqueID": "ZeroMeters.SAAT.Mod",
+       "IsRequired": true
+    },
+    {
+      "UniqueID": "Cherry.ShopTileFramework",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DaisyNiko.Tilesheets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Platonymous.TMXLoader",
+      "IsRequired": true
+    },
+    {
+       "UniqueID": "spacechase0.JsonAssets",
+       "IsRequired": true
+    }
+  ]
 }
