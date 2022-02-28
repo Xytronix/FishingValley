@@ -9,4 +9,6 @@ Released Unknown for SMAPI 3.13.0 or later.
 * Added translation support. Be free to create translation and send me your translation files.
 * Added compatibility for East Scarp
 * Rewrote the mod for Content Patcher. No longer requires PyTK, PlatoTK and TMXL Map Toolkit. Please delete the old files.
+* Rewrote the mod for Dynamic Game Assets
+* Rewrote the mod for SAAT - Audio API & Audio Management for SMAPI
 * Fixed syntax errors
