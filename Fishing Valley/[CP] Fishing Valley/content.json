@@ -1,6 +1,10 @@
 {
   "Format": "1.25.0",
   "ConfigSchema": {
+    "EditFarmMap": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
     "AddFishesToTown": {
       "AllowValues": "true, false",
       "Default": "true"
@@ -9,9 +13,9 @@
       "AllowValues": "true, false",
       "Default": "false"
     },
-    "EnableWillyDialogues": {
+    "EnableBusstop": {
       "AllowValues": "true, false",
-      "Default": "true"
+      "Default": "false"
     },
     "EnableGiftTastes": {
       "AllowValues": "true, false",
@@ -19,7 +23,105 @@
     }
   },
 
+  "CustomLocations": [
+    {
+      "Name": "Custom_FishingResortExterior",
+      "FromMapFile": "assets/maps/Custom_FishingResortExterior.tmx"
+    },
+
+    {
+      "Name": "Custom_FishingResortInterior",
+      "FromMapFile": "assets/maps/Custom_FishingResortInterior.tmx"
+    },
+
+    {
+      "Name": "Custom_JungleRiver",
+      "FromMapFile": "assets/maps/Custom_JungleRiver.tmx"
+    },
+
+    {
+      "Name": "Custom_WaterfallCave",
+      "FromMapFile": "assets/maps/Custom_WaterfallCave.tmx"
+    },
+
+    {
+      "Name": "Custom_JungleFalls",
+      "FromMapFile": "assets/maps/Custom_JungleFalls.tbin"
+    },
+
+    {
+      "Name": "Custom_JungleCave",
+      "FromMapFile": "assets/maps/Custom_JungleCave.tmx"
+    },
+
+    {
+      "Name": "Custom_JungleBay",
+      "FromMapFile": "assets/maps/Custom_JungleBay.tbin"
+    },
+
+    {
+      "Name": "Custom_JungleJapesMain",
+      "FromMapFile": "assets/maps/Custom_JungleJapesMain.tmx"
+    },
+
+    {
+      "Name": "Custom_HoshiroTaniMajula",
+      "FromMapFile": "assets/maps/HTMP01.tmx"
+    },
+
+    {
+      "Name": "Custom_OCaminhodasChamasGemeas",
+      "FromMapFile": "assets/Summer/HTMP02.tmx"
+    },
+
+    {
+      "Name": "Custom_LaMilladelJardiinRea",
+      "FromMapFile": "assets/Summer/HTMP03.tmx"
+    }
+  ],
+
   "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/maps/novel.tmx",
+      "When": { "FarmType": "Standard", "EditFarmMap": true },
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Custom_JungleFalls.tmx",
+      "FromFile": "assets/maps/S01Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_fsnovel",
+      "FromFile": "assets/spring_fsnovel.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_fsnovel",
+      "FromFile": "assets/summer_fsnovel.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_fsnovel",
+      "FromFile": "assets/fall_fsnovel.png"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_fsnovel",
+      "FromFile": "assets/winter_fsnovel.png"
+    },
+
     {
       "Action": "EditData",
       "Target": "Data/Locations",

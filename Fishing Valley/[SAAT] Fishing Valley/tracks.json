@@ -1,7 +1,7 @@
 [
   {
     "Id": "JungleTheme",
-    "FilePath": "JungleTheme.ogg",
+    "FilePath": "music/JungleTheme.ogg",
     "Category": "Music",
     "Settings": {
       "Loop": true
@@ -9,7 +9,7 @@
   },
   {
     "Id": "WaterfallSounds",
-    "FilePath": "WaterfallSounds.ogg",
+    "FilePath": "music/WaterfallSounds.ogg",
     "Category": "Ambient",
     "Settings": {
       "Loop": true
@@ -17,7 +17,7 @@
   },
   {
     "Id": "WaterDrop",
-    "FilePath": "WaterDrop.ogg",
+    "FilePath": "music/WaterDrop.ogg",
     "Category": "Ambient",
     "Settings": {
       "Loop": true
@@ -25,8 +25,64 @@
   },
   {
     "Id": "JungleSounds",
-    "FilePath": "JungleSounds.ogg",
+    "FilePath": "music/JungleSounds.ogg",
     "Category": "Ambient",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_BirchForest",
+    "Filepath": "music/HTMA_BirchForest.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_EternaForest",
+    "Filepath": "music/HTMA_EternaForest.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_SantaluneForest",
+    "Filepath": "music/HTMA_SantaluneForest.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_BlueFire",
+    "Filepath": "music/HTMA_BlueFire.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_EarthShadow",
+    "Filepath": "music/HTMA_EarthShadow.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_RegressiveForm",
+    "Filepath": "music/HTMA_RegressiveForm.ogg",
+    "Category": "Music",
+    "Settings": {
+      "Loop": true
+    }
+  },
+  {
+    "Id": "HTMA_SunlightonWater",
+    "Filepath": "music/HTMA_SunlightonWater.ogg",
+    "Category": "Music",
     "Settings": {
       "Loop": true
     }

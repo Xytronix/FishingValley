@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="12">
+ <tileset firstgid="1" name=".spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="../Tilesheet/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="spring_fsnovel" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="../Tilesheet/spring_fsnovel.png" width="64" height="64"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="1">
+  <data encoding="csv">
+176
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="1" height="1">
+  <data encoding="csv">
+1976
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="11" name="TileData" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 80 35 Custom_HoshiroTaniMajula"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Front" width="1" height="1">
+  <data encoding="csv">
+0
+</data>
+ </layer>
+</map>
