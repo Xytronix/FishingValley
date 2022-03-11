@@ -46,7 +46,7 @@
 
     {
       "Name": "Custom_JungleFalls",
-      "FromMapFile": "assets/maps/Custom_JungleFalls.tbin"
+      "FromMapFile": "assets/maps/Custom_JungleFalls.tmx"
     },
 
     {
@@ -56,12 +56,12 @@
 
     {
       "Name": "Custom_JungleBay",
-      "FromMapFile": "assets/maps/Custom_JungleBay.tbin"
+      "FromMapFile": "assets/maps/Custom_JungleBay.tmx"
     },
 
     {
       "Name": "Custom_JungleBay2",
-      "FromMapFile": "assets/maps/Custom_JungleBay.tbin"
+      "FromMapFile": "assets/maps/Custom_JungleBay2.tmx"
     },
 
     {
