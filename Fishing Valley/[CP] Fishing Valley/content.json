@@ -1,7 +1,7 @@
 {
   "Format": "1.25.0",
   "ConfigSchema": {
-    "EditFarmMap": {
+    "EditMuseum": {
       "AllowValues": "true, false",
       "Default": "true"
     },
@@ -60,6 +60,11 @@
     },
 
     {
+      "Name": "Custom_JungleBay2",
+      "FromMapFile": "assets/maps/Custom_JungleBay.tbin"
+    },
+
+    {
       "Name": "Custom_JungleJapesMain",
       "FromMapFile": "assets/maps/Custom_JungleJapesMain.tmx"
     },
@@ -71,12 +76,12 @@
 
     {
       "Name": "Custom_OCaminhodasChamasGemeas",
-      "FromMapFile": "assets/Summer/HTMP02.tmx"
+      "FromMapFile": "assets/maps/HTMP02.tmx"
     },
 
     {
       "Name": "Custom_LaMilladelJardiinRea",
-      "FromMapFile": "assets/Summer/HTMP03.tmx"
+      "FromMapFile": "assets/maps/HTMP03.tmx"
     }
   ],
 
@@ -85,7 +90,7 @@
       "Action": "EditMap",
       "Target": "Maps/Farm",
       "FromFile": "assets/maps/novel.tmx",
-      "When": { "FarmType": "Standard", "EditFarmMap": true },
+      "When": { "EditMuseum": true },
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
     },

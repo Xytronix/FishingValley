@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="12">
  <tileset firstgid="1" name=".spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="../Tilesheet/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
  <tileset firstgid="1976" name="spring_fsnovel" tilewidth="16" tileheight="16" tilecount="16" columns="4">
-  <image source="../Tilesheet/spring_fsnovel.png" width="64" height="64"/>
+  <image source="spring_fsnovel.png" width="64" height="64"/>
   <tile id="0">
    <animation>
     <frame tileid="0" duration="1000"/>

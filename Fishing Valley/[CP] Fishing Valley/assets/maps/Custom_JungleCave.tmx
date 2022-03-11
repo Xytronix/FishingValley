@@ -4,6 +4,7 @@
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Light " value="4 1 4 12 1 4 19 1"/>
   <property name="SeasonOverride" value="summer"/>
+  <property name="Music" value="WaterDrop"/>
   <property name="Warp" value="10 24 Custom_JungleRiver 34 4"/>
   <property name="indoorWater" value="true"/>
  </properties>

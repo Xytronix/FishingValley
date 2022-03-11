@@ -6,6 +6,7 @@
  <properties>
   <property name="Outdoors" value="True"/>
   <property name="SeasonOverride" value="summer"/>
+  <property name="Music" value="WaterfallSound"/>
   <property name="Warp" value="13 39 Custom_JungleRiver 9 1 14 39 Custom_JungleRiver 10 1 15 39 Custom_JungleRiver 10 1 23 9 Custom_WaterfallCave 7 7"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>

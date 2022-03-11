@@ -3,6 +3,7 @@
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Doors" value="32 10 1 120 39 10 1 120 46 10 1 120"/>
+  <property name="Music" value="Saloon1"/>
   <property name="Light" value="8 2 6 19 2 6 30 9 6 34 9 6 37 9 6 41 9 6 44 9 6 14 16 6 20 16 6 25 19 6 34 19 6"/>
   <property name="Warp" value="12 29 Custom_FishingResortExterior 16 11 14 2 Custom_JungleJapesMain 2 48 15 2 Custom_JungleJapesMain 3 48 10 3 Custom_Serenityriver 13 23 11 3 Custom_Serenityriver 14 23"/>
  </properties>

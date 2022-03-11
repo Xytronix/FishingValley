@@ -3,6 +3,7 @@
  <properties>
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="fall"/>
+  <property name="Music" value="HTMA_SunlightonWater"/>
   <property name="Warp" value="26 39 Custom_Serenityriver 13 1 27 39 Custom_Serenityriver 14 1"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>

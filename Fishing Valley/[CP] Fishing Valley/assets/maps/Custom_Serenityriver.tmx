@@ -3,6 +3,7 @@
  <properties>
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="fall"/>
+  <property name="Music" value="HTMA_SantaluneForest"/>
   <property name="Warp" value="13 24 Custom_FishingResortInterior 10 4 14 24 Custom_FishingResortInterior 11 4 13 0 Custom_ForestSwamp 26 38 14 0 Custom_ForestSwamp 27 38"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>

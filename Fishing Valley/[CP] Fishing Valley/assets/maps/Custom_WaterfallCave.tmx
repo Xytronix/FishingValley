@@ -6,6 +6,7 @@
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Light" value="4 1 4 7 1 4 11 1 4"/>
+  <property name="Music" value="WaterDrop"/>
   <property name="Warp" value="7 9 Custom_JungleFalls 23 10 5 4 Custom_JungleJapesMain 3 47"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
