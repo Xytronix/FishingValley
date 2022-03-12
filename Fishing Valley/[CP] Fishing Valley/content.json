@@ -26,62 +26,62 @@
   "CustomLocations": [
     {
       "Name": "Custom_FishingResortExterior",
-      "FromMapFile": "assets/maps/Custom_FishingResortExterior.tmx"
+      "FromMapFile": "assets/Custom_FishingResortExterior.tmx"
     },
 
     {
       "Name": "Custom_FishingResortInterior",
-      "FromMapFile": "assets/maps/Custom_FishingResortInterior.tmx"
+      "FromMapFile": "assets/Custom_FishingResortInterior.tmx"
     },
 
     {
       "Name": "Custom_JungleRiver",
-      "FromMapFile": "assets/maps/Custom_JungleRiver.tmx"
+      "FromMapFile": "assets/Custom_JungleRiver.tmx"
     },
 
     {
       "Name": "Custom_WaterfallCave",
-      "FromMapFile": "assets/maps/Custom_WaterfallCave.tmx"
+      "FromMapFile": "assets/Custom_WaterfallCave.tmx"
     },
 
     {
       "Name": "Custom_JungleFalls",
-      "FromMapFile": "assets/maps/Custom_JungleFalls.tmx"
+      "FromMapFile": "assets/Custom_JungleFalls.tmx"
     },
 
     {
       "Name": "Custom_JungleCave",
-      "FromMapFile": "assets/maps/Custom_JungleCave.tmx"
+      "FromMapFile": "assets/Custom_JungleCave.tmx"
     }, 
 
     {
       "Name": "Custom_JungleBay",
-      "FromMapFile": "assets/maps/Custom_JungleBay.tmx"
+      "FromMapFile": "assets/Custom_JungleBay.tmx"
     },
 
     {
       "Name": "Custom_JungleBay2",
-      "FromMapFile": "assets/maps/Custom_JungleBay2.tmx"
+      "FromMapFile": "assets/Custom_JungleBay2.tmx"
     },
 
     {
       "Name": "Custom_JungleJapesMain",
-      "FromMapFile": "assets/maps/Custom_JungleJapesMain.tmx"
+      "FromMapFile": "assets/Custom_JungleJapesMain.tmx"
     },
 
     {
       "Name": "Custom_HoshiroTaniMajula",
-      "FromMapFile": "assets/maps/HTMP01.tmx"
+      "FromMapFile": "assets/HTMP01.tmx"
     },
 
     {
       "Name": "Custom_OCaminhodasChamasGemeas",
-      "FromMapFile": "assets/maps/HTMP02.tmx"
+      "FromMapFile": "assets/HTMP02.tmx"
     },
 
     {
       "Name": "Custom_LaMilladelJardiinRea",
-      "FromMapFile": "assets/maps/HTMP03.tmx"
+      "FromMapFile": "assets/HTMP03.tmx"
     }
   ],
 
@@ -89,7 +89,7 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Farm",
-      "FromFile": "assets/maps/novel.tmx",
+      "FromFile": "assets/Novel.tmx",
       "When": { "EditFarm": true, "FarmType": "Standard" },
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
@@ -97,40 +97,40 @@
     {
       "Action": "EditMap",
       "Target": "Maps/CustomLaMilladelJardiinRea",
-      "FromFile": "assets/maps/S01Novel.tmx",
+      "FromFile": "assets/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_JungleFalls",
-      "FromFile": "assets/maps/S01Novel.tmx",
+      "FromFile": "assets/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
     },
 
     {
       "Action": "Load",
-      "Target": "assets/tilesheets/spring_fsnovel",
-      "FromFile": "assets/tilesheets/spring_fsnovel.png"
+      "Target": "assets/spring_fsnovel",
+      "FromFile": "assets/spring_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/tilesheets/summer_fsnovel",
-      "FromFile": "assets/tilesheets/summer_fsnovel.png"
+      "Target": "assets/summer_fsnovel",
+      "FromFile": "assets/summer_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/tilesheets/fall_fsnovel",
-      "FromFile": "assets/tilesheets/fall_fsnovel.png"
+      "Target": "assets/fall_fsnovel",
+      "FromFile": "assets/fall_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/tilesheets/winter_fsnovel",
-      "FromFile": "assets/tilesheets/winter_fsnovel.png"
+      "Target": "assets/winter_fsnovel",
+      "FromFile": "assets/winter_fsnovel.png"
     },
 
     {
