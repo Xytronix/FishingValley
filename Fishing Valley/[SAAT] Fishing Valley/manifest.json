@@ -1,10 +1,9 @@
 ﻿{
   "Name": "Fishing Valley Custom Music",
-  "Author": "Seiyn and Xytronix",
-  "Version": "1.1",
+  "Author": "Seiyn, Xytronix, Reika K. Fujoshi",
+  "Version": "1.1.0",
   "Description": "Adds new music & sounds for fishing resort.",
-  "UniqueID": "Xytronix.SAAT.FishingMusic",
-  "UpdateKeys": ["Nexus:???"],
+  "UniqueID": "Seiyn.SAAT.FishingMusic",
   "ContentPackFor": {
     "UniqueID": "ZeroMeters.SAAT.Mod",
     "MinimumVersion": "1.0.0"

@@ -52,7 +52,7 @@
     {
       "Name": "Custom_JungleCave",
       "FromMapFile": "assets/Custom_JungleCave.tmx"
-    }, 
+    },
 
     {
       "Name": "Custom_JungleBay",
@@ -104,7 +104,7 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_JungleFalls",
-      "FromFile": "assets/S01Novel.tmx",
+      "FromFile": "assets/S02Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
     },

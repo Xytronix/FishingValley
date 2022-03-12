@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2022 Seiyn, Xytronix and Reika K. Fujoshi
 
@@ -27,23 +27,23 @@ The audio files are extracted from this recording, and covered by a different li
     "New Spirit New World" used for jungle theme
     Recorded by Lobo Loco
     Creative Commons Attribution 4.0 International license
-    [Listen on musikbrause](https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world)
+    https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world
 
     "Birch_Forest" used for east map part
     Recorded by aubrianna
     Creative Commons Attribution 4.0 International license
-    [Listen on github](https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world)
+    https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world
 
     "JungleSounds" used for jungle sounds
     Creative Commons Attribution 4.0 International license
-    [Listen on YouTube](https://www.youtube.com/watch?v=Bw9eTJze6p0)
+    https://www.youtube.com/watch?v=Bw9eTJze6p0
 
     "Waterfall" used for waterfull ambient
     Recorded by Envato
     Mixkit Sound Effects Free License
-    [Listen on mixkit](https://mixkit.co/free-sound-effects/waterfall/)
+    https://mixkit.co/free-sound-effects/waterfall/
 
     "Drop" used for cave
     Recorded by Envato
     Mixkit Sound Effects Free License
-    [Listen on mixkit](https://mixkit.co/free-sound-effects/drop/)
+    https://mixkit.co/free-sound-effects/drop/

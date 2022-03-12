@@ -1,8 +1,8 @@
 {
   "Name": "Fishing Valley",
-  "Author": "Seiyn, Xytronix, Reika K. Fujoshi ",
+  "Author": "Seiyn, Xytronix, Reika K. Fujoshi",
   "Description": "A world that only exists in fairytales which only those who believe will be able to see.",
-  "Version": "0.7",
+  "Version": "1.1.0",
   "UniqueID": "Seiyn.FishingValley",
   "UpdateKeys": ["Nexus:8668"],
   "ContentPackFor": {
@@ -22,19 +22,11 @@
       "IsRequired": true
     },
     {
-      "UniqueID": "Platonymous.Toolkit",
-      "IsRequired": true
-    },
-    {
       "UniqueID": "DaisyNiko.Tilesheets",
       "IsRequired": true
     },
     {
-      "UniqueID": "Lumisteria.TtilesheetsOutdoor",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Platonymous.TMXLoader",
+      "UniqueID": "Lumisteria.TilesheetsOutdoor",
       "IsRequired": true
     },
     {
