@@ -1,7 +1,9 @@
 [← back to readme](readme.md)
 
 # Changelog
+
 ## Upcoming release 1.1
+
 Released Unknown for SMAPI 3.13.0 or later.
 
 * TODO: Added fishes to pelican town. Set AddFishesToTown to "false" in config.json if u want to only show up the fishes at Albatross Fishing Resort.
