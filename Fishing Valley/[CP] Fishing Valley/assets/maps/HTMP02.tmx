@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
   <property name="Music" value="HTMA_EternaForest"/>
   <property name="Outdoors" value="T"/>
@@ -999,6 +999,9 @@
  <tileset firstgid="3776" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
  </tileset>
+ <tileset firstgid="3812" name="summer_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="summer_town.png" width="512" height="1152"/>
+ </tileset>
  <layer id="1" name="Back" width="20" height="40">
   <data encoding="csv">
 176,176,176,152,176,494,494,494,538,538,538,686,493,494,494,176,176,176,176,176,
@@ -1085,10 +1088,26 @@
 345,366,545,0,0,0,0,0,0,0,0,0,0,0,0,0,0,492,493,392,
 370,2280,2281,0,0,0,0,0,0,0,0,0,0,0,0,0,0,517,518,417,
 395,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,542,543,417,
-420,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,417
+420,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,196,196,196,417
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="4" name="TileData" x="272" y="624" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue for future updates"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="256" y="624" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue for future updates"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="288" y="624" width="16" height="16">
+   <properties>
+    <property name="Action" value="Dialogue for future updates"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Paths" width="20" height="40" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
