@@ -35,23 +35,13 @@
     },
 
     {
-      "Name": "Custom_JungleRiver",
-      "FromMapFile": "assets/Custom_JungleRiver.tmx"
+      "Name": "Custom_ForestSwamp",
+      "FromMapFile": "assets/Custom_ForestSwamp.tmx"
     },
 
     {
-      "Name": "Custom_WaterfallCave",
-      "FromMapFile": "assets/Custom_WaterfallCave.tmx"
-    },
-
-    {
-      "Name": "Custom_JungleFalls",
-      "FromMapFile": "assets/Custom_JungleFalls.tmx"
-    },
-
-    {
-      "Name": "Custom_JungleCave",
-      "FromMapFile": "assets/Custom_JungleCave.tmx"
+      "Name": "Custom_FungusHouse",
+      "FromMapFile": "assets/Custom_FungusHouse.tmx"
     },
 
     {
@@ -65,8 +55,33 @@
     },
 
     {
+      "Name": "Custom_JungleCave",
+      "FromMapFile": "assets/Custom_JungleCave.tmx"
+    },
+
+    {
+      "Name": "Custom_JungleFalls",
+      "FromMapFile": "assets/Custom_JungleFalls.tmx"
+    },
+
+    {
       "Name": "Custom_JungleJapesMain",
       "FromMapFile": "assets/Custom_JungleJapesMain.tmx"
+    },
+
+    {
+      "Name": "Custom_JungleRiver",
+      "FromMapFile": "assets/Custom_JungleRiver.tmx"
+    },
+
+    {
+      "Name": "Custom_Serenityriver",
+      "FromMapFile": "assets/Custom_JungleJapesMain.tmx"
+    },
+
+    {
+      "Name": "Custom_WaterfallCave",
+      "FromMapFile": "assets/Custom_WaterfallCave.tmx"
     },
 
     {
@@ -96,7 +111,7 @@
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/CustomLaMilladelJardiinRea",
+      "Target": "Maps/Custom_LaMilladelJardiinRea",
       "FromFile": "assets/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
