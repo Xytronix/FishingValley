@@ -1,7 +1,7 @@
 {
   "Format": "1.25.0",
   "ConfigSchema": {
-    "EditMuseum": {
+    "EditFarm": {
       "AllowValues": "true, false",
       "Default": "true"
     },
@@ -52,7 +52,7 @@
     {
       "Name": "Custom_JungleCave",
       "FromMapFile": "assets/maps/Custom_JungleCave.tmx"
-    },
+    }, 
 
     {
       "Name": "Custom_JungleBay",
@@ -90,14 +90,20 @@
       "Action": "EditMap",
       "Target": "Maps/Farm",
       "FromFile": "assets/maps/novel.tmx",
-      "When": { "EditMuseum": true },
+      "When": { "EditFarm": true, "FarmType": "Standard" },
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
     },
-
     {
       "Action": "EditMap",
-      "Target": "Custom_JungleFalls.tmx",
+      "Target": "Maps/CustomLaMilladelJardiinRea",
+      "FromFile": "assets/maps/S01Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_JungleFalls",
       "FromFile": "assets/maps/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
@@ -105,26 +111,26 @@
 
     {
       "Action": "Load",
-      "Target": "Maps/spring_fsnovel",
-      "FromFile": "assets/spring_fsnovel.png"
+      "Target": "assets/tilesheets/spring_fsnovel",
+      "FromFile": "assets/tilesheets/spring_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/summer_fsnovel",
-      "FromFile": "assets/summer_fsnovel.png"
+      "Target": "assets/tilesheets/summer_fsnovel",
+      "FromFile": "assets/tilesheets/summer_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/fall_fsnovel",
-      "FromFile": "assets/fall_fsnovel.png"
+      "Target": "assets/tilesheets/fall_fsnovel",
+      "FromFile": "assets/tilesheets/fall_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/winter_fsnovel",
-      "FromFile": "assets/winter_fsnovel.png"
+      "Target": "assets/tilesheets/winter_fsnovel",
+      "FromFile": "assets/tilesheets/winter_fsnovel.png"
     },
 
     {
