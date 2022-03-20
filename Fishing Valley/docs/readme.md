@@ -2,7 +2,7 @@
 
 ## Description
 
-This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can be reached by bus once you repaired it. Over 50 new fish have been added just in the Alpha. New fish can only be fished at the resort, with the exception of crab pot fish, those can be obtained anywhere. All species in the mod are real living species. Here are the fish stats, locations and gift tastes.
+This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can be reached by bus once you repaired it. Over 50 new fish have been added just in the Alpha. New fish can only be fished at the resort, with the exception of crab pot fish, those can be obtained anywhere. All species in the mod are real living species. Here are the fish stats, locations and gift tastes. Beyond this you experience the mysteries why you got into the world of Stardew Valley. You as an adventurer will find out about the secret that book of your grandpa hold.
 
 ## Contents
 
@@ -41,6 +41,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 ## Feature Roadmap
 
 * [ ] Add more fish
+* [ ] Add more maps
 * [ ] Remake some fish sprites
 * [ ] Aquarium sprites
 
@@ -52,6 +53,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [ ] Maybe a few quests
 * [ ] Fishing Contests Events
 * [ ] More ambiance NPCs and maybe a real one
+* [ ] Add NPCs which tell the cultural background
 * [ ] A way to implement a toll system for fishing and rentable beds
 
 ## Fishing stats
