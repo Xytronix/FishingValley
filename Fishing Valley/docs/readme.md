@@ -57,7 +57,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 ### Jungle Japes
 
 | Jungle Pond          |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+|-----------------------------------------------------------------|
 | Fish                 | Time | Weather | Rarity | Difficulty |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 |  Guppy                | 6--18 | both | common | easy |
