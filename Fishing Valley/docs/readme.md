@@ -73,6 +73,18 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 #### Jungle River
 
+| Fish                 | Time | Weather | Rarity | Difficulty |
+|                      |  |  |  |  |
+| Diamond Stingray     | 6--16 | sunny | common | medium |
+| Dwarf Caiman         | 9--17 | sunny | rare | hard |
+| Barramundi           | 6--2 | both | common | hard |
+| Red Eye Piranha      | 6--18 | both | uncommon | medium |
+| King Emperor Piranha | 6--2 | both | common | easy |
+| Paraiba catfish      | 18--2 | rainy | hard | rare |
+| Red Tail Catfish     | 18--2 | both | uncommon | hard |
+| Fire Eel             | 6--2 | both | common | medium |
+| Bichir               | 6--2 | both | uncommon | easy |
+| Arapaima             | 6--18 | sunny | rare | hard |
 #### Jungle Falls
 
 #### Jungle Roger Bay
