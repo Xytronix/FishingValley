@@ -2,29 +2,61 @@
 
 ## Description
 
-This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can be reached by bus once you repaired it. Over 50 new fish have been added just in the Alpha. New fish can only be fished at the resort, with the exception of crab pot fish, those can be obtained anywhere. All species in the mod are real living species. Here's the Fish Stats and locations.
+This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can be reached by bus once you repaired it. Over 50 new fish have been added just in the Alpha. New fish can only be fished at the resort, with the exception of crab pot fish, those can be obtained anywhere. All species in the mod are real living species. Here are the fish stats, locations and gift tastes.
 
-## What this mods adds
+## Contents
 
-- New Fish
-- New Locations
-- New Shops
-- New Music and Sounds
+* [Install](#install)
+* [Features](#features)
+* [Feature Roadmap](#feature-roadmap)
+* [Fishing stats](#fishing-stats)
+  * [Jungle Japes](#jungle-japes)
+    * [Jungle Pond](#jungle-pond)
+    * [Jungle River](#jungle-river)
+    * [Jungle Falls](#jungle-falls)
+    * [Jungle Roger Bay](#jungle-roger-bay)
+    * [Jungle Sea Bay](#jungle-sea-bay)
+    * [Jungle Cave](#jungle-cave)
+    * [Jungle Swamp](#jungle-swamp)
+    * [Serenity River](#serenity-river)
+  * [HoshiroTaniMajula](#hoshiro-tani-majula)
+  * [OCaminhodasChamasGemeas](#ocamhodas-chamas-gemeas)
+  * [LaMilladelJardiinRea](#la-milladel-jardiin-rea)
+* [Gift tastes](#gift-tastes)
+* [Compatibility](#compatibility)
+* [FAQ](#faq)
+* [Credits](#credits)
+* [See also](#see-also)
 
-## Plans for the future
+## Install
 
-- [ ] Add more fish
-- [ ] Remake some fish sprites
-- [ ] Aquarium sprites
+## Features
 
-- [ ] Add a Temperate and a Cold fishing zone
-- [ ] More Music
-- [ ] More Shops for easy access to fishing gear
-- [ ] Maybe an upgrade to the iridium fishing rod
-- [ ] Maybe a few quests
-- [ ] Fishing Contests Events
-- [ ] More ambiance NPCs and maybe a real one
-- [ ] A way to implement a toll system for fishing and rentable beds
+* New Fish
+* New Locations
+* New Shops
+* New Music and Sounds
+
+## Feature Roadmap
+
+* [ ] Add more fish
+* [ ] Remake some fish sprites
+* [ ] Aquarium sprites
+
+* [ ] Add a Temperate and a Cold fishing zone
+* [ ] More Music
+* [ ] More Shops for easy access to fishing gear
+* [ ] Maybe an upgrade to the iridium fishing rod
+* [ ] Maybe a few quests
+* [ ] Fishing Contests Events
+* [ ] More ambiance NPCs and maybe a real one
+* [ ] A way to implement a toll system for fishing and rentable beds
+
+## Fishing stats
+
+### Jungle Japes
+
+   
 
 ## Compatibility
 
@@ -51,9 +83,9 @@ I'm a 1 man team, with very limited coding knownledge, so odds are no.
 
 ## Credits':'
 
-- FlashShifter for tech support
-- Hisame and Trent for the inspiration and making me a fishing addict in the game
-- Everyone on the SVD discord that helped me
+* FlashShifter for tech support
+* Hisame and Trent for the inspiration and making me a fishing addict in the game
+* Everyone on the SVD discord that helped me
 
 ## See also
 
