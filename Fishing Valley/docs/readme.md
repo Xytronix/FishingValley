@@ -111,6 +111,6 @@ I'm a 1 man team, with very limited coding knownledge, so odds are no.
 
 ## See also
 
-*[Changelog](changelog.md)
-*[Nexus](https://www.nexusmods.com/stardewvalley/mods/8668)
-*Originally created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403) (maintained by [Xytronix](https://www.nexusmods.com/users/127861178))
+* [Changelog](changelog.md)
+* [Nexus](https://www.nexusmods.com/stardewvalley/mods/8668)
+* Originally created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403) (maintained by [Xytronix](https://www.nexusmods.com/users/127861178))
