@@ -20,7 +20,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
     * [Jungle Swamp](#jungle-swamp)
     * [Serenity River](#serenity-river)
   * [HoshiroTaniMajula](#hoshiro-tani-majula)
-  * [OCaminhodasChamasGemeas](#ocamhodas-chamas-gemeas)
+  * [OCaminhodasChamasGemeas](#ocaminhodas-chamas-gemeas)
   * [LaMilladelJardiinRea](#la-milladel-jardiin-rea)
 * [Gift tastes](#gift-tastes)
 * [Compatibility](#compatibility)
@@ -53,10 +53,32 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [ ] A way to implement a toll system for fishing and rentable beds
 
 ## Fishing stats
-    ### Jungle H
+
 ### Jungle Japes
 
-   
+#### Jungle Pond
+
+#### Jungle River
+
+#### Jungle Falls
+
+#### Jungle Roger Bay
+
+#### Jugle Sea Bay
+
+#### Jungle Cave
+
+#### Jungle Swamp
+
+#### Serenity River
+
+### Hoshiro Tani Majula
+
+### Ocaminhodas Chamas Gemeas
+
+### La Milladel Jardiin Rea
+
+## Gift tastes
 
 ## Compatibility
 
