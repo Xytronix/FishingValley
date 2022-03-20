@@ -29,10 +29,33 @@ The audio files are extracted from this recording, and covered by a different li
     Creative Commons Attribution 4.0 International license
     https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world
 
-    "Birch_Forest" used for east map part
+    "Birch Forest"
     Recorded by aubrianna
     Creative Commons Attribution 4.0 International license
-    https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world
+
+    "Blue Fire"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
+
+    "Earth Shadow"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
+
+    "Eterna Forest"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
+
+    "Regressive Form"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
+
+    "Santalune Forest"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
+
+    "Sunlight on Water"
+    Recorded by aubrianna
+    Creative Commons Attribution 4.0 International license
 
     "JungleSounds" used for jungle sounds
     Creative Commons Attribution 4.0 International license
