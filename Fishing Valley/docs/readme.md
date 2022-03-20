@@ -74,7 +74,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 #### Jungle River
 
 | Fish                 | Time | Weather | Rarity | Difficulty |
-|                      |  |  |  |  |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | Diamond Stingray     | 6--16 | sunny | common | medium |
 | Dwarf Caiman         | 9--17 | sunny | rare | hard |
 | Barramundi           | 6--2 | both | common | hard |
