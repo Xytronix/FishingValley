@@ -10,15 +10,14 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [Features](#features)
 * [Feature Roadmap](#feature-roadmap)
 * [Fishing stats](#fishing-stats)
-  * [Jungle Japes](#jungle-japes)
-    * [Jungle Pond](#jungle-pond)
-    * [Jungle River](#jungle-river)
-    * [Jungle Falls](#jungle-falls)
-    * [Jungle Roger Bay](#jungle-roger-bay)
-    * [Jungle Sea Bay](#jungle-sea-bay)
-    * [Jungle Cave](#jungle-cave)
-    * [Jungle Swamp](#jungle-swamp)
-    * [Serenity River](#serenity-river)
+  * [Jungle Pond](#jungle-pond)
+  * [Jungle River](#jungle-river)
+  * [Jungle Falls](#jungle-falls)
+  * [Jungle Roger Bay](#jungle-roger-bay)
+  * [Jungle Sea Bay](#jungle-sea-bay)
+  * [Jungle Cave](#jungle-cave)
+  * [Jungle Swamp](#jungle-swamp)
+  * [Serenity River](#serenity-river)
   * [HoshiroTaniMajula](#hoshiro-tani-majula)
   * [OCaminhodasChamasGemeas](#ocaminhodas-chamas-gemeas)
   * [LaMilladelJardiinRea](#la-milladel-jardiin-rea)
@@ -56,9 +55,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ## Fishing stats
 
-### Jungle Japes
-
-#### Jungle Pond
+### Jungle Pond
 
 | Fish                 | Time | Weather | Rarity | Difficulty |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -73,7 +70,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 |  Half Moon Betta      | 18--26 | both | uncommon | easy |
 |  Redline Puffer       | 18--26 | rainy | rare | hard |
 
-#### Jungle River
+### Jungle River
 
 | Fish                 | Time | Weather | Rarity | Difficulty |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -88,7 +85,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Bichir               | 6--2 | both | uncommon | easy |
 | Arapaima             | 6--18 | sunny | rare | hard |
 
-#### Jungle Falls
+### Jungle Falls
 
 | Fish                | Time  | Weather | Rarity   | Difficulty |
 | ------------------- | ----- | ------- | -------- | ---------- |
@@ -103,7 +100,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Rainbow snake       | 9--18 | sunny   | uncomon  | medium     |
 | Vampire Crab        | 6--18 | both    | common   | easy       |
 
-#### Jungle Roger Bay
+### Jungle Roger Bay
 
 | Fish              | Time   | Weather | Rarity   | Difficulty |
 | ----------------- | ------ | ------- | -------- | ---------- |
@@ -118,9 +115,9 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Remora            | 12--20 | both    | common   | medium     |
 | Warty Frogfish    | 6--2   | both    | rare     | easy       |
 
-#### Jugle Sea Bay
+### Jugle Sea Bay
 
-#### Jungle Cave
+### Jungle Cave
 
 | Fish                     | Time | Weather | Rarity   | Difficulty |
 | ------------------------ | ---- | ------- | -------- | ---------- |
@@ -131,9 +128,9 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Olm                      | 6--2 | both    | rare     | hard       |
 | Cave Salamander          | 6--2 | both    | uncommon | medium     |
 
-#### Jungle Swamp
+### Jungle Swamp
 
-#### Serenity River
+### Serenity River
 
 ### Hoshiro Tani Majula
 
