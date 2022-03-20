@@ -22,6 +22,8 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
   * [HoshiroTaniMajula](#hoshiro-tani-majula)
   * [OCaminhodasChamasGemeas](#ocaminhodas-chamas-gemeas)
   * [LaMilladelJardiinRea](#la-milladel-jardiin-rea)
+  * [Saltwater Crab Pot](#saltwater-crab-pot)
+  * [Freshwater Crab Pot](#freshwater-crab-pot)
 * [Gift tastes](#gift-tastes)
 * [Compatibility](#compatibility)
 * [FAQ](#faq)
@@ -90,7 +92,6 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 | Fish                | Time  | Weather | Rarity   | Difficulty |
 | ------------------- | ----- | ------- | -------- | ---------- |
-|  |
 | Siamese tiger perch | 6--2  | both    | uncommon | easy       |
 | Zebra Shovelnose    | 16--2 | rainy   | uncommon | medium     |
 | Payara              | 6--2  | both    | rare     | hard       |
@@ -104,9 +105,31 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 #### Jungle Roger Bay
 
+| Fish              | Time   | Weather | Rarity   | Difficulty |
+| ----------------- | ------ | ------- | -------- | ---------- |
+| Goliath Grouper   | 6--2   | both    | rare     | hard       |
+| Panther Grouper   | 8--18  | sunny   | uncommon | medium     |
+| Coral Grouper     | 6--2   | both    | uncommon | medium     |
+| Bamboo Shark      | 18--2  | both    | rare     | hard       |
+| Humphead Wrasse   | 6--2   | both    | rare     | hard       |
+| Titan Triggerfish | 6--2   | rainy   | uncommon | medium     |
+| Giant Trevally    | 8--17  | sunny   | rare     | hard       |
+| Rainbow Runner    | 6--2   | sunny   | uncommon | hard       |
+| Remora            | 12--20 | both    | common   | medium     |
+| Warty Frogfish    | 6--2   | both    | rare     | easy       |
+
 #### Jugle Sea Bay
 
 #### Jungle Cave
+
+| Fish                     | Time | Weather | Rarity   | Difficulty |
+| ------------------------ | ---- | ------- | -------- | ---------- |
+| Dragon Snakehead         | 6--2 | both    | common   | medium     |
+| Blind Cave Eel           | 6--2 | both    | rare     | hard       |
+| Cave Molly               | 6--2 | both    | common   | easy       |
+| Waterfall Climbing Loach | 6--2 | both    | uncommon | medium     |
+| Olm                      | 6--2 | both    | rare     | hard       |
+| Cave Salamander          | 6--2 | both    | uncommon | medium     |
 
 #### Jungle Swamp
 
@@ -117,6 +140,26 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 ### Ocaminhodas Chamas Gemeas
 
 ### La Milladel Jardiin Rea
+
+### Saltwater Crab Pot
+
+| Species               | Season        | Rarity   |
+| --------------------- | ------------- | -------- |
+| Blue Legs Hermit Crab | Summer        | Common   |
+| Giant Isopod          | Winter        | Rare     |
+| Giant Deepwater Crab  | Spring - Fall | Uncommon |
+| Giant Trion           | Summer        | Uncommon |
+| Mantis shrimp         | Summer        | Rare     |
+
+### Freshwater Crab Pot
+
+| Species         | Season                | Rarity   |
+| --------------- | --------------------- | -------- |
+| Albino Xenopus  | Spring - Summer       | Uncommon |
+| Axolotl         | Spring -Fall - Winter | Uncommon |
+| Fire Salamander | Spring - Fall         | Rare     |
+| Ramhorn Snail   | All year              | Common   |
+| Xenopus         | Spring - Summer       | Common   |
 
 ## Gift tastes
 
