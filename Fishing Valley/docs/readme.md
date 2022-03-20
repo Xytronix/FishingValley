@@ -188,47 +188,47 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
 
 <details>
   <summary>Look who got involved</summary>
-  • FlashShifter for tech support
-  • Hisame and Trent for the inspiration and making me a fishing addict in the game
-  • Many thanks to Draylon who help on steps by steps on making maps, giving wonderful advice in how to make a map beautiful, answering my question related about my map and giving me an inspiration to make this map.
-• Many thanks to aubrianna (Moogle Village) for composing wonderful bgms on my mod so uhm I am really grateful and advising me on my map.
-• Many thanks to atravita (all pronouns accepted) in teaching me basics on coding.
-• Many thanks to Lumina in teaching me how to make mods and giving advices on what I lacked and giving some suggestion on my map.
-• Many thanks to XxHarvzBackxX (Downtown Zuzu) for teaching my basic stuffs in map making and also his wonderful youtube guides on how to make a mod.
-• Many thanks to Pathoschild for teaching me the basics of coding and answering queries about coding related stuffs.
-• Many thanks to DecidedlyHuman (Ping if needed!) for giving me an advice in my map, giving feedback and being honest with me on my map.
-• Many thanks to blueberry for giving helpful advice on map tiling.
-• Many thanks to asunai2 for giving permission to use her custom tilesheet.
-• Many thanks to TehPers for giving me helpful advice about modding.
-• Many thanks to GaLaxY256 (He/Him) for giving me helpful advice about modding.
-• Many thanks to shekurika (@on msg pls) for giving me helpful advice about modding.
-• Many thanks to mistyspring for giving me helpful advice about modding and coding.
-• Many thanks to quill and ink ~ for giving me advice and for giving me courage in continuing my map and tips.
-• Many thanks to violetlizabet for teaching me in map making, giving advice what I did wrong in map making o///o and give me inspiration to continue foward.
-• Many thanks to robin (he/him) // summer Y4 for being giving me tips on my map.
-• Many thanks to Psychonaut Yr 3 Fall (Android) for giving feedback on my map.
-• Many thanks to Maythorn (she/her) for giving feedback in my map design.
-• Many thanks to DaLion (Walk of Life)  for giving feedback in my map design.
-• Many thanks to Tlitookilakin (wren) she/her for giving advice on my map and proofreading my grammar error on my introduction and bit description of my mod.
-• Many thanks to Hime ✻ | ARV for giving feedback on my map.
-• Many thanks to Goldenrevolver for giving feedback on my map.
-• Many thanks to Froststar11 for answering my question related about my map.
-• Many thanks to Nuztalgia 🐻 (she/her) for teaching me on how to code on my map and also being patient in answering my queries so thanks a lot you help me a lot.
-• Many thanks to ✨🌟 Miss Coriel - Nexus Mods🌟✨ — 0 for helping me to solve problem in my coding.
-• Many thanks to Expl0! | StardewMon WIP for giving feedback on my mod.
-• Many thanks to Shockah for teaching me how to use SAAT.
-• Many thanks to Vibel for teaching me how to use warp correctly.
-• Many thanks to ApryllForever for giving me feedback on my mod.
-• Many thanks to PurrplingCat for teaching how to use Quest Framework on my mod.
-• Many thanks to Ryuheal for giving me an idea how to craft quest and giving feedback on my mod.
-• Many thanks to ceruleandeep in helping me coding side of my map
-• Many thanks to aedenthorn in giving feedback on my map.
-• Many thanks to my niece who play test my map .^^V
-• Many thanks to megalow who also play test my and map give some honest feedback.
-• Many thanks to MBA in helping me on proofreading my grammars. ; _ ;
-• Many thanks to Ripxdarkness and WRipxdarkness for giving me an idea how to make good story.
-• Many thanks to vert for point an error on my map
-• Many thanks to my mum who passed away, I want to tribute my first map mod to her so thx mum. T_T
+    • FlashShifter for tech support <br />
+    • Hisame and Trent for the inspiration and making me a fishing addict in the game <br />
+    • Many thanks to Draylon who help on steps by steps on making maps, giving wonderful advice in how to make a map beautiful, answering my question related about my map and giving me an inspiration to make this map. <br />
+    • Many thanks to aubrianna (Moogle Village) for composing wonderful bgms on my mod so uhm I am really grateful and advising me on my map. <br />
+    • Many thanks to atravita (all pronouns accepted) in teaching me basics on coding. <br />
+    • Many thanks to Lumina in teaching me how to make mods and giving advices on what I lacked and giving some suggestion on my map. <br />
+    • Many thanks to XxHarvzBackxX (Downtown Zuzu) for teaching my basic stuffs in map making and also his wonderful youtube guides on how to make a mod. <br />
+    • Many thanks to Pathoschild for teaching me the basics of coding and answering queries about coding related stuffs. <br />
+    • Many thanks to DecidedlyHuman (Ping if needed!) for giving me an advice in my map, giving feedback and being honest with me on my map. <br />
+    • Many thanks to blueberry for giving helpful advice on map tiling. <br />
+    • Many thanks to asunai2 for giving permission to use her custom tilesheet. <br />
+    • Many thanks to TehPers for giving me helpful advice about modding. <br />
+    • Many thanks to GaLaxY256 (He/Him) for giving me helpful advice about modding. <br />
+    • Many thanks to shekurika (@on msg pls) for giving me helpful advice about modding. <br />
+    • Many thanks to mistyspring for giving me helpful advice about modding and coding. <br />
+    • Many thanks to quill and ink ~ for giving me advice and for giving me courage in continuing my map and tips. <br />
+    • Many thanks to violetlizabet for teaching me in map making, giving advice what I did wrong in map making o///o and give me inspiration to continue foward. <br />
+    • Many thanks to robin (he/him) // summer Y4 for being giving me tips on my map. <br />
+    • Many thanks to Psychonaut Yr 3 Fall (Android) for giving feedback on my map. <br />
+    • Many thanks to Maythorn (she/her) for giving feedback in my map design. <br />
+    • Many thanks to DaLion (Walk of Life)  for giving feedback in my map design. <br />
+    • Many thanks to Tlitookilakin (wren) she/her for giving advice on my map and proofreading my grammar error on my introduction and bit description of my mod. <br />
+    • Many thanks to Hime ✻ | ARV for giving feedback on my map. <br />
+    • Many thanks to Goldenrevolver for giving feedback on my map. <br />
+    • Many thanks to Froststar11 for answering my question related about my map. <br />
+    • Many thanks to Nuztalgia 🐻 (she/her) for teaching me on how to code on my map and also being patient in answering my queries so thanks a lot you help me a lot. <br />
+    • Many thanks to ✨🌟 Miss Coriel - Nexus Mods🌟✨ — 0 for helping me to solve problem in my coding. <br />
+    • Many thanks to Expl0! | StardewMon WIP for giving feedback on my mod. <br />
+    • Many thanks to Shockah for teaching me how to use SAAT. <br />
+    • Many thanks to Vibel for teaching me how to use warp correctly. <br />
+    • Many thanks to ApryllForever for giving me feedback on my mod. <br />
+    • Many thanks to PurrplingCat for teaching how to use Quest Framework on my mod. <br />
+    • Many thanks to Ryuheal for giving me an idea how to craft quest and giving feedback on my mod. <br />
+    • Many thanks to ceruleandeep in helping me coding side of my map. <br />
+    • Many thanks to aedenthorn in giving feedback on my map. <br />
+    • Many thanks to my niece who play test my map .^^V <br />
+    • Many thanks to megalow who also play test my and map give some honest feedback. <br />
+    • Many thanks to MBA in helping me on proofreading my grammars. ; _ ; <br />
+    • Many thanks to Ripxdarkness and WRipxdarkness for giving me an idea how to make good story. <br />
+    • Many thanks to vert for point an error on my map. <br />
+    • Many thanks to my mum who passed away, I want to tribute my first map mod to her so thx mum. T_T <br />
 </details>
 
 ## See also
