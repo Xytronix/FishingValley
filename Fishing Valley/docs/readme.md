@@ -53,7 +53,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [ ] A way to implement a toll system for fishing and rentable beds
 
 ## Fishing stats
-
+    ### Jungle H
 ### Jungle Japes
 
    
