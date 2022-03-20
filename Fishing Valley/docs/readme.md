@@ -56,22 +56,18 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ### Jungle Japes
 
-| | Jungle Pond          |                                        |
-|-----------------------------------------------------------------|
-| |  |                                                            |
-| | Fish                 | Time | Weather | Rarity | Difficulty | |
-| |  |                                                            |
-| |                      |  |  |  |  |                            |
-| | Guppy                | 6--18 | both | common | easy |         |
-| | Tambaqui             | 6--17 | both | uncommon | medium |     |
-| | Matamata             | 9--18 | sunny | rare | medium |        |
-| | Red Tiger Oscar      | 6--19 | both | uncommon | medium |     |
-| | Saratoga             | 6--18 | both | uncommon | hard |       |
-| | Electric Eel         | 6--2 | sunny | rare | medium |         |
-| | Freshwater Angelfish | 12--20 | both | common | easy |        |
-| | Giant Gourami        | 6--26 | both | uncommon | hard |       |
-| | Half Moon Betta      | 18--26 | both | uncommon | easy |      |
-| | Redline Puffer       | 18--26 | rainy | rare | hard |         |
+| Fish                 | Time | Weather | Rarity | Difficulty |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+|  Guppy                | 6--18 | both | common | easy |
+|  Tambaqui             | 6--17 | both | uncommon | medium |
+|  Matamata             | 9--18 | sunny | rare | medium |
+|  Red Tiger Oscar      | 6--19 | both | uncommon | medium |
+|  Saratoga             | 6--18 | both | uncommon | hard |
+|  Electric Eel         | 6--2 | sunny | rare | medium |
+|  Freshwater Angelfish | 12--20 | both | common | easy |
+|  Giant Gourami        | 6--26 | both | uncommon | hard |
+|  Half Moon Betta      | 18--26 | both | uncommon | easy |
+|  Redline Puffer       | 18--26 | rainy | rare | hard |
 
 #### Jungle River
 
