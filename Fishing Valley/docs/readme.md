@@ -1,4 +1,4 @@
-# Fishing Valley ( Under development )
+# Fishing Valley
 
 ## Description
 
@@ -103,7 +103,7 @@ Some fish are in the game, but are not fishable yet, you can fish over 50 for no
 
 I'm a 1 man team, with very limited coding knownledge, so odds are no.
 
-## Credits':'
+## Credits
 
 * FlashShifter for tech support
 * Hisame and Trent for the inspiration and making me a fishing addict in the game

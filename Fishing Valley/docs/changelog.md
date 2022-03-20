@@ -11,7 +11,7 @@ Released Unknown for SMAPI 3.13.0 or later.
 * TODO: Added aquarium sprites
 * TODO: Added new npc instead of vanilla island shopkeeper
 * TODO: Added balance mode and easy fishing mode
-* TODO: Added gift tastes for all vanilla villagers. If u want to have gift tastes for your custom npc be free to do so.
+* TODO: Added unique gift tastes for all vanilla villagers. If u want to have gift tastes for your custom npc be free to do so.
 * TODO: Added translation support for i18n files. Be free to create translation and send me your translation files. I will include them in next update.
 * Added compatibility for [East Scarp](https://www.nexusmods.com/stardewvalley/mods/5787)
 * Rewrote the maps for [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915). No longer requires [PyTK](https://www.nexusmods.com/stardewvalley/mods/1726), [PlatoTK](https://www.nexusmods.com/stardewvalley/mods/6589) and [TMXL Map Toolkit](https://www.nexusmods.com/stardewvalley/mods/1820). Instead requires now [Extra Map Layers](https://www.nexusmods.com/stardewvalley/mods/9633). Please delete the old files.
