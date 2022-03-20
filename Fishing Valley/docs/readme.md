@@ -85,7 +85,22 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Fire Eel             | 6--2 | both | common | medium |
 | Bichir               | 6--2 | both | uncommon | easy |
 | Arapaima             | 6--18 | sunny | rare | hard |
+
 #### Jungle Falls
+
+| Fish                | Time  | Weather | Rarity   | Difficulty |
+| ------------------- | ----- | ------- | -------- | ---------- |
+|  |
+| Siamese tiger perch | 6--2  | both    | uncommon | easy       |
+| Zebra Shovelnose    | 16--2 | rainy   | uncommon | medium     |
+| Payara              | 6--2  | both    | rare     | hard       |
+| Longfin Eel         | 18--2 | rainy   | uncommon | hard       |
+| River Dolphin       | 6--2  | both    | rare     | hard       |
+| Bull shark          | 16--2 | both    | rare     | hard       |
+| Yellow Anaconda     | 9--18 | sunny   | rare     | hard       |
+| Caecillian          | 6--2  | both    | common   | medium     |
+| Rainbow snake       | 9--18 | sunny   | uncomon  | medium     |
+| Vampire Crab        | 6--18 | both    | common   | easy       |
 
 #### Jungle Roger Bay
 
