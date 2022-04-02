@@ -233,76 +233,8 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
     • Many thanks to my mum who passed away, I want to tribute my first map mod to her so thx mum. T_T <br />
 </details>
 
-<img id="my-image" src="https://avatars2.githubusercontent.com/u/13611391?v=3&s=460" style="width: 40px;">
+<img src="https://avatars2.githubusercontent.com/u/13611391?v=3&s=460" style="width: 40px;" alt="Alt text" title="this will be displayed as a tooltip" />
 
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-<script>
-  (function ($) {
-    $.fn.imageTooltip = function (options) {
-
-        var defaults = {
-            imgWidth: 'initial',
-            backgroundColor: '#fff'
-        };
-
-        if (typeof (options) === 'object') {
-            options = $.extend(defaults, options);
-        } else {
-            var tempOptions = {};
-            tempOptions.imgWidth = arguments[0] || defaults.imgWidth;
-            tempOptions.backgroundColor = arguments[1] || defaults.backgroundColor;
-            options = tempOptions;
-        }
-
-        function calLeft(x, imgWidth) {
-            return window.innerWidth - x > imgWidth ? x : x - imgWidth;
-        }
-
-        function calTop(y, imgHeight) {
-            return window.innerHeight - y > imgHeight ? y : y - imgHeight - 25;
-        }
-
-        return this.each(function () {
-
-            var imgContainer = $('<p>', {
-                css: {
-                    display: 'none',
-                    backgroundColor: options.backgroundColor,
-                    padding: '5px',
-                    position: 'fixed'
-                }
-            });
-
-            var img = $('<img>', {
-                src: $(this).data('image-tooltip') || $(this).attr('src'),
-                alt: 'Image Not Available',
-                width: options.imgWidth
-            });
-
-            imgContainer.append(img);
-
-            $(this).hover(
-                function (e) {
-                    imgContainer.css({
-                        left: calLeft(e.clientX, imgContainer.outerWidth()) + 'px',
-                        top: calTop(e.clientY, imgContainer.outerHeight()) + 'px'
-                    });
-                    $('body').append(imgContainer);
-                    imgContainer.fadeIn('fast');
-                },
-                function () {
-                    imgContainer.remove();
-                }
-            ).mousemove(function (e) {
-                imgContainer.css({
-                    left: calLeft(e.clientX, imgContainer.outerWidth()) + 'px',
-                    top: calTop(e.clientY, imgContainer.outerHeight()) + 'px'
-                });
-            });
-        });
-    };
-}(jQuery));
-</script>
 
 ## See also
 
