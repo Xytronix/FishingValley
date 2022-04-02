@@ -1,6 +1,6 @@
 {
+	"Id": "black_piranha",
 	"Name": "Red Eye Piranha",
-	"Description": "This piranha is not a social species and normally lives alone.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "wels_catfish",
 	"Name": "Wels Catfish",
-	"Description": "This huge catfish sucks it's prey whole.",
 	"Category": "Fish",
 	"Edibility": 45,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

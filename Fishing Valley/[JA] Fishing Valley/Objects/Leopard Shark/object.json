@@ -1,6 +1,6 @@
 {
+	"Id": "leopard_shark",
 	"Name": "Leopard Shark",
-	"Description": "Schools of leopard sharks are common in bays and estuaries.",
 	"Category": "Fish",
 	"Edibility": 50,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,8 +1,7 @@
 {
+	"Id": "giant_southern_crab",
 	"Name": "Giant Deepwater Crab",
-	"Description": "Watch out for that giant claw.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Crustacean",
 	"Edibility": 50,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

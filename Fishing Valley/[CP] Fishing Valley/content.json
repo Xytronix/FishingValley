@@ -150,6 +150,36 @@
 
     {
       "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "FV.Interior1": "{{i18n: string.resort.interior1}}",
+        "FV.Interior2": "{{i18n: string.resort.interior2}}",
+        "FV.Interior3": "{{i18n: string.resort.interior3}}",
+        "FV.Interior4": "{{i18n: string.resort.interior4}}",
+        "FV.Interior5": "{{i18n: string.resort.interior5}}",
+        "FV.Interior6": "{{i18n: string.resort.interior6}}",
+        "FV.Interior7": "{{i18n: string.resort.interior7}}",
+        "FV.Interior8": "{{i18n: string.resort.interior8}}",
+        "FV.Interior9": "{{i18n: string.resort.interior9}}",
+
+        "FV.ForestSwamp1": "{{i18n:string.forestswamp1}}",
+
+        "FV.JungleJapesMain1": "{{i18n: string.junglejapes1}}",
+        "FV.JungleJapesMain2": "{{i18n: string.junglejapes2}}",
+        "FV.JungleJapesMain3": "{{i18n: string.junglejapes3}}",
+        "FV.JungleJapesMain4": "{{i18n: string.junglejapes4}}",
+
+        "FV.JungleRiver1": "{{i18n: string.jungleriver1}}",
+        "FV.JungleRiver2": "{{i18n: string.jungleriver2}}",
+
+        "FV.SerenityRiver1": "{{i18n:string.serenityriver1}}",
+
+        "FV.WIP": "{{i18n:string.workinprogress}}",
+        "FV.NoWay": "{{i18n:string.notaccessible}}"
+      }
+    },
+    {
+      "Action": "EditData",
       "Target": "Data/Locations",
       "When": { "HasMod |contains=spacechase0.JsonAssets": "true" },
       "Entries": {

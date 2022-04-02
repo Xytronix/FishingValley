@@ -1,8 +1,7 @@
 {
+	"Id": "fire_salamander",
 	"Name": "Fire Salamander",
-	"Description": "The flashy colours indicate it's toxicity.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Amphibian",
 	"Edibility": -50,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

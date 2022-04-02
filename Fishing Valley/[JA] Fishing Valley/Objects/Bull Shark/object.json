@@ -1,6 +1,6 @@
 {
+	"Id": "bull_shark",
 	"Name": "Bull Shark",
-	"Description": "An agressive shark known for enterig in freshwater, sometimes as far as 4000 km (2500 mi) from the sea.",
 	"Category": "Fish",
 	"Edibility": 80,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

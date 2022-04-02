@@ -1,6 +1,6 @@
 {
+	"Id": "grey_triggerfish",
 	"Name": "Grey Triggerfish",
-	"Description": "A small grey triggerfish often consumed by humans.",
 	"Category": "Fish",
 	"Edibility": 35,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "giant_gourami",
 	"Name": "Giant Gourami",
-	"Description": "The largest of all gourami species, both an ornamental and food fish.",
 	"Category": "Fish",
 	"Edibility": 45,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

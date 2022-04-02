@@ -1,6 +1,6 @@
 {
+	"Id": "cave_molly",
 	"Name": "Cave Molly",
-	"Description": "Same species as the regular molly, exept these live in caves full of highly toxic hydrogen sulfite and with almost no food. Somehow it's thriving agains all odds.",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

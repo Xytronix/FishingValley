@@ -1,8 +1,7 @@
 {
+  "Id": "albino_xenopus",
   "Name": "Albino Xenopus",
-  "Description": "The Albino version of the Xenopus frog .",
   "Category": "Fish",
-  "CategoryTextOverride": "Amphibian",
   "Edibility": 20,
   "EdibleIsDrink": false,
   "EdibleBuffs": null,
@@ -12,7 +11,5 @@
     "Love": ["Demetrius"],
     "Like": ["Vincent", "Sebastian"],
     "Hate": ["Haley", "Jas", "Jodi", "Caroline"]
-  },
-  "NameLocalization": {},
-  "DescriptionLocalization": {}
+  }
 }

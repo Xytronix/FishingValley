@@ -1,6 +1,6 @@
 {
+	"Id": "flashlight_fish",
 	"Name": "Flashlight Fish",
-	"Description": "This fish has a bioluminescent organ and uses it to comunicate with other fish.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,0 +1,300 @@
+{
+  "string.resort.interior1": "Hey, did you know that you can sell fish on this counter? They also sell Farm Totems for the late night fisherman, that is until they fix the resort beds.",
+  "string.resort.interior2": "Locked, I should try another door.",
+  "string.resort.interior3": "Don't mind me, I'm just waiting for my fishing partner.",
+  "string.resort.interior4": "I lost my last coin in these arcades machines, I have no regrets.",
+  "string.resort.interior5": "Looks like he is loosing.",
+  "string.resort.interior6": "She seems focused, better not to disrupt her.",
+  "string.resort.interior7": "Can't a man enjoy his tuna sandwich in peace?!",
+  "string.resort.interior8": "You eat fish in order to catch more fish, but who caught the first fish?",
+  "string.resort.interior9": "Unfortunately for me they only sell fish based foods. The problem? I'm vegetarian.",
+
+  "string.forestswamp1": "Fungus Shop ahead.",
+
+  "string.junglejapes1": "If you want a challenge, try catching a freshwater puffer, they only bite in rainy days though.",
+  "string.junglejapes2": "To the river",
+  "string.junglejapes3": "To Jolly Roger Bay",
+  "string.junglejapes4": "You can find many small aquarium fishes in this pond. My favorite is the halfmoon betta, people say they only show when the moon is high in the sky.",
+
+  "string.jungleriver1": "North: Jungle Falls, Northeast: Ancient Cave, West: Jungle Pond",
+  "string.jungleriver2": "I used to fish there since I was a young lad. On a rainy day I even caught a Paraiba Catfish.",
+
+  "string.serenityriver1": "North: Damp Swamp, East: Zenith Falls, Southeast: Meek Creek",
+
+  "string.workinprogress": "This is a spot for a future update. Currently work in progress.",
+  "string.notaccessible": "I shouldn't go there.",
+
+  "object.albino_xenopus.name": "Albino Xenopus",
+  "object.albino_xenopus.description": "The Albino version of the Xenopus frog.",
+  "object.albino_xenopus.categorytextoverride": "Amphibian",
+
+  "object.aquatic_caecilian.name": "Aquatic Caecilian",
+  "object.aquatic_caecilian.description": "A long legless amphibian that breathes throught its skin.",
+  "object.aquatic_caecilian.categorytextoverride": "Amphibian",
+
+  "object.arapaima.name": "Arapaima",
+  "object.arapaima.description": "This large fish is dependend on the surface air to breathe as it's gills aren't very good.",
+
+  "object.axolotl.name": "Axolotl",
+  "object.axolotl.description": "An aquatic salamander that retained tapole traits.",
+  "object.axolotl.categorytextoverride": "Amphibian",
+
+  "object.bamboo_shark.name": "Bamboo Shark",
+  "object.bamboo_shark.description": "A small reef shark that walks on the bottom of the sea.",
+
+  "object.barramundi.name": "Barramundi",
+  "object.barramundi.description": "It inhabits rivers but descends to estuaries to spawn.",
+
+  "object.bichir.name": "Bichir",
+  "object.bichir.description": "This fish hasn't changed for millions of years, a true living fossil.",
+
+  "object.black_diamond_stingray.name": "Black Diamond Stingray",
+  "object.black_diamond_stingray.description": "A beautiful freshwater stingray.",
+
+  "object.black_piranha.name": "Red Eye Piranha",
+  "object.black_piranha.description": "This piranha is not a social species and normally lives alone.",
+
+  "object.black_sea_bass.name": "Black Sea Bass",
+  "object.black_sea_bass.description": "The black sea bass is commonly found around rocks or rocky bottoms.",
+
+  "object.blind_cave_eel.name": "Blind Cave Eel",
+  "object.blind_cave_eel.description": "A rare eel that inhabit underground water bodies, it lacks eyes.",
+
+  "object.blue_legs_hermit_crab.name": "Blue Legs Hermit Crab",
+  "object.blue_legs_hermit_crab.description": "This hermit crab is often kept in aquariums due to it's colours.",
+
+  "object.bowfin.name": "Bowfin",
+  "object.bowfin.description": "Is a bony fish able to breathe both water and air.",
+
+  "object.brigit.name": "Brigit",
+  "object.brigit.description": "A small colourful trout.",
+
+  "object.brook_trout.name": "Brook Trout",
+  "object.brook_trout.description": "This trout can hybridise with the brown trout, creating the tiger trout.",
+
+  "object.brown_trout.name": "Brown Trout",
+  "object.brown_trout.description": "This trout can hybridise with the brook trout, creating the tiger trout.",
+
+  "object.bull_shark.name": "Bull Shark",
+  "object.bull_shark.description": "An agressive shark known for enterig in freshwater, sometimes as far as 4000 km (2500 mi) from the sea.",
+
+  "object.snakehead.name": "Snakehead",
+  "object.snakehead.description": "This fish can survive temporally out of the water by breathing air.",
+
+  "object.cave_molly.name": "Cave Molly",
+  "object.cave_molly.description": "Same species as the regular molly, exept these live in caves full of highly toxic hydrogen sulfite and with almost no food. Somehow it's thriving agains all odds.",
+
+  "object.cave_salamander.name": "Cave Salamander",
+  "object.cave_salamander.description": "This amphibian can live all it's life inside of caves. Some individuals live outside caves.",
+  "object.cave_salamander.categorytextoverride": "Amphibian",
+
+  "object.chain_pickerel.name": "Chain Pickerel",
+  "object.chain_pickerel.description": "This freshwater fish with sharp teeth is also known to eat frogs, snakes as same as insects. Be aware of it!",
+
+  "object.cod.name": "Cod",
+  "object.cod.description": "An important fish for comercial fisheries. Likes cold and deep water.",
+
+  "object.coral_grouper.name": "Coral Grouper",
+  "object.coral_grouper.description": "A small grouper that inhabits reefs.",
+
+  "object.cownose_ray.name": "Cownose Ray",
+  "object.cownose_ray.description": "Named for the shape of its head, which when observed from above resembles nose of a cow.",
+
+  "object.dragon_snakehead.name": "Dragon Snakehead",
+  "object.dragon_snakehead.description": "The closest snakeheads have diverged form this fish 120 millions years ago, only recently it has been inhabiting caves as it still has eyes and pigments.",
+
+  "object.dwarf_caiman.name": "Dwarf Caiman",
+  "object.dwarf_caiman.description": "The so called dwarf is almost your size.",
+  "object.dwarf_caiman.categorytextoverride": "Reptile",
+
+  "object.electric_eel.name": "Electric Eel",
+  "object.electric_eel.description": "A large knifefish that can generate 860 Volt decharges.",
+
+  "object.fire_eel.name": "Fire Eel",
+  "object.fire_eel.description": "Not a true eel, this fish has a distinct pointed snout.",
+
+  "object.fire_salamander.name": "Fire Salamander",
+  "object.fire_salamander.description": "The flashy colours indicate it's toxicity.",
+  "object.fire_salamander.categorytextoverride": "Amphibian",
+
+  "object.flashlight_fish.name": "Flashlight Fish",
+  "object.flashlight_fish.description": "This fish has a bioluminescent organ and uses it to comunicate with other fish.",
+
+  "object.freshwater_angelfish.name": "Freshwater Angelfish",
+  "object.freshwater_angelfish.description": "Aquarium breeds have many colours and patterns.",
+
+  "object.giant_gourami.name": "Giant Gourami",
+  "object.giant_gourami.description": "The largest of all gourami species, both an ornamental and food fish.",
+
+  "object.giant_isopod.name": "Giant Isopod",
+  "object.giant_isopod.description": "A deep water crustacean related to the land pillbug.",
+  "object.giant_isopod.categorytextoverride": "Crustacean",
+
+  "object.giant_southern_crab.name": "Giant Deepwater Crab",
+  "object.giant_southern_crab.description": "Watch out for that giant claw.",
+  "object.giant_southern_crab.categorytextoverride": "Crustacean",
+
+  "object.giant_trevally.name": "Giant Trevally",
+  "object.giant_trevally.description": "A fish sought by competitive anglers.",
+
+  "object.giant_triton.name": "Giant Triton",
+  "object.giant_triton.description": "A huge sea snail known to feed on sea stars",
+  "object.giant_triton.categorytextoverride": "Mollusc",
+
+  "object.goliath_grouper.name": "Goliath Grouper",
+  "object.goliath_grouper.description": "A large grouper that changes gender when it grows.",
+
+  "object.grey_triggerfish.name": "Grey Triggerfish",
+  "object.grey_triggerfish.description": "A small grey triggerfish often consumed by humans.",
+
+  "object.guitarfish.name": "Guitarfish",
+  "object.guitarfish.description": "Looks like a cross between a shark and a ray.",
+
+  "object.gulper_eel.name": "Gulper Eel",
+  "object.gulper_eel.description": "A deep sea eel with a large mouth and a lure on the tip of the tail.",
+
+  "object.guppy.name": "Guppy",
+  "object.guppy.description": "They come in different colours and are often breed by aquarists.",
+
+  "object.halfmoon_betta.name": "Halfmoon Betta",
+  "object.halfmoon_betta.description": "Require both a filter and heater in aquariums and no, they do not live in dirty puddles of water.",
+
+  "object.hellbender.name": "Hellbender",
+  "object.hellbender.description": "People believe it comes from hell, because of the odd look. In reality it is a harmless aquatic salamander.",
+  "object.hellbender.categorytextoverride": "Amphibian",
+
+  "object.horseshoe_crab.name": "Horseshoe Crab",
+  "object.horseshoe_crab.description": "Their blue blood is often used in medical research.",
+  "object.horseshoe_crab.categorytextoverride": "Arachnid",
+
+  "object.humphead_wrasse.name": "Humphead Wrasse",
+  "object.humphead_wrasse.description": "The hump in its head grows as the fish ages, the larger the hump, the older the fish.",
+
+  "object.king_emperor_piranha.name": "King Emperor Piranha",
+  "object.king_emperor_piranha.description": "The largest of all piranhas is actually an omnivore eating fish, seed and plants.",
+
+  "object.leopard_shark.name": "Leopard Shark",
+  "object.leopard_shark.description": "Schools of leopard sharks are common in bays and estuaries.",
+
+  "object.longfin_eel.name": "Longfin Eel",
+  "object.longfin_eel.description": "Some individuals can live up to 100 years, they only breed once in their life.",
+
+  "object.mantis_shrimp.name": "Mantis Shrimp",
+  "object.mantis_shrimp.description": "They use their claws to punch prey or predator alike.",
+  "object.mantis_shrimp.categorytextoverride": "Crustacean",
+
+  "object.matamata.name": "Matamata",
+  "object.matamata.description": "A predatory turtle that looks like a group of dead leafs.",
+  "object.matamata.categorytextoverride": "Reptile",
+
+  "object.muskellunge.name": "Muskellunge",
+  "object.muskellunge.description": "A bigger relative of the pike.",
+
+  "object.nursehound_shark.name": "Nursehound Shark",
+  "object.nursehound_shark.description": "A small coldwater shark that spends the day sitting on the sea bottom.",
+
+  "object.olm.name": "Olm",
+  "object.olm.description": "Olms can survive 10 years without food by storing nutrients in their liver.",
+  "object.olm.categorytextoverride": "Amphibian",
+
+  "object.paddlefish.name": "Paddlefish",
+  "object.paddlefish.description": "A living fossil fish that feeds on plankton.",
+
+  "object.panther_grouper.name": "Panther Grouper",
+  "object.panther_grouper.description": "A medium sized grouper sometimes kept in aquariums.",
+
+  "object.paraiba.name": "Paraiba Catfish",
+  "object.paraiba.description": "A huge catfish even by large catfish standards. Very prized by aquarist and fishermen alike.",
+
+  "object.payara.name": "Payara",
+  "object.payara.description": "A large predator with long saber like teeth in the lower jaw.",
+
+  "object.pumpkinseed.name": "Pumpkinseed",
+  "object.pumpkinseed.description": "It is a freshwater fish typically referred as a sunfish. Typically found in warm lakes.",
+
+  "object.rainbow_runner.name": "Rainbow Runner",
+  "object.rainbow_runner.description": "They often forms schools of variable sizes ranging from a few individuals to several hundred.",
+
+  "object.rainbow_snake.name": "Rainbow Snake",
+  "object.rainbow_snake.description": "A beautiful semi-aquatic snake that likes to feed on eels.",
+  "object.rainbow_snake.categorytextoverride": "Reptile",
+
+  "object.ramshorn_snail.name": "Ramshorn Snail",
+  "object.ramshorn_snail.description": "Prized by aquarists for it's cuteness.",
+  "object.ramshorn_snail.categorytextoverride": "Mollusc",
+
+  "object.red_tiger_oscar.name": "Red Tiger Oscar",
+  "object.red_tiger_oscar.description": "An aquarium variant of the wild oscar.",
+
+  "object.redline_puffer.name": "Redline Puffer",
+  "object.redline_puffer.description": "A large freshwater pufferfish from land far away, curently endangered.",
+
+  "object.redtail_catfish.name": "Redtail Catfish",
+  "object.redtail_catfish.description": "The large size and rapid growth of this fish makes it a tank buster in the aquarium hobby, as it outgrows almost all aquariums.",
+
+  "object.remora.name": "Remora",
+  "object.remora.description": "Has a sucker on top of the head and uses it to attach itself to larger animals.",
+
+  "object.river_dolphin.name": "River Dolphin",
+  "object.river_dolphin.description": "They swim between trees searching for food when it's flooding seaon, yes, forest dolphins are a thing.",
+  "object.river_dolphin.categorytextoverride": "Mammal",
+
+  "object.sandbar_shark.name": "Sandbar Shark",
+  "object.sandbar_shark.description": "Has it's name for it preference for sandy bottoms.",
+
+  "object.saratoga.name": "Saratoga",
+  "object.saratoga.description": "A less known cousin of the arrowana.",
+
+  "object.sheephead_wrasse.name": "Sheephead wrasse",
+  "object.sheephead_wrasse.description": "Males will fight for females and territory.",
+
+  "object.snapping_turtle.name": "Alligator Snapping Turtle",
+  "object.snapping_turtle.description": "Their bite is worse than their bark.",
+  "object.snapping_turtle.categorytextoverride": "Reptile",
+
+  "object.snowy_grouper.name": "Snowy Grouper",
+  "object.snowy_grouper.description": "A medium grouper that enjoys rock crevices.",
+
+  "object.opah.name": "Southern Opah",
+  "object.opah.description": "This fish can control its body temperature.",
+
+  "object.taimen.name": "Taimen",
+  "object.taimen.description": "The largest salmon in the world.",
+
+  "object.tambaqui.name": "Tambaqui",
+  "object.tambaqui.description": "This fish can hybridise with pacu.",
+
+  "object.tiger_perch.name": "Siamese Tiger Perch",
+  "object.tiger_perch.description": "The aquarium trade made this fish quite rare to find.",
+  "object.tiger_perch.categorytextoverride": "Mammal",
+
+  "object.titan_triggerfish.name": "Titan Triggerfish",
+  "object.titan_triggerfish.description": "A very territorial fish with a bad temper.",
+
+  "object.torpedo_ray.name": "Torpedo Ray",
+  "object.torpedo_ray.description": "An electric ray, their discharges were used to treat pain in ancient times.",
+
+  "object.vampire_crab.name": "Vampire Crab",
+  "object.vampire_crab.description": "A small freshwater crab, harmless despite its name.",
+  "object.vampire_crab.categorytextoverride": "Crustacean",
+
+  "object.warty_frogfish.name": "Warty Frogfish",
+  "object.warty_frogfish.description": "A species of anglerfish that inhabits coral reefs, can change it's colour to blend with surrondings.",
+
+  "object.waterfall_climbing_loach.name": "Waterfall Climbing Loach",
+  "object.waterfall_climbing_loach.description": "Can use it's fins to climb rocky walls.",
+
+  "object.wels_catfish.name": "Wels Catfish",
+  "object.wels_catfish.description": "This huge catfish sucks it's prey whole.",
+
+  "object.xenopus.name": "Xenopus",
+  "object.xenopus.description": "Used in genetic and embryonal research around the world.",
+  "object.xenopus.categorytextoverride": "Amphibian",
+
+  "object.yellow_anaconda.name": "Yellow Anaconda",
+  "object.yellow_anaconda.description": "Smaller than it's green cousin, but spend time in water as much as it.",
+  "object.yellow_anaconda.categorytextoverride": "Reptile",
+
+  "object.zebra_shovelnose_catfish.name": "Zebra Shovelnose Catfish",
+  "object.zebra_shovelnose_catfish.description": "This catfish thrives in very fast flowing rivers."
+}

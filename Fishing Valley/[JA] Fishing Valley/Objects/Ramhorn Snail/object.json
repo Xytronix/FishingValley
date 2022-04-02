@@ -1,8 +1,7 @@
 {
+	"Id": "ramshorn_snail",
 	"Name": "Ramshorn Snail",
-	"Description": "Prized by aquarists for it's cuteness.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Mollusc",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

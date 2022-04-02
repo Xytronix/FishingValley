@@ -1,6 +1,6 @@
 {
+	"Id": "fire_eel",
 	"Name": "Fire Eel",
-	"Description": "Not a true eel, this fish has a distinct pointed snout.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

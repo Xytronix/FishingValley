@@ -51,7 +51,7 @@
  <objectgroup id="6" name="Buildings">
   <object id="1" name="TileData" x="256" y="96" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Hey, did you know that you can sell fish on this counter? They also sell Farm Totems for the late night fisherman, that is until they fix the resort beds.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior1&quot;"/>
    </properties>
   </object>
   <object id="2" name="TileData" x="304" y="96" width="16" height="16">
@@ -62,7 +62,7 @@
   </object>
   <object id="3" name="TileData" x="512" y="160" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Locked, I should try another door&quot;"/>
+    <property name="Action" value="Message &quot;FV.Interior2&quot;"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="624" y="160" width="16" height="16">
@@ -77,7 +77,7 @@
   </object>
   <object id="6" name="TileData" x="576" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Don't mind me, I'm just waiting for my fishing partner.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior3&quot;"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="256" y="304" width="16" height="16">
@@ -97,17 +97,17 @@
   </object>
   <object id="10" name="TileData" x="320" y="304" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;I lost my last coin in these arcades machines, I have no regrets.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior4&quot;"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="272" y="368" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Looks like he is loosing&quot;"/>
+    <property name="Action" value="Message &quot;FV.Interior5&quot;"/>
    </properties>
   </object>
   <object id="12" name="TileData" x="304" y="368" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;She seems focused, better not disrupt&quot;"/>
+    <property name="Action" value="Message &quot;FV.Interior6&quot;"/>
    </properties>
   </object>
   <object id="13" name="TileData" x="512" y="368" width="16" height="16">
@@ -118,17 +118,17 @@
   </object>
   <object id="14" name="TileData" x="656" y="400" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Can't a man enjoy his tuna sandwich in peace&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior7&quot;"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="480" y="416" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;You eat fish in order to catch more fish, but who caught the first fish?&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior8&quot;"/>
    </properties>
   </object>
   <object id="16" name="TileData" x="592" y="416" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Unfortunately for me they only sell fish based foods. The problem? I'm vegetarian&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.Interior9&quot;"/>
    </properties>
   </object>
  </objectgroup>

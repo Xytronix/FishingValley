@@ -1,6 +1,6 @@
 {
+	"Id": "electric_eel",
 	"Name": "Electric Eel",
-	"Description": "A large knifefish that can generate 860 Volt decharges.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,8 +1,7 @@
 {
+	"Id": "river_dolphin",
 	"Name": "River Dolphin",
-	"Description": "They swim between trees searching for food when it's flooding seaon, yes, forest dolphins are a thing. ",
 	"Category": "Fish",
-    "CategoryTextOverride": "Mammal",
 	"Edibility": 70,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

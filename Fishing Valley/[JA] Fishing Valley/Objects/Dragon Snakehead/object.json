@@ -1,6 +1,6 @@
 {
+	"Id": "dragon_snakehead",
 	"Name": "Dragon Snakehead",
-	"Description": "The closest snakeheads have diverged form this fish 120 millions years ago, only recently it has been inhabiting caves as it still has eyes and pigments.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

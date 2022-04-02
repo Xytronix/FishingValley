@@ -1,6 +1,6 @@
 {
+	"Id": "red_tiger_oscar",
 	"Name": "Red Tiger Oscar",
-	"Description": "An aquarium variant of the wild oscar.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

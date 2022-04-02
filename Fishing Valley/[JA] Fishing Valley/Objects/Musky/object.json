@@ -1,6 +1,6 @@
 {
+	"Id": "muskellunge",
 	"Name": "Muskellunge",
-	"Description": "A bigger relative of the pike.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "torpedo_ray",
 	"Name": "Torpedo Ray",
-	"Description": "An electric ray, their discharges were used to treat pain in ancient times.",
 	"Category": "Fish",
 	"Edibility": 25,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

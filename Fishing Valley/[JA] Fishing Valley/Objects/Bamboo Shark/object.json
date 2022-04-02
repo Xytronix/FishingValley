@@ -1,6 +1,6 @@
 {
+	"Id": "bamboo_shark",
 	"Name": "Bamboo Shark",
-	"Description": "A small reef shark that walks on the bottom of the sea.",
 	"Category": "Fish",
 	"Edibility": 40,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

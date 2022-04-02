@@ -1,6 +1,6 @@
 {
+	"Id": "paddlefish",
 	"Name": "Paddlefish",
-	"Description": "A living fossil fish that feeds on plankton.",
 	"Category": "Fish",
 	"Edibility": 60,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

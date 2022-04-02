@@ -1,6 +1,6 @@
 {
+	"Id": "chain_pickerel",
 	"Name": "Chain Pickerel",
-	"Description": "This freshwater fish with sharp teeth is also known to eat frogs, snakes as same as insects. Be aware of it!",
 	"Category": "Fish",
 	"Edibility": 35,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

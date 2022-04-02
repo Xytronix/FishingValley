@@ -1,6 +1,6 @@
 {
+	"Id": "zebra_shovelnose_catfish",
 	"Name": "Zebra Shovelnose Catfish",
-	"Description": "This catfish thrives in very fast flowing rivers.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,8 +1,7 @@
 {
+	"Id": "aquatic_caecilian",
 	"Name": "Aquatic Caecilian",
-	"Description": "A long legless amphibian that breathes throught its skin .",
 	"Category": "Fish",
-    "CategoryTextOverride": "Amphibian",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -12,14 +11,6 @@
 	{
         "Love": ["Demetrius"],
 		"Like": ["Vincent", "Sebastian"],
-		"Hate": ["Haley", "Jas", "Jodi","Caroline",]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
-	},
+		"Hate": ["Haley", "Jas", "Jodi","Caroline"]
+	}
 }

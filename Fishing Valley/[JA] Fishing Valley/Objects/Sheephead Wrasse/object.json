@@ -1,6 +1,6 @@
 {
+	"Id": "sheephead_wrasse",
 	"Name": "Sheephead wrasse",
-	"Description": "Males will fight for females and territory.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

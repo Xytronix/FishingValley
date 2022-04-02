@@ -1,6 +1,6 @@
 {
+	"Id": "blind_cave_eel",
 	"Name": "Blind Cave Eel",
-	"Description": "A rare eel that inhabit underground water bodies, it lacks eyes.",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "cod",
 	"Name": "Cod",
-	"Description": "An important fish for comercial fisheries. Likes cold and deep water. ",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -12,13 +12,5 @@
         "Love": ["Gus"],
 		"Like": ["Jodi", "Willy"],
 		"Hate": ["Abigail", "Vincent"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

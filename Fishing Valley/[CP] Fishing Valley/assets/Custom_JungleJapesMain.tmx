@@ -3781,17 +3781,17 @@
  <objectgroup id="6" name="Buildings" visible="0">
   <object id="728" name="TileData" x="480" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;If you want a challenge, try catching a freshwater puffer, they only bite in rainy days thought.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.JungleJapesMain1&quot;"/>
    </properties>
   </object>
   <object id="729" name="TileData" x="720" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;To the river&quot;"/>
+    <property name="Action" value="Message &quot;FV.JungleJapesMain2&quot;"/>
    </properties>
   </object>
   <object id="730" name="TileData" x="48" y="304" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;To Jolly Roger Bay&quot;"/>
+    <property name="Action" value="Message &quot;FV.JungleJapesMain3&quot;"/>
    </properties>
   </object>
   <object id="731" name="TileData" x="272" y="592" width="16" height="16">
@@ -3802,7 +3802,7 @@
   </object>
   <object id="732" name="TileData" x="336" y="624" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;You can find many small aquarium fishes in this pond. My favorite is the halfmoon betta, people say they only show when the moon is high in the sky.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.JungleJapesMain4&quot;"/>
    </properties>
   </object>
  </objectgroup>

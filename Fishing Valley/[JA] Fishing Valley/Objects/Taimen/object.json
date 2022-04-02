@@ -1,6 +1,6 @@
 {
+	"Id": "taimen",
 	"Name": "Taimen",
-	"Description": "The largest salmon in the world.",
 	"Category": "Fish",
 	"Edibility": 65,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

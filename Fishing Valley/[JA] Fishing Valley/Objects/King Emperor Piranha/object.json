@@ -1,6 +1,6 @@
 {
+	"Id": "king_emperor_piranha",
 	"Name": "King Emperor Piranha",
-	"Description": "The largest of all piranhas is actually an omnivore eating fish, seed and plants.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

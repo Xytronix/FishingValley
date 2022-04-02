@@ -1,8 +1,7 @@
 {
+	"Id": "yellow_anaconda",
 	"Name": "Yellow Anaconda",
-	"Description": "Smaller than it's green cousin, but spend time in water as much as it.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Reptile",
 	"Edibility": 60,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

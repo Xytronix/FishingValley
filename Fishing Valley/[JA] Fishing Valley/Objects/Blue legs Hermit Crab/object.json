@@ -1,6 +1,6 @@
 {
+	"Id": "blue_legs_hermit_crab",
 	"Name": "Blue Legs Hermit Crab",
-	"Description": "This hermit crab is often kept in aquariums due to it's colours.",
 	"Category": "Fish",
 	"Edibility": 0,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "pumpkinseed",
 	"Name": "Pumpkinseed",
-	"Description": "It is a freshwater fish typically referred as a sunfish. Typically found in warm lakes.",
 	"Category": "Fish",
 	"Edibility": 35,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Like": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

@@ -1,6 +1,6 @@
 {
+	"Id": "bowfin",
 	"Name": "Bowfin",
-	"Description": "Is a bony fish able to breathe both water and air",
 	"Category": "Fish",
 	"Edibility": 0,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

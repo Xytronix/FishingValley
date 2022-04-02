@@ -2019,7 +2019,7 @@
  <objectgroup id="6" name="Buildings">
   <object id="393" name="TileData" x="192" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Noth: Damp Swamp, East: Zenith Falls, Southeast: Meek Creek&quot;"/>
+    <property name="Action" value="Message &quot;FV.SerenityRiver1&quot;"/>
    </properties>
   </object>
  </objectgroup>

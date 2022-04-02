@@ -1,6 +1,6 @@
 {
+	"Id": "halfmoon_betta",
 	"Name": "Halfmoon Betta",
-	"Description": "Require both a filter and heater in aquariums and no, they do not live in dirty puddles of water.",
 	"Category": "Fish",
 	"Edibility": 5,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

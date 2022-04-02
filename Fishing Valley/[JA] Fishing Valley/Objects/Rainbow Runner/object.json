@@ -1,6 +1,6 @@
 {
+	"Id": "rainbow_runner",
 	"Name": "Rainbow Runner",
-	"Description": "They often forms schools of variable sizes ranging from a few individuals to several hundred.",
 	"Category": "Fish",
 	"Edibility": 35,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

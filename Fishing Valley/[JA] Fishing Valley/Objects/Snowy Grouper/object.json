@@ -1,6 +1,6 @@
 {
+	"Id": "snowy_grouper",
 	"Name": "Snowy Grouper",
-	"Description": "A medium grouper that enjoys rock crevices.",
 	"Category": "Fish",
 	"Edibility": 50,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

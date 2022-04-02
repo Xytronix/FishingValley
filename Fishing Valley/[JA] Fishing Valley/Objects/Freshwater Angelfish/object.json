@@ -1,6 +1,6 @@
 {
+	"Id": "freshwater_angelfish",
 	"Name": "Freshwater Angelfish",
-	"Description": "Aquarium breeds have many colours and patterns.",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

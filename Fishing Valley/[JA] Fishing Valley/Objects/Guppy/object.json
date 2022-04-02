@@ -1,6 +1,6 @@
 {
+	"Id": "guppy",
 	"Name": "Guppy",
-	"Description": "They come in different colours and are often breed by aquarists.",
 	"Category": "Fish",
 	"Edibility": 5,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

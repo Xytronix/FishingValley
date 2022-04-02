@@ -1,6 +1,6 @@
 {
+	"Id": "gulper_eel",
 	"Name": "Gulper Eel",
-	"Description": "A deep sea eel with a large mouth and a lure on the tip of the tail.",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

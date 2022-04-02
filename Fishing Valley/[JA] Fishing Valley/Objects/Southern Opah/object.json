@@ -1,6 +1,6 @@
 {
-	"Name": "Opah",
-	"Description": "This fish can control it's body temperature.",
+	"Id": "opah",
+	"Name": "Southern Opah",
 	"Category": "Fish",
 	"Edibility": 80,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

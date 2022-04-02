@@ -1,6 +1,6 @@
 {
+	"Id": "waterfall_climbing_loach",
 	"Name": "Waterfall Climbing Loach",
-	"Description": "Can use it's fins to climb rocky walls.",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

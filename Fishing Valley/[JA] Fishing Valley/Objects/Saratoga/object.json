@@ -1,6 +1,6 @@
 {
+	"Id": "saratoga",
 	"Name": "Saratoga",
-	"Description": "A less known cousin of the arrowana.",
 	"Category": "Fish",
 	"Edibility": 40,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

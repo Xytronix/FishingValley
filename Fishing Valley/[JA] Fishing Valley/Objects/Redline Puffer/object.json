@@ -1,6 +1,6 @@
 {
+	"Id": "redline_puffer",
 	"Name": "Redline Puffer",
-	"Description": "A large freshwater pufferfish from land far away, curently endangered.",
 	"Category": "Fish",
 	"Edibility": -45,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

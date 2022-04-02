@@ -1,6 +1,6 @@
 {
+	"Id": "brigit",
 	"Name": "Brigit",
-	"Description": "A small colourful trout.",
 	"Category": "Fish",
 	"Edibility": 10,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

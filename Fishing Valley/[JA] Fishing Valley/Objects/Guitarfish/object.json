@@ -1,6 +1,6 @@
 {
+	"Id": "guitarfish",
 	"Name": "Guitarfish",
-	"Description": "Looks like a cross between a shark and a ray",
 	"Category": "Fish",
 	"Edibility": 15,
 	"EdibleIsDrink": false,
@@ -10,13 +10,5 @@
 	"GiftTastes":
 	{
         "Love": ["Willy"]
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

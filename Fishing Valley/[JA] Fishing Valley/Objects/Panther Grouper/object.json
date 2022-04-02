@@ -1,6 +1,6 @@
 {
+	"Id": "panther_grouper",
 	"Name": "Panther Grouper",
-	"Description": "A medium sized grouper sometimes kept in aquariums.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

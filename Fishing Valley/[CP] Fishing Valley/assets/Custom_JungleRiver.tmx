@@ -4828,12 +4828,12 @@
  <objectgroup id="4" name="Buildings">
   <object id="949" name="TileData" x="192" y="544" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;North: Jungle Falls,  Northeast: Ancient Cave, West: Jungle Pond &quot;"/>
+    <property name="Action" value="Message &quot;FV.JungleRiver1&quot;"/>
    </properties>
   </object>
   <object id="951" name="TileData" x="432" y="848" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;I used to fish there since I was a young lad. On a rainy day I even caught a Paraiba Catfish.&quot;"/>
+    <property name="Action" value="MessageSpeech &quot;FV.JungleRiver2&quot;"/>
    </properties>
   </object>
  </objectgroup>

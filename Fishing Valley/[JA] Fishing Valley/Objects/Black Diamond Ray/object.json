@@ -1,6 +1,6 @@
 {
+	"Id": "black_diamond_stingray",
 	"Name": "Black Diamond Stingray",
-	"Description": "A beautiful freshwater stingray.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

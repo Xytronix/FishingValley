@@ -1,6 +1,6 @@
 {
+	"Id": "sandbar_shark",
 	"Name": "Sandbar Shark",
-	"Description": "Has it's name for it preference for sandy bottoms.",
 	"Category": "Fish",
 	"Edibility": 80,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

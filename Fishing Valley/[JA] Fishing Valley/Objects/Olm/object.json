@@ -1,8 +1,7 @@
 {
+	"Id": "olm",
 	"Name": "Olm",
-	"Description":"Olms can survive 10 years without food by storing nutrients in their liver.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Amphibian",
 	"Edibility": 5,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

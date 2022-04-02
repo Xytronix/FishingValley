@@ -1,6 +1,6 @@
 {
+	"Id": "nursehound_shark",
 	"Name": "Nursehound Shark",
-	"Description": "A small coldwater shark that spends the day sitting on the sea bottom.",
 	"Category": "Fish",
 	"Edibility": 20,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

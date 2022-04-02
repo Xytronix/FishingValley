@@ -1,8 +1,7 @@
 {
+	"Id": "snapping_turtle",
 	"Name": "Alligator Snapping Turtle",
-	"Description": "Their bite is worse than their bark.",
 	"Category": "Fish",
-    "CategoryTextOverride": "Reptile",
 	"Edibility": 70,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
@@ -10,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

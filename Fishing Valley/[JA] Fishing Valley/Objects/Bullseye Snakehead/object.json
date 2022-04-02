@@ -1,6 +1,6 @@
 {
+	"Id": "snakehead",
 	"Name": "Snakehead",
-	"Description": "This fish can survive temporally out of the water by breathing air.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

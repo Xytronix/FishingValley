@@ -1,6 +1,6 @@
 {
+	"Id": "giant_trevally",
 	"Name": "Giant Trevally",
-	"Description": "A fish sought by competitive anglers.",
 	"Category": "Fish",
 	"Edibility": 30,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }

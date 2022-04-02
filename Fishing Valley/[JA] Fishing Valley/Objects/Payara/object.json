@@ -1,6 +1,6 @@
 {
+	"Id": "payara",
 	"Name": "Payara",
-	"Description": "A large predator with long saber like teeth in the lower jaw",
 	"Category": "Fish",
 	"Edibility": 40,
 	"EdibleIsDrink": false,
@@ -9,13 +9,5 @@
 	"IsColored": false,
 	"GiftTastes":
 	{
-	},
-	"NameLocalization":
-	{
-
-	},
-	"DescriptionLocalization":
-	{
-
 	}
 }
