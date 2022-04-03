@@ -234,7 +234,7 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
 </details>
 
 
-<img src="images/object.png" width="350" height="350" title="hover text">
+<img src="images/object.png" width="50" height="50" title="hover text">
 
 
 
