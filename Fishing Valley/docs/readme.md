@@ -233,7 +233,8 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
     • Many thanks to my mum who passed away, I want to tribute my first map mod to her so thx mum. T_T <br />
 </details>
 
-![Screenshot](images/object.png)
+
+<img src="images/object.png" width="350" height="350" title="hover text">
 
 
 
