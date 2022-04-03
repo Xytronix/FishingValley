@@ -233,9 +233,7 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
     • Many thanks to my mum who passed away, I want to tribute my first map mod to her so thx mum. T_T <br />
 </details>
 
-<div class="tooltip"><img src="https://avatars2.githubusercontent.com/u/13611391?v=3&s=460" />
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+![Screenshot](images/object.png)
 
 
 
