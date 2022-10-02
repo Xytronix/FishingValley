@@ -70,3 +70,7 @@ The audio files are extracted from this recording, and covered by a different li
     Recorded by Envato
     Mixkit Sound Effects Free License
     https://mixkit.co/free-sound-effects/drop/
+
+Translations:
+Chinese by Yi Hui
+https://www.nexusmods.com/stardewvalley/users/131631813

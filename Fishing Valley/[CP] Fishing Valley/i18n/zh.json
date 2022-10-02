@@ -1,0 +1,300 @@
+{
+  "string.resort.interior1": "嘿，你知道你可以在这个柜台卖鱼吗？ 他们还为渔民在深夜出售农场图腾，直到他们修复度假村的床为止。",
+  "string.resort.interior2": "它被锁了，我应该试试另一扇门.",
+  "string.resort.interior3": "别介意我，我只是在等我和我一起钓鱼的伙伴而已。",
+  "string.resort.interior4": "虽然我在这个街道上丢失了我最后的硬币，但是我绝对不会后悔.",
+  "string.resort.interior5": "看来他要输了.",
+  "string.resort.interior6": "她看起来很专注，最好不要打扰她.",
+  "string.resort.interior7": "一个人难道就不能安静地享用他的金枪鱼三明治吗?!",
+  "string.resort.interior8": "你吃鱼是为了钓到更多的鱼，但是究竟是谁钓到了第一条鱼?",
+  "string.resort.interior9": "对我来说不幸的是，他们只出售以鱼类为基础的食品。 有问题？ 我是素食主义者.",
+
+  "string.forestswamp1": "在真菌商店之前.",
+
+  "string.junglejapes1": "如果你想挑战一下，试着抓一只淡水河豚，不过它们只在下雨天咬人.",
+  "string.junglejapes2": "到河边",
+  "string.junglejapes3": "前往乔利罗杰湾",
+  "string.junglejapes4": "你可以在这个池塘里找到许多小型观赏鱼。 我最喜欢的是半月斗鱼，人们说他们只在月亮高高的时候才会出现.",
+
+  "string.jungleriver1": "北：丛林瀑布，东北：古洞，西：丛林池塘",
+  "string.jungleriver2": "我从小就在这钓鱼. 在下雨天我甚至钓到了帕拉伊巴鲶.",
+
+  "string.serenityriver1": "北:潮湿沼泽，东:齐尼斯瀑布，东南:米克溪流",
+
+  "string.workinprogress": "这是未来更新的地方。目前工作正在进行中.",
+  "string.notaccessible": "我不应该去那里.",
+
+  "object.albino_xenopus.name": "白化非洲爪蟾蜍",
+  "object.albino_xenopus.description": "白化版的非洲蟾蜍.",
+  "object.albino_xenopus.categorytextoverride": "两栖动物",
+
+  "object.aquatic_caecilian.name": "水生蚓螈",
+  "object.aquatic_caecilian.description": "通过皮肤呼吸的长而无腿的两栖动物.",
+  "object.aquatic_caecilian.categorytextoverride": "两栖动物",
+
+  "object.arapaima.name": "巨骨舌鱼",
+  "object.arapaima.description": "这种大鱼依靠水面的空气呼吸，因为它的鳃不太好.",
+
+  "object.axolotl.name": "蝾螈",
+  "object.axolotl.description": "一种保留了蝌蚪特征的水生蝾螈.",
+  "object.axolotl.categorytextoverride": "两栖动物",
+
+  "object.bamboo_shark.name": "竹鲨",
+  "object.bamboo_shark.description": "在海底游行的小礁鲨.",
+
+  "object.barramundi.name": "澳洲肺鱼",
+  "object.barramundi.description": "它栖息在河流中，但下到河口产卵.",
+
+  "object.bichir.name": "多鳍鱼",
+  "object.bichir.description": "这种鱼数百万年都没有变过，是真正的活化石.",
+
+  "object.black_diamond_stingray.name": "黑钻石黄貂鱼",
+  "object.black_diamond_stingray.description": "一条美丽的淡水黄貂鱼.",
+
+  "object.black_piranha.name": "红眼水虎鱼",
+  "object.black_piranha.description": "这种食人鱼不群居，通常独居.",
+
+  "object.black_sea_bass.name": "黑海鲈鱼",
+  "object.black_sea_bass.description": "黑海鲈鱼通常在岩石或岩石底部附近被发现.",
+
+  "object.blind_cave_eel.name": "洞穴盲鳗",
+  "object.blind_cave_eel.description": "一种生活在地下水体中的稀有鳗鱼，它没有眼睛.",
+
+  "object.blue_legs_hermit_crab.name": "蓝腿寄居蟹",
+  "object.blue_legs_hermit_crab.description": "由于这种寄居蟹的颜色很特殊，它经常被养在水族馆里.",
+
+  "object.bowfin.name": "弓鳍鱼",
+  "object.bowfin.description": "弓鳍鱼能同时呼吸水和空气吗.",
+
+  "object.brigit.name": "布丽奇特鱼",
+  "object.brigit.description": "一条五颜六色的小鳟鱼.",
+
+  "object.brook_trout.name": "溪红点鲑",
+  "object.brook_trout.description": "这种鳟鱼可以和棕鳟杂交，形成虎鳟.",
+
+  "object.brown_trout.name": "褐鲑鱼",
+  "object.brown_trout.description": "这种鳟鱼可以和小溪鳟鱼杂交，形成虎鳟鱼.",
+
+  "object.bull_shark.name": "牛鲨",
+  "object.bull_shark.description": "一种好斗的鲨鱼，以在淡水中栖息而闻名，有时可潜入距离海洋4000公里(2500英里)的地方.",
+
+  "object.snakehead.name": "蛇头鱼",
+  "object.snakehead.description": "这种鱼可以通过呼吸空气暂时离开水生存.",
+
+  "object.cave_molly.name": "洞穴花鳉",
+  "object.cave_molly.description": "与花鳉是同一个种类，只不过它们生活在充满剧毒亚硫酸氢的洞穴里，几乎没有食物。不知为何，它们克服了重重困难，居然能茁壮成长.",
+
+  "object.cave_salamander.name": "洞穴蝾螈",
+  "object.cave_salamander.description": "这种两栖动物可以在洞穴里生活一辈子，但有些住在洞穴外面的水里.",
+  "object.cave_salamander.categorytextoverride": "两栖动物",
+
+  "object.chain_pickerel.name": "美洲黑狗鱼",
+  "object.chain_pickerel.description": "这种淡水鱼有锋利的牙齿，经常以青蛙、蛇和昆虫为食，一定要注意这一点!",
+
+  "object.cod.name": "鳕鱼",
+  "object.cod.description": "一种对商业渔业很重要的鱼类，它们喜欢又深又冷的水.",
+
+  "object.coral_grouper.name": "棕斑石斑鱼",
+  "object.coral_grouper.description": "一种生活在礁石周围的小石斑鱼.",
+
+  "object.cownose_ray.name": "牛鼻鳐",
+  "object.cownose_ray.description": "独特的头部使它获得了这个名字，从上面观察它的头部就像牛的鼻子.",
+
+  "object.dragon_snakehead.name": "龙蛇头鱼",
+  "object.dragon_snakehead.description": "最接近的龙蛇头鱼是在1.2亿年前从这种鱼中分化出来的，直到最近它才栖息在洞穴中，因为它仍然有眼睛和色素.",
+
+  "object.dwarf_caiman.name": "钝吻古鳄",
+  "object.dwarf_caiman.description": "小的能和你差不多大.",
+  "object.dwarf_caiman.categorytextoverride": "爬行动物",
+
+  "object.electric_eel.name": "电鳗",
+  "object.electric_eel.description": "一种能产生860伏放电的刀鱼.",
+
+  "object.fire_eel.name": "火鳗",
+  "object.fire_eel.description": "不是真正的鳗鱼，这种鱼有一个特别明显的尖鼻子.",
+
+  "object.fire_salamander.name": "火蝾螈",
+  "object.fire_salamander.description": "因为表面的皮肤非常鲜艳，所以它具有毒性，要不要碰一碰试试？",
+  "object.fire_salamander.categorytextoverride": "两栖动物",
+
+  "object.flashlight_fish.name": "发光鱼",
+  "object.flashlight_fish.description": "这种鱼有一个可以发光的器官，可以利用这个发光的器官与其他鱼交流.",
+
+  "object.freshwater_angelfish.name": "神仙鱼",
+  "object.freshwater_angelfish.description": "这种鱼通常被放进水族箱，因为有许多颜色和图案.",
+
+  "object.giant_gourami.name": "丝足鲈",
+  "object.giant_gourami.description": "在观赏鱼和食用鱼当中，它是最大的.",
+
+  "object.giant_isopod.name": "巨型深海大虱",
+  "object.giant_isopod.description": "一种深水甲壳纲动物，与陆地鼠妇虫有血缘关系.",
+  "object.giant_isopod.categorytextoverride": "甲壳纲动物",
+
+  "object.giant_southern_crab.name": "巨型深水蟹",
+  "object.giant_southern_crab.description": "小心它那一对巨大的钳子！.",
+  "object.giant_southern_crab.categorytextoverride": "甲壳纲动物",
+
+  "object.giant_trevally.name": "巨型鲹",
+  "object.giant_trevally.description": "一种垂钓者竞相垂钓的鱼.",
+
+  "object.giant_triton.name": "深海法螺",
+  "object.giant_triton.description": "一种以海星为食的巨大海螺.",
+  "object.giant_triton.categorytextoverride": "软体动物",
+
+  "object.goliath_grouper.name": "巨大石斑鱼",
+  "object.goliath_grouper.description": "一种长大后会改变性别的大石斑鱼.",
+
+  "object.grey_triggerfish.name": "灰色引金鱼",
+  "object.grey_triggerfish.description": "一种小型灰色引金鱼，常被人类食用.",
+
+  "object.guitarfish.name": "犁头鳐",
+  "object.guitarfish.description": "看起来像是鲨鱼和鳐鱼的结合体.",
+
+  "object.gulper_eel.name": "吞噬鳗",
+  "object.gulper_eel.description": "一种长着大嘴遗迹尾巴尖上有诱饵的深海鳗鱼.",
+
+  "object.guppy.name": "孔雀鱼",
+  "object.guppy.description": "它们有不同的颜色，通常放进水族箱里饲养.",
+
+  "object.halfmoon_betta.name": "搏属半月鱼",
+  "object.halfmoon_betta.description": "需要带有过滤器和加热器的水族箱才能饲养它，这种鱼不生活在肮脏的水里.",
+
+  "object.hellbender.name": "大鲵鱼",
+  "object.hellbender.description": "人们都觉得它来自地狱，因为它看起来很奇怪。事实上，它是一种无害的水生蝾螈.",
+  "object.hellbender.categorytextoverride": "两栖动物",
+
+  "object.horseshoe_crab.name": "鲎",
+  "object.horseshoe_crab.description": "它们的蓝色血液经常被用于医学研究，可以用来医治某些疾病.",
+  "object.horseshoe_crab.categorytextoverride": "蛛形纲动物",
+
+  "object.humphead_wrasse.name": "淡水苏眉鱼",
+  "object.humphead_wrasse.description": "它头上的驼峰随着鱼的年龄增长而增长，驼峰越大，鱼就越老.",
+
+  "object.king_emperor_piranha.name": "国王食人鱼",
+  "object.king_emperor_piranha.description": "它是最大的食人鱼，实际上是一种杂食动物，吃鱼、种子和植物.",
+
+  "object.leopard_shark.name": "豹纹鲨",
+  "object.leopard_shark.description": "成群的豹纹鲨在海湾和河口很常见.",
+
+  "object.longfin_eel.name": "宽鳍鳗鲡",
+  "object.longfin_eel.description": "有些个体可以活到100岁，它们一生就只繁殖一次.",
+
+  "object.mantis_shrimp.name": "螳螂虾",
+  "object.mantis_shrimp.description": "它们用爪子猛击猎物以及捕食者.",
+  "object.mantis_shrimp.categorytextoverride": "甲壳纲动物",
+
+  "object.matamata.name": "玛塔玛塔龟",
+  "object.matamata.description": "一种看起来像一群枯叶的掠食性海龟.",
+  "object.matamata.categorytextoverride": "爬行动物",
+
+  "object.muskellunge.name": "大梭鱼",
+  "object.muskellunge.description": "梭子鱼的大亲戚.",
+
+  "object.nursehound_shark.name": "猫鲨",
+  "object.nursehound_shark.description": "一种小型冷水鲨鱼，整天呆在海底.",
+
+  "object.olm.name": "洞螈",
+  "object.olm.description": "洞螈可以在没有食物的情况下存活10年，它们将营养物质储存在肝脏中.",
+  "object.olm.categorytextoverride": "两栖动物",
+
+  "object.paddlefish.name": "大硬鲭鱼",
+  "object.paddlefish.description": "以浮游生物为食的“活化石”.",
+
+  "object.panther_grouper.name": "豹斑鱼",
+  "object.panther_grouper.description": "一种中型石斑鱼，有时养在水族馆中.",
+
+  "object.paraiba.name": "帕拉伊巴鲶鱼",
+  "object.paraiba.description": "以大型鲶鱼的标准来看，这也是一种巨大的鲶鱼。水族和渔民都很珍视它.",
+
+  "object.payara.name": "似蜻水狼脂鲤",
+  "object.payara.description": "一种大型肉食鱼，下颚长有长刀状牙齿.",
+
+  "object.pumpkinseed.name": "瓜仁太阳鱼",
+  "object.pumpkinseed.description": "它是一种淡水鱼，通常被称为瓜仁太阳鱼。通常在温暖的湖泊中发现.",
+
+  "object.rainbow_runner.name": "双带鲹",
+  "object.rainbow_runner.description": "它们经常形成规模不定的群体，从几只到几百只不等.",
+
+  "object.rainbow_snake.name": "彩虹蛇鱼",
+  "object.rainbow_snake.description": "一种美丽的半水生蛇，喜欢吃鳗鱼.",
+  "object.rainbow_snake.categorytextoverride": "爬行动物",
+
+  "object.ramshorn_snail.name": "蜗牛",
+  "object.ramshorn_snail.description": "它的可爱被水族馆的人所珍视.",
+  "object.ramshorn_snail.categorytextoverride": "软体动物",
+
+  "object.red_tiger_oscar.name": "红虎奥斯卡鱼",
+  "object.red_tiger_oscar.description": "一个水族馆野生奥斯卡与的变体.",
+
+  "object.redline_puffer.name": "红线河豚",
+  "object.redline_puffer.description": "一种来自遥远陆地的大型淡水河豚鱼，目前濒临灭绝.",
+
+  "object.redtail_catfish.name": "红尾鲶鱼",
+  "object.redtail_catfish.description": "这种鱼的大尺寸和快速生长使它成为水族馆爱好中的鱼缸终结者，因为它几乎超过了所有的水族箱鱼种.",
+
+  "object.remora.name": "印鱼",
+  "object.remora.description": "在头顶上有一个吸盘，用它附着在更大的动物身上.",
+
+  "object.river_dolphin.name": "江豚",
+  "object.river_dolphin.description": "洪水季节的时候它们会在树之间游来游去寻找食物，是的，森林海豚是一种鱼.",
+  "object.river_dolphin.categorytextoverride": "哺乳动物",
+
+  "object.sandbar_shark.name": "沙洲鲨",
+  "object.sandbar_shark.description": "它名字的由来是因为它喜欢沙底吗？",
+
+  "object.saratoga.name": "萨拉托加鱼",
+  "object.saratoga.description": "一种不太为人所知的龙鱼的近亲.",
+
+  "object.sheephead_wrasse.name": "羊头鱼",
+  "object.sheephead_wrasse.description": "雄性会为雌性和领地而战.",
+
+  "object.snapping_turtle.name": "大鳄龟",
+  "object.snapping_turtle.description": "他们的咬伤比他们的树皮更糟糕.",
+  "object.snapping_turtle.categorytextoverride": "爬行动物",
+
+  "object.snowy_grouper.name": "雪花石斑鱼",
+  "object.snowy_grouper.description": "一种喜欢岩缝的中型石斑鱼.",
+
+  "object.opah.name": "南月鱼",
+  "object.opah.description": "这种鱼能控制自己的体温.",
+
+  "object.taimen.name": "哲罗鱼",
+  "object.taimen.description": "世界上最大的鲑鱼.",
+
+  "object.tambaqui.name": "坦巴基鱼",
+  "object.tambaqui.description": "这种鱼可以和帕库食人鱼杂交.",
+
+  "object.tiger_perch.name": "虎鲈",
+  "object.tiger_perch.description": "水族馆之间的贸易使得这种鱼非常罕见.",
+  "object.tiger_perch.categorytextoverride": "哺乳动物",
+
+  "object.titan_triggerfish.name": "泰坦鲀",
+  "object.titan_triggerfish.description": "非常有领土意识的鱼，脾气很坏.",
+
+  "object.torpedo_ray.name": "热鱼雷鱼",
+  "object.torpedo_ray.description": "一种可以放电的鱼，它们的放电在古代被用来治疗疼痛.",
+
+  "object.vampire_crab.name": "吸血蟹",
+  "object.vampire_crab.description": "一种淡水小蟹，虽然名字听上去很邪恶，但其实它们无害.",
+  "object.vampire_crab.categorytextoverride": "甲壳纲动物",
+
+  "object.warty_frogfish.name": "疣状躄鱼",
+  "object.warty_frogfish.description": "一种生活在珊瑚礁中的琵琶鱼，可以改变自己的颜色来融入周围环境.",
+
+  "object.waterfall_climbing_loach.name": "攀瀑布鱼",
+  "object.waterfall_climbing_loach.description": "可以用它的鳍爬岩壁.",
+
+  "object.wels_catfish.name": "六须鲶鱼",
+  "object.wels_catfish.description": "这种巨大的鲶鱼会把它的猎物整个吃掉.",
+
+  "object.xenopus.name": "非洲爪蟾蜍",
+  "object.xenopus.description": "用于世界各地的遗传和胚胎研究.",
+  "object.xenopus.categorytextoverride": "两栖动物",
+
+  "object.yellow_anaconda.name": "黄水蚺",
+  "object.yellow_anaconda.description": "比它的绿色堂兄鱼小，但花在水里的时间和它一样多.",
+  "object.yellow_anaconda.categorytextoverride": "爬行动物",
+
+  "object.zebra_shovelnose_catfish.name": "斑马铲鲨鲶",
+  "object.zebra_shovelnose_catfish.description": "这种鲶鱼在流速非常快的河流中茁壮成长."
+}
