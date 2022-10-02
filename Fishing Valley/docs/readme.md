@@ -190,4 +190,4 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
 
 * [Changelog](changelog.md)
 * [Nexus](https://www.nexusmods.com/stardewvalley/mods/8668)
-* Created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403), [Xytronix](https://www.nexusmods.com/users/127861178) and [Reika K. Fujoshi](https://github.com/ReikaKFujoshi))
+* Created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403), [Xytronix](https://www.nexusmods.com/users/127861178) and [Reika K. Fujoshi](https://github.com/ReikaKFujoshi)
