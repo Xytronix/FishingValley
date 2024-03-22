@@ -1,0 +1,212 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+          "FishingValley.FishShop": {
+            "Owners": [
+              {
+                "Name": "AnyorNone",
+                "Dialogues": [
+                  {
+                    "Id": "FishingValleyFishShop.Dialogue1",
+                    "Dialogue": "{{i18n:string.fishshop.dialogue1}}"
+                  }
+                ],
+                "ClosedMessage": "{{i18n:string.shop.closedmessage.bug}}"
+              }
+            ],
+            "ApplyProfitMargins": true,
+            "SalableItemTags": "category_fish, category_bait, category_sell_at_fish_shop",
+            "Condition": "TIME 0600 2600",
+            "Items": [
+              {
+                "Itemid": "(0)688",
+                "Price": 500
+              }
+            ]
+          },
+          "FishingValley.Buffshop": {
+            "Owners": [
+              {
+                "Name": "AnyorNone",
+                "Dialogues": [
+                  {
+                    "Id": "FishingValleyBuffShop.Dialogue1",
+                    "Dialogue": "{{i18n:string.buffshop.dialogue1}}"
+                  }
+                ],
+                "ClosedMessage": "{{i18n:string.shop.closedmessage.bug}}"
+              }
+            ],
+            "ApplyProfitMargins": true,
+            "SalableItemTags": "category_cooking",
+            "Condition": "TIME 0600 2600",
+            "Items": [
+              {
+                "Itemid": "(0)198",
+                "Price": 300
+              },
+              {
+                "Itemid": "(0)202",
+                "Price": 450
+              },
+              {
+                "Itemid": "(0)214",
+                "Price": 450
+              },
+              {
+                "Itemid": "(0)213",
+                "Price": 1200
+              },
+              {
+                "Itemid": "(0)212",
+                "Price": 900
+              },
+              {
+                "Itemid": "(0)209",
+                "Price": 450
+              },
+              {
+                "Itemid": "(0)219",
+                "Price": 300
+              },
+              {
+                "Itemid": "(0)225",
+                "Price": 360
+              },
+              {
+                "Itemid": "(0)226",
+                "Price": 525
+              },
+              {
+                "Itemid": "(0)227",
+                "Price": 250
+              },
+              {
+                "Itemid": "(0)228",
+                "Price": 650
+              },
+              {
+                "Itemid": "(0)242",
+                "Price": 650
+              },
+              {
+                "Itemid": "(0)265",
+                "Price": 1500
+              },
+              {
+                "Itemid": "(0)727",
+                "Price": 400
+              },
+              {
+                "Itemid": "(0)728",
+                "Price": 525
+              },
+              {
+                "Itemid": "(0)729",
+                "Price": 500
+              },
+              {
+                "Itemid": "(0)730",
+                "Price": 625
+              },
+              {
+                "Itemid": "(0)732",
+                "Price": 700
+              },
+              {
+                "Itemid": "(0)733",
+                "Price": 500
+              }
+            ]
+          },
+          "FishingValley.JungleBaitShop": {
+            "Owners": [
+              {
+                "Name": "AnyorNone",
+                "Dialogues": [
+                  {
+                    "Id": "FishingValleyJungleBaitShop.Dialogue1",
+                    "Dialogue": "{{i18n:string.junglebaitshop.dialogue1}}"
+                  }
+                ],
+                "ClosedMessage": "{{i18n:string.junglebaitshop.closedmessage}}"
+              }
+            ],
+            "ApplyProfitMargins": true,
+            "SalableItemTags": "category_bait",
+            "Condition": "TIME 0600 1800",
+            "Items": [
+              {
+                "Itemid": "(0)685",
+                "Price": 5
+              },
+              {
+                "Itemid": "(0)686",
+                "Price": 250
+              },
+              {
+                "Itemid": "(0)694",
+                "Price": 500
+              },
+              {
+                "Itemid": "(0)692",
+                "Price": 200
+              },
+              {
+                "Itemid": "(0)693",
+                "Price": 750
+              },
+              {
+                "Itemid": "(0)695",
+                "Price": 750
+              },
+              {
+                "Itemid": "(0)691",
+                "Price": 1000
+              },
+              {
+                "Itemid": "(0)687",
+                "Price": 1000
+              },
+              {
+                "Itemid": "(0)703",
+                "Price": 1000
+              }
+            ]
+          },
+          "FishingValley.BaitTrader": {
+            "Owners": [
+              {
+                "Name": "AnyorNone",
+                "Dialogues": [
+                  {
+                    "Id": "FishingValleyBaitTrader.Dialogue1",
+                    "Dialogue": "{{i18n:string.baittrader.dialogue1}}"
+                  }
+                ],
+                "ClosedMessage": "{{i18n:string.shop.closedmessage.bug}}"
+              }
+            ],
+            "ApplyProfitMargins": true,
+            "SalableItemTags": "category_bait",
+            "Condition": "TIME 0600 2600",
+            "Items": [
+              {
+                "Itemid": "(0)774",
+                "TradeItemId": "(0)685",
+                "TradeItemAmount": "2"
+              },
+              {
+                "Itemid": "(0)908",
+                "TradeItemId": "(0)774",
+                "TradeItemAmount": "5"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }

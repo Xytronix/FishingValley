@@ -1,0 +1,97 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "FishingValley.JungleTheme": {
+                    "ID": "FishingValley.JungleTheme",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/JungleTheme.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.BirchForest": {
+                    "ID": "FishingValley.BirchForest",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/BirchForest.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.EternalForest": {
+                    "ID": "FishingValley.EternalForest",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/EternalForest.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.SantaluneForest": {
+                    "ID": "FishingValley.SantaluneForest",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/SantaluneForest.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.BlueFire": {
+                    "ID": "FishingValley.BlueFire",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/BlueFire.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.EarthShadow": {
+                    "ID": "FishingValley.EarthShadow",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/EarthShadow.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.RegressiveForm": {
+                    "ID": "FishingValley.RegressiveForm",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/RegressiveForm.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.SunlightonWater": {
+                    "ID": "FishingValley.SunlightonWater",
+                    "Category": "Music",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/SunlightonWater.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.WaterfallAmbient": {
+                    "ID": "FishingValley.WaterfallAmbient",
+                    "Category": "Sound",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/WaterfallAmbient.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.WaterDrop": {
+                    "ID": "FishingValley.WaterDrop",
+                    "Category": "Sound",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/WaterDrop.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+
+                "FishingValley.JungleAmbient": {
+                    "ID": "FishingValley.JungleAmbient",
+                    "Category": "Sound",
+                    "FilePaths": "{{AbsoluteFilePath: assets/Music/JungleAmbient.ogg}}",
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        }
+    ]
+}

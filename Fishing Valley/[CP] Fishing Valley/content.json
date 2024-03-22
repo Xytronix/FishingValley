@@ -1,5 +1,5 @@
 {
-  "Format": "1.26.3",
+  "Format": "2.0",
   "ConfigSchema": {
     "EditFarm": {
       "AllowValues": "true, false",
@@ -13,112 +13,119 @@
       "AllowValues": "true, false",
       "Default": "false"
     },
-    "EnableBusstop": {
-      "AllowValues": "true, false",
-      "Default": "false"
-    },
     "EnableGiftTastes": {
       "AllowValues": "true, false",
       "Default": "true"
+    },
+    "EnableJukeboxAmbient": {
+      "AllowValues": "true, false",
+      "Default": "false"
     }
   },
 
   "CustomLocations": [
     {
-      "Name": "Custom_FishingResortExterior",
-      "FromMapFile": "assets/Custom_FishingResortExterior.tmx"
+      "Name": "FishingValley.FishingResortExterior",
+      "FromMapFile": "assets/FishingResortExterior.tmx"
     },
 
     {
-      "Name": "Custom_FishingResortInterior",
-      "FromMapFile": "assets/Custom_FishingResortInterior.tmx"
+      "Name": "FishingValley.FishingResortInterior",
+      "FromMapFile": "assets/FishingResortInterior.tmx"
     },
 
     {
-      "Name": "Custom_ForestSwamp",
-      "FromMapFile": "assets/Custom_ForestSwamp.tmx"
+      "Name": "FishingValley.ForestSwamp",
+      "FromMapFile": "assets/ForestSwamp.tmx"
     },
 
     {
-      "Name": "Custom_FungusHouse",
-      "FromMapFile": "assets/Custom_FungusHouse.tmx"
+      "Name": "FishingValley.FungusHouse",
+      "FromMapFile": "assets/FungusHouse.tmx"
     },
 
     {
-      "Name": "Custom_JungleBay",
-      "FromMapFile": "assets/Custom_JungleBay.tmx"
+      "Name": "FishingValley.JungleBay",
+      "FromMapFile": "assets/JungleBay.tmx"
     },
 
     {
-      "Name": "Custom_JungleCave",
-      "FromMapFile": "assets/Custom_JungleCave.tmx"
+      "Name": "FishingValley.JungleCave",
+      "FromMapFile": "assets/JungleCave.tmx"
     },
 
     {
-      "Name": "Custom_JungleFalls",
-      "FromMapFile": "assets/Custom_JungleFalls.tmx"
+      "Name": "FishingValley.JungleFalls",
+      "FromMapFile": "assets/JungleFalls.tmx"
     },
 
     {
-      "Name": "Custom_JungleJapesMain",
-      "FromMapFile": "assets/Custom_JungleJapesMain.tmx"
+      "Name": "FishingValley.JungleJapesMain",
+      "FromMapFile": "assets/JungleJapesMain.tmx"
     },
 
     {
-      "Name": "Custom_JungleRiver",
-      "FromMapFile": "assets/Custom_JungleRiver.tmx"
+      "Name": "FishingValley.JungleRiver",
+      "FromMapFile": "assets/JungleRiver.tmx"
     },
 
     {
-      "Name": "Custom_Serenityriver",
-      "FromMapFile": "assets/Custom_JungleJapesMain.tmx"
+      "Name": "FishingValley.Serenityriver",
+      "FromMapFile": "assets/JungleJapesMain.tmx"
     },
 
     {
-      "Name": "Custom_WaterfallCave",
-      "FromMapFile": "assets/Custom_WaterfallCave.tmx"
+      "Name": "FishingValley.WaterfallCave",
+      "FromMapFile": "assets/WaterfallCave.tmx"
     },
 
     {
-      "Name": "Custom_HoshiroTaniMajula",
+      "Name": "FishingValley.HoshiroTaniMajula",
       "FromMapFile": "assets/HTMP01.tmx"
     },
 
     {
-      "Name": "Custom_OCaminhodasChamasGemeas",
+      "Name": "FishingValley.OCaminhodasChamasGemeas",
       "FromMapFile": "assets/HTMP02.tmx"
     },
 
     {
-      "Name": "Custom_LaMilladelJardiinRea",
+      "Name": "FishingValley.LaMilladelJardiinRea",
       "FromMapFile": "assets/HTMP03.tmx"
     }
   ],
 
   "Changes": [
     {
-      "Action": "EditMap",
-      "Target": "Maps/Farm",
-      "FromFile": "assets/Novel.tmx",
-      "When": { "EditFarm": true, "FarmType": "Standard" },
-      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_LaMilladelJardiinRea",
-      "FromFile": "assets/S01Novel.tmx",
-      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-      "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_JungleFalls",
-      "FromFile": "assets/S02Novel.tmx",
-      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-      "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
+      "LogName": "Loading Music.",
+      "Action": "Include",
+      "FromFile": "code/Music/Music.json, code/Music/Jukebox.json"
     },
 
+    {
+      "LogName": "Loading locations.",
+      "Action": "Include",
+      "FromFile": "code/Locations/LocationsData.json, code/Locations/MapEdits.json, code/Locations/Strings.json"
+    },
+    
+    {
+      "LogName": "Loading Fishes.",
+      "Action": "Include",
+      "FromFile": "code/Fishes/FishData.json, code/Fishes/Aquarium.json, code/Fishes/FishPond.json"
+    },
+
+    {
+      "LogName": "Loading NPCs.",
+      "Action": "Include",
+      "FromFile": "code/NPCs/GiftTastes.json"
+    },
+
+    {
+      "LogName": "Loading Shops.",
+      "Action": "Include",
+      "FromFile": "code/Shops/Shops.json"
+    },
+    
     {
       "Action": "Load",
       "Target": "assets/spring_fsnovel",
@@ -143,36 +150,6 @@
       "FromFile": "assets/winter_fsnovel.png"
     },
 
-    {
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-      "Entries": {
-        "FV.Interior1": "{{i18n: string.resort.interior1}}",
-        "FV.Interior2": "{{i18n: string.resort.interior2}}",
-        "FV.Interior3": "{{i18n: string.resort.interior3}}",
-        "FV.Interior4": "{{i18n: string.resort.interior4}}",
-        "FV.Interior5": "{{i18n: string.resort.interior5}}",
-        "FV.Interior6": "{{i18n: string.resort.interior6}}",
-        "FV.Interior7": "{{i18n: string.resort.interior7}}",
-        "FV.Interior8": "{{i18n: string.resort.interior8}}",
-        "FV.Interior9": "{{i18n: string.resort.interior9}}",
-
-        "FV.ForestSwamp1": "{{i18n:string.forestswamp1}}",
-
-        "FV.JungleJapesMain1": "{{i18n: string.junglejapes1}}",
-        "FV.JungleJapesMain2": "{{i18n: string.junglejapes2}}",
-        "FV.JungleJapesMain3": "{{i18n: string.junglejapes3}}",
-        "FV.JungleJapesMain4": "{{i18n: string.junglejapes4}}",
-
-        "FV.JungleRiver1": "{{i18n: string.jungleriver1}}",
-        "FV.JungleRiver2": "{{i18n: string.jungleriver2}}",
-
-        "FV.SerenityRiver1": "{{i18n:string.serenityriver1}}",
-
-        "FV.WIP": "{{i18n:string.workinprogress}}",
-        "FV.NoWay": "{{i18n:string.notaccessible}}"
-      }
-    },
     {
       "Action": "EditData",
       "Target": "Data/Locations",

@@ -1,0 +1,187 @@
+{
+    "Changes": {
+        "LogName": "Adding Locations data",
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+            "FishingValley.FishingResortExterior": {
+                "DisplayName": "{{i18n:LocationData.FishingResortExterior}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.JungleTheme"
+                  }
+                ]
+              },
+      
+              "FishingValley.FishingResortInterior": {
+                "DisplayName": "{{i18n:LocationData.FishingResortInterior}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "Saloon1"
+                  }
+                ]
+              },
+      
+              "FishingValley.ForestSwamp": {
+                "DisplayName": "{{i18n:LocationData.ForestSwamp}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.SunlightonWater"
+                  }
+                ]
+              },
+      
+              "FishingValley.FungusHouse": {
+                "DisplayName": "{{i18n:LocationData.FungusHouse}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.EarthShadow"
+                  }
+                ]
+              },
+      
+              "FishingValley.Serenityriver": {
+                "DisplayName": "{{i18n:LocationData.SerenityRiver}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.SantaluneForest"
+                  }
+                ]
+              },
+      
+              "FishingValley.WaterfallCave": {
+                "DisplayName": "{{i18n:LocationData.WaterfallCave}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.WaterDrop"
+                  }
+                ]
+              },
+      
+              "FishingValley.HoshiroTaniMajula": {
+                "DisplayName": "{{i18n:LocationData.HoshiroTaniMajula}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.BirchForest"
+                  }
+                ]
+              },
+      
+              "FishingValley.OCaminhodasChamasGemeas": {
+                "DisplayName": "{{i18n:LocationData.OcaminhodasChamasGemeas}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.EternalForest"
+                  }
+                ]
+              },
+      
+              "FishingValley.LaMilladelJardiinRea": {
+                "DisplayName": "{{i18n:LocationData.LaMilladelJardiinRea}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.BlueFire"
+                  }
+                ]
+              },
+              "FishingValley.JungleBay": {
+                "DisplayName": "{{i18n:LocationData.JungleBay}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.EternalForest"
+                  }
+                ],
+                
+                "Fish": [
+                  {
+                    "Id": "",
+                    "ItemId": "",
+                    "Condition": ""
+                  }
+                ]
+              },
+      
+              "FishingValley.JungleJapesMain": {
+                "DisplayName": "{{i18n:LocationData.JungleJapesMain}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.JungleTheme"
+                  }
+                ],
+      
+                "Fish": [
+                  {
+                    "Id": "",
+                    "ItemId": "",
+                    "Condition": ""
+                  }
+                ]
+              },
+    
+              "FishingValley.JungleRiver": {
+                "DisplayName": "{{i18n:LocationData.JungleRiver}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.JungleAmbient"
+                  }
+                ],
+      
+                "Fish": [
+                  {
+                    "Id": "",
+                    "ItemId": "",
+                    "Condition": ""
+                  }
+                ]
+              },
+      
+              "FishingValley.JungleFalls": {
+                "DisplayName": "{{i18n:LocationData.JungleFalls}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.WaterfallAmbient"
+                  }
+                ],
+      
+                "Fish": [
+                  {
+                    "Id": "",
+                    "ItemId": "",
+                    "Condition": ""
+                  }
+                ]
+              },
+      
+              "FishingValley.JungleCave": {
+                "DisplayName": "{{i18n:LocationData.JungleCave}}",
+                "Music": [
+                  {
+                    "ID": "FishingValley.MapMusic",
+                    "Track": "FishingValley.WaterDrop"
+                  }
+                ],
+      
+                "Fish": [
+                  {
+                    "Id": "",
+                    "ItemId": "",
+                    "Condition": ""
+                  }
+                ]
+              }
+        }
+    }
+}

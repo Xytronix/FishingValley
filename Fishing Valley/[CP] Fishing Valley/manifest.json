@@ -3,22 +3,15 @@
   "Author": "Seiyn, Xytronix, Reika K. Fujoshi",
   "Description": "A world that only exists in fairytales which only those who believe will be able to see.",
   "Version": "1.1.0",
-  "UniqueID": "Seiyn.FishingValleyCP",
+  "UniqueID": "FishingValley.CP",
+  "MinimumApiVersion": "4.0.0-alpha",
   "UpdateKeys": ["Nexus:8668"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },
   "Dependencies": [
     {
-      "UniqueID": "hootless.BusLocations",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "ZeroMeters.SAAT.Mod",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Cherry.ShopTileFramework",
+      "UniqueID": "DaisyNiko.Tilesheets",
       "IsRequired": true
     },
     {
@@ -27,10 +20,6 @@
     },
     {
       "UniqueID": "Lumisteria.TtilesheetsOutdoor",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "spacechase0.JsonAssets",
       "IsRequired": true
     }
   ]

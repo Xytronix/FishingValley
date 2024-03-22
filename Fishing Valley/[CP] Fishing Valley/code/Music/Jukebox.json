@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "Entries": {
+                "FishingValley.JungleTheme": {
+                    "Name": "{{i18n:music.jungletheme}}",
+                    "AlternativeTrackIds": ["JungleTheme"]
+                },
+
+                "FishingValley.BirchForest": {
+                    "Name": "{{i18n:music.birchforest}}",
+                    "AlternativeTrackIds": ["BirchForest"]
+                },
+
+                "FishingValley.EternalForest": {
+                    "Name": "{{i18n:music.eternalforest}}",
+                    "AlternativeTrackIds": ["EternalForest"]
+                },
+
+                "FishingValley.SantaluneForest": {
+                    "Name": "{{i18n:music.santaluneforest}}",
+                    "AlternativeTrackIds": ["SantaluneForest"]
+                },
+
+                "FishingValley.BlueFire": {
+                    "Name": "{{i18n:music.bluefire}}",
+                    "AlternativeTrackIds": ["BlueFire"]
+                },
+
+                "FishingValley.EarthShadow": {
+                    "Name": "{{i18n:music.earthshadow}}",
+                    "AlternativeTrackIds": ["EarthShadow"]
+                },
+
+                "FishingValley.RegressiveForm": {
+                    "Name": "{{i18n:music.regressiveform}}",
+                    "AlternativeTrackIds": ["RegressiveForm"]
+                },
+
+                "FishingValley.SunlightonWater": {
+                    "Name": "{{i18n:music.sunlightonwater}}",
+                    "AlternativeTrackIds": ["SunlightonWater"]
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/JukeboxTracks",
+            "When": { "EnableJukeboxAmbient": true },
+            "Entries": {
+                "FishingValley.WaterfallAmbient": {
+                    "Name": "{{i18n:music.waterfallambient}}",
+                    "AlternativeTrackIds": ["WaterfallAmbient"]
+                },
+
+                "FishingValley.WaterDrop": {
+                    "Name": "{{i18n:music.waterdrop}}",
+                    "AlternativeTrackIds": ["WaterDrop"]
+                },
+
+                "FishingValley.JungleAmbient": {
+                    "Name": "{{i18n:music.jungleambient}}",
+                    "AlternativeTrackIds": ["JungleAmbient"]
+                }
+            }
+        }
+    ]
+}

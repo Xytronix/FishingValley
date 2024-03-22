@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm",
+            "When": { "EditFarm": true, "FarmType": "Standard" },
+            "FromFile": "assets/Novel.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+            "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+        },
+        {
+            "LogName": "Editing maps",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LaMilladelJardiinRea",
+            "FromFile": "assets/S01Novel.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+            "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_JungleFalls",
+            "FromFile": "assets/S02Novel.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+            "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
+          }
+    ]
+}
