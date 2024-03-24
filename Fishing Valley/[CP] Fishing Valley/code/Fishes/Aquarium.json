@@ -3,7 +3,7 @@
         {
             "Action": "Load",
             "Target": "LooseSprites/FishingValley.AquariumFish",
-            "FromFile": "{{AbsoluteFilePath: assets/Objects/AquariumSprites.png}}"
+            "FromFile": ["{{AbsoluteFilePath: assets/Objects/AquariumSprites.png}}"]
         },
 
         {

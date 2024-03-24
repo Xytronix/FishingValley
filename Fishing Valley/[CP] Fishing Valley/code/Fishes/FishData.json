@@ -4,7 +4,7 @@
             "LogName": "Loading fishes",
             "Action": "Load",
             "Target": "Mods\\FishingValley.CP\\Objects\\Fishes",
-            "FromFile": "{{AbsoluteFilePath: assets/Objects/fishes.png}}"
+            "FromFile": ["{{AbsoluteFilePath: assets/Objects/fishes.png}}"]
         },
 
         {

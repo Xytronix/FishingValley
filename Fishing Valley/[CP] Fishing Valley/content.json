@@ -61,72 +61,72 @@
   "CustomLocations": [
     {
       "Name": "FishingValley.FishingResortExterior",
-      "FromMapFile": "assets/FishingResortExterior.tmx"
+      "FromMapFile": "assets/Maps/FishingResortExterior.tmx"
     },
 
     {
       "Name": "FishingValley.FishingResortInterior",
-      "FromMapFile": "assets/FishingResortInterior.tmx"
+      "FromMapFile": "assets/Maps/FishingResortInterior.tmx"
     },
 
     {
       "Name": "FishingValley.ForestSwamp",
-      "FromMapFile": "assets/ForestSwamp.tmx"
+      "FromMapFile": "assets/Maps/ForestSwamp.tmx"
     },
 
     {
       "Name": "FishingValley.FungusHouse",
-      "FromMapFile": "assets/FungusHouse.tmx"
+      "FromMapFile": "assets/Maps/FungusHouse.tmx"
     },
 
     {
       "Name": "FishingValley.JungleBay",
-      "FromMapFile": "assets/JungleBay.tmx"
+      "FromMapFile": "assets/Maps/JungleBay.tmx"
     },
 
     {
       "Name": "FishingValley.JungleCave",
-      "FromMapFile": "assets/JungleCave.tmx"
+      "FromMapFile": "assets/Maps/JungleCave.tmx"
     },
 
     {
       "Name": "FishingValley.JungleFalls",
-      "FromMapFile": "assets/JungleFalls.tmx"
+      "FromMapFile": "assets/Maps/JungleFalls.tmx"
     },
 
     {
       "Name": "FishingValley.JungleJapesMain",
-      "FromMapFile": "assets/JungleJapesMain.tmx"
+      "FromMapFile": "assets/Maps/JungleJapesMain.tmx"
     },
 
     {
       "Name": "FishingValley.JungleRiver",
-      "FromMapFile": "assets/JungleRiver.tmx"
+      "FromMapFile": "assets/Maps/JungleRiver.tmx"
     },
 
     {
       "Name": "FishingValley.Serenityriver",
-      "FromMapFile": "assets/JungleJapesMain.tmx"
+      "FromMapFile": "assets/Maps/JungleJapesMain.tmx"
     },
 
     {
       "Name": "FishingValley.WaterfallCave",
-      "FromMapFile": "assets/WaterfallCave.tmx"
+      "FromMapFile": "assets/Maps/WaterfallCave.tmx"
     },
 
     {
       "Name": "FishingValley.HoshiroTaniMajula",
-      "FromMapFile": "assets/HTMP01.tmx"
+      "FromMapFile": "assets/Maps/HTMP01.tmx"
     },
 
     {
       "Name": "FishingValley.OCaminhodasChamasGemeas",
-      "FromMapFile": "assets/HTMP02.tmx"
+      "FromMapFile": "assets/Maps/HTMP02.tmx"
     },
 
     {
       "Name": "FishingValley.LaMilladelJardiinRea",
-      "FromMapFile": "assets/HTMP03.tmx"
+      "FromMapFile": "assets/Maps/HTMP03.tmx"
     }
   ],
 
@@ -173,26 +173,26 @@
 
     {
       "Action": "Load",
-      "Target": "assets/spring_fsnovel",
-      "FromFile": "assets/spring_fsnovel.png"
+      "Target": "Data/Objects/spring_fsnovel",
+      "FromFile": "assets/Objects/spring_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/summer_fsnovel",
-      "FromFile": "assets/summer_fsnovel.png"
+      "Target": "Data/Objects/summer_fsnovel",
+      "FromFile": "assets/Objects/summer_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/fall_fsnovel",
-      "FromFile": "assets/fall_fsnovel.png"
+      "Target": "Data/Objects/fall_fsnovel",
+      "FromFile": "assets/Objects/fall_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "assets/winter_fsnovel",
-      "FromFile": "assets/winter_fsnovel.png"
+      "Target": "Data/Objects/winter_fsnovel",
+      "FromFile": "assets/Objects/winter_fsnovel.png"
     }
   ]
 }
