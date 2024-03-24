@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        1
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        3
+                    ],
+                    "Value": "FishingValley.Albino_Xenopus FishingValley.Aquatic_Caecilian FishingValley.Axolotl FishingValley.Xenopus",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        9
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        5
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Sebastian",
+                        7
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                } 
+            ]
+        }
+    ]
+}

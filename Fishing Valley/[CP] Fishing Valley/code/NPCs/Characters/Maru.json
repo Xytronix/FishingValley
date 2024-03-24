@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        1
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        3
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        9
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        5
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Maru",
+                        7
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                } 
+            ]
+        }
+    ]
+}

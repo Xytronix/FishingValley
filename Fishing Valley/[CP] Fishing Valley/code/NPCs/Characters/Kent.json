@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        1
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        3
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        9
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        5
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Kent",
+                        7
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                } 
+            ]
+        }
+    ]
+}

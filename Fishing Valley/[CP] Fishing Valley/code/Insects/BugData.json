@@ -1,0 +1,582 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading bugs",
+            "Action": "Load",
+            "Target": "Mods\\FishingValley.CP\\Objects\\Bugs",
+            "FromFile": "{{AbsoluteFilePath: assets/Objects/insects.png}}"
+        },
+        {
+            "Logname": "Initialising bug data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "FishingValley.7_Spots_Ladybug": {
+                    "Name": "7 Spots Ladybug",
+                    "DisplayName": "{{i18n: object.7_spots_ladybug.name}}",
+                    "Description": "{{i18n: object.7_spots_ladybug.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 60,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "0",
+                    "Edibility": 0
+                },
+                "FishingValley.22_Spots_Ladybird": {
+                    "Name": "22 Spots Ladybird",
+                    "DisplayName": "{{i18n: object.22_spots_ladybird.name}}",
+                    "Description": "{{i18n: object.22_spots_ladybird.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 90,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "1",
+                    "Edibility": 0
+                },
+                "FishingValley.Bell_Cricket": {
+                    "Name": "Bell Cricket",
+                    "DisplayName": "{{i18n: object.bell_cricket.name}}",
+                    "Description": "{{i18n: object.bell_cricket.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 100,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "2",
+                    "Edibility": 0
+                },
+                "FishingValley.Boxelder_Bug": {
+                    "Name": "Bell_Cricket",
+                    "DisplayName": "{{i18n: object.boxelder_bug.name}}",
+                    "Description": "{{i18n: object.boxelder_bug.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 50,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "3",
+                    "Edibility": 0
+                },
+                "FishingValley.Cairn_Birdwing": {
+                    "Name": "Cairn Birdwing",
+                    "DisplayName": "{{i18n: object.cairn_birdwing.name}}",
+                    "Description": "{{i18n: object.cairn_birdwing.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 130,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "4",
+                    "Edibility": 0
+                },
+                "FishingValley.Common_Bluebottle_Butterfly": {
+                    "Name": "Common Bluebottle Butterfly",
+                    "DisplayName": "{{i18n: object.common_bluebottle_butterfly.name}}",
+                    "Description": "{{i18n: object.common_bluebottle_butterfly.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 90,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "5",
+                    "Edibility": 0
+                },
+                "FishingValley.Common_Darter": {
+                    "Name": "Common Darter",
+                    "DisplayName": "{{i18n: object.common_darter.name}}",
+                    "Description": "{{i18n: object.common_darter.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 70,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "6",
+                    "Edibility": 0
+                },
+                "FishingValley.Common_Earwig": {
+                    "Name": "Common Earwig",
+                    "DisplayName": "{{i18n: object.common_earwig.name}}",
+                    "Description": "{{i18n: object.common_earwig.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 90,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "7",
+                    "Edibility": 0
+                },
+                "FishingValley.Common_Scorpionfly": {
+                    "Name": "Common Scorpionfly",
+                    "DisplayName": "{{i18n: object.common_scorpionfly.name}}",
+                    "Description": "{{i18n: object.common_scorpionfly.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 100,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "8",
+                    "Edibility": 0
+                },
+                "FishingValley.Eastern_Lubber_Grasshopper": {
+                    "Name": "Eastern Lubber Grasshopper",
+                    "DisplayName": "{{i18n: object.eastern_lubber_grasshopper.name}}",
+                    "Description": "{{i18n: object.eastern_lubber_grasshopper.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 120,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "9",
+                    "Edibility": 0
+                },
+                "FishingValley.Elephant_Beetle": {
+                    "Name": "Elephant Beetle",
+                    "DisplayName": "{{i18n: object.elephant_beetle.name}}",
+                    "Description": "{{i18n: object.elephant_beetle.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 80,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "10",
+                    "Edibility": 0
+                },
+                "FishingValley.Giant_Cicada": {
+                    "Name": "Giant Cicada",
+                    "DisplayName": "{{i18n: object.giant_cicada.name}}",
+                    "Description": "{{i18n: object.giant_cicada.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 90,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "11",
+                    "Edibility": 0
+                },
+                "FishingValley.Giraffe_Stag": {
+                    "Name": "Giraffe Stag",
+                    "DisplayName": "{{i18n: object.giraffe_stag.name}}",
+                    "Description": "{{i18n: object.giraffe_stag.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 100,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "12",
+                    "Edibility": 0
+                },
+                "FishingValley.Goliath_Birdwing": {
+                    "Name": "Goliath Birdwing",
+                    "DisplayName": "{{i18n: object.goliath_birdwing.name}}",
+                    "Description": "{{i18n: object.goliath_birdwing.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 110,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "13",
+                    "Edibility": 0
+                },
+                "FishingValley.Hercules_Beetle": {
+                    "Name": "Hercules Beetle",
+                    "DisplayName": "{{i18n: object.hercules_beetle.name}}",
+                    "Description": "{{i18n: object.hercules_beetle.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 125,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "14",
+                    "Edibility": 0
+                },
+                "FishingValley.Horned_Atlas": {
+                    "Name": "Horned Atlas",
+                    "DisplayName": "{{i18n: object.horned_atlas.name}}",
+                    "Description": "{{i18n: object.horned_atlas.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 90,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "15",
+                    "Edibility": 0
+                },
+                "FishingValley.Horned_Dynastid": {
+                    "Name": "Horned Dynastid",
+                    "DisplayName": "{{i18n: object.horned_dynastid.name}}",
+                    "Description": "{{i18n: object.horned_dynastid.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 150,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "16",
+                    "Edibility": 0
+                },
+                "FishingValley.Dead_Leaf_Mantis": {
+                    "Name": "Dead Leaf Mantis",
+                    "DisplayName": "{{i18n: object.dead_leaf_mantis.name}}",
+                    "Description": "{{i18n: object.dead_leaf_mantis.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 120,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "17",
+                    "Edibility": 0
+                },
+                "FishingValley.Luna_Moth": {
+                    "Name": "Luna Moth",
+                    "DisplayName": "{{i18n: object.luna_moth.name}}",
+                    "Description": "{{i18n: object.luna_moth.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 160,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "18",
+                    "Edibility": 0
+                },
+                "FishingValley.Orchid_Mantis": {
+                    "Name": "Orchid Mantis",
+                    "DisplayName": "{{i18n: object.orchid_mantis.name}}",
+                    "Description": "{{i18n: object.orchid_mantis.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 150,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "19",
+                    "Edibility": 0
+                },
+                "FishingValley.Painted_Skimmer": {
+                    "Name": "Painted Skimmer",
+                    "DisplayName": "{{i18n: object.painted_skimmer.name}}",
+                    "Description": "{{i18n: object.painted_skimmer.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 100,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "20",
+                    "Edibility": 0
+                },
+                "FishingValley.Variable_Dancer": {
+                    "Name": "Variable Dancer",
+                    "DisplayName": "{{i18n: object.variable_dancer.name}}",
+                    "Description": "{{i18n: object.variable_dancer.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 110,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "21",
+                    "Edibility": 0
+                },
+                "FishingValley.Rajah_Brooke_Birdwing": {
+                    "Name": "Rajah Brooke's Birdwing",
+                    "DisplayName": "{{i18n: object.raja_brooke_birdwing.name}}",
+                    "Description": "{{i18n: object.raja_brooke_birdwing.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 110,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "22",
+                    "Edibility": 0
+                },
+                "FishingValley.Spring_Azure_Butterfly": {
+                    "Name": "Spring Azure Butterfly",
+                    "DisplayName": "{{i18n: object.spring_azure_butterfly.name}}",
+                    "Description": "{{i18n: object.spring_azure_butterfly.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 60,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "23",
+                    "Edibility": 0
+                },
+                "FishingValley.Tiger_Swallowtail": {
+                    "Name": "Tiger Swallowtail",
+                    "DisplayName": "{{i18n: object.tiger_swallowtail.name}}",
+                    "Description": "{{i18n: object.tiger_swallowtail.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 80,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "24",
+                    "Edibility": 0
+                },
+                "FishingValley.Walking_Stick": {
+                    "Name": "Walking Stick",
+                    "DisplayName": "{{i18n: object.walking_stick.name}}",
+                    "Description": "{{i18n: object.walking_stick.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 150,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "25",
+                    "Edibility": 0
+                },
+                "FishingValley.Wallace_Golden_Birdwing": {
+                    "Name": "Wallace's Golden Birdwing",
+                    "DisplayName": "{{i18n: object.wallace_golden_birdwing.name}}",
+                    "Description": "{{i18n: object.wallace_golden_birdwing.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 180,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "26",
+                    "Edibility": 0
+                },
+                "FishingValley.Wild_Honey_Bee": {
+                    "Name": "Wild Honey Bee",
+                    "DisplayName": "{{i18n: object.wild_honey_bee.name}}",
+                    "Description": "{{i18n: object.wild_honey_bee.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 50,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "27",
+                    "Edibility": 0
+                },
+                "FishingValley.Yellow-Tipped_Tigertail": {
+                    "Name": "Yellow-Tipped Tigertail",
+                    "DisplayName": "{{i18n: object.yellow-tipped_tigertail.name}}",
+                    "Description": "{{i18n: object.yellow-tipped_tigertail.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 100,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "28",
+                    "Edibility": 0
+                },
+                "FishingValley.Yellowjacket": {
+                    "Name": "Yellowjacket",
+                    "DisplayName": "{{i18n: object.yellowjacket.name}}",
+                    "Description": "{{i18n: object.yellowjacket.description}}",
+                    "Type": "Greens",
+                    "Category": -81,
+                    "ContextTags": [
+                        "color_white",
+                        "item_bug"
+                    ],
+                    "Price": 80,
+                    "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+                    "SpriteIndex": "29",
+                    "Edibility": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "When": {
+                "CategoryOverride": true,
+                "HasMod | contains=spacechase0.SpaceCore": true
+            },
+            "Entries": {
+                "FishingValley.7_Spots_Ladybug": {
+                    "CategoryTextOverride": "{{i18n:object.7_spots_ladybug.categorytextoverride}}"
+                },
+                "FishingValley.22_Spots_Ladybird": {
+                    "CategoryTextOverride": "{{i18n:object.22_spots_ladybird.categorytextoverride}}"
+                },
+                "FishingValley.Bell_Cricket": {
+                    "CategoryTextOverride": "{{i18n:object.bell_cricket.categorytextoverride}}"
+                },
+                "FishingValley.Boxelder_Bug": {
+                    "CategoryTextOverride": "{{i18n:object.boxelder_bug.categorytextoverride}}"
+                },
+                "FishingValley.Cairn_Birdwing": {
+                    "CategoryTextOverride": "{{i18n:object.cairn_birdwing.categorytextoverride}}"
+                },
+                "FishingValley.Common_Bluebottle_Butterfly": {
+                    "CategoryTextOverride": "{{i18n:object.common_bluebottle_butterfly.categorytextoverride}}"
+                },
+                "FishingValley.Common_Darter": {
+                    "CategoryTextOverride": "{{i18n:object.common_darter.categorytextoverride}}"
+                },
+                "FishingValley.Common_Earwig": {
+                    "CategoryTextOverride": "{{i18n:object.common_earwig.categorytextoverride}}"
+                },
+                "FishingValley.Common_Scorpionfly": {
+                    "CategoryTextOverride": "{{i18n:object.common_scorpionfly.categorytextoverride}}"
+                },
+                "FishingValley.Eastern_Lubber_Grasshopper": {
+                    "CategoryTextOverride": "{{i18n:object.eastern_lubber_grasshopper.categorytextoverride}}"
+                },
+                "FishingValley.Elephant_Beetle": {
+                    "CategoryTextOverride": "{{i18n:object.elephant_beetle.categorytextoverride}}"
+                },
+                "FishingValley.Giant_Cicada": {
+                    "CategoryTextOverride": "{{i18n:object.giant_cicada.categorytextoverride}}"
+                },
+                "FishingValley.Giraffe_Stag": {
+                    "CategoryTextOverride": "{{i18n:object.giraffe_stag.categorytextoverride}}"
+                },
+                "FishingValley.Goliath_Birdwing": {
+                    "CategoryTextOverride": "{{i18n:object.goliath_birdwing.categorytextoverride}}"
+                },
+                "FishingValley.Hercules_Beetle": {
+                    "CategoryTextOverride": "{{i18n:object.hercules_beetle.categorytextoverride}}"
+                },
+                "FishingValley.Horned_Atlas": {
+                    "CategoryTextOverride": "{{i18n:object.horned_atlas.categorytextoverride}}"
+                },
+                "FishingValley.Horned_Dynastid": {
+                    "CategoryTextOverride": "{{i18n:object.horned_dynastid.categorytextoverride}}"
+                },
+                "FishingValley.Dead_Leaf_Mantis": {
+                    "CategoryTextOverride": "{{i18n:object.dead_leaf_mantis.categorytextoverride}}"
+                },
+                "FishingValley.Luna_Moth": {
+                    "CategoryTextOverride": "{{i18n:object.luna_moth.categorytextoverride}}"
+                },
+                "FishingValley.Orchid_Mantis": {
+                    "CategoryTextOverride": "{{i18n:object.orchid_mantis.categorytextoverride}}"
+                },
+                "FishingValley.Painted_Skimmer": {
+                    "CategoryTextOverride": "{{i18n:object.painted_skimmer.categorytextoverride}}"
+                },
+                "FishingValley.Variable_Dancer": {
+                    "CategoryTextOverride": "{{i18n:object.variable_dancer.categorytextoverride}}"
+                },
+                "FishingValley.Rajah_Brooke_Birdwing": {
+                    "CategoryTextOverride": "{{i18n:object.raja_brooke_birdwing.categorytextoverride}}"
+                },
+                "FishingValley.Spring_Azure_Butterfly": {
+                    "CategoryTextOverride": "{{i18n:object.spring_azure_butterfly.categorytextoverride}}"
+                },
+                "FishingValley.Tiger_Swallowtail": {
+                    "CategoryTextOverride": "{{i18n:object.tiger_swallowtail.categorytextoverride}}"
+                },
+                "FishingValley.Walking_Stick": {
+                    "CategoryTextOverride": "{{i18n:object.walking_stick.categorytextoverride}}"
+                },
+                "FishingValley.Wallace_Golden_Birdwing": {
+                    "CategoryTextOverride": "{{i18n:object.wallace_golden_birdwing.categorytextoverride}}"
+                },
+                "FishingValley.Wild_Honey_Bee": {
+                    "CategoryTextOverride": "{{i18n:object.wild_honey_bee.categorytextoverride}}"
+                },
+                "FishingValley.Yellow-Tipped_Tigertail": {
+                    "CategoryTextOverride": "{{i18n:object.yellow-tipped_tigertail.categorytextoverride}}"
+                }
+            }
+        },
+        {
+            "LogName": "Loading Cooking Recipes.",
+            "Action": "Include",
+            "When": {
+                "EnableCookingRecipes": true,
+                "HasMod | contains=spacechase0.SpaceCore": true
+            },
+            "FromFile": "CookingRecipes.json"
+        },
+        {
+            "LogName": "Loading Cooking Recipes.",
+            "Action": "Include",
+            "When": {
+                "EnableCraftingRecipes": true,
+                "HasMod | contains=spacechase0.SpaceCore": true
+            },
+            "FromFile": "CraftingRecipes.json"
+        }
+    ]
+}

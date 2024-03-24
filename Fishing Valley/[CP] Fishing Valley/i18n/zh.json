@@ -296,5 +296,125 @@
   "object.yellow_anaconda.categorytextoverride": "爬行动物",
 
   "object.zebra_shovelnose_catfish.name": "斑马铲鲨鲶",
-  "object.zebra_shovelnose_catfish.description": "这种鲶鱼在流速非常快的河流中茁壮成长."
+  "object.zebra_shovelnose_catfish.description": "这种鲶鱼在流速非常快的河流中茁壮成长.",
+
+  "object.7_spots_ladybug.name": "七星瓢虫",
+  "object.7_spots_ladybug.description": "园丁最好的朋友和蚜虫最可怕的噩梦",
+  "object.7_spots_ladybug.categorytextoverride": "昆虫",
+
+  "object.22_spots_ladybird.name": "22星瓢虫",
+  "object.22_spots_ladybird.description": "与其他大多数以蚜虫为食的瓢虫不同，这22星瓢虫吃霉菌",
+  "object.22_spots_ladybird.categorytextoverride": "昆虫",
+
+  "object.bell_cricket.name": "蟋蟀",
+  "object.bell_cricket.description": "一种以发出啁啾声而闻名的昆虫",
+  "object.bell_cricket.categorytextoverride": "昆虫",
+
+  "object.boxelder_bug.name": "箱蝽",
+  "object.boxelder_bug.description": "这种虫在收到干扰时会释放出一种刺激性和难闻的气体",
+  "object.boxelder_bug.categorytextoverride": "昆虫",
+
+  "object.cairn_birdwing.name": "鸟绿翼凤蝶",
+  "object.cairn_birdwing.description": "栖息地是靠近海岸的热带雨林，是世界上非常珍稀的蝶类昆虫之一",
+  "object.cairn_birdwing.categorytextoverride": "昆虫",
+
+  "object.common_bluebottle_butterfly.name": "青凤蝶",
+  "object.common_bluebottle_butterfly.description": "以飞行快、反应快而著称，因此很难捕捉",
+  "object.common_bluebottle_butterfly.categorytextoverride": "昆虫",
+
+  "object.common_darter.name": "条斑赤蜻",
+  "object.common_darter.description": "这种小蜻蜓可以在各种栖息地中看到，包括湖泊、池塘、运河和缓慢流动的河流",
+  "object.common_darter.categorytextoverride": "昆虫",
+
+  "object.common_earwig.name": "蠼螋",
+  "object.common_earwig.description": "常生活在树皮缝隙，枯朽腐木中或落叶堆下，喜欢潮湿阴暗的环境",
+  "object.common_earwig.categorytextoverride": "昆虫",
+
+  "object.common_scorpionfly.name": "蝎蛉",
+  "object.common_scorpionfly.description": "蝎子般的尾巴，其实是雄性的生殖器",
+  "object.common_scorpionfly.categorytextoverride": "昆虫",
+
+  "object.eastern_lubber_grasshopper.name": "笨蝗",
+  "object.eastern_lubber_grasshopper.description": "这种蚱蜢有一种防御机制，它会散发出恶臭难闻的泡沫状分泌物",
+  "object.eastern_lubber_grasshopper.categorytextoverride": "昆虫",
+
+  "object.elephant_beetle.name": "独角仙",
+  "object.elephant_beetle.description": "生活在热带雨林中，主要在夜间活动。 尽管环境温度降低，但它们仍能保持较高的体内热量",
+  "object.elephant_beetle.categorytextoverride": "昆虫",
+
+  "object.giant_cicada.name": "蝉",
+  "object.giant_cicada.description": "会发出一种非常独特而响亮的声音，主要在黄昏时鸣叫。 它响亮而刺耳的歌曲被描述为警报器或警报器、哨声或气体从压力释放阀中逸出。",
+  "object.giant_cicada.categorytextoverride": "昆虫",
+
+  "object.giraffe_stag.name": "楸型虫",
+  "object.giraffe_stag.description": "雄性用强壮的下巴互相搏斗，通常是为了赢得配偶",
+  "object.giraffe_stag.categorytextoverride": "昆虫",
+
+  "object.goliath_birdwing.name": "巨人鸟翼凤蝶",
+  "object.goliath_birdwing.description": "它是世界上第二大蝴蝶，仅次于亚历山德拉女王鸟翼蝶",
+  "object.goliath_birdwing.categorytextoverride": "昆虫",
+
+  "object.hercules_beetle.name": "长戟大兜虫",
+  "object.hercules_beetle.description": "它是世界上现存时间最长的甲虫物种，也是世界上最大的飞虫之一",
+  "object.hercules_beetle.categorytextoverride": "昆虫",
+
+  "object.horned_atlas.name": "阿特拉斯大兜虫",
+  "object.horned_atlas.description": "该物种以希腊神话中支持天空的巨人阿特拉斯命名",
+  "object.horned_atlas.categorytextoverride": "昆虫",
+
+  "object.horned_dynastid.name": "犀金龟",
+  "object.horned_dynastid.description": "这个物种经常被甲虫爱好者或收藏家当作宠物饲养",
+  "object.horned_dynastid.categorytextoverride": "昆虫",
+
+  "object.dead_leaf_mantis.name": "枯叶螳螂",
+  "object.dead_leaf_mantis.description": "那片枯叶是不是刚吃了一只虫子？ 许多种类的螳螂都属于这个名称，有时它们被当作宠物饲养",
+  "object.dead_leaf_mantis.categorytextoverride": "昆虫",
+
+  "object.luna_moth.name": "月神蛾",
+  "object.luna_moth.description": "像大多数飞蛾一样，月蛾主要在夜间活动，主要食臭椿及蓖麻叶;成虫翅橄榄绿色",
+  "object.luna_moth.categorytextoverride": "昆虫",
+
+  "object.orchid_mantis.name": "兰花螳螂",
+  "object.orchid_mantis.description": "美丽如兰花，致命如螳螂。 使用自然伪装来捕猎猎物",
+  "object.orchid_mantis.categorytextoverride": "昆虫",
+
+  "object.painted_skimmer.name": "彩蛋蜻蜓",
+  "object.painted_skimmer.description": "冬天结束后最早飞上天空的蜻蜓之一",
+  "object.painted_skimmer.categorytextoverride": "昆虫",
+
+  "object.variable_dancer.name": "豆娘",
+  "object.variable_dancer.description": "豆娘是一种蜻蜓，外形颜色很鲜艳的昆虫，它有很多个种类，中国大概就有650个种类，体形十分娇小。",
+  "object.variable_dancer.categorytextoverride": "昆虫",
+
+  "object.raja_brooke_birdwing.name": "红颈鸟翼凤蝶",
+  "object.raja_brooke_birdwing.description": "虽然美丽，但众所周知，该物种的雄性会被动物粪便、尸体和腐烂的昆虫所吸引",
+  "object.raja_brooke_birdwing.categorytextoverride": "昆虫",
+
+  "object.spring_azure_butterfly.name": "春季蔚蓝蝴蝶",
+  "object.spring_azure_butterfly.description": "一种在蛹中越冬并在早春作为新出现的成虫出现的蝴蝶物种",
+  "object.spring_azure_butterfly.categorytextoverride": "昆虫",
+
+  "object.tiger_swallowtail.name": "虎凤蝶",
+  "object.tiger_swallowtail.description": "雄性是黄色的，每只前翅上有四条黑色的虎纹。 雌性可能是黄色或黑色，使它们具有二态性",
+  "object.tiger_swallowtail.categorytextoverride": "昆虫",
+
+  "object.walking_stick.name": "竹节虫",
+  "object.walking_stick.description": "这种昆虫通过伪装成一根棍子或者树枝，来保护自己免受捕食者的侵害。",
+  "object.walking_stick.categorytextoverride": "昆虫",
+
+  "object.wallace_golden_birdwing.name": "红鸟翼凤蝶",
+  "object.wallace_golden_birdwing.description": "是一种大型蝴蝶，主要取食马兜铃属植物的叶",
+  "object.wallace_golden_birdwing.categorytextoverride": "昆虫",
+
+  "object.wild_honey_bee.name": "野蜂",
+  "object.wild_honey_bee.description": "一种以生产蜂蜜而闻名的社会性昆虫",
+  "object.wild_honey_bee.categorytextoverride": "昆虫",
+
+  "object.yellow-tipped_tigertail.name": "黄色虎尾蜻蜓",
+  "object.yellow-tipped_tigertail.description": "这些蜻蜓呈金属黑色和黄色。 它们的腹部很窄，就像老虎尾巴一样",
+  "object.yellow-tipped_tigertail.categorytextoverride": "昆虫",
+
+  "object.yellowjacket.name": "黄蜂",
+  "object.yellowjacket.description": "虽然很多人不喜欢这些肉食性黄蜂，但它们是害虫的重要天敌",
+  "object.yellowjacket.categorytextoverride": "昆虫"
 }

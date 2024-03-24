@@ -329,5 +329,125 @@
   "object.yellow_anaconda.categorytextoverride": "Reptile",
 
   "object.zebra_shovelnose_catfish.name": "Zebra Shovelnose Catfish",
-  "object.zebra_shovelnose_catfish.description": "This catfish thrives in very fast flowing rivers."
+  "object.zebra_shovelnose_catfish.description": "This catfish thrives in very fast flowing rivers.",
+
+  "object.7_spots_ladybug.name": "7 Spots Ladybug",
+  "object.7_spots_ladybug.description": "The gardener's best friend and the aphid worst nightmare.",
+  "object.7_spots_ladybug.categorytextoverride": "Insect",
+
+  "object.22_spots_ladybird.name": "22 Spots Ladybird",
+  "object.22_spots_ladybird.description": "Unlike most other ladybirds which feed on aphids, the 22 spots ladybird eats mildew.",
+  "object.22_spots_ladybird.categorytextoverride": "Insect",
+
+  "object.bell_cricket.name": "Bell Cricket",
+  "object.bell_cricket.description": "An insect known for the chirping sound it produces. Several types of cricket songs are in the repertoire of some species.",
+  "object.bell_cricket.categorytextoverride": "Insect",
+
+  "object.boxelder_bug.name": "Boxelder Bug",
+  "object.boxelder_bug.description": "Boxelder bugs are strong-smelling and will release a pungent and bad-tasting compound upon being disturbed to discourage predation.",
+  "object.boxelder_bug.categorytextoverride": "Insect",
+
+  "object.cairn_birdwing.name": "Cairn's Birdwing",
+  "object.cairn_birdwing.description": "Its favoured habitat are the rainforest of  tropicals regions, near the coast. It is also often seen in Cairns, attracted to the flowers of Lantana, Hibiscus and Bougainvillea in suburban gardens.",
+  "object.cairn_birdwing.categorytextoverride": "Insect",
+
+  "object.common_bluebottle_butterfly.name": "Common Bluebottle Butterfly",
+  "object.common_bluebottle_butterfly.description": "The common bluebottle is known for quick flight and rapid reactions.Consequently, it is difficult to catch.",
+  "object.common_bluebottle_butterfly.categorytextoverride": "Insect",
+
+  "object.common_darter.name": "Common Darter",
+  "object.common_darter.description": "This small dragonfly is seen in a wide variety of habitats, including lakes, ponds, canals and slow-flowing rivers.",
+  "object.common_darter.categorytextoverride": "Insect",
+
+  "object.common_earwig.name": "Common Earwig",
+  "object.common_earwig.description": "Earwigs spend the day time in cool, dark, inaccessible places such as flowers, fruits, and wood crevices. Active primarily at night, they seek out food ranging from plant matter to small insects.",
+  "object.common_earwig.categorytextoverride": "Insect",
+
+  "object.common_scorpionfly.name": "Common Scorpionfly",
+  "object.common_scorpionfly.description": "The scorpion like tail is actually the male genitals, despite it's name this insect is completelly harmless to humans.",
+  "object.common_scorpionfly.categorytextoverride": "Insect",
+
+  "object.eastern_lubber_grasshopper.name": "Eastern Lubber Grasshopper",
+  "object.eastern_lubber_grasshopper.description": "This grasshopper has a defense mechanism, it can emit a foul-smelling and foul-tasting foamy secretion.",
+  "object.eastern_lubber_grasshopper.categorytextoverride": "Insect",
+
+  "object.elephant_beetle.name": "Elephant Beetle",
+  "object.elephant_beetle.description": "Elephant beetles live in rainforests and are mainly active during the night. They are able to maintain a high internal body heat  despite reduced ambient temperature.",
+  "object.elephant_beetle.categorytextoverride": "Insect",
+
+  "object.giant_cicada.name": "Giant Cicada",
+  "object.giant_cicada.description": "Giant cicadas produce a remarkably distinct and loud sound, singing primarily at dusk. Its loud, shrill song has been described as a siren or alarm, a whistle, or gas escaping a pressure release valve.",
+  "object.giant_cicada.categorytextoverride": "Insect",
+
+  "object.giraffe_stag.name": "Giraffe Stag",
+  "object.giraffe_stag.description": "Males fight each other using these strong and enlarged jaws, usually to win a mate.",
+  "object.giraffe_stag.categorytextoverride": "Insect",
+
+  "object.goliath_birdwing.name": "Goliath Birdwing",
+  "object.goliath_birdwing.description": "It is the second largest butterfly in the world, after the Queen Alexandra's birdwing.",
+  "object.goliath_birdwing.categorytextoverride": "Insect",
+
+  "object.hercules_beetle.name": "Hercules Beetle",
+  "object.hercules_beetle.description": "It is the longest extant species of beetle in the world, and is also one of the largest flying insects in the world.",
+  "object.hercules_beetle.categorytextoverride": "Insect",
+
+  "object.horned_atlas.name": "Horned Atlas",
+  "object.horned_atlas.description": "The species is named for Atlas, the giant of Greek mythology who supported the skies.",
+  "object.horned_atlas.categorytextoverride": "Insect",
+
+  "object.horned_dynastid.name": "Horned Dynastid",
+  "object.horned_dynastid.description": "This species is often kept as a pet by beetle enthusiasts or collectioners.",
+  "object.horned_dynastid.categorytextoverride": "Insect",
+
+  "object.dead_leaf_mantis.name": "Dead Leaf Mantis",
+  "object.dead_leaf_mantis.description": "Did that dead leaf just ate a bug? Many species of mantis fall under that name, sometimes they are kept as a pet.",
+  "object.dead_leaf_mantis.categorytextoverride": "Insect",
+
+  "object.luna_moth.name": "Luna Moth",
+  "object.luna_moth.description": "Like most moths, Luna moths are predominately active at night, but sightings during daylight hours do occur.",
+  "object.luna_moth.categorytextoverride": "Insect",
+
+  "object.orchid_mantis.name": "Orchid Mantis",
+  "object.orchid_mantis.description": "As beautiful as an orchid and as deadly as a mantis. Uses natural camouflage to hunt prey.",
+  "object.orchid_mantis.categorytextoverride": "Insect",
+
+  "object.painted_skimmer.name": "Painted Skimmer",
+  "object.painted_skimmer.description": "One of the earliest dragonflies to take the skies once winter is over.",
+  "object.painted_skimmer.categorytextoverride": "Insect",
+
+  "object.variable_dancer.name": "Variable Dancer",
+  "object.variable_dancer.description": "A wide spread species of damselfly, they have different colours depending from where they haul from.",
+  "object.variable_dancer.categorytextoverride": "Insect",
+
+  "object.raja_brooke_birdwing.name": "Rajah Brooke's Birdwing",
+  "object.raja_brooke_birdwing.description": "While beautiful, the males of this species are known to be attracted to animal droppings, carcasses and rotting insects.",
+  "object.raja_brooke_birdwing.categorytextoverride": "Insect",
+
+  "object.spring_azure_butterfly.name": "Spring Azure Butterfly",
+  "object.spring_azure_butterfly.description": "The Spring Azure is a butterfly species that overwinter in chrysalis and appear in early spring as newly-emerged adults.",
+  "object.spring_azure_butterfly.categorytextoverride": "Insect",
+
+  "object.tiger_swallowtail.name": "Tiger Swallowtail",
+  "object.tiger_swallowtail.description": "The male is yellow with four black tiger stripes on each forewing. Females may be either yellow or black, making them dimorphic.",
+  "object.tiger_swallowtail.categorytextoverride": "Insect",
+
+  "object.walking_stick.name": "Walking Stick",
+  "object.walking_stick.description": "This insect uses camouflage to protect itself from predators, by assuming the apparence of a simple stick.",
+  "object.walking_stick.categorytextoverride": "Insect",
+
+  "object.wallace_golden_birdwing.name": "Wallace's Golden Birdwing",
+  "object.wallace_golden_birdwing.description": "This beautifull butterfly is an endagered species in the Ferngill Republic and cannot be internationally shipped.",
+  "object.wallace_golden_birdwing.categorytextoverride": "Insect",
+
+  "object.wild_honey_bee.name": "Wild Honey Bee",
+  "object.wild_honey_bee.description": "An eusocial insect known for it's honey production.",
+  "object.wild_honey_bee.categorytextoverride": "Insect",
+
+  "object.yellow-tipped_tigertail.name": "Yellow-Tipped Tigertail",
+  "object.yellow-tipped_tigertail.description": "These dragonflies are metallic black with yellow in colour. They have a very narrow abdomen like the one of a damselfly, they are however dragonflies.",
+  "object.yellow-tipped_tigertail.categorytextoverride": "Insect",
+
+  "object.yellowjacket.name": "Yellowjacket",
+  "object.yellowjacket.description": "While disliked by many people, these carnivorous wasps are important predators of pest insects.",
+  "object.yellowjacket.categorytextoverride": "Insect"
 }

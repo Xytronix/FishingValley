@@ -11,8 +11,8 @@
   },
   "Dependencies": [
     {
-      "UniqueID": "DaisyNiko.Tilesheets",
-      "IsRequired": true
+      "UniqueID": "FishingValley.FTM",
+      "IsRequired": false
     },
     {
       "UniqueID": "DaisyNiko.Tilesheets",
@@ -21,6 +21,10 @@
     {
       "UniqueID": "Lumisteria.TtilesheetsOutdoor",
       "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": false
     }
   ]
 }

@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2022 Seiyn, Xytronix and Reika K. Fujoshi
+Copyright (c) 2024 Seiyn, Xytronix and Reika K. Fujoshi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -41,7 +41,7 @@ The audio files are extracted from this recording, and covered by a different li
     Recorded by aubrianna
     Creative Commons Attribution 4.0 International license
 
-    "Eterna Forest"
+    "Eternal Forest"
     Recorded by aubrianna
     Creative Commons Attribution 4.0 International license
 
@@ -57,20 +57,24 @@ The audio files are extracted from this recording, and covered by a different li
     Recorded by aubrianna
     Creative Commons Attribution 4.0 International license
 
-    "JungleSounds" used for jungle sounds
+    "Jungle Ambient" used for jungle sounds
     Creative Commons Attribution 4.0 International license
     https://www.youtube.com/watch?v=Bw9eTJze6p0
 
-    "Waterfall" used for waterfull ambient
+    "Waterfall Ambient" used for waterfull ambient
     Recorded by Envato
     Mixkit Sound Effects Free License
     https://mixkit.co/free-sound-effects/waterfall/
 
-    "Drop" used for cave
+    "Water Drop" used for cave
     Recorded by Envato
     Mixkit Sound Effects Free License
     https://mixkit.co/free-sound-effects/drop/
 
 Translations:
-Chinese by Yi Hui
-https://www.nexusmods.com/stardewvalley/users/131631813
+    Chinese by Yi Hui and abc3326404091
+    https://www.nexusmods.com/stardewvalley/users/131631813
+    https://www.nexusmods.com/stardewvalley/users/72640163
+
+    Korean by FurryChe
+    https://www.nexusmods.com/stardewvalley/users/149657268

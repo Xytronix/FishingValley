@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        1
+                    ],
+                    "Value": "FishingValley.Bamboo_Shark FishingValley.Barramundi FishingValley.Chain_Pickerel FishingValley.Freshwater_Angelfish FishingValley.Giant_Gourami FishingValley.Guitarfish FishingValley.Halfmoon_Betta FishingValley.Redline_Puffer",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        3
+                    ],
+                    "Value": "FishingValley.Cod FishingValley.Pumpkinseed",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        9
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        5
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        7
+                    ],
+                    "Value": "FishingValley.Hellbender",
+                    "Delimiter": " "
+                } 
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding Universal Gifts",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "",
+                    "Delimiter": " "
+                }
+            ]
+        },
+
+        {
+            "LogName": "Adding Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Characters/Abigail.json, Characters/Alex.json, Characters/Caroline.json, Characters/Demetrius.json, Characters/Dwarf.json, Characters/Elliott.json, Characters/Evelyn.json, Characters/George.json, Characters/Gus.json, Characters/Haley.json, Characters/Harvey.json, Characters/Jas.json, Characters/Jodi.json, Characters/Kent.json, Characters/Krobus.json, Characters/Leah.json, Characters/Lewis.json, Characters/Linus.json, Characters/Marnie.json, Characters/Maru.json, Characters/Pam.json, Characters/Penny.json, Characters/Pierre.json, Characters/Robin.json, Characters/Sam.json, Characters/Sandy.json, Characters/Sebastian.json, Characters/Shane.json, Characters/Vincent.json, Characters/Willy.json, Characters/Wizard.json"
+            
+        }
+    ]
+}

@@ -41,7 +41,7 @@
               }
             ],
             "ApplyProfitMargins": true,
-            "SalableItemTags": "category_cooking",
+            "SalableItemTags": "category_greens, category_vegetable, category_fruits, category_milk, category_artisan_goods, category_egg, category_cooking, category_ingredients, category_fish",
             "Condition": "TIME 0600 2600",
             "Items": [
               {
@@ -136,7 +136,7 @@
               }
             ],
             "ApplyProfitMargins": true,
-            "SalableItemTags": "category_bait",
+            "SalableItemTags": "category_fish, category_bait, category_sell_at_fish_shop",
             "Condition": "TIME 0600 1800",
             "Items": [
               {

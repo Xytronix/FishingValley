@@ -1,0 +1,121 @@
+{
+  "object.7_spots_ladybug.name": "칠성무당벌레",
+  "object.7_spots_ladybug.description": "정원사의 가장 친한 친구이자 가장 무서운 악몽입니다.",
+  "object.7_spots_ladybug.categorytextoverride": "곤충",
+
+  "object.22_spots_ladybird.name": "이십팔점박이무당벌레",
+  "object.22_spots_ladybird.description": "진딧물을 먹는 대부분의 다른 무당벌레와는 달리, 이십팔점박이무당벌레는 곰팡이를 먹습니다.",
+  "object.22_spots_ladybird.categorytextoverride": "곤충",
+
+  "object.bell_cricket.name": "방울벌레",
+  "object.bell_cricket.description": "방울 소리로 유명한 곤충입니다. 몇몇 종류의 귀뚜라미과들은 특이한 소리를 냅니다.",
+  "object.bell_cricket.categorytextoverride": "곤충",
+
+  "object.boxelder_bug.name": "네군도단풍나무 노린재",
+  "object.boxelder_bug.description": "네군도단풍나무 노린재는 강한 냄새를 풍기며, 포식자를 막기 위해서 위협을 받으면 자극적이고 맛없는 화합물을 방출합니다.",
+  "object.boxelder_bug.categorytextoverride": "곤충",
+
+  "object.cairn_birdwing.name": "케언스 나비",
+  "object.cairn_birdwing.description": "해안 근처의 열대 우림에서 서식합니다. 케언스주에서도 흔히 볼 수 있으며, 교외 정원의 란타나, 히비스커스, 부건 빌라의 꽃에 이끌립니다.",
+  "object.cairn_birdwing.categorytextoverride": "곤충",
+
+  "object.common_bluebottle_butterfly.name": "청띠제비나비",
+  "object.common_bluebottle_butterfly.description": "청띠제비나비는 빠른 비행 속도와 빠른 반응속도를 가지고 있습니다. 결과적으로 잡기 어려운 곤충입니다.",
+  "object.common_bluebottle_butterfly.categorytextoverride": "곤충",
+
+  "object.common_darter.name": "대륙좀잠자리",
+  "object.common_darter.description": "이 작은 잠자리는 호수, 연못, 운하, 유속이 느린 강을 포함한 다양한 서식지에서 발견됩니다.",
+  "object.common_darter.categorytextoverride": "곤충",
+
+  "object.common_earwig.name": "양집게벌레",
+  "object.common_earwig.description": "양집게벌레는 꽃, 과일, 나무 틈새와 같이 서늘하고 어둡고 접근하기 어려운 곳에서 낮 시간을 보냅니다.",
+  "object.common_earwig.categorytextoverride": "곤충",
+
+  "object.common_scorpionfly.name": "밑들이벌레",
+  "object.common_scorpionfly.description": "전갈의 꼬리와 비슷하게 생긴 꼬리는 사실 수컷의 생식기입니다. 이름과 달리 이 곤충은 인간에게는 전혀 무해합니다.",
+  "object.common_scorpionfly.categorytextoverride": "곤충",
+
+  "object.eastern_lubber_grasshopper.name": "동부비늘메뚜기",
+  "object.eastern_lubber_grasshopper.description": "이 메뚜기는 방어수단으로 냄새가 고약하고 맛없는 거품을 내뿜을 수 있습니다.",
+  "object.eastern_lubber_grasshopper.categorytextoverride": "곤충",
+
+  "object.elephant_beetle.name": "코끼리장수풍뎅이",
+  "object.elephant_beetle.description": "코끼리 딱정벌레는 열대 우림에서 서식하고 주로 밤에 활동합니다. 또한 주변 온도가 낮더라도 신체의 온도를 높게 유지할 수 있습니다.",
+  "object.elephant_beetle.categorytextoverride": "곤충",
+
+  "object.giant_cicada.name": "거대매미",
+  "object.giant_cicada.description": "거대매미는 해가 지고 어스름해질 때 큰 소리로 뚜렷하게 노래를 부릅니다. 그 크고 날카로운 노래는 사이렌이나 경보, 호루라기, 또는 압력 방출 밸브에서 나오는 가스처럼 들립니다.",
+  "object.giant_cicada.categorytextoverride": "곤충",
+
+  "object.giraffe_stag.name": "사슴벌레",
+  "object.giraffe_stag.description": "수컷들은 보통 짝을 얻기 위해서 강하고 큰 턱을 사용하여 서로 싸웁니다.",
+  "object.giraffe_stag.categorytextoverride": "곤충",
+
+  "object.goliath_birdwing.name": "골리앗나비",
+  "object.goliath_birdwing.description": "알렉산드라비단제비나비 다음으로 세계에서 두 번째로 큰 나비입니다.",
+  "object.goliath_birdwing.categorytextoverride": "곤충",
+
+  "object.hercules_beetle.name": "헤라클레스장수풍뎅이",
+  "object.hercules_beetle.description": "현존하는 장수풍뎅이의 종 중 가장 길며, 날아다니는 곤충들 중에서 가장 큽니다.",
+  "object.hercules_beetle.categorytextoverride": "곤충",
+
+  "object.horned_atlas.name": "아틀라스장수풍뎅이",
+  "object.horned_atlas.description": "이 종의 이름은 하늘을 지탱했던 그리스 신화의 거인 아틀라스의 이름을 따서 지어졌습니다.",
+  "object.horned_atlas.categorytextoverride": "곤충",
+
+  "object.horned_dynastid.name": "장수풍뎅이",
+  "object.horned_dynastid.description": "이 종은 딱정벌레 애호가나 수집가들에 의해 애완동물로 길러집니다.",
+  "object.horned_dynastid.categorytextoverride": "곤충",
+
+  "object.dead_leaf_mantis.name": "낙엽사마귀",
+  "object.dead_leaf_mantis.description": "저 낙엽이 방금 벌레를 먹었나? 많은 종의 사마귀들이 그 이름으로 쓰이고, 때때로 애완동물로 길러집니다.",
+  "object.dead_leaf_mantis.categorytextoverride": "곤충",
+
+  "object.luna_moth.name": "미국옥색산누에나방",
+  "object.luna_moth.description": "대부분의 나방들처럼 미국옥색산누에나방은 주로 밤에 활동하지만, 낮 시간대에도 목격됩니다.",
+  "object.luna_moth.categorytextoverride": "곤충",
+
+  "object.orchid_mantis.name": "난초사마귀",
+  "object.orchid_mantis.description": "난초처럼 아름답고 사마귀처럼 치명적입니다. 사냥감을 사냥하기 위해 자연적인 위장술을 사용합니다.",
+  "object.orchid_mantis.categorytextoverride": "곤충",
+
+  "object.painted_skimmer.name": "물감스키머잠자리",
+  "object.painted_skimmer.description": "겨울이 끝나면 하늘을 가장 먼저 나는 잠자리 중 하나입니다.",
+  "object.painted_skimmer.categorytextoverride": "곤충",
+
+  "object.variable_dancer.name": "가변춤잠자리",
+  "object.variable_dancer.description": "널리 분포하는 실잠자리의 일종으로, 그들의 서식지에 따라서 다른 색깔을 가집니다.",
+  "object.variable_dancer.categorytextoverride": "곤충",
+
+  "object.raja_brooke_birdwing.name": "브루키아나붉은목도리제비나비",
+  "object.raja_brooke_birdwing.description": "수컷은 아름답지만 동물의 배설물, 사체, 썩는 곤충에 끌리는 것으로 알려져 있습니다.",
+  "object.raja_brooke_birdwing.categorytextoverride": "곤충",
+
+  "object.spring_azure_butterfly.name": "푸른부전나비",
+  "object.spring_azure_butterfly.description": "푸른부전나비는 번데기에서 겨울을 나는 나비입니다.",
+  "object.spring_azure_butterfly.categorytextoverride": "곤충",
+
+  "object.tiger_swallowtail.name": "호랑나비",
+  "object.tiger_swallowtail.description": "수컷은 노란색이고 앞날개에 4개의 검은 호랑이 줄무늬가 있습니다. 암컷은 노란색 또는 검은색일 수 있으며, 이형성을 띕니다.",
+  "object.tiger_swallowtail.categorytextoverride": "곤충",
+
+  "object.walking_stick.name": "대벌레",
+  "object.walking_stick.description": "이 곤충은 단순한 막대기의 모습으로 위장하여 포식자로부터 자신을 보호합니다.",
+  "object.walking_stick.categorytextoverride": "곤충",
+
+  "object.wallace_golden_birdwing.name": "월리스황금나비",
+  "object.wallace_golden_birdwing.description": "이 아름다운 나비는 펀길 공화국에서 멸종 위기에 처한 종으로, 국외로 반출하는 것은 불법입니다.",
+  "object.wallace_golden_birdwing.categorytextoverride": "곤충",
+
+  "object.wild_honey_bee.name": "야생꿀벌",
+  "object.wild_honey_bee.description": "꿀 생산으로 유명한 사회적인 곤충입니다.",
+  "object.wild_honey_bee.categorytextoverride": "곤충",
+
+  "object.yellow-tipped_tigertail.name": "노랑호랑이꼬리잠자리",
+  "object.yellow-tipped_tigertail.description": "이 잠자리는 검은색 몸에 노란색 줄을 가지고 있습니다. 그들은 개똥벌레처럼 매우 좁은 복부를 가지고 있지만 잠자리입니다.",
+  "object.yellow-tipped_tigertail.categorytextoverride": "곤충",
+
+  "object.yellowjacket.name": "땅벌",
+  "object.yellowjacket.description": "많은 사람들이 싫어하지만, 이 육식성 말벌은 해충을 잡아먹는 중요한 포식자입니다.",
+  "object.yellowjacket.categorytextoverride": "곤충"
+}
