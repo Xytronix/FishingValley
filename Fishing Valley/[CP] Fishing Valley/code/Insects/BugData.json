@@ -4,7 +4,7 @@
             "LogName": "Loading bugs",
             "Action": "Load",
             "Target": "Mods\\FishingValley.CP\\Objects\\Bugs",
-            "FromFile": "{{AbsoluteFilePath: assets/Objects/insects.png}}"
+            "FromFile": "assets/Objects/insects.png"
         },
         {
             "Logname": "Initialising bug data",
@@ -567,7 +567,7 @@
                 "EnableCookingRecipes": true,
                 "HasMod | contains=spacechase0.SpaceCore": true
             },
-            "FromFile": ["{{AbsoluteFilePath: assets/Insects/CookingRecipes.json}}"]
+            "FromFile": "assets/Insects/CookingRecipes.json"
         },
         {
             "LogName": "Loading Cooking Recipes.",
@@ -576,7 +576,7 @@
                 "EnableCraftingRecipes": true,
                 "HasMod | contains=spacechase0.SpaceCore": true
             },
-            "FromFile": ["{{AbsoluteFilePath: assets/Insects/CraftingRecipes.json}}"]
+            "FromFile": "assets/Insects/CraftingRecipes.json"
         }
     ]
 }
