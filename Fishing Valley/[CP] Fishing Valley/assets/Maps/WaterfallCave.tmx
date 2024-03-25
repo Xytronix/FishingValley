@@ -78,7 +78,7 @@
   <object id="2" name="TileData" x="112" y="64" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="Shop" value="BaitTrader"/>
+    <property name="Shop" value="OpenShop FishingValley.BaitTrader"/>
    </properties>
   </object>
  </objectgroup>

@@ -567,7 +567,7 @@
                 "EnableCookingRecipes": true,
                 "HasMod | contains=spacechase0.SpaceCore": true
             },
-            "FromFile": "assets/Insects/CookingRecipes.json"
+            "FromFile": "code/Insects/CookingRecipes.json"
         },
         {
             "LogName": "Loading Cooking Recipes.",
@@ -576,7 +576,7 @@
                 "EnableCraftingRecipes": true,
                 "HasMod | contains=spacechase0.SpaceCore": true
             },
-            "FromFile": "assets/Insects/CraftingRecipes.json"
+            "FromFile": "code/Insects/CraftingRecipes.json"
         }
     ]
 }

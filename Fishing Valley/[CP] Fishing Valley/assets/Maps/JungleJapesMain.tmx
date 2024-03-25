@@ -3795,7 +3795,7 @@
   <object id="731" name="TileData" x="272" y="592" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="Shop" value="JungleBaitShop"/>
+    <property name="Shop" value="OpenShop FishingValley.JungleBaitShop"/>
    </properties>
   </object>
   <object id="732" name="TileData" x="336" y="624" width="16" height="16">
