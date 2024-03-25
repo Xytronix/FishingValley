@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="733">
  <editorsettings>
-  <export target="Custom_JungleJapesMain.tmx" format="tmx"/>
+  <export target="JungleJapesMain.tmx" format="tmx"/>
  </editorsettings>
  <properties>
-  <property name="Music" value="JungleTheme"/>
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="summer"/>
-  <property name="Warp" value="2 49 Custom_FishingResortInterior 14 4 3 49 Custom_FishingResortInterior 15 4 49 14 Custom_JungleRiver 1 32 49 15 Custom_JungleRiver 1 33 0 16 Custom_JungleBay 32 20 0 17 Custom_JungleBay 32 19"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">

@@ -2,10 +2,8 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="33" height="41" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="1354">
  <properties>
   <property name="CanBuildHere" value="T"/>
-  <property name="Music" value="HTMA_EternaForest"/>
   <property name="Outdoors" type="bool" value="true"/>
   <property name="Season Override" value="summer"/>
-  <property name="Warp" value="32 19 Custom_JungleJapesMain 1 16 32 20 Custom_JungleJapesMain 1 17"/>
   <property name="skipWeedGrowth" type="bool" value="true"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
@@ -178,13 +176,13 @@
   </tile>
  </tileset>
  <tileset firstgid="3877" name="zoutdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="Recovery_FishingValley/stuff_I_guess/summer_outdoorsTileSheet.png" width="400" height="1264"/>
+  <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
  <tileset firstgid="5852" name="zpirate" tilewidth="16" tileheight="16" tilecount="190" columns="19">
-  <image source="Recovery_FishingValley/stuff_I_guess/pirates_tilesheet.png" width="304" height="160"/>
+  <image source="pirates_tilesheet.png" width="304" height="160"/>
  </tileset>
  <tileset firstgid="6042" name="summer_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
-  <image source="Recovery_FishingValley/stuff_I_guess/summer_beach.png" width="272" height="496"/>
+  <image source="summer_beach.png" width="272" height="496"/>
  </tileset>
  <layer id="12" name="Always  Back" width="33" height="41">
   <data encoding="base64" compression="zlib">

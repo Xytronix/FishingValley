@@ -55,13 +55,12 @@
                     "Delimiter": " "
                 }
             ]
-        }
+        },
 
-        /*{
+        {
             "LogName": "Adding Gift Tastes",
             "Action": "Include",
-            "FromFile": "Characters/Abigail.json, Characters/Alex.json, Characters/Caroline.json, Characters/Demetrius.json, Characters/Dwarf.json, Characters/Elliott.json, Characters/Evelyn.json, Characters/George.json, Characters/Gus.json, Characters/Haley.json, Characters/Harvey.json, Characters/Jas.json, Characters/Jodi.json, Characters/Kent.json, Characters/Krobus.json, Characters/Leah.json, Characters/Lewis.json, Characters/Linus.json, Characters/Marnie.json, Characters/Maru.json, Characters/Pam.json, Characters/Penny.json, Characters/Pierre.json, Characters/Robin.json, Characters/Sam.json, Characters/Sandy.json, Characters/Sebastian.json, Characters/Shane.json, Characters/Vincent.json, Characters/Willy.json, Characters/Wizard.json"
-            
-        }*/
+            "FromFile": "code/NPCs/Characters/Abigail.json, code/NPCs/Characters/Alex.json, code/NPCs/Characters/Caroline.json, code/NPCs/Characters/Demetrius.json, code/NPCs/Characters/Dwarf.json, code/NPCs/Characters/Elliott.json, code/NPCs/Characters/Evelyn.json, code/NPCs/Characters/George.json, code/NPCs/Characters/Gus.json, code/NPCs/Characters/Haley.json, code/NPCs/Characters/Harvey.json, code/NPCs/Characters/Jas.json, code/NPCs/Characters/Jodi.json, code/NPCs/Characters/Kent.json, code/NPCs/Characters/Krobus.json, code/NPCs/Characters/Leah.json, code/NPCs/Characters/Lewis.json, code/NPCs/Characters/Linus.json, code/NPCs/Characters/Marnie.json, code/NPCs/Characters/Maru.json, code/NPCs/Characters/Pam.json, code/NPCs/Characters/Penny.json, code/NPCs/Characters/Pierre.json, code/NPCs/Characters/Robin.json, code/NPCs/Characters/Sam.json, code/NPCs/Characters/Sandy.json, code/NPCs/Characters/Sebastian.json, code/NPCs/Characters/Shane.json, code/NPCs/Characters/Vincent.json, code/NPCs/Characters/Willy.json, code/NPCs/Characters/Wizard.json"
+        }
     ]
 }

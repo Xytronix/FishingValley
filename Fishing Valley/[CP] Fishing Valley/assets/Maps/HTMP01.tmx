@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="left-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="179">
  <properties>
-  <property name="Music" value="HTMA_BirchForest"/>
   <property name="Outdoors" value="T"/>
   <property name="CanBuildHere" value="T"/>
-  <property name="Warp" value="99 25 Farm 76 15 99 26 Farm 76 16 22 9 Custom_HoshiroTaniMajula 5 5 41 93 Custom_OCaminhodasChamasGemeas 8 1 42 93 Custom_OCaminhodasChamasGemeas 9 1 43 93 Custom_OCaminhodasChamasGemeas 9 1 44 93 Custom_OCaminhodasChamasGemeas 10 1 45 93 Custom_OCaminhodasChamasGemeas 10 1 46 93 Custom_OCaminhodasChamasGemeas 11 1 36 99 Custom_OCaminhodasChamasGemeas 1 1 37 99 Custom_OCaminhodasChamasGemeas 2 1 38 99 Custom_OCaminhodasChamasGemeas 3 1 48 99 Custom_OCaminhodasChamasGemeas 16 1 49 99 Custom_OCaminhodasChamasGemeas 17 1 50 99 Custom_OCaminhodasChamasGemeas 18 1"/>
  </properties>
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>

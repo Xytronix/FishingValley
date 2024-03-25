@@ -141,7 +141,7 @@
     {
       "LogName": "Loading Locations.",
       "Action": "Include",
-      "FromFile": "code/Locations/LocationsData.json, code/Locations/MapEdits.json, code/Locations/Strings.json"
+      "FromFile": "code/Locations/LocationsData.json, code/Locations/MapEdits.json, code/Locations/Strings.json, code/Locations/Warps.json"
     },
 
     {

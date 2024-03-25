@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="7">
  <properties>
-  <property name="Music" value="HTMA_EternaForest"/>
   <property name="Outdoors" value="T"/>
   <property name="SeasonOverride" value="summer"/>
-  <property name="Warp" value="1 0 Custom_HoshiroTaniMajula 36 98 2 0 Custom_HoshiroTaniMajula 37 98 3 0 Custom_HoshiroTaniMajula 38 98 8 0 Custom_HoshiroTaniMajula 41 92 9 0 Custom_HoshiroTaniMajula 42 92 10 0 Custom_HoshiroTaniMajula 45 92 11 0 Custom_HoshiroTaniMajula 46 92 16 0 Custom_HoshiroTaniMajula 48 98 17 0 Custom_HoshiroTaniMajula 49 98 18 0 Custom_HoshiroTaniMajula 50 98 1 39 Custom_LaMilladelJardiinRea 1 2 2 39 Custom_LaMilladelJardiinRea 3 2 3 39 Custom_LaMilladelJardiinRea 5 2 4 39 Custom_LaMilladelJardiinRea 6 2"/>
  </properties>
  <tileset firstgid="1" name="summer_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>

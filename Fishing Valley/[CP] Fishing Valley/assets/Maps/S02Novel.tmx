@@ -30,7 +30,7 @@
  <objectgroup id="4" name="Buildings">
   <object id="1" name="TileData" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 5 5 Custom_LaMilladelJardiinRea"/>
+    <property name="Action" value="Warp 5 5 FishingValley.LaMilladelJardiinRea"/>
    </properties>
   </object>
  </objectgroup>

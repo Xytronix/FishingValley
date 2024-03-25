@@ -4,7 +4,6 @@
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="TouchAction" value="DesertBus"/>
-  <property name="Warp" value="13 17 BusStop 12 11"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
@@ -353,13 +352,6 @@
    eJzt1UlPFEEUwPGiamRoIHpDZRHFD8CwiGfDRcHlrje4ueCHcIGbitvFNe5yI5FFUQ8mQsANPLOMggoXDS6JGtB/Z7pD2Vb3WAhJH3jJLz01VfXq1XRXjywQ4oAS4iBUvhD71UI7hz4/3M9+W3Ltob9XCWPkhPRvSwhRj1TCPM8UR8hxFMfU3+0ZR4jWQvO8YfpHQurT+6W2R7++HRb1XSDHRVzycuntE1KIkziFdpy2cAZncQ7nMe0srr571NGFbu9+6u1r5L2OG7iJWxZu4w7uokNm9r6Y++vGS2o5hBYcVpl2Fzm70YNe3JcL40dXRed7wNg+PMQjPPbm+vU1odnADdN3H6jnOFrRpjLtQXIO4Rme44U012LcL2NfYRgjeB2oz4Z7Bty4TE1XcNV75sfIOY4JpPEGby1MYgrv8N6rby/r7bP0FP0BA5gl52d8wVd8i7BRmX2n7wd+SvM62bh1jGMiII1c8ieRh8IQDvJREDFmNdYo8zrZpCPOUTE5S1AaoQwbUB7y+21CBTYb3pMDIe/OqPe+H/4zWRk416mAKlSjBrUafU4dthrWS4fUkO29r0d94Fz/a+hzGtBoMdc2gud6ueboMe382Z4kz5SKHmMbMyHzTc/XR9qfIvYyR9/8Mt4DPUzPVx7n1LH8zwuLuVz2gl8QSf6zIaGQSC7NGv8TRdSwFuuwHsUoQSnKYlBfJTWkUIVq1KAWW1AXg/q2ezU0cG3ETuzCbuyJQX0rsRJLGZ14EuNr3OM3F/Ph/w==
   </data>
  </layer>
- <objectgroup id="4" name="Buildings">
-  <object id="58" name="TileData" x="256" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 12 27 Custom_FishingResortInterior 600 2100"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer id="5" name="Paths" width="40" height="25">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20MH6AAAACAtwEPoAAB

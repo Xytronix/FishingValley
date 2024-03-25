@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="604">
  <editorsettings>
-  <export target="Custom_JungleFalls.tmx" format="tbin"/>
+  <export target="JungleFalls.tmx" format="tbin"/>
  </editorsettings>
  <properties>
   <property name="Outdoors" value="True"/>
   <property name="SeasonOverride" value="summer"/>
-  <property name="Music" value="WaterfallSounds"/>
-  <property name="Warp" value="13 39 Custom_JungleRiver 9 1 14 39 Custom_JungleRiver 10 1 15 39 Custom_JungleRiver 10 1 23 9 Custom_WaterfallCave 7 7"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
