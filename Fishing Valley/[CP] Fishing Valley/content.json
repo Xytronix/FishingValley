@@ -173,25 +173,25 @@
 
     {
       "Action": "Load",
-      "Target": "Data/Objects/spring_fsnovel",
+      "Target": "Maps/spring_fsnovel",
       "FromFile": "assets/Objects/spring_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Data/Objects/summer_fsnovel",
+      "Target": "Maps/summer_fsnovel",
       "FromFile": "assets/Objects/summer_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Data/Objects/fall_fsnovel",
+      "Target": "Maps/fall_fsnovel",
       "FromFile": "assets/Objects/fall_fsnovel.png"
     },
 
     {
       "Action": "Load",
-      "Target": "Data/Objects/winter_fsnovel",
+      "Target": "Maps/winter_fsnovel",
       "FromFile": "assets/Objects/winter_fsnovel.png"
     }
   ]
