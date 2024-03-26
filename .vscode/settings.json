@@ -10,7 +10,7 @@
   "files.trimFinalNewlines": true,
   "json.schemas": [
     {
-      "fileMatch": ["*.json", "!settings.json", "!manifest.json"],
+      "fileMatch": ["*.json", "!/.vscode/settings.json", "!manifest.json"],
       "url": "https://smapi.io/schemas/content-patcher.json"
     },
 
