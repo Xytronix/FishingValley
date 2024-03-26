@@ -8,6 +8,10 @@
         "FishingValley.FishingResortExterior": {
           "DisplayName": "{{i18n:LocationData.FishingResortExterior}}",
           "DefaultArrivalTile": {"X": 13, "Y": 19},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.FishingResortExterior"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -19,6 +23,10 @@
         "FishingValley.FishingResortInterior": {
           "DisplayName": "{{i18n:LocationData.FishingResortInterior}}",
           "DefaultArrivalTile": {"X": 12, "Y": 27},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.FishingResortInterior"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -30,6 +38,10 @@
         "FishingValley.ForestSwamp": {
           "DisplayName": "{{i18n:LocationData.ForestSwamp}}",
           "DefaultArrivalTile": {"X": 4, "Y": 8},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.ForestSwamp"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -41,6 +53,10 @@
         "FishingValley.FungusHouse": {
           "DisplayName": "{{i18n:LocationData.FungusHouse}}",
           "DefaultArrivalTile": {"X": 4, "Y": 18},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.FungusHouse"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -52,6 +68,10 @@
         "FishingValley.Serenityriver": {
           "DisplayName": "{{i18n:LocationData.SerenityRiver}}",
           "DefaultArrivalTile": {"X": 13, "Y": 1},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.Serenityriver"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -63,6 +83,10 @@
         "FishingValley.WaterfallCave": {
           "DisplayName": "{{i18n:LocationData.WaterfallCave}}",
           "DefaultArrivalTile": {"X": 7, "Y": 7},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.WaterfallCave"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -76,7 +100,7 @@
           "DefaultArrivalTile": {"X": 36, "Y": 98},
           "CreateOnLoad": {
             "AlwaysActive": true,
-            "MapPath": "Maps\\FishingValley.HoshiroTaniMajula"
+            "MapPath": "Maps/FishingValley.HoshiroTaniMajula"
           },
           "CanPlantHere": true,
           "Music": [
@@ -90,6 +114,10 @@
         "FishingValley.OCaminhodasChamasGemeas": {
           "DisplayName": "{{i18n:LocationData.OcaminhodasChamasGemeas}}",
           "DefaultArrivalTile": {"X": 8, "Y": 1},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.OCaminhodasChamasGemeas"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -101,6 +129,10 @@
         "FishingValley.LaMilladelJardiinRea": {
           "DisplayName": "{{i18n:LocationData.LaMilladelJardiinRea}}",
           "DefaultArrivalTile": {"X": 1, "Y": 2},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.LaMilladelJardiinRea"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -111,6 +143,10 @@
         "FishingValley.JungleBay": {
           "DisplayName": "{{i18n:LocationData.JungleBay}}",
           "DefaultArrivalTile": {"X": 32, "Y": 20},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.JungleBay"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -184,6 +220,10 @@
         "FishingValley.JungleJapesMain": {
           "DisplayName": "{{i18n:LocationData.JungleJapesMain}}",
           "DefaultArrivalTile": {"X": 2, "Y": 48},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.JungleJapesMain"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -257,6 +297,10 @@
         "FishingValley.JungleRiver": {
           "DisplayName": "{{i18n:LocationData.JungleRiver}}",
           "DefaultArrivalTile": {"X": 34, "Y": 4},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.JungleRiver"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -336,6 +380,10 @@
         "FishingValley.JungleFalls": {
           "DisplayName": "{{i18n:LocationData.JungleFalls}}",
           "DefaultArrivalTile": {"X": 23, "Y": 10},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.JungleFalls"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",
@@ -409,6 +457,10 @@
         "FishingValley.JungleCave": {
           "DisplayName": "{{i18n:LocationData.JungleCave}}",
           "DefaultArrivalTile": {"X": 10, "Y": 23},
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FishingValley.JungleCave"
+          },
           "Music": [
             {
               "ID": "FishingValley.MapMusic",

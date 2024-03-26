@@ -58,79 +58,86 @@
     }
   },
 
-  "CustomLocations": [
-    {
-      "Name": "FishingValley.FishingResortExterior",
-      "FromMapFile": "assets/Maps/FishingResortExterior.tmx"
-    },
-
-    {
-      "Name": "FishingValley.FishingResortInterior",
-      "FromMapFile": "assets/Maps/FishingResortInterior.tmx"
-    },
-
-    {
-      "Name": "FishingValley.ForestSwamp",
-      "FromMapFile": "assets/Maps/ForestSwamp.tmx"
-    },
-
-    {
-      "Name": "FishingValley.FungusHouse",
-      "FromMapFile": "assets/Maps/FungusHouse.tmx"
-    },
-
-    {
-      "Name": "FishingValley.JungleBay",
-      "FromMapFile": "assets/Maps/JungleBay.tmx"
-    },
-
-    {
-      "Name": "FishingValley.JungleCave",
-      "FromMapFile": "assets/Maps/JungleCave.tmx"
-    },
-
-    {
-      "Name": "FishingValley.JungleFalls",
-      "FromMapFile": "assets/Maps/JungleFalls.tmx"
-    },
-
-    {
-      "Name": "FishingValley.JungleJapesMain",
-      "FromMapFile": "assets/Maps/JungleJapesMain.tmx"
-    },
-
-    {
-      "Name": "FishingValley.JungleRiver",
-      "FromMapFile": "assets/Maps/JungleRiver.tmx"
-    },
-
-    {
-      "Name": "FishingValley.Serenityriver",
-      "FromMapFile": "assets/Maps/JungleJapesMain.tmx"
-    },
-
-    {
-      "Name": "FishingValley.WaterfallCave",
-      "FromMapFile": "assets/Maps/WaterfallCave.tmx"
-    },
-
-    {
-      "Name": "FishingValley.HoshiroTaniMajula",
-      "FromMapFile": "assets/Maps/HTMP01.tmx"
-    },
-
-    {
-      "Name": "FishingValley.OCaminhodasChamasGemeas",
-      "FromMapFile": "assets/Maps/HTMP02.tmx"
-    },
-
-    {
-      "Name": "FishingValley.LaMilladelJardiinRea",
-      "FromMapFile": "assets/Maps/HTMP03.tmx"
-    }
-  ],
-
   "Changes": [
+    {
+      "LogName": "Load Maps.",
+      "Action": "Load",
+      "Target": "Maps/FishingValley.FishingResortExterior",
+      "FromFile": "assets/Maps/FishingResortExterior.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.FishingResortInterior",
+      "FromFile": "assets/Maps/FishingResortInterior.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.ForestSwamp",
+      "FromFile": "assets/Maps/ForestSwamp.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.FungusHouse",
+      "FromFile": "assets/Maps/FungusHouse.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.JungleBay",
+      "FromFile": "assets/Maps/JungleBay.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.JungleCave",
+      "FromFile": "assets/Maps/JungleCave.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.JungleFalls",
+      "FromFile": "assets/Maps/JungleFalls.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.Serenityriver",
+      "FromFile": "assets/Maps/Serenityriver.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.WaterfallCave",
+      "FromFile": "assets/Maps/WaterfallCave.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.HoshiroTaniMajula",
+      "FromFile": "assets/Maps/HTMP01.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.OCaminhodasChamasGemeas",
+      "FromFile": "assets/Maps/HTMP02.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FishingValley.LaMilladelJardiinRea",
+      "FromFile": "assets/Maps/HTMP03.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_fsnovel, Maps/summer_fsnovel, Maps/fall_fsnovel, Maps/winter_fsnovel",
+      "FromFile": "assets/Objects/{{targetWithoutPath}}.png"
+    },
+
     {
       "LogName": "Loading Music.",
       "Action": "Include",
@@ -169,30 +176,6 @@
       "LogName": "Loading Shops.",
       "Action": "Include",
       "FromFile": "code/Shops/Shops.json"
-    },
-
-    {
-      "Action": "Load",
-      "Target": "Maps/spring_fsnovel",
-      "FromFile": "assets/Objects/spring_fsnovel.png"
-    },
-
-    {
-      "Action": "Load",
-      "Target": "Maps/summer_fsnovel",
-      "FromFile": "assets/Objects/summer_fsnovel.png"
-    },
-
-    {
-      "Action": "Load",
-      "Target": "Maps/fall_fsnovel",
-      "FromFile": "assets/Objects/fall_fsnovel.png"
-    },
-
-    {
-      "Action": "Load",
-      "Target": "Maps/winter_fsnovel",
-      "FromFile": "assets/Objects/winter_fsnovel.png"
     }
   ]
 }
