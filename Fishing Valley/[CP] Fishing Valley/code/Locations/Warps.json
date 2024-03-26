@@ -3,7 +3,7 @@
     {
       "Action": "EditMap",
       "Target": "Maps/FV_FishingResortExterior",
-      "AddWarps": ["13 17 BusStop 12 11"],
+      "AddWarps": ["13 17 BusStop 10 23"],
       "MapTiles": [
         {
           "Position": { "X": 256, "Y": 160 },
@@ -19,11 +19,11 @@
       "Action": "EditMap",
       "Target": "Maps/FV_FishingResortInterior",
       "AddWarps": [
-        "12 29 FishingValley.FishingResortExterior 16 11",
+        "12 28 FishingValley.FishingResortExterior 16 11",
         "14 2 FishingValley.JungleJapesMain 2 48",
         "15 2 FishingValley.JungleJapesMain 3 48",
-        "10 3 FishingValley.Serenityriver 13 23",
-        "11 3 FishingValley.Serenityriver 14 23"
+        "10 2 FishingValley.Serenityriver 13 23",
+        "11 2 FishingValley.Serenityriver 14 23"
       ]
     },
 
@@ -31,8 +31,10 @@
       "Action": "EditMap",
       "Target": "Maps/FV_ForestSwamp",
       "AddWarps": [
-        "26 39 FishingValley.Serenityriver 13 1",
-        "27 39 FishingValley.Serenityriver 14 1"
+        "25 40 FishingValley.Serenityriver 13 1",
+        "26 40 FishingValley.Serenityriver 14 1",
+        "27 40 FishingValley.Serenityriver 13 1",
+        "28 40 FishingValley.Serenityriver 14 1"
       ],
       "MapTiles": [
         {
@@ -49,8 +51,8 @@
       "Action": "EditMap",
       "Target": "Maps/FV_FungusHouse",
       "AddWarps": [
-        "4 19 FishingValley.ForestSwamp 4 8",
-        "5 19  FishingValley.ForestSwamp 4 8"
+        "4 18 FishingValley.ForestSwamp 4 8",
+        "5 18  FishingValley.ForestSwamp 4 8"
       ]
     },
 
@@ -84,12 +86,12 @@
       "Action": "EditMap",
       "Target": "Maps/FV_JungleJapesMain",
       "AddWarps": [
-        "2 49 FishingValley.FishingResortInterior 14 4",
-        "3 49 FishingValley.FishingResortInterior 15 4",
-        "49 14 FishingValley.JungleRiver 1 32",
-        "49 15 FishingValley.JungleRiver 1 33",
-        "0 16 FishingValley.JungleBay 32 20",
-        "0 17 FishingValley.JungleBay 32 19"
+        "2 50 FishingValley.FishingResortInterior 14 4",
+        "3 50 FishingValley.FishingResortInterior 15 4",
+        "50 14 FishingValley.JungleRiver 1 32",
+        "50 15 FishingValley.JungleRiver 1 33",
+        "-1 16 FishingValley.JungleBay 32 20",
+        "-1 17 FishingValley.JungleBay 32 19"
       ]
     },
 
@@ -97,14 +99,15 @@
       "Action": "EditMap",
       "Target": "Maps/FV_JungleRiver",
       "AddWarps": [
-        "0 32 FishingValley.JungleJapesMain 49 14",
-        "0 33 FishingValley.JungleJapesMain 49 15",
-        "33 2 FishingValley.JungleCave 10 23",
-        "34 2 FishingValley.JungleCave 10 23",
-        "35 2 FishingValley.JungleCave 10 23",
-        "36 2 FishingValley.JungleCave 10 23",
-        "9 0 FishingValley.JungleFalls 13 38",
-        "10 0 FishingValley.JungleFalls 14 38"
+        "-1 32 FishingValley.JungleJapesMain 49 14",
+        "-1 33 FishingValley.JungleJapesMain 49 15",
+        "33 0 FishingValley.JungleCave 10 23",
+        "34 0 FishingValley.JungleCave 10 23",
+        "35 0 FishingValley.JungleCave 10 23",
+        "36 0 FishingValley.JungleCave 10 23",
+        "8 -1 FishingValley.JungleFalls 13 38",
+        "9 -1 FishingValley.JungleFalls 13 38",
+        "10 -1 FishingValley.JungleFalls 14 38"
       ]
     },
 
@@ -123,7 +126,7 @@
       "Action": "EditMap",
       "Target": "Maps/FV_WaterFallCave",
       "AddWarps": [
-        "7 9 FishingValley.JungleFalls 23 10",
+        "7 10 FishingValley.JungleFalls 23 10",
         "5 4 FishingValley.JungleJapesMain 3 47"
       ]
     },
@@ -180,12 +183,13 @@
       "Action": "EditMap",
       "Target": "Maps/FishingValley.LaMilladelJardiinRea",
       "AddWarps": [
-        "1 1 FishingValley.OCaminhodasChamasGemeas 1 38",
-        "2 1 FishingValley.OCaminhodasChamasGemeas 2 38",
-        "3 1 FishingValley.OCaminhodasChamasGemeas 2 38",
-        "4 1 FishingValley.OCaminhodasChamasGemeas 3 38",
-        "5 1 FishingValley.OCaminhodasChamasGemeas 3 38",
-        "6 1 FishingValley.OCaminhodasChamasGemeas 4 38"
+        "1 0 FishingValley.OCaminhodasChamasGemeas 1 38",
+        "2 0 FishingValley.OCaminhodasChamasGemeas 2 38",
+        "3 0 FishingValley.OCaminhodasChamasGemeas 2 38",
+        "4 0 FishingValley.OCaminhodasChamasGemeas 3 38",
+        "5 0 FishingValley.OCaminhodasChamasGemeas 3 38",
+        "6 0 FishingValley.OCaminhodasChamasGemeas 4 38"
+        //"3 5 FishingValley.OCaminhodasChamasGemeas 4 38"
       ]
     }
   ]
