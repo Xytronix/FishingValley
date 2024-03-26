@@ -60,75 +60,82 @@
 
   "Changes": [
     {
-      "LogName": "Load Maps.",
+      "LogName": "Loading Tilesheets.",
       "Action": "Load",
-      "Target": "Maps/FishingValley.FishingResortExterior",
+      "Target": "Maps/Floors_Set_1, Maps/Floors_Set_2, Maps/mine_dark_dangerous, Maps/mine_desert_dangerous, Maps/waterfall_tileset, Maps/zcustom_fish_shop, Maps/zFshing_people_front, Maps/Zmushroom, Maps/zpeople, Maps/zswampplant, Maps/Ztwater_tree, Maps/zsummer_daisyextras",
+      "FromFile": "assets/Tilesheets/{{targetWithoutPath}}.png"
+    },
+
+    {
+      "LogName": "Loading Maps.",
+      "Action": "Load",
+      "Target": "Maps/FV_FishingResortExterior",
       "FromFile": "assets/Maps/FishingResortExterior.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.FishingResortInterior",
+      "Target": "Maps/FV_FishingResortInterior",
       "FromFile": "assets/Maps/FishingResortInterior.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.ForestSwamp",
+      "Target": "Maps/FV_ForestSwamp",
       "FromFile": "assets/Maps/ForestSwamp.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.FungusHouse",
+      "Target": "Maps/FV_FungusHouse",
       "FromFile": "assets/Maps/FungusHouse.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.JungleBay",
+      "Target": "Maps/FV_JungleBay",
       "FromFile": "assets/Maps/JungleBay.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.JungleCave",
+      "Target": "Maps/FV_JungleCave",
       "FromFile": "assets/Maps/JungleCave.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.JungleFalls",
+      "Target": "Maps/FV_JungleFalls",
       "FromFile": "assets/Maps/JungleFalls.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.Serenityriver",
+      "Target": "Maps/FV_Serenityriver",
       "FromFile": "assets/Maps/Serenityriver.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.WaterfallCave",
+      "Target": "Maps/FV_WaterfallCave",
       "FromFile": "assets/Maps/WaterfallCave.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.HoshiroTaniMajula",
+      "Target": "Maps/FV_HoshiroTaniMajula",
       "FromFile": "assets/Maps/HTMP01.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.OCaminhodasChamasGemeas",
+      "Target": "Maps/FV_OCaminhodasChamasGemeas",
       "FromFile": "assets/Maps/HTMP02.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FishingValley.LaMilladelJardiinRea",
+      "Target": "Maps/FV_.LaMilladelJardiinRea",
       "FromFile": "assets/Maps/HTMP03.tmx"
     },
 

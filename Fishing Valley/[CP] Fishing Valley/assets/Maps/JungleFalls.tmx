@@ -12,7 +12,7 @@
   <image source="paths.png" width="64" height="144"/>
  </tileset>
  <tileset firstgid="37" name="zcustom" tilewidth="16" tileheight="16" tilecount="100" columns="10">
-  <image source="Ztwater tree.png" width="160" height="160"/>
+  <image source="Ztwater_tree.png" width="160" height="160"/>
  </tileset>
  <tileset firstgid="137" name="zisland" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
   <image source="summer_island_tilesheet_1.png" width="512" height="640"/>
@@ -280,7 +280,7 @@
   </tile>
  </tileset>
  <tileset firstgid="5192" name="zwaterfall" tilewidth="16" tileheight="16" tilecount="1820" columns="52">
-  <image source="waterfall tileset.png" width="835" height="567"/>
+  <image source="waterfall_tileset.png" width="835" height="567"/>
  </tileset>
  <layer id="1" name="Paths" width="40" height="40">
   <data encoding="base64" compression="zlib">

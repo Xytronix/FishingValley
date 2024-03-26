@@ -54,7 +54,7 @@
   </tile>
  </tileset>
  <tileset firstgid="4348" name="zwatertree" tilewidth="16" tileheight="16" tilecount="100" columns="10">
-  <image source="Ztwater tree.png" width="160" height="160"/>
+  <image source="Ztwater_tree.png" width="160" height="160"/>
  </tileset>
  <tileset firstgid="4448" name="zfishers" tilewidth="16" tileheight="16" tilecount="88" columns="4">
   <image source="zFshing_people_front.png" width="64" height="352"/>

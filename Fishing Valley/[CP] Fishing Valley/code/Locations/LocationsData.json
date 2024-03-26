@@ -10,7 +10,7 @@
           "DefaultArrivalTile": {"X": 13, "Y": 19},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.FishingResortExterior"
+            "MapPath": "Maps/FV_FishingResortExterior"
           },
           "Music": [
             {
@@ -25,7 +25,7 @@
           "DefaultArrivalTile": {"X": 12, "Y": 27},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.FishingResortInterior"
+            "MapPath": "Maps/FV_FishingResortInterior"
           },
           "Music": [
             {
@@ -40,7 +40,7 @@
           "DefaultArrivalTile": {"X": 4, "Y": 8},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.ForestSwamp"
+            "MapPath": "Maps/FV_ForestSwamp"
           },
           "Music": [
             {
@@ -55,7 +55,7 @@
           "DefaultArrivalTile": {"X": 4, "Y": 18},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.FungusHouse"
+            "MapPath": "Maps/FV_FungusHouse"
           },
           "Music": [
             {
@@ -70,7 +70,7 @@
           "DefaultArrivalTile": {"X": 13, "Y": 1},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.Serenityriver"
+            "MapPath": "Maps/FV_Serenityriver"
           },
           "Music": [
             {
@@ -85,7 +85,7 @@
           "DefaultArrivalTile": {"X": 7, "Y": 7},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.WaterfallCave"
+            "MapPath": "Maps/FV_WaterfallCave"
           },
           "Music": [
             {
@@ -100,7 +100,7 @@
           "DefaultArrivalTile": {"X": 36, "Y": 98},
           "CreateOnLoad": {
             "AlwaysActive": true,
-            "MapPath": "Maps/FishingValley.HoshiroTaniMajula"
+            "MapPath": "Maps/FV_HoshiroTaniMajula"
           },
           "CanPlantHere": true,
           "Music": [
@@ -116,7 +116,7 @@
           "DefaultArrivalTile": {"X": 8, "Y": 1},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.OCaminhodasChamasGemeas"
+            "MapPath": "Maps/FV_OCaminhodasChamasGemeas"
           },
           "Music": [
             {
@@ -131,7 +131,7 @@
           "DefaultArrivalTile": {"X": 1, "Y": 2},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.LaMilladelJardiinRea"
+            "MapPath": "Maps/FV_LaMilladelJardiinRea"
           },
           "Music": [
             {
@@ -145,7 +145,7 @@
           "DefaultArrivalTile": {"X": 32, "Y": 20},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.JungleBay"
+            "MapPath": "Maps/FV_JungleBay"
           },
           "Music": [
             {
@@ -222,7 +222,7 @@
           "DefaultArrivalTile": {"X": 2, "Y": 48},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.JungleJapesMain"
+            "MapPath": "Maps/FV_JungleJapesMain"
           },
           "Music": [
             {
@@ -299,7 +299,7 @@
           "DefaultArrivalTile": {"X": 34, "Y": 4},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.JungleRiver"
+            "MapPath": "Maps/FV_JungleRiver"
           },
           "Music": [
             {
@@ -382,7 +382,7 @@
           "DefaultArrivalTile": {"X": 23, "Y": 10},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.JungleFalls"
+            "MapPath": "Maps/FV_JungleFalls"
           },
           "Music": [
             {
@@ -459,7 +459,7 @@
           "DefaultArrivalTile": {"X": 10, "Y": 23},
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FishingValley.JungleCave"
+            "MapPath": "Maps/FV_JungleCave"
           },
           "Music": [
             {
