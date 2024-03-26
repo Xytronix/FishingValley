@@ -1,1324 +1,1324 @@
 {
-    "Changes": [
-        {
-            "LogName": "Loading fishes",
-            "Action": "Load",
-            "Target": "Mods\\FishingValley.CP\\Objects\\Fishes",
-            "FromFile": "assets/Objects/fishes.png"
+  "Changes": [
+    {
+      "LogName": "Loading fishes",
+      "Action": "Load",
+      "Target": "Mods\\FishingValley.CP\\Objects\\Fishes",
+      "FromFile": "assets/Objects/fishes.png"
+    },
+
+    {
+      "LogName": "Initialising fish data",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "FishingValley.Albino_Xenopus": {
+          "Name": "Albino Xenopus",
+          "DisplayName": "{{i18n: object.albino_xenopus.name}}",
+          "Description": "{{i18n: object.albino_xenopus.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 60,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "0",
+          "Edibility": 20
         },
 
-        {
-            "Logname": "Initialising fish data",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "FishingValley.Albino_Xenopus": {
-                    "Name": "Albino Xenopus",
-                    "DisplayName": "{{i18n: object.albino_xenopus.name}}",
-                    "Description": "{{i18n: object.albino_xenopus.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 60,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "0",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Aquatic_Caecilian": {
-                    "Name": "Aquatic Caecilian",
-                    "DisplayName": "{{i18n: object.aquatic_caecilian.name}}",
-                    "Description": "{{i18n: object.aquatic_caecilian.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "1",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Arapaima": {
-                    "Name": "Arapaima",
-                    "DisplayName": "{{i18n: object.arapaima.name}}",
-                    "Description": "{{i18n: object.arapaima.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 280,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "2",
-                    "Edibility": 80
-                },
-
-                "FishingValley.Axolotl": {
-                    "Name": "Axolotl",
-                    "DisplayName": "{{i18n: object.axolotl.name}}",
-                    "Description": "{{i18n: object.axolotl.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 70,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "3",
-                    "Edibility": 0
-                },
-
-                "FishingValley.Bamboo_Shark": {
-                    "Name": "Bamboo Shark",
-                    "DisplayName": "{{i18n: object.bamboo_shark.name}}",
-                    "Description": "{{i18n: object.bamboo_shark.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 140,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "4",
-                    "Edibility": 40
-                },
-
-                "FishingValley.Barramundi": {
-                    "Name": "Barramundi",
-                    "DisplayName": "{{i18n: object.barramundi.name}}",
-                    "Description": "{{i18n: object.barramundi.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "5",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Bichir": {
-                    "Name": "Bichir",
-                    "DisplayName": "{{i18n: object.bichir.name}}",
-                    "Description": "{{i18n: object.bichir.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "6",
-                    "Edibility": 10
-                },
-
-                "FishingValley.Black_Diamond_Stingray": {
-                    "Name": "Black Diamond Stingray",
-                    "DisplayName": "{{i18n: object.black_diamond_stingray.name}}",
-                    "Description": "{{i18n: object.black_diamond_stingray.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "7",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Black_Piranha": {
-                    "Name": "Red Eye Piranha",
-                    "DisplayName": "{{i18n: object.black_piranha.name}}",
-                    "Description": "{{i18n: object.black_piranha.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 70,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "8",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Black_Sea_Bass": {
-                    "Name": "Black Sea Bass",
-                    "DisplayName": "{{i18n: object.black_sea_bass.name}}",
-                    "Description": "{{i18n: object.black_sea_bass.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 120,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "9",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Blind_Cave_Eel": {
-                    "Name": "Blind Cave Eel",
-                    "DisplayName": "{{i18n: object.blind_cave_eel.name}}",
-                    "Description": "{{i18n: object.blind_cave_eel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "10",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Blue_Legs_Hermit_Crab": {
-                    "Name": "Blue Legs Hermit Crab",
-                    "DisplayName": "{{i18n: object.blue_legs_hermit_crab.name}}",
-                    "Description": "{{i18n: object.blue_legs_hermit_crab.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "11",
-                    "Edibility": 0
-                },
-
-                "FishingValley.Bowfin": {
-                    "Name": "Bowfin",
-                    "DisplayName": "{{i18n: object.bowfin.name}}",
-                    "Description": "{{i18n: object.bowfin.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "12",
-                    "Edibility": 0
-                },
-
-                "FishingValley.Brigit": {
-                    "Name": "Brigit",
-                    "DisplayName": "{{i18n: object.brigit.name}}",
-                    "Description": "{{i18n: object.brigit.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "13",
-                    "Edibility": 10
-                },
-
-                "FishingValley.Brook_Trout": {
-                    "Name": "Brook Trout",
-                    "DisplayName": "{{i18n: object.brook_trout.name}}",
-                    "Description": "{{i18n: object.brook_trout.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "14",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Brown_Trout": {
-                    "Name": "Brook Trout",
-                    "DisplayName": "{{i18n: object.brown_trout.name}}",
-                    "Description": "{{i18n: object.brown_trout.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "15",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Bull_Shark": {
-                    "Name": "Bull Shark",
-                    "DisplayName": "{{i18n: object.bull_shark.name}}",
-                    "Description": "{{i18n: object.bull_shark.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 220,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "16",
-                    "Edibility": 80
-                },
-
-                "FishingValley.Snakehead": {
-                    "Name": "Snakehead",
-                    "DisplayName": "{{i18n: object.snakehead.name}}",
-                    "Description": "{{i18n: object.snakehead.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "17",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Cave_Molly": {
-                    "Name": "Cave Molly",
-                    "DisplayName": "{{i18n: object.cave_molly.name}}",
-                    "Description": "{{i18n: object.cave_molly.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "18",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Cave_Salamander": {
-                    "Name": "Cave Salamander",
-                    "DisplayName": "{{i18n: object.cave_salamander.name}}",
-                    "Description": "{{i18n: object.cave_salamander.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "19",
-                    "Edibility": -75
-                },
-
-                "FishingValley.Chain_Pickerel": {
-                    "Name": "Chain Pickerel",
-                    "DisplayName": "{{i18n: object.chain_pickerel.name}}",
-                    "Description": "{{i18n: object.chain_pickerel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "20",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Cod": {
-                    "Name": "Cod",
-                    "DisplayName": "{{i18n: object.cod.name}}",
-                    "Description": "{{i18n: object.cod.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "21",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Coral_Grouper": {
-                    "Name": "Coral Grouper",
-                    "DisplayName": "{{i18n: object.coral_grouper.name}}",
-                    "Description": "{{i18n: object.coral_grouper.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "22",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Cownose_Ray": {
-                    "Name": "Cownose Ray",
-                    "DisplayName": "{{i18n: object.cownose_ray.name}}",
-                    "Description": "{{i18n: object.cownose_ray.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 110,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "23",
-                    "Edibility": 25
-                },
-
-                "FishingValley.Dragon_Snakehead": {
-                    "Name": "Dragon Snakehead",
-                    "DisplayName": "{{i18n: object.dragon_snakehead.name}}",
-                    "Description": "{{i18n: object.dragon_snakehead.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "24",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Dwarf_Caiman": {
-                    "Name": "Dwarf Caiman",
-                    "DisplayName": "{{i18n: object.dwarf_caiman.name}}",
-                    "Description": "{{i18n: object.dwarf_caiman.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 250,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "25",
-                    "Edibility": 60
-                },
-
-                "FishingValley.Electric_Eel": {
-                    "Name": "Electric Eel",
-                    "DisplayName": "{{i18n: object.electric_eel.name}}",
-                    "Description": "{{i18n: object.electric_eel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "26",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Fire_Eel": {
-                    "Name": "Fire Eel",
-                    "DisplayName": "{{i18n: object.fire_eel.name}}",
-                    "Description": "{{i18n: object.fire_eel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "27",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Fire_Salamander": {
-                    "Name": "Fire Salamander",
-                    "DisplayName": "{{i18n: object.fire_salamander.name}}",
-                    "Description": "{{i18n: object.fire_salamander.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "28",
-                    "Edibility": -50
-                },
-
-                "FishingValley.Flashlight_Fish": {
-                    "Name": "Flashlight Fish",
-                    "DisplayName": "{{i18n: object.flashlight_fish.name}}",
-                    "Description": "{{i18n: object.flashlight_fish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "29",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Freshwater_Angelfish": {
-                    "Name": "Freshwater Angelfish",
-                    "DisplayName": "{{i18n: object.freshwater_angelfish.name}}",
-                    "Description": "{{i18n: object.freshwater_angelfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 60,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "30",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Giant_Gourami": {
-                    "Name": "Giant Gourami",
-                    "DisplayName": "{{i18n: object.giant_gourami.name}}",
-                    "Description": "{{i18n: object.giant_gourami.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 190,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "31",
-                    "Edibility": 45
-                },
-
-                "FishingValley.Giant_Isopod": {
-                    "Name": "Giant Isopod",
-                    "DisplayName": "{{i18n: object.giant_isopod.name}}",
-                    "Description": "{{i18n: object.giant_isopod.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "32",
-                    "Edibility": 10
-                },
-
-                "FishingValley.Giant_Southern_Crab": {
-                    "Name": "Giant Deepwater Crab",
-                    "DisplayName": "{{i18n: object.giant_southern_crab.name}}",
-                    "Description": "{{i18n: object.giant_southern_crab.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "33",
-                    "Edibility": 50
-                },
-
-                "FishingValley.Giant_Trevally": {
-                    "Name": "Giant Trevally",
-                    "DisplayName": "{{i18n: object.giant_trevally.name}}",
-                    "Description": "{{i18n: object.giant_trevally.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "34",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Giant_Triton": {
-                    "Name": "Giant Triton",
-                    "DisplayName": "{{i18n: object.giant_triton.name}}",
-                    "Description": "{{i18n: object.giant_triton.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "35",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Goliath_Grouper": {
-                    "Name": "Goliath Grouper",
-                    "DisplayName": "{{i18n: object.goliath_grouper.name}}",
-                    "Description": "{{i18n: object.goliath_grouper.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 220,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "36",
-                    "Edibility": 45
-                },
-
-                "FishingValley.Grey_Triggerfish": {
-                    "Name": "Grey Triggerfish",
-                    "DisplayName": "{{i18n: object.grey_triggerfish.name}}",
-                    "Description": "{{i18n: object.grey_triggerfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "37",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Guitarfish": {
-                    "Name": "Guitarfish",
-                    "DisplayName": "{{i18n: object.guitarfish.name}}",
-                    "Description": "{{i18n: object.guitarfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 70,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "38",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Gulper_Eel": {
-                    "Name": "Gulper Eel",
-                    "DisplayName": "{{i18n: object.gulper_eel.name}}",
-                    "Description": "{{i18n: object.gulper_eel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "39",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Guppy": {
-                    "Name": "Guppy",
-                    "DisplayName": "{{i18n: object.guppy.name}}",
-                    "Description": "{{i18n: object.guppy.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "40",
-                    "Edibility": 5
-                },
-
-                "FishingValley.Halfmoon_Betta": {
-                    "Name": "Halfmoon Betta",
-                    "DisplayName": "{{i18n: object.halfmoon_betta.name}}",
-                    "Description": "{{i18n: object.halfmoon_beta.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "41",
-                    "Edibility": 5
-                },
-
-                "FishingValley.Hellbender": {
-                    "Name": "Hellbender",
-                    "DisplayName": "{{i18n: object.hellbender.name}}",
-                    "Description": "{{i18n: object.hellbender.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "42",
-                    "Edibility": 5
-                },
-
-                "FishingValley.Horsehoe_Crab": {
-                    "Name": "Horsehoe Crab",
-                    "DisplayName": "{{i18n: object.horsehoe_crab.name}}",
-                    "Description": "{{i18n: object.horsehoe_crab.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "43",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Humphead_Wrasse": {
-                    "Name": "Humphead Wrasse",
-                    "DisplayName": "{{i18n: object.humphead_wrasse.name}}",
-                    "Description": "{{i18n: object.humphead_wrasse.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "44",
-                    "Edibility": 60
-                },
-
-                "FishingValley.King_Emperor_Piranha": {
-                    "Name": "King Emperor Piranha",
-                    "DisplayName": "{{i18n: object.king_emperor_piranha.name}}",
-                    "Description": "{{i18n: object.king_emperor_piranha.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 60,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "45",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Leopard_Shark": {
-                    "Name": "Leopard Shark",
-                    "DisplayName": "{{i18n: object.leopard_shark.name}}",
-                    "Description": "{{i18n: object.leopard_shark.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 250,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "46",
-                    "Edibility": 50
-                },
-
-                "FishingValley.Longfin_Eel": {
-                    "Name": "Longfin Eel",
-                    "DisplayName": "{{i18n: object.longfin_eel.name}}",
-                    "Description": "{{i18n: object.longfin_eel.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "47",
-                    "Edibility": 50
-                },
-
-                "FishingValley.Mantis_Shrimp": {
-                    "Name": "Mantis Shrimp",
-                    "DisplayName": "{{i18n: object.mantis_shrimp.name}}",
-                    "Description": "{{i18n: object.mantis_shrimp.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "48",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Matamata": {
-                    "Name": "Matamata",
-                    "DisplayName": "{{i18n: object.matamata.name}}",
-                    "Description": "{{i18n: object.matamata.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "49",
-                    "Edibility": 40
-                },
-
-                "FishingValley.Muskellunge": {
-                    "Name": "Muskellunge",
-                    "DisplayName": "{{i18n: object.muskellunge.name}}",
-                    "Description": "{{i18n: object.muskellunge.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "50",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Nursehound_Shark": {
-                    "Name": "Nursehound Shark",
-                    "DisplayName": "{{i18n: object.nursehound_shark.name}}",
-                    "Description": "{{i18n: object.nursehound_shark.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "51",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Olm": {
-                    "Name": "Olm",
-                    "DisplayName": "{{i18n: object.olm.name}}",
-                    "Description": "{{i18n: object.olm.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 160,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "52",
-                    "Edibility": 5
-                },
-                
-                "FishingValley.Paddlefish": {
-                    "Name": "Paddlefish",
-                    "DisplayName": "{{i18n: object.paddlefish.name}}",
-                    "Description": "{{i18n: object.paddlefish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "53",
-                    "Edibility": 60
-                },
-
-                "FishingValley.Panther_Grouper": {
-                    "Name": "Panther Grouper",
-                    "DisplayName": "{{i18n: object.panther_grouper.name}}",
-                    "Description": "{{i18n: object.panther_grouper.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "54",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Paraiba": {
-                    "Name": "Paraiba Catfish",
-                    "DisplayName": "{{i18n: object.paraiba.name}}",
-                    "Description": "{{i18n: object.paraiba.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 350,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "55",
-                    "Edibility": 100
-                },
-
-                "FishingValley.Payara": {
-                    "Name": "Payara",
-                    "DisplayName": "{{i18n: object.payara.name}}",
-                    "Description": "{{i18n: object.payara.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 180,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "56",
-                    "Edibility": 40
-                },
-
-                "FishingValley.Pumpkinseed": {
-                    "Name": "Pumpkinseed",
-                    "DisplayName": "{{i18n: object.pumpkinseed.name}}",
-                    "Description": "{{i18n: object.pumpkinseed.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "57",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Rainbow_Runner": {
-                    "Name": "Rainbow Runner",
-                    "DisplayName": "{{i18n: object.rainbow_runner.name}}",
-                    "Description": "{{i18n: object.rainbow_runner.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "58",
-                    "Edibility": 35
-                },
-
-                "FishingValley.Rainbow_Snake": {
-                    "Name": "Rainbow Snake",
-                    "DisplayName": "{{i18n: object.rainbow_snake.name}}",
-                    "Description": "{{i18n: object.rainbow_snake.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "59",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Ramshorn_Snail": {
-                    "Name": "Ramshorn Snail",
-                    "DisplayName": "{{i18n: object.ramshorn_snail.name}}",
-                    "Description": "{{i18n: object.ramshorn_snail.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "60",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Red_Tiger_Oscar": {
-                    "Name": "Red Tiger Oscar",
-                    "DisplayName": "{{i18n: object.red_tiger_oscar.name}}",
-                    "Description": "{{i18n: object.red_tiger_oscar.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "61",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Redline_Puffer": {
-                    "Name": "Redline Puffer",
-                    "DisplayName": "{{i18n: object.redline_puffer.name}}",
-                    "Description": "{{i18n: object.redline_puffer.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 180,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "62",
-                    "Edibility": -45
-                },
-
-                "FishingValley.Redtail_Catfish": {
-                    "Name": "Redtail Catfish",
-                    "DisplayName": "{{i18n: object.redtail_catfish.name}}",
-                    "Description": "{{i18n: object.redtail_catfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 180,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "63",
-                    "Edibility": 60
-                },
-
-                "FishingValley.Remora": {
-                    "Name": "Remora",
-                    "DisplayName": "{{i18n: object.remora.name}}",
-                    "Description": "{{i18n: object.remora.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "64",
-                    "Edibility": 15
-                },
-
-                "FishingValley.River_Dolphin": {
-                    "Name": "River Dolphin",
-                    "DisplayName": "{{i18n: object.river_dolphin.name}}",
-                    "Description": "{{i18n: object.river_dolphin.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 240,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "65",
-                    "Edibility": 70
-                },
-
-                "FishingValley.Sandbar_Shark": {
-                    "Name": "Sandbar Shark",
-                    "DisplayName": "{{i18n: object.sandbar_shark.name}}",
-                    "Description": "{{i18n: object.sandbar_shark.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 300,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "66",
-                    "Edibility": 80
-                },
-
-                "FishingValley.Saratoga": {
-                    "Name": "Saratoga",
-                    "DisplayName": "{{i18n: object.saratoga.name}}",
-                    "Description": "{{i18n: object.saratoga.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "67",
-                    "Edibility": 40
-                },
-
-                "FishingValley.Sheephead_Wrasse": {
-                    "Name": "Sheephead Wrasse",
-                    "DisplayName": "{{i18n: object.sheephead_wrasse.name}}",
-                    "Description": "{{i18n: object.sheephead_wrasse.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "68",
-                    "Edibility": 30
-                },
-
-                "FishingValley.Snapping_Turtle": {
-                    "Name": "Alligator Snapping Turtle",
-                    "DisplayName": "{{i18n: object.snapping_turtle.name}}",
-                    "Description": "{{i18n: object.snapping_turtle.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 180,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "69",
-                    "Edibility": 70
-                },
-
-                "FishingValley.Snowy_Grouper": {
-                    "Name": "Snowy Grouper",
-                    "DisplayName": "{{i18n: object.snowy_grouper.name}}",
-                    "Description": "{{i18n: object.snowy_grouper.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "70",
-                    "Edibility": 50
-                },
-
-                "FishingValley.Southern_Opah": {
-                    "Name": "Southern Opah",
-                    "DisplayName": "{{i18n: object.southern_opah.name}}",
-                    "Description": "{{i18n: object.southern_opah.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "71",
-                    "Edibility": 80
-                },
-
-                "FishingValley.Taimen": {
-                    "Name": "Taimen",
-                    "DisplayName": "{{i18n: object.taimen.name}}",
-                    "Description": "{{i18n: object.taimen.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "72",
-                    "Edibility": 65
-                },
-
-                "FishingValley.Tambaqui": {
-                    "Name": "Tambaqui",
-                    "DisplayName": "{{i18n: object.tambaqui.name}}",
-                    "Description": "{{i18n: object.tambaqui.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "73",
-                    "Edibility": 45
-                },
-
-                "FishingValley.Tiger_Perch": {
-                    "Name": "Siamese Tiger Perch",
-                    "DisplayName": "{{i18n: object.tiger_perch.name}}",
-                    "Description": "{{i18n: object.tiger_perch.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "74",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Titan_Triggerfish": {
-                    "Name": "Titan Triggerfish",
-                    "DisplayName": "{{i18n: object.titan_triggerfish.name}}",
-                    "Description": "{{i18n: object.titan_triggerfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 120,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "75",
-                    "Edibility": 45
-                },
-
-                "FishingValley.Torpedo_Ray": {
-                    "Name": "Torpedo Ray",
-                    "DisplayName": "{{i18n: object.torpedo_ray.name}}",
-                    "Description": "{{i18n: object.torpedo_ray.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "76",
-                    "Edibility": 25
-                },
-
-                "FishingValley.Vampire_Crab": {
-                    "Name": "Vampire Crab",
-                    "DisplayName": "{{i18n: object.vampire_crab.name}}",
-                    "Description": "{{i18n: object.vampire_crab.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "77",
-                    "Edibility": 5
-                },
-
-                "FishingValley.Warty_Frogfish": {
-                    "Name": "Warty Frogfish",
-                    "DisplayName": "{{i18n: object.warty_frogfish.name}}",
-                    "Description": "{{i18n: object.warty_frogfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 110,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "78",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Waterfall_Climbing_Loach": {
-                    "Name": "Waterfall Climbing Loach",
-                    "DisplayName": "{{i18n: object.waterfall_climbing_loach.name}}",
-                    "Description": "{{i18n: object.waterfall_climbing_loach.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 100,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "79",
-                    "Edibility": 15
-                },
-
-                "FishingValley.Wels_Catfish": {
-                    "Name": "Wels Catfish",
-                    "DisplayName": "{{i18n: object.wels_catfish.name}}",
-                    "Description": "{{i18n: object.wels_catfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 150,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "80",
-                    "Edibility": 45
-                },
-
-                "FishingValley.Xenopus": {
-                    "Name": "Xenopus",
-                    "DisplayName": "{{i18n: object.xenopus.name}}",
-                    "Description": "{{i18n: object.xenopus.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 50,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "81",
-                    "Edibility": 20
-                },
-
-                "FishingValley.Yellow_Anaconda": {
-                    "Name": "Yellow Anaconda",
-                    "DisplayName": "{{i18n: object.yellow_anaconda.name}}",
-                    "Description": "{{i18n: object.yellow_anaconda.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "82",
-                    "Edibility": 60
-                },
-
-                "FishingValley.Zebra_Shovelnose_Catfish": {
-                    "Name": "Zebra Shovelnose Catfish",
-                    "DisplayName": "{{i18n: object.zebra_shovelnose_catfish.name}}",
-                    "Description": "{{i18n: object.zebra_shovelnose_catfish.description}}",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 90,
-                    "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
-                    "SpriteIndex": "83",
-                    "Edibility": 30
-                }
-            }
+        "FishingValley.Aquatic_Caecilian": {
+          "Name": "Aquatic Caecilian",
+          "DisplayName": "{{i18n: object.aquatic_caecilian.name}}",
+          "Description": "{{i18n: object.aquatic_caecilian.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "1",
+          "Edibility": 20
         },
 
-        {
-            "Action": "EditData",
-            "Target": "Data/Fish",
-            "Entries": {
-                "FishingValley.Aquatic_Caecilian": "Aquatic Caecilian/40/smooth/13/22/600 2600/summer/both/683 .4/4/.6/.4/2",
-                "FishingValley.Arapaima": "Arapaima/60/dart/80/120/600 1800/summer/sunny/683 .4/2/.2/.2/6",
-                "FishingValley.Bamboo_Shark": "Bamboo Shark/60/mixed/16/32/1800 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-                "FishingValley.Barramundi": "Barramundi/75/floater/43/60/600 2600/spring summer/both/683 .4/4/.6/.4/4",
-                "FishingValley.Bichir": "Bichir/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-                "FishingValley.Black_Diamond_Stingray": "Black Diamond Stingray/35/sinker/16/30/600 1600/spring summer fall winter/sunny/683 .4/6/.4/.6/3",
-                "FishingValley.Black_Piranha": "Red Eye Piranha/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
-                
-                // Not Done
-                "FishingValley.Black_Sea_Bass": "Black Sea Bass/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
-                
-                // Done
-                "FishingValley.Blind_Cave_Eel": "Blind Cave Eel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-                // Not Done
-                "FishingValley.Bowfin": "Bowfin/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                "FishingValley.Brigit": "Brigit/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                "FishingValley.Brook_Trout": "Brook Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                "FishingValley.Brown_Trout": "Brown Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                
-                // Done
-                "FishingValley.Bull_Shark": "Bull Shark/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
-
-                // Not Done
-                "FishingValley.Snakehead": "Snakehead/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-            
-                // Done
-                "FishingValley.Cave_Molly": "Cave Molly/20/mixed/1/5/600 2600/summer/both/683 .4/4/.6/.4/0",
-                "FishingValley.Cave_Salamander": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1",
-
-                // Not Done
-                "FishingValley.Chain_Pickerel": "Chain Pickerel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                "FishingValley.Cod": "Cod/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-                // Done
-                "FishingValley.Coral_Grouper": "Coral Grouper/45/sinker/6/15/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-
-                // Not Done
-                "FishingValley.Cownose_Ray": "Cownose Ray/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                
-                // Done
-                "FishingValley.Dragon_Snakehead": "Dragon Snakehead/50/smooth/1/4/600 2600/summer/both/683 .4/4/.6/.4/0",
-                "FishingValley.Dwarf_Caiman": "Dwarf Caiman/80/dart/45/65/900 1700/spring summer fall winter/sunny/683 .4/2/.2/.2/7",
-                "FishingValley.Electric_Eel": "Electric Eel/40/smooth/57/70/600 2600/summer/sunny/683 .4/2/.2/.2/3",
-                "FishingValley.Fire_Eel": "Fire Eel/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
-
-                // Not Done
-                "FishingValley.Flashlight_Fish": "Flashlight Fish/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-                
-                // Done
-                "FishingValley.Freshwater_Angelfish": "Freshwater Angelfish/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-                "FishingValley.Giant_Gourami": "Giant Gourami/85/smooth/17/27/600 2600/summer/both/683 .4/6/.4/.6/4",
-                "FishingValley.Giant_Trevally": "Giant Trevally/75/dart/35/50/800 1700/summer/sunny/683 .4/2/.2/.2/4",
-                "FishingValley.Goliath_Grouper": "Goliath Grouper/65/dart/50/70/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/3",
-
-                // Not Done
-                "FishingValley.Grey_Triggerfish": "Grey Triggerfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-                "FishingValley.Guitarfish": "Guitarfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-                "FishingValley.Gulper_Eel": "Gulper Eel/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-
-                // Done
-                "FishingValley.Guppy": "Guppy/15/smooth/1/2/600 1800/spring summer/both/683 .4/4/.6/.4/0",
-                "FishingValley.Halfmoon_Betta": "Halfmoon Betta/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-                // Not Done
-                "FishingValley.Hellbender": "Hellbender/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-
-                //Done
-                "FishingValley.Humphead_Wrasse": "Humphead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-                "FishingValley.King_Emperor_Piranha": "King Emperor Piranha/25/smooth/7/17/600 2600/summer/both/683 .4/4/.6/.4/1",
-                
-                // Not Done
-                "FishingValley.Leopard_Shark": "Leopard Shark/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
-                
-                // Done
-                "FishingValley.Longfin_Eel": "Longfin Eel/50/sinker/38/55/1800 2600/summer/rainy/683 .4/2/.2/.2/3",
-                "FishingValley.Matamata": "Matamata/45/sinker/11/18/900 1800/summer/sunny/683 .4/2/.2/.2/2",
-
-                // Not Done
-                "FishingValley.Muskellunge": "Muskellunge/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-                "FishingValley.Nursehound_Shark": "Nursehound Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-                // Done
-                "FishingValley.Olm": "Olm/50/mixed/5/12/600 2600/summer/both/683 .4/2/.2/.2/3",
-
-                // Not Done
-                "FishingValley.Paddlefish": "Paddlefish/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-                // Done
-                "FishingValley.Panther_Grouper": "Panther Grouper/40/sinker/18/27/800 1800/summer/sunny/683 .4/6/.4/.6/2",
-                "FishingValley.Paraiba": "Paraiba Catfish/70/dart/100/133/1800 2600/summer/rainy/683 .4/2/.2/.2/6",
-                "FishingValley.Payara": "Payara/50/mixed/27/43/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-                // Not Done
-                "FishingValley.Pumpkinseed": "Pumpkinseed/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
-
-                // Done
-                "FishingValley.Rainbow_Runner": "Rainbow Runner/60/mixed/35/50/600 2600/summer/sunny/683 .4/6/.4/.6/3",
-                "FishingValley.Rainbow_Snake": "Rainbow Snake/50/smooth/40/62/900 1800/summer/sunny/683 .4/6/.4/.6/2",
-                "FishingValley.Red_Tiger_Oscar": "Red Tiger Oscar/45/mixed/10/15/600 1600/summer/both/683 .4/4/.6/.4/2",
-                "FishingValley.Redline_Puffer": "Redline Puffer/60/dart/9/15/1800 2600/summer/both/683 .4/2/.2/.2/4",
-                "FishingValley.Redtail_Catfish": "Redtail Catfish/50/dart/40/55/1800 2600/summer/both/683 .4/6/.4/.6/4",
-                "FishingValley.Remora": "Remora/40/smooth/15/35/1200 2000/summer/both/683 .4/4/.6/.4/1",
-                "FishingValley.River_Dolphin": "River Dolphin/75/dart/70/95/600 2600/summer/both/683 .4/1/.1/.1/6",
-
-                // Not Done
-                "FishingValley.Sandbar_Shark": "Sandbar Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-                // Done
-                "FishingValley.Saratoga": "Saratoga/65/floater/14/35/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
-
-                // Not Done
-                "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-                "FishingValley.Snapping_Turtle": "Alligator Snapping Turtle/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-                "FishingValley.Snowy_Grouper": "Snowy Grouper/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-                "FishingValley.Southern_Opah": "Southern Opah/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-                "FishingValley.Taimen": "Taimen/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-
-                // Done
-                "FishingValley.Tambaqui": "Tambaqui/30/mixed/22/38/600 1700/summer fall/both/683 .4/4/.6/.4/2",
-                "FishingValley.Tiger_Perch": "Siamese Tiger Perch/20/mixed/7/16/600 2600/summer/both/683 .4/2/.3/.2/1",
-                "FishingValley.Titan_Triggerfish": "Titan Triggerfish/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-
-                // Not Done
-                "FishingValley.Torpedo_Ray": "Torpedo Ray/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-                
-                // Done
-                "FishingValley.Vampire_Crab": "Vampire Crab/15/mixed/1/2/600 1800/summer/both/683 .4/4/.6/.4/1",
-                "FishingValley.Warty_Frogfish": "Warty Frogfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
-
-                // Not Done
-                "FishingValley.Wels_Catfish": "Wels Catfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
-
-                // Done
-                "FishingValley.Yellow_Anaconda": "Yellow Anaconda/80/smooth/120/190/900 1800/summer/sunny/683 .4/2/.2/.2/6",
-                "FishingValley.Zebra_Shovelnose_Catfish": "Zebra Shovelnose Catfish/40/smooth/15/23/1600 2600/summer/rainy/683 .4/6/.4/.6/3"
-            }
+        "FishingValley.Arapaima": {
+          "Name": "Arapaima",
+          "DisplayName": "{{i18n: object.arapaima.name}}",
+          "Description": "{{i18n: object.arapaima.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 280,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "2",
+          "Edibility": 80
         },
 
-        {
-            "Action": "EditData",
-            "LogName": "Crabpot Spring",
-            "Target": "Data/Fish",
-            "When": { "Season": "spring" },
-            "Entries": {
-              "FishingValley.Albino_Xenopus": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
-              "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
-              "FishingValley.Fire_Salamander": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
-              "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
-              "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
-              "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
-            }
+        "FishingValley.Axolotl": {
+          "Name": "Axolotl",
+          "DisplayName": "{{i18n: object.axolotl.name}}",
+          "Description": "{{i18n: object.axolotl.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 70,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "3",
+          "Edibility": 0
         },
 
-        {
-            "Action": "EditData",
-            "LogName": "Crabpot Summer",
-            "Target": "Data/Fish",
-            "When": { "Season": "summer" },
-            "Entries": {
-              "FishingValley.Albino_Xenopus": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
-              "FishingValley.Blue_Legs_Hermit_Crab": "Blue Legs Hermit Crab/trap/.2/682 .45/ocean/1/2",
-              "FishingValley.Giant_Triton": "Giant Triton/trap/.1/682 .45/ocean/12/20",
-              "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              "FishingValley.Mantis_Shrimp": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12",
-              "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
-              "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
-            }
+        "FishingValley.Bamboo_Shark": {
+          "Name": "Bamboo Shark",
+          "DisplayName": "{{i18n: object.bamboo_shark.name}}",
+          "Description": "{{i18n: object.bamboo_shark.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 140,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "4",
+          "Edibility": 40
         },
 
-        {
-            "Action": "EditData",
-            "LogName": "Crabpot Fall",
-            "Target": "Data/Fish",
-            "When": { "Season": "fall" },
-            "Entries": {
-              "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
-              "FishingValley.Fire_Salamander": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
-              "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
-              "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-              "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2"
-            }
+        "FishingValley.Barramundi": {
+          "Name": "Barramundi",
+          "DisplayName": "{{i18n: object.barramundi.name}}",
+          "Description": "{{i18n: object.barramundi.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "5",
+          "Edibility": 30
         },
 
-        {
-            "Action": "EditData",
-            "LogName": "Crabpot Winter",
-            "Target": "Data/Fish",
-            "When": { "Season": "winter" },
-            "Entries": {
-              "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
-              "FishingValley.Giant_Isopod": "Giant Isopod/trap/.05/682 .45/ocean/7/15",
-              "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2"
-            }
+        "FishingValley.Bichir": {
+          "Name": "Bichir",
+          "DisplayName": "{{i18n: object.bichir.name}}",
+          "Description": "{{i18n: object.bichir.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "6",
+          "Edibility": 10
         },
 
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "When": {
-                "CategoryOverride": true,
-                "HasMod | contains=spacechase0.SpaceCore": true
-            },
-            "Entries": {
-                "FishingValley.Albino_Xenopus": {
-                    "CategoryTextOverride": "{{i18n:object.albino_xenopus.categorytextoverride}}"
-                },
+        "FishingValley.Black_Diamond_Stingray": {
+          "Name": "Black Diamond Stingray",
+          "DisplayName": "{{i18n: object.black_diamond_stingray.name}}",
+          "Description": "{{i18n: object.black_diamond_stingray.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "7",
+          "Edibility": 20
+        },
 
-                "FishingValley.Aquatic_Caecilian": {
-                    "CategoryTextOverride": "{{i18n:aquatic_caecilian.categorytextoverride}}"
-                },
+        "FishingValley.Black_Piranha": {
+          "Name": "Red Eye Piranha",
+          "DisplayName": "{{i18n: object.black_piranha.name}}",
+          "Description": "{{i18n: object.black_piranha.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 70,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "8",
+          "Edibility": 20
+        },
 
-                "FishingValley.Axolotl": {
-                    "CategoryTextOverride": "{{i18n:axolotl.categorytextoverride}}"
-                },
+        "FishingValley.Black_Sea_Bass": {
+          "Name": "Black Sea Bass",
+          "DisplayName": "{{i18n: object.black_sea_bass.name}}",
+          "Description": "{{i18n: object.black_sea_bass.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 120,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "9",
+          "Edibility": 35
+        },
 
-                "FishingValley.Cave_Salamander": {
-                    "CategoryTextOverride": "{{i18n:object.cave_salamander.categorytextoverride}}"
-                },
+        "FishingValley.Blind_Cave_Eel": {
+          "Name": "Blind Cave Eel",
+          "DisplayName": "{{i18n: object.blind_cave_eel.name}}",
+          "Description": "{{i18n: object.blind_cave_eel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "10",
+          "Edibility": 15
+        },
 
-                "FishingValley.Dwarf_Caiman": {
-                    "CategoryTextOverride": "{{i18n:dwarf_caiman.categorytextoverride}}"
-                },
+        "FishingValley.Blue_Legs_Hermit_Crab": {
+          "Name": "Blue Legs Hermit Crab",
+          "DisplayName": "{{i18n: object.blue_legs_hermit_crab.name}}",
+          "Description": "{{i18n: object.blue_legs_hermit_crab.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "11",
+          "Edibility": 0
+        },
 
-                "FishingValley.Fire_Salamander": {
-                    "CategoryTextOverride": "{{i18n:fire_salamander.categorytextoverride}}"
-                },
+        "FishingValley.Bowfin": {
+          "Name": "Bowfin",
+          "DisplayName": "{{i18n: object.bowfin.name}}",
+          "Description": "{{i18n: object.bowfin.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "12",
+          "Edibility": 0
+        },
 
-                "FishingValley.Giant_Isopod": {
-                    "CategoryTextOverride": "{{i18n:giant_isopod.categorytextoverride}}"
-                },
+        "FishingValley.Brigit": {
+          "Name": "Brigit",
+          "DisplayName": "{{i18n: object.brigit.name}}",
+          "Description": "{{i18n: object.brigit.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "13",
+          "Edibility": 10
+        },
 
-                "FishingValley.Giant_Southern_Crab": {
-                    "CategoryTextOverride": "{{i18n:giant_southern_crab.categorytextoverride}}"
-                },
+        "FishingValley.Brook_Trout": {
+          "Name": "Brook Trout",
+          "DisplayName": "{{i18n: object.brook_trout.name}}",
+          "Description": "{{i18n: object.brook_trout.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "14",
+          "Edibility": 35
+        },
 
-                "FishingValley.Giant_Triton": {
-                    "CategoryTextOverride": "{{i18n:giant_triton.categorytextoverride}}"
-                },
+        "FishingValley.Brown_Trout": {
+          "Name": "Brook Trout",
+          "DisplayName": "{{i18n: object.brown_trout.name}}",
+          "Description": "{{i18n: object.brown_trout.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "15",
+          "Edibility": 35
+        },
 
-                "FishingValley.Hellbender": {
-                    "CategoryTextOverride": "{{i18n:hellbender.categorytextoverride}}"
-                },
+        "FishingValley.Bull_Shark": {
+          "Name": "Bull Shark",
+          "DisplayName": "{{i18n: object.bull_shark.name}}",
+          "Description": "{{i18n: object.bull_shark.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 220,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "16",
+          "Edibility": 80
+        },
 
-                "FishingValley.Horsehoe_Crab": {
-                    "CategoryTextOverride": "{{i18n:horsehoe_crab.categorytextoverride}}"
-                },
+        "FishingValley.Snakehead": {
+          "Name": "Snakehead",
+          "DisplayName": "{{i18n: object.snakehead.name}}",
+          "Description": "{{i18n: object.snakehead.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "17",
+          "Edibility": 30
+        },
 
-                "FishingValley.Mantis_Shrimp": {
-                    "CategoryTextOverride": "{{i18n:mantis_shrimp.categorytextoverride}}"
-                },
+        "FishingValley.Cave_Molly": {
+          "Name": "Cave Molly",
+          "DisplayName": "{{i18n: object.cave_molly.name}}",
+          "Description": "{{i18n: object.cave_molly.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "18",
+          "Edibility": 15
+        },
 
-                "FishingValley.Matamata": {
-                    "CategoryTextOverride": "{{i18n:matamata.categorytextoverride}}"
-                },
+        "FishingValley.Cave_Salamander": {
+          "Name": "Cave Salamander",
+          "DisplayName": "{{i18n: object.cave_salamander.name}}",
+          "Description": "{{i18n: object.cave_salamander.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "19",
+          "Edibility": -75
+        },
 
-                "FishingValley.Olm": {
-                    "CategoryTextOverride": "{{i18n:olm.categorytextoverride}}"
-                },
+        "FishingValley.Chain_Pickerel": {
+          "Name": "Chain Pickerel",
+          "DisplayName": "{{i18n: object.chain_pickerel.name}}",
+          "Description": "{{i18n: object.chain_pickerel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "20",
+          "Edibility": 35
+        },
 
-                "FishingValley.Rainbow_Snake": {
-                    "CategoryTextOverride": "{{i18n:rainbow_snake.categorytextoverride}}"
-                },
+        "FishingValley.Cod": {
+          "Name": "Cod",
+          "DisplayName": "{{i18n: object.cod.name}}",
+          "Description": "{{i18n: object.cod.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "21",
+          "Edibility": 30
+        },
 
-                "FishingValley.Ramshorn_Snail": {
-                    "CategoryTextOverride": "{{i18n:ramshorn_snail.categorytextoverride}}"
-                },
+        "FishingValley.Coral_Grouper": {
+          "Name": "Coral Grouper",
+          "DisplayName": "{{i18n: object.coral_grouper.name}}",
+          "Description": "{{i18n: object.coral_grouper.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "22",
+          "Edibility": 30
+        },
 
-                "FishingValley.River_Dolphin": {
-                    "CategoryTextOverride": "{{i18n:river_dolphin.categorytextoverride}}"
-                },
+        "FishingValley.Cownose_Ray": {
+          "Name": "Cownose Ray",
+          "DisplayName": "{{i18n: object.cownose_ray.name}}",
+          "Description": "{{i18n: object.cownose_ray.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 110,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "23",
+          "Edibility": 25
+        },
 
-                "FishingValley.Snapping_Turtle": {
-                    "CategoryTextOverride": "{{i18n:snapping_turtle.categorytextoverride}}"
-                },
+        "FishingValley.Dragon_Snakehead": {
+          "Name": "Dragon Snakehead",
+          "DisplayName": "{{i18n: object.dragon_snakehead.name}}",
+          "Description": "{{i18n: object.dragon_snakehead.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "24",
+          "Edibility": 20
+        },
 
-                "FishingValley.Tiger_Perch": {
-                    "CategoryTextOverride": "{{i18n:tiger_perch.categorytextoverride}}"
-                },
+        "FishingValley.Dwarf_Caiman": {
+          "Name": "Dwarf Caiman",
+          "DisplayName": "{{i18n: object.dwarf_caiman.name}}",
+          "Description": "{{i18n: object.dwarf_caiman.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 250,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "25",
+          "Edibility": 60
+        },
 
-                "FishingValley.Vampire_Crab": {
-                    "CategoryTextOverride": "{{i18n:vampire_crab.categorytextoverride}}"
-                },
+        "FishingValley.Electric_Eel": {
+          "Name": "Electric Eel",
+          "DisplayName": "{{i18n: object.electric_eel.name}}",
+          "Description": "{{i18n: object.electric_eel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "26",
+          "Edibility": 30
+        },
 
-                "FishingValley.Xenopus": {
-                    "CategoryTextOverride": "{{i18n:xenopus.categorytextoverride}}"
-                },
+        "FishingValley.Fire_Eel": {
+          "Name": "Fire Eel",
+          "DisplayName": "{{i18n: object.fire_eel.name}}",
+          "Description": "{{i18n: object.fire_eel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "27",
+          "Edibility": 30
+        },
 
-                "FishingValley.Yellow_Anaconda": {
-                    "CategoryTextOverride": "{{i18n:yellow_anaconda.categorytextoverride}}"
-                }
-            }
+        "FishingValley.Fire_Salamander": {
+          "Name": "Fire Salamander",
+          "DisplayName": "{{i18n: object.fire_salamander.name}}",
+          "Description": "{{i18n: object.fire_salamander.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "28",
+          "Edibility": -50
+        },
+
+        "FishingValley.Flashlight_Fish": {
+          "Name": "Flashlight Fish",
+          "DisplayName": "{{i18n: object.flashlight_fish.name}}",
+          "Description": "{{i18n: object.flashlight_fish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "29",
+          "Edibility": 20
+        },
+
+        "FishingValley.Freshwater_Angelfish": {
+          "Name": "Freshwater Angelfish",
+          "DisplayName": "{{i18n: object.freshwater_angelfish.name}}",
+          "Description": "{{i18n: object.freshwater_angelfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 60,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "30",
+          "Edibility": 15
+        },
+
+        "FishingValley.Giant_Gourami": {
+          "Name": "Giant Gourami",
+          "DisplayName": "{{i18n: object.giant_gourami.name}}",
+          "Description": "{{i18n: object.giant_gourami.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 190,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "31",
+          "Edibility": 45
+        },
+
+        "FishingValley.Giant_Isopod": {
+          "Name": "Giant Isopod",
+          "DisplayName": "{{i18n: object.giant_isopod.name}}",
+          "Description": "{{i18n: object.giant_isopod.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "32",
+          "Edibility": 10
+        },
+
+        "FishingValley.Giant_Southern_Crab": {
+          "Name": "Giant Deepwater Crab",
+          "DisplayName": "{{i18n: object.giant_southern_crab.name}}",
+          "Description": "{{i18n: object.giant_southern_crab.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "33",
+          "Edibility": 50
+        },
+
+        "FishingValley.Giant_Trevally": {
+          "Name": "Giant Trevally",
+          "DisplayName": "{{i18n: object.giant_trevally.name}}",
+          "Description": "{{i18n: object.giant_trevally.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "34",
+          "Edibility": 30
+        },
+
+        "FishingValley.Giant_Triton": {
+          "Name": "Giant Triton",
+          "DisplayName": "{{i18n: object.giant_triton.name}}",
+          "Description": "{{i18n: object.giant_triton.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "35",
+          "Edibility": 30
+        },
+
+        "FishingValley.Goliath_Grouper": {
+          "Name": "Goliath Grouper",
+          "DisplayName": "{{i18n: object.goliath_grouper.name}}",
+          "Description": "{{i18n: object.goliath_grouper.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 220,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "36",
+          "Edibility": 45
+        },
+
+        "FishingValley.Grey_Triggerfish": {
+          "Name": "Grey Triggerfish",
+          "DisplayName": "{{i18n: object.grey_triggerfish.name}}",
+          "Description": "{{i18n: object.grey_triggerfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 80,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "37",
+          "Edibility": 35
+        },
+
+        "FishingValley.Guitarfish": {
+          "Name": "Guitarfish",
+          "DisplayName": "{{i18n: object.guitarfish.name}}",
+          "Description": "{{i18n: object.guitarfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 70,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "38",
+          "Edibility": 15
+        },
+
+        "FishingValley.Gulper_Eel": {
+          "Name": "Gulper Eel",
+          "DisplayName": "{{i18n: object.gulper_eel.name}}",
+          "Description": "{{i18n: object.gulper_eel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "39",
+          "Edibility": 15
+        },
+
+        "FishingValley.Guppy": {
+          "Name": "Guppy",
+          "DisplayName": "{{i18n: object.guppy.name}}",
+          "Description": "{{i18n: object.guppy.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "40",
+          "Edibility": 5
+        },
+
+        "FishingValley.Halfmoon_Betta": {
+          "Name": "Halfmoon Betta",
+          "DisplayName": "{{i18n: object.halfmoon_betta.name}}",
+          "Description": "{{i18n: object.halfmoon_beta.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "41",
+          "Edibility": 5
+        },
+
+        "FishingValley.Hellbender": {
+          "Name": "Hellbender",
+          "DisplayName": "{{i18n: object.hellbender.name}}",
+          "Description": "{{i18n: object.hellbender.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "42",
+          "Edibility": 5
+        },
+
+        "FishingValley.Horsehoe_Crab": {
+          "Name": "Horsehoe Crab",
+          "DisplayName": "{{i18n: object.horsehoe_crab.name}}",
+          "Description": "{{i18n: object.horsehoe_crab.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "43",
+          "Edibility": 15
+        },
+
+        "FishingValley.Humphead_Wrasse": {
+          "Name": "Humphead Wrasse",
+          "DisplayName": "{{i18n: object.humphead_wrasse.name}}",
+          "Description": "{{i18n: object.humphead_wrasse.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "44",
+          "Edibility": 60
+        },
+
+        "FishingValley.King_Emperor_Piranha": {
+          "Name": "King Emperor Piranha",
+          "DisplayName": "{{i18n: object.king_emperor_piranha.name}}",
+          "Description": "{{i18n: object.king_emperor_piranha.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 60,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "45",
+          "Edibility": 20
+        },
+
+        "FishingValley.Leopard_Shark": {
+          "Name": "Leopard Shark",
+          "DisplayName": "{{i18n: object.leopard_shark.name}}",
+          "Description": "{{i18n: object.leopard_shark.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 250,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "46",
+          "Edibility": 50
+        },
+
+        "FishingValley.Longfin_Eel": {
+          "Name": "Longfin Eel",
+          "DisplayName": "{{i18n: object.longfin_eel.name}}",
+          "Description": "{{i18n: object.longfin_eel.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "47",
+          "Edibility": 50
+        },
+
+        "FishingValley.Mantis_Shrimp": {
+          "Name": "Mantis Shrimp",
+          "DisplayName": "{{i18n: object.mantis_shrimp.name}}",
+          "Description": "{{i18n: object.mantis_shrimp.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "48",
+          "Edibility": 20
+        },
+
+        "FishingValley.Matamata": {
+          "Name": "Matamata",
+          "DisplayName": "{{i18n: object.matamata.name}}",
+          "Description": "{{i18n: object.matamata.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "49",
+          "Edibility": 40
+        },
+
+        "FishingValley.Muskellunge": {
+          "Name": "Muskellunge",
+          "DisplayName": "{{i18n: object.muskellunge.name}}",
+          "Description": "{{i18n: object.muskellunge.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "50",
+          "Edibility": 30
+        },
+
+        "FishingValley.Nursehound_Shark": {
+          "Name": "Nursehound Shark",
+          "DisplayName": "{{i18n: object.nursehound_shark.name}}",
+          "Description": "{{i18n: object.nursehound_shark.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "51",
+          "Edibility": 20
+        },
+
+        "FishingValley.Olm": {
+          "Name": "Olm",
+          "DisplayName": "{{i18n: object.olm.name}}",
+          "Description": "{{i18n: object.olm.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 160,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "52",
+          "Edibility": 5
+        },
+
+        "FishingValley.Paddlefish": {
+          "Name": "Paddlefish",
+          "DisplayName": "{{i18n: object.paddlefish.name}}",
+          "Description": "{{i18n: object.paddlefish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "53",
+          "Edibility": 60
+        },
+
+        "FishingValley.Panther_Grouper": {
+          "Name": "Panther Grouper",
+          "DisplayName": "{{i18n: object.panther_grouper.name}}",
+          "Description": "{{i18n: object.panther_grouper.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "54",
+          "Edibility": 20
+        },
+
+        "FishingValley.Paraiba": {
+          "Name": "Paraiba Catfish",
+          "DisplayName": "{{i18n: object.paraiba.name}}",
+          "Description": "{{i18n: object.paraiba.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 350,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "55",
+          "Edibility": 100
+        },
+
+        "FishingValley.Payara": {
+          "Name": "Payara",
+          "DisplayName": "{{i18n: object.payara.name}}",
+          "Description": "{{i18n: object.payara.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 180,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "56",
+          "Edibility": 40
+        },
+
+        "FishingValley.Pumpkinseed": {
+          "Name": "Pumpkinseed",
+          "DisplayName": "{{i18n: object.pumpkinseed.name}}",
+          "Description": "{{i18n: object.pumpkinseed.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "57",
+          "Edibility": 35
+        },
+
+        "FishingValley.Rainbow_Runner": {
+          "Name": "Rainbow Runner",
+          "DisplayName": "{{i18n: object.rainbow_runner.name}}",
+          "Description": "{{i18n: object.rainbow_runner.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "58",
+          "Edibility": 35
+        },
+
+        "FishingValley.Rainbow_Snake": {
+          "Name": "Rainbow Snake",
+          "DisplayName": "{{i18n: object.rainbow_snake.name}}",
+          "Description": "{{i18n: object.rainbow_snake.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "59",
+          "Edibility": 15
+        },
+
+        "FishingValley.Ramshorn_Snail": {
+          "Name": "Ramshorn Snail",
+          "DisplayName": "{{i18n: object.ramshorn_snail.name}}",
+          "Description": "{{i18n: object.ramshorn_snail.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "60",
+          "Edibility": 20
+        },
+
+        "FishingValley.Red_Tiger_Oscar": {
+          "Name": "Red Tiger Oscar",
+          "DisplayName": "{{i18n: object.red_tiger_oscar.name}}",
+          "Description": "{{i18n: object.red_tiger_oscar.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "61",
+          "Edibility": 20
+        },
+
+        "FishingValley.Redline_Puffer": {
+          "Name": "Redline Puffer",
+          "DisplayName": "{{i18n: object.redline_puffer.name}}",
+          "Description": "{{i18n: object.redline_puffer.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 180,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "62",
+          "Edibility": -45
+        },
+
+        "FishingValley.Redtail_Catfish": {
+          "Name": "Redtail Catfish",
+          "DisplayName": "{{i18n: object.redtail_catfish.name}}",
+          "Description": "{{i18n: object.redtail_catfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 180,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "63",
+          "Edibility": 60
+        },
+
+        "FishingValley.Remora": {
+          "Name": "Remora",
+          "DisplayName": "{{i18n: object.remora.name}}",
+          "Description": "{{i18n: object.remora.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "64",
+          "Edibility": 15
+        },
+
+        "FishingValley.River_Dolphin": {
+          "Name": "River Dolphin",
+          "DisplayName": "{{i18n: object.river_dolphin.name}}",
+          "Description": "{{i18n: object.river_dolphin.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 240,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "65",
+          "Edibility": 70
+        },
+
+        "FishingValley.Sandbar_Shark": {
+          "Name": "Sandbar Shark",
+          "DisplayName": "{{i18n: object.sandbar_shark.name}}",
+          "Description": "{{i18n: object.sandbar_shark.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 300,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "66",
+          "Edibility": 80
+        },
+
+        "FishingValley.Saratoga": {
+          "Name": "Saratoga",
+          "DisplayName": "{{i18n: object.saratoga.name}}",
+          "Description": "{{i18n: object.saratoga.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "67",
+          "Edibility": 40
+        },
+
+        "FishingValley.Sheephead_Wrasse": {
+          "Name": "Sheephead Wrasse",
+          "DisplayName": "{{i18n: object.sheephead_wrasse.name}}",
+          "Description": "{{i18n: object.sheephead_wrasse.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "68",
+          "Edibility": 30
+        },
+
+        "FishingValley.Snapping_Turtle": {
+          "Name": "Alligator Snapping Turtle",
+          "DisplayName": "{{i18n: object.snapping_turtle.name}}",
+          "Description": "{{i18n: object.snapping_turtle.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 180,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "69",
+          "Edibility": 70
+        },
+
+        "FishingValley.Snowy_Grouper": {
+          "Name": "Snowy Grouper",
+          "DisplayName": "{{i18n: object.snowy_grouper.name}}",
+          "Description": "{{i18n: object.snowy_grouper.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "70",
+          "Edibility": 50
+        },
+
+        "FishingValley.Southern_Opah": {
+          "Name": "Southern Opah",
+          "DisplayName": "{{i18n: object.southern_opah.name}}",
+          "Description": "{{i18n: object.southern_opah.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "71",
+          "Edibility": 80
+        },
+
+        "FishingValley.Taimen": {
+          "Name": "Taimen",
+          "DisplayName": "{{i18n: object.taimen.name}}",
+          "Description": "{{i18n: object.taimen.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "72",
+          "Edibility": 65
+        },
+
+        "FishingValley.Tambaqui": {
+          "Name": "Tambaqui",
+          "DisplayName": "{{i18n: object.tambaqui.name}}",
+          "Description": "{{i18n: object.tambaqui.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "73",
+          "Edibility": 45
+        },
+
+        "FishingValley.Tiger_Perch": {
+          "Name": "Siamese Tiger Perch",
+          "DisplayName": "{{i18n: object.tiger_perch.name}}",
+          "Description": "{{i18n: object.tiger_perch.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "74",
+          "Edibility": 15
+        },
+
+        "FishingValley.Titan_Triggerfish": {
+          "Name": "Titan Triggerfish",
+          "DisplayName": "{{i18n: object.titan_triggerfish.name}}",
+          "Description": "{{i18n: object.titan_triggerfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 120,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "75",
+          "Edibility": 45
+        },
+
+        "FishingValley.Torpedo_Ray": {
+          "Name": "Torpedo Ray",
+          "DisplayName": "{{i18n: object.torpedo_ray.name}}",
+          "Description": "{{i18n: object.torpedo_ray.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "76",
+          "Edibility": 25
+        },
+
+        "FishingValley.Vampire_Crab": {
+          "Name": "Vampire Crab",
+          "DisplayName": "{{i18n: object.vampire_crab.name}}",
+          "Description": "{{i18n: object.vampire_crab.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "77",
+          "Edibility": 5
+        },
+
+        "FishingValley.Warty_Frogfish": {
+          "Name": "Warty Frogfish",
+          "DisplayName": "{{i18n: object.warty_frogfish.name}}",
+          "Description": "{{i18n: object.warty_frogfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 110,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "78",
+          "Edibility": 15
+        },
+
+        "FishingValley.Waterfall_Climbing_Loach": {
+          "Name": "Waterfall Climbing Loach",
+          "DisplayName": "{{i18n: object.waterfall_climbing_loach.name}}",
+          "Description": "{{i18n: object.waterfall_climbing_loach.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 100,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "79",
+          "Edibility": 15
+        },
+
+        "FishingValley.Wels_Catfish": {
+          "Name": "Wels Catfish",
+          "DisplayName": "{{i18n: object.wels_catfish.name}}",
+          "Description": "{{i18n: object.wels_catfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 150,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "80",
+          "Edibility": 45
+        },
+
+        "FishingValley.Xenopus": {
+          "Name": "Xenopus",
+          "DisplayName": "{{i18n: object.xenopus.name}}",
+          "Description": "{{i18n: object.xenopus.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 50,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "81",
+          "Edibility": 20
+        },
+
+        "FishingValley.Yellow_Anaconda": {
+          "Name": "Yellow Anaconda",
+          "DisplayName": "{{i18n: object.yellow_anaconda.name}}",
+          "Description": "{{i18n: object.yellow_anaconda.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 200,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "82",
+          "Edibility": 60
+        },
+
+        "FishingValley.Zebra_Shovelnose_Catfish": {
+          "Name": "Zebra Shovelnose Catfish",
+          "DisplayName": "{{i18n: object.zebra_shovelnose_catfish.name}}",
+          "Description": "{{i18n: object.zebra_shovelnose_catfish.description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "Price": 90,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "SpriteIndex": "83",
+          "Edibility": 30
         }
-    ]
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "Entries": {
+        "FishingValley.Aquatic_Caecilian": "Aquatic Caecilian/40/smooth/13/22/600 2600/summer/both/683 .4/4/.6/.4/2",
+        "FishingValley.Arapaima": "Arapaima/60/dart/80/120/600 1800/summer/sunny/683 .4/2/.2/.2/6",
+        "FishingValley.Bamboo_Shark": "Bamboo Shark/60/mixed/16/32/1800 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.Barramundi": "Barramundi/75/floater/43/60/600 2600/spring summer/both/683 .4/4/.6/.4/4",
+        "FishingValley.Bichir": "Bichir/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Black_Diamond_Stingray": "Black Diamond Stingray/35/sinker/16/30/600 1600/spring summer fall winter/sunny/683 .4/6/.4/.6/3",
+        "FishingValley.Black_Piranha": "Red Eye Piranha/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
+
+        // Not Done
+        "FishingValley.Black_Sea_Bass": "Black Sea Bass/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
+
+        // Done
+        "FishingValley.Blind_Cave_Eel": "Blind Cave Eel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Not Done
+        "FishingValley.Bowfin": "Bowfin/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Brigit": "Brigit/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Brook_Trout": "Brook Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Brown_Trout": "Brown Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Done
+        "FishingValley.Bull_Shark": "Bull Shark/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
+
+        // Not Done
+        "FishingValley.Snakehead": "Snakehead/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Done
+        "FishingValley.Cave_Molly": "Cave Molly/20/mixed/1/5/600 2600/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Cave_Salamander": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1",
+
+        // Not Done
+        "FishingValley.Chain_Pickerel": "Chain Pickerel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Cod": "Cod/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Done
+        "FishingValley.Coral_Grouper": "Coral Grouper/45/sinker/6/15/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+
+        // Not Done
+        "FishingValley.Cownose_Ray": "Cownose Ray/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Done
+        "FishingValley.Dragon_Snakehead": "Dragon Snakehead/50/smooth/1/4/600 2600/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Dwarf_Caiman": "Dwarf Caiman/80/dart/45/65/900 1700/spring summer fall winter/sunny/683 .4/2/.2/.2/7",
+        "FishingValley.Electric_Eel": "Electric Eel/40/smooth/57/70/600 2600/summer/sunny/683 .4/2/.2/.2/3",
+        "FishingValley.Fire_Eel": "Fire Eel/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
+
+        // Not Done
+        "FishingValley.Flashlight_Fish": "Flashlight Fish/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Done
+        "FishingValley.Freshwater_Angelfish": "Freshwater Angelfish/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Giant_Gourami": "Giant Gourami/85/smooth/17/27/600 2600/summer/both/683 .4/6/.4/.6/4",
+        "FishingValley.Giant_Trevally": "Giant Trevally/75/dart/35/50/800 1700/summer/sunny/683 .4/2/.2/.2/4",
+        "FishingValley.Goliath_Grouper": "Goliath Grouper/65/dart/50/70/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/3",
+
+        // Not Done
+        "FishingValley.Grey_Triggerfish": "Grey Triggerfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Guitarfish": "Guitarfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Gulper_Eel": "Gulper Eel/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+
+        // Done
+        "FishingValley.Guppy": "Guppy/15/smooth/1/2/600 1800/spring summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Halfmoon_Betta": "Halfmoon Betta/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+
+        // Not Done
+        "FishingValley.Hellbender": "Hellbender/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
+
+        //Done
+        "FishingValley.Humphead_Wrasse": "Humphead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.King_Emperor_Piranha": "King Emperor Piranha/25/smooth/7/17/600 2600/summer/both/683 .4/4/.6/.4/1",
+
+        // Not Done
+        "FishingValley.Leopard_Shark": "Leopard Shark/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
+
+        // Done
+        "FishingValley.Longfin_Eel": "Longfin Eel/50/sinker/38/55/1800 2600/summer/rainy/683 .4/2/.2/.2/3",
+        "FishingValley.Matamata": "Matamata/45/sinker/11/18/900 1800/summer/sunny/683 .4/2/.2/.2/2",
+
+        // Not Done
+        "FishingValley.Muskellunge": "Muskellunge/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+        "FishingValley.Nursehound_Shark": "Nursehound Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+
+        // Done
+        "FishingValley.Olm": "Olm/50/mixed/5/12/600 2600/summer/both/683 .4/2/.2/.2/3",
+
+        // Not Done
+        "FishingValley.Paddlefish": "Paddlefish/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+
+        // Done
+        "FishingValley.Panther_Grouper": "Panther Grouper/40/sinker/18/27/800 1800/summer/sunny/683 .4/6/.4/.6/2",
+        "FishingValley.Paraiba": "Paraiba Catfish/70/dart/100/133/1800 2600/summer/rainy/683 .4/2/.2/.2/6",
+        "FishingValley.Payara": "Payara/50/mixed/27/43/600 2600/summer/both/683 .4/2/.2/.2/4",
+
+        // Not Done
+        "FishingValley.Pumpkinseed": "Pumpkinseed/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
+
+        // Done
+        "FishingValley.Rainbow_Runner": "Rainbow Runner/60/mixed/35/50/600 2600/summer/sunny/683 .4/6/.4/.6/3",
+        "FishingValley.Rainbow_Snake": "Rainbow Snake/50/smooth/40/62/900 1800/summer/sunny/683 .4/6/.4/.6/2",
+        "FishingValley.Red_Tiger_Oscar": "Red Tiger Oscar/45/mixed/10/15/600 1600/summer/both/683 .4/4/.6/.4/2",
+        "FishingValley.Redline_Puffer": "Redline Puffer/60/dart/9/15/1800 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Redtail_Catfish": "Redtail Catfish/50/dart/40/55/1800 2600/summer/both/683 .4/6/.4/.6/4",
+        "FishingValley.Remora": "Remora/40/smooth/15/35/1200 2000/summer/both/683 .4/4/.6/.4/1",
+        "FishingValley.River_Dolphin": "River Dolphin/75/dart/70/95/600 2600/summer/both/683 .4/1/.1/.1/6",
+
+        // Not Done
+        "FishingValley.Sandbar_Shark": "Sandbar Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+
+        // Done
+        "FishingValley.Saratoga": "Saratoga/65/floater/14/35/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
+
+        // Not Done
+        "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.Snapping_Turtle": "Alligator Snapping Turtle/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.Snowy_Grouper": "Snowy Grouper/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.Southern_Opah": "Southern Opah/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Taimen": "Taimen/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
+
+        // Done
+        "FishingValley.Tambaqui": "Tambaqui/30/mixed/22/38/600 1700/summer fall/both/683 .4/4/.6/.4/2",
+        "FishingValley.Tiger_Perch": "Siamese Tiger Perch/20/mixed/7/16/600 2600/summer/both/683 .4/2/.3/.2/1",
+        "FishingValley.Titan_Triggerfish": "Titan Triggerfish/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+
+        // Not Done
+        "FishingValley.Torpedo_Ray": "Torpedo Ray/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+
+        // Done
+        "FishingValley.Vampire_Crab": "Vampire Crab/15/mixed/1/2/600 1800/summer/both/683 .4/4/.6/.4/1",
+        "FishingValley.Warty_Frogfish": "Warty Frogfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
+
+        // Not Done
+        "FishingValley.Wels_Catfish": "Wels Catfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
+
+        // Done
+        "FishingValley.Yellow_Anaconda": "Yellow Anaconda/80/smooth/120/190/900 1800/summer/sunny/683 .4/2/.2/.2/6",
+        "FishingValley.Zebra_Shovelnose_Catfish": "Zebra Shovelnose Catfish/40/smooth/15/23/1600 2600/summer/rainy/683 .4/6/.4/.6/3"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "LogName": "Crabpot Spring",
+      "Target": "Data/Fish",
+      "When": { "Season": "spring" },
+      "Entries": {
+        "FishingValley.Albino_Xenopus": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
+        "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+        "FishingValley.Fire_Salamander": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
+        "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
+        "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "LogName": "Crabpot Summer",
+      "Target": "Data/Fish",
+      "When": { "Season": "summer" },
+      "Entries": {
+        "FishingValley.Albino_Xenopus": "Albino Xenopus/trap/.1/682 .45/freshwater/2/5",
+        "FishingValley.Blue_Legs_Hermit_Crab": "Blue Legs Hermit Crab/trap/.2/682 .45/ocean/1/2",
+        "FishingValley.Giant_Triton": "Giant Triton/trap/.1/682 .45/ocean/12/20",
+        "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+        "FishingValley.Mantis_Shrimp": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12",
+        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "LogName": "Crabpot Fall",
+      "Target": "Data/Fish",
+      "When": { "Season": "fall" },
+      "Entries": {
+        "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+        "FishingValley.Fire_Salamander": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
+        "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
+        "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
+        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "LogName": "Crabpot Winter",
+      "Target": "Data/Fish",
+      "When": { "Season": "winter" },
+      "Entries": {
+        "FishingValley.Axolotl": "Axolotl/trap/.1/682 .45/freshwater/5/12",
+        "FishingValley.Giant_Isopod": "Giant Isopod/trap/.05/682 .45/ocean/7/15",
+        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "When": {
+        "CategoryOverride": true,
+        "HasMod | contains=spacechase0.SpaceCore": true
+      },
+      "Entries": {
+        "FishingValley.Albino_Xenopus": {
+          "CategoryTextOverride": "{{i18n:object.albino_xenopus.categorytextoverride}}"
+        },
+
+        "FishingValley.Aquatic_Caecilian": {
+          "CategoryTextOverride": "{{i18n:aquatic_caecilian.categorytextoverride}}"
+        },
+
+        "FishingValley.Axolotl": {
+          "CategoryTextOverride": "{{i18n:axolotl.categorytextoverride}}"
+        },
+
+        "FishingValley.Cave_Salamander": {
+          "CategoryTextOverride": "{{i18n:object.cave_salamander.categorytextoverride}}"
+        },
+
+        "FishingValley.Dwarf_Caiman": {
+          "CategoryTextOverride": "{{i18n:dwarf_caiman.categorytextoverride}}"
+        },
+
+        "FishingValley.Fire_Salamander": {
+          "CategoryTextOverride": "{{i18n:fire_salamander.categorytextoverride}}"
+        },
+
+        "FishingValley.Giant_Isopod": {
+          "CategoryTextOverride": "{{i18n:giant_isopod.categorytextoverride}}"
+        },
+
+        "FishingValley.Giant_Southern_Crab": {
+          "CategoryTextOverride": "{{i18n:giant_southern_crab.categorytextoverride}}"
+        },
+
+        "FishingValley.Giant_Triton": {
+          "CategoryTextOverride": "{{i18n:giant_triton.categorytextoverride}}"
+        },
+
+        "FishingValley.Hellbender": {
+          "CategoryTextOverride": "{{i18n:hellbender.categorytextoverride}}"
+        },
+
+        "FishingValley.Horsehoe_Crab": {
+          "CategoryTextOverride": "{{i18n:horsehoe_crab.categorytextoverride}}"
+        },
+
+        "FishingValley.Mantis_Shrimp": {
+          "CategoryTextOverride": "{{i18n:mantis_shrimp.categorytextoverride}}"
+        },
+
+        "FishingValley.Matamata": {
+          "CategoryTextOverride": "{{i18n:matamata.categorytextoverride}}"
+        },
+
+        "FishingValley.Olm": {
+          "CategoryTextOverride": "{{i18n:olm.categorytextoverride}}"
+        },
+
+        "FishingValley.Rainbow_Snake": {
+          "CategoryTextOverride": "{{i18n:rainbow_snake.categorytextoverride}}"
+        },
+
+        "FishingValley.Ramshorn_Snail": {
+          "CategoryTextOverride": "{{i18n:ramshorn_snail.categorytextoverride}}"
+        },
+
+        "FishingValley.River_Dolphin": {
+          "CategoryTextOverride": "{{i18n:river_dolphin.categorytextoverride}}"
+        },
+
+        "FishingValley.Snapping_Turtle": {
+          "CategoryTextOverride": "{{i18n:snapping_turtle.categorytextoverride}}"
+        },
+
+        "FishingValley.Tiger_Perch": {
+          "CategoryTextOverride": "{{i18n:tiger_perch.categorytextoverride}}"
+        },
+
+        "FishingValley.Vampire_Crab": {
+          "CategoryTextOverride": "{{i18n:vampire_crab.categorytextoverride}}"
+        },
+
+        "FishingValley.Xenopus": {
+          "CategoryTextOverride": "{{i18n:xenopus.categorytextoverride}}"
+        },
+
+        "FishingValley.Yellow_Anaconda": {
+          "CategoryTextOverride": "{{i18n:yellow_anaconda.categorytextoverride}}"
+        }
+      }
+    }
+  ]
 }

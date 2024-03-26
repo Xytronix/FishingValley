@@ -1,0 +1,22 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.sortOrder": "type",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "smooth",
+  "files.trimFinalNewlines": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["*.json", "!settings.json", "!manifest.json"],
+      "url": "https://smapi.io/schemas/content-patcher.json"
+    },
+
+    {
+      "fileMatch": ["manifest.json"],
+      "url": "https://smapi.io/schemas/manifest.json"
+    }
+  ]
+}
