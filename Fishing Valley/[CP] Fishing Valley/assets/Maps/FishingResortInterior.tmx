@@ -55,7 +55,7 @@
   <object id="2" name="TileData" x="304" y="96" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="Shop" value="OpenShop FishingValley.FishShop"/>
+    <property name="Shop" value="OpenShop FV_FishShop"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="512" y="160" width="16" height="16">
@@ -111,7 +111,7 @@
   <object id="13" name="TileData" x="512" y="368" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="Shop" value="OpenShop FishingValley.Buffshop"/>
+    <property name="Shop" value="OpenShop FV_BuffShop"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="656" y="400" width="16" height="16">

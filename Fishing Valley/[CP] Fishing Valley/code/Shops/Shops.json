@@ -4,7 +4,7 @@
         "Action": "EditData",
         "Target": "Data/Shops",
         "Entries": {
-          "FishingValley.FishShop": {
+          "FV_FishShop": {
             "Owners": [
               {
                 "Name": "AnyorNone",
@@ -27,7 +27,7 @@
               }
             ]
           },
-          "FishingValley.Buffshop": {
+          "FV_BuffShop": {
             "Owners": [
               {
                 "Name": "AnyorNone",
@@ -122,7 +122,7 @@
               }
             ]
           },
-          "FishingValley.JungleBaitShop": {
+          "FV_JungleBaitShop": {
             "Owners": [
               {
                 "Name": "AnyorNone",
@@ -177,7 +177,7 @@
               }
             ]
           },
-          "FishingValley.BaitTrader": {
+          "FV_BaitTrader": {
             "Owners": [
               {
                 "Name": "AnyorNone",

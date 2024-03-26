@@ -21,7 +21,7 @@
   <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
  <tileset firstgid="3392" name="ztest" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
-  <image source="zzsummer_daisyextras.png" width="480" height="960"/>
+  <image source="zsummer_daisyextras.png" width="480" height="960"/>
   <tile id="5">
    <animation>
     <frame tileid="5" duration="75"/>

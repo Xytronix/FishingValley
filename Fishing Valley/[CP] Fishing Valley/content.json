@@ -111,6 +111,18 @@
 
     {
       "Action": "Load",
+      "Target": "Maps/FV_JungleJapesMain",
+      "FromFile": "assets/Maps/JungleJapesMain.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FV_JungleRiver",
+      "FromFile": "assets/Maps/JungleRiver.tmx"
+    },
+
+    {
+      "Action": "Load",
       "Target": "Maps/FV_Serenityriver",
       "FromFile": "assets/Maps/Serenityriver.tmx"
     },
@@ -135,7 +147,7 @@
 
     {
       "Action": "Load",
-      "Target": "Maps/FV_.LaMilladelJardiinRea",
+      "Target": "Maps/FV_LaMilladelJardiinRea",
       "FromFile": "assets/Maps/HTMP03.tmx"
     },
 
