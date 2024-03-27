@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="604">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="604">
  <editorsettings>
   <export target="JungleFalls.tmx" format="tbin"/>
  </editorsettings>
@@ -8,19 +8,329 @@
   <property name="SeasonOverride" value="summer"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>
- <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="37" name="zcustom" tilewidth="16" tileheight="16" tilecount="100" columns="10">
+ <tileset firstgid="65" name="zcustom" tilewidth="16" tileheight="16" tilecount="100" columns="10">
   <image source="Ztwater_tree.png" width="160" height="160"/>
  </tileset>
- <tileset firstgid="137" name="zisland" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
+ <tileset firstgid="165" name="zisland" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
   <image source="summer_island_tilesheet_1.png" width="512" height="640"/>
  </tileset>
- <tileset firstgid="1417" name="Zoutside" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+ <tileset firstgid="1445" name="Zoutside" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="160">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="333">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="334">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="335">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="336">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="653">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1186">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1187">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1188">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1211">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1212">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1213">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1227">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1228">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1229">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1230">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1231">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1237">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1238">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1239">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1240">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1241">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1242">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1243">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1244">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1245">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1246">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1247">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1248">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1249">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1252">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1253">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1254">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1255">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1256">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1263">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1264">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1266">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1267">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1271">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1272">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1273">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1274">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1277">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1278">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1279">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1280">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1281">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1297">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1298">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1299">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1302">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1303">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1304">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1305">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1306">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1322">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1323">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1324">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1716">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1717">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1718">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="3392" name="ztest" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+ <tileset firstgid="3420" name="ztest" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source="zsummer_daisyextras.png" width="480" height="960"/>
   <tile id="5">
    <animation>
@@ -279,21 +589,21 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="5192" name="zwaterfall" tilewidth="16" tileheight="16" tilecount="1820" columns="52">
+ <tileset firstgid="5220" name="zwaterfall" tilewidth="16" tileheight="16" tilecount="1820" columns="52">
   <image source="waterfall_tileset.png" width="835" height="567"/>
  </tileset>
  <layer id="1" name="Paths" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztzjERADAIBLDfqrg20IyDTtzRIVGQBIAp92wP3urzHwAAAABMabdqARI=
+   eJztzjERADAIBLDfqr82UImDTtzRIVGQBIAp92wP3urzHwAAAABMafPGAUo=
   </data>
  </layer>
  <objectgroup id="2" name="Paths"/>
  <layer id="3" name="Back" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztl8tOwkAUhgcvtDHsBRP1FUyMD4G47Gt0CfG28lJdabxtEEUfwtcQ3gK8vYM/iQ3D9JzOpcUuYPFloKEzX8+cc6Y0PSFaoDkfZ3aUaTHXi/aTr2W5f5p+Mlmez/U58xzbYkzR+anzo3KVy+8885lDCHs/bv+vwLXjyKH6cb9T56HWeZszs3RXikfnFxTst+vTNPziYxeBTplmyzfb48hhTZvfj1zeQQ/0NX4mc4fMdV2ecHOPXAZgCD4M4hcarmcC9yyhhZ+upuXnnkYtcX71HGpGjoNt3gWSn0BcSmDB4+sljmnWeMT7UMJcOwrU8/eI2tDVtGsfl932/OT8dcJx+Le3i97YVaWv3B+vYbvnsd+2P9k35DXkPYokvzSouonX2K8IcQAOwRE4BifgFJyBcxCBC3BZmbx3QKyh5tB3OckP+JI+U34CYxXcYM1bcAfuwQN4BB3wBJ5BF7yAVwe/ZS9JGSxJn9P6jurXtvCL61KuTVO/dbABNr1k32n42epjFPs1oj5UvyDFj8s/m7M5zZNyXMX3mmH8svqlnSVyHKsSNWJeVz/OhTtTOUddL83DbxpE/+DH7bHNWcz5cf2P6vFZXF39uP6ni59NbChnNX9t+x/nR61l+05FzWmSf/G7A3WGm8YlIGKTZX/T3hNc6jck4pkW38DC77OcPCPz/g/Pxdalv9QN/XT5Z1LTvwOlmHE=
+   eJztl1tOwkAUhpuATDUsAbxtQTBRt2BiXATiY7fRR4i3Jy/VJ423F0TRRbgNYRH+JDYM03M6lxb7AA9fBho68/XMOWdKR3heF3QW49yOMl3metF+8rUs98/STybL87k+Z55jz5tQdH7q/Khc5fI7z3zm8Dx7P27/78GD48ih+nG/U+eh1vleMLcMVopH5xcU7Hfk07T94mMXgX6FZt832+PIYU2b349dfsAQjDR+JnOHzHVdnnBzj11K8CiDJaGPX2i4ngncs4QWfrqalp97FrXE+bVyqBk5DrZ5F0h+NXjVwarg6yWOadZ4xPtQx1yHCtTzD4na0NW0ax+X3Y795PwtwrH8t7drYuKqMlLuj9ew3fPY78Cf7hvyGvIeRZJfGlTdxGucVD3vFJyBc3ABLsEVuAY3IAK34K46fW+JWEPNIV8kWQZC+kz51TA2wCPWfALP4AW8gjfQB+/gAwzAJ/hy8NsQSTbBuvQ5re+ofj0Lv7gu5do09dsBu2CP6DttP1t9jGO/TdSH6hek+HH5Z3M2p3lSjlv43jSMX1a/tLNEjmNDoknM6+rHuXBnKueo66V5+M2C6B/8uD22OYs5P67/UT0+i6urH9f/dPGziQ3lrOavbf/j/Ki1bN+pqDlN8i9+d6DOcNO4BERssuxv2nuCS/2GRDzT4htY+FVE8ozM+z88F1uX/tIy9NPln0lN/wJmkvON
   </data>
  </layer>
- <objectgroup id="4" name="Back">
+ <objectgroup id="4" name="Back" visible="0">
   <object id="1" name="TileData" x="112" y="208" width="16" height="16">
    <properties>
     <property name="Water" value="True"/>
@@ -3312,19 +3622,19 @@
  </objectgroup>
  <layer id="5" name="Buildings" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztljlvE0EYhr8VtiPCGhpAIKEAEhAaQAEhShIKBBWnaALKUXEFGpI/kQQINWdDIiTScEkUHP8DkjUN5y8ggHhWntUOw+7sOM6uXfiVHk28mR2/nnln5hPpqKOOOqprvEtkQjFutO2gyMsqX6QEZb99/YVK87fE81/w2y/O20083FJsUd/b48fPda2vimyAjVX7mNs8ke0wx/uzXdmtS5+wPaj8HfKT/78HX3thX9U+Tj/eBqBWFvlUXvk5Xa7WrBbxIeDvGvzE21Ib+duBt50gzJ3nJfcZ7BY532Ki/CXpRndu0+OsKH9Jeoy/py32GEg9f2lq+Rxa8hdqusX+bPkLFa7xrEbR0vO3qSKyuWLvP1mwx0Di/PXhbX+Gv2bWe95YiyT+248Z+TNlrnfimCne5hz6mWdGVv6StJY7c526149yvx6gPUZ7HE7ASTgFp+EMnIU++pxTd/JASeRIKX18/cywnX9p6sXbbuVviO8chhEYhYtwCS7DFbgKY3ANrit/I3gbtfjTMxSI/fzLW4fx2W94/efMteTPZT83qyG8DRv+pi350+ssl/38gTX7CAuwCAHU4DN8ga/wDb7DD8daOSl/u/DRW2m8znri13/vS9pX8Ayewws/fjYPU/R57ehvpfIX1V+3Hc6NO6rvBYe+rvlraBxHTTi8Y8ufqwYd583UTMYcmuNmnX9RLk01U3fNWOpl8zcHkp0//b6IVFjdpeUv7bzT74tIRdWtev5czrtIRc3fcvdHUfMX7o/7tA/gITxyfK+o+fsDb+AtvIP36nnW3RvVgXkr9LcAi9J4LR0q73q/x6t73OrFWbzL53sSr7v5WVfeOfwLM2+p4A==
+   eJztlklrFEEYhr/BWTT0XN1Q1JOiFxUFiQmo8aISRTyaeBA9ueIlkSynLC4Xkz+hUePZ9WKCYC5u4MHlf2iSEZ9mquii6O6qyWS6c5gXHirTU115p+qtqk+krbbaaquuqYrItGLKateCtJcdgchO2BWsXX+hkvxtqopshi3V7Lw9xcMzxRHlrzOInpvaj68DcNDhr6sg0g3zvD9Xcbc+fcL2vPJ3IYj//hS+TsOZavo4fXjrh1pJ5F9p9ed0pdq9QWQPLPN3DTaWyUQ5b1eRjuHtOGxj7rYX4vsMdIgM5ozOX5wedbRufnyl8xen9/j7mLNHnb8k5T2HafkLNZOzv7T8hQrXeM4ga5n5O8T5cthxxjzO2KOZv168nXX4a2a9F6y1iMPej6782bLXO27MJG/zHv3sM8OVvzjt5c7cp+71y9yv52iv0F6Fa3AdbsBNuAW3oZc+d9Sd3F8UuVRMHt88M9LOvyT14O2k8jfE/xyGERiFMRiHCZiEe3AfHsBD5W8Eb6Mp/swMuc6/VusiPvssr+b8peXPZz83qyG8DVv+ZlLyZ9ZZPvv5D2v2FxZhCZahButY/yKUoAwVWO9ZK8fl7wQ+esqN11kfgvrv/Ur7DT7BZ/gSRM8W4Al9vgd+Y65W/nT99dzj3Hih+t716Oubv0bG8dW0xztp+fPVgOe82Zp1zKE9ruv807m01UzdNZtSL9u/2Sd/5n2hlVXdZeYv6bwz7wutrOpWM38+551WVvO30v2R1fyF++M17Rt4C+8838tq/rbi7wftT/gFv9Vz192r68As/C3SLknjtXSoVtf7nYW6x6OFKIsvef5KonW3P5tqdQ7/AwDAwDg=
   </data>
  </layer>
  <objectgroup id="6" name="Buildings"/>
  <layer id="7" name="Front" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt0rcJwDAURVEtoP1Lhz0c5nBcwxH8ekkIu3DiHriFQF+o+Mack1hjUpWp3Lpn353QbOztKwrNlapStXXPvjuh2djbuB/7x/49if1j//APjXa4VZ3q1aDGF+31pL/MalGr2tT+ov8BAAAAAPAVB1cwZAM=
+   eJzt0rkNgDAQBdFtwESc/ZfB0QdHHZwJPweEIMCA5kkTWPJaDtbsmtyZFapUldue9+4czZ69fUetuUa1qnPb896do9mzt/E89o/984n9Y//wD712eFCjmtSslhftdRiYRSpWiUpVFvj+FQAAAAAA37MCjL9seQ==
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztljdPw0AYhi8EM2EmxEb5M5SNkR9A+R+UjYGyUQIhE2WDBKY0YKPOgdBEFStItABPBkvg3MWOEy4G8SrPcPL33b05veezEP5Vd2PpPe2mEB3QCV1m4VhWo+p1mnvYg79e+vqgHwbMwrGsRtXrNLcXDdI3lP9vMGIWjmU1ql6nue897J/fpTN/XvSfv+/PU5D2ZlWpeeYOwwJEPO6DpTM4L6Fee/4C/ALu/enMX0+Te1+WdOZv1IM/e7ZkWVPlzymXlchtnL4EJCFlFo5lNapep7ktTRlCTMMMzELIkHvL0HMEx5CFEzg13dU49RZ7voqfNYhCDNZhQ+LxifpneIFXeIOc6a7GqbfY8x287MIe7MMBHCr2sBq6xMsVXMMN3MKdj/xZ+sh7qqu2C38oFBRiDuYhDAsQCbrrdXuey1EcLwlIQgrSsKnwN8b64zABk4b781yOsng5gVM4g3O4UPhbZO0lWIYVQ895zuHlHT7ynmr5BoCaWnltmrU3YQu2DT3nuRkvLdAKbQpfljKsfQTHkP3iw0/n+QEvj7Y9sueymjLZpwbbXtlz6TfZc6lSrN55rqiLGpVU7ztVLnWr2PtOlkvdKva+k+VSt37b98tP373lSMfd61Vh8f8tXSn56e79SwpX24DP9Ak0UB/I
+   eJztlrlOw0AURV9IDA1GILET6OEPWH6GpaPkA1j+g6WjYOlYAoGKpWOtgAToWGsgYRGHIhLYM7FxwtggrnSKkd+bubbuzFgkuhqu/35Pvy0yAIMwZLvHqhpdr9fc0wH8jdI3BuMwYbvHqhpdr9fcQTRJ39THu8GM7R6ranS9XnNXNQTzGGWZzF8Q/efv6/MMZINZ1WqdudOwAZsBv0NBL/D6jXrT+UvGRNpj/v2ZzN9Io39fBZnM32wAf85sqbKmy59XLsuR2xP6TuEMMrZ7rKrR9XrNXdCSJbIMK7AKKUvt7YGeR3iCHOTh2fZX49Vb7PkefvbhAA7hCI4VHutrRBqgEZqgGVpq/NV49RZ7foWXa7iBW7iDe803DEWVIjGogDgkwKoM25RbbXhKRtBXGErFRdZgHdKwAZtxf71+93MpOsHLKZxBBrJwrvE3x/rzsACLlv/9XIpyeMnDM7zAK7xp/G2x9jbswK5lZj+3JERaoQ2S0A4dCXVtlrXP4QIuP3wY2M/deOmBXujT+CroAU+P8AS5T98pSvu5Fh91Di/OXIapTrx1Ofw5cxk1uXKp0WG191wHPmp00p13ulyaVrHzTpVL0yp23qlyaVy/7P/lp+/eUmTi7g2qtPz/S5dLUbp7/5LSYRuImN4BHjEVrA==
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
