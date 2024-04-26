@@ -12,7 +12,7 @@
   <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="65" name="zcave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
-  <image source="mine_dark_dangerous.png" width="256" height="288"/>
+  <image source="Mines/mine_dark_dangerous.png" width="256" height="288"/>
  </tileset>
  <tileset firstgid="353" name="zdesert" tilewidth="16" tileheight="16" tilecount="368" columns="16">
   <image source="DesertTiles.png" width="256" height="368"/>

@@ -17,7 +17,7 @@
   </tile>
  </tileset>
  <tileset firstgid="1992" name="zcave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
-  <image source="mine_dark_dangerous.png" width="256" height="288"/>
+  <image source="Mines/mine_dark_dangerous.png" width="256" height="288"/>
  </tileset>
  <layer id="1" name="Back" width="1" height="1">
   <data encoding="csv">
