@@ -2028,7 +2028,7 @@
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
  <tileset firstgid="9459" name="zsummer_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
-  <image source="zsummer_daisyextras.png" width="480" height="960"/>
+  <image source="summer_daisyextras.png" width="480" height="960"/>
  </tileset>
  <layer id="1" name="Back" width="100" height="100" opacity="0.97">
   <data encoding="csv">
