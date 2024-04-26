@@ -1,0 +1,246 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/GarbageCans",
+      "TargetField": ["GarbageCans"],
+      "Entries": {
+        "FishingValley.Serenityriver": {
+          "BaseChance": 0.3,
+          "Items": [
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Id": "Green_Algae",
+              "ItemId": "(O)152",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Base_JojaCola",
+              "ItemId": "(O)167",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Base_Cookie",
+              "ItemId": "(O)223",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        },
+        "FishingValley.FishingResortInterior": {
+          "BaseChance": 0.3,
+          "Items": [
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Base_JojaCola",
+              "ItemId": "(O)167",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Base_Cookie",
+              "ItemId": "(O)223",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Base_JojaCola",
+              "ItemId": "(O)167",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Beer",
+              "ItemId": "(O)346",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            },
+            {
+              "IgnoreBaseChance": false,
+              "IsMegaSuccess": false,
+              "IsDoubleMegaSuccess": false,
+              "AddToInventoryDirectly": false,
+              "CreateMultipleDebris": false,
+              "Condition": "RANDOM 0.3 @addDailyLuck",
+              "Id": "Wine",
+              "ItemId": "(O)348",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "ObjectInternalName": null,
+              "ObjectDisplayName": null,
+              "ToolUpgradeLevel": -1,
+              "IsRecipe": false,
+              "StackModifiers": null,
+              "StackModifierMode": "Stack",
+              "QualityModifiers": null,
+              "QualityModifierMode": "Stack",
+              "ModData": null,
+              "PerItemCondition": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_Serenityriver",
+      "MapTiles": [
+        {
+          "Position": { "X": 11, "Y": 23 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Garbage FishingValley.Serenityriver"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingResortInterior",
+      "MapTiles": [
+        {
+          "Position": { "X": 44, "Y": 6 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Garbage FishingValley.FishingResortInterior"
+          }
+        }
+      ]
+    }
+  ]
+}

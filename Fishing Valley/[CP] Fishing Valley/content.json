@@ -46,6 +46,11 @@
       "Default": "true",
       "Description": "(Recommended) Adds music to Fishing Valley."
     },
+    "EnableMail": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "(Recommended) Adds mail to Fishing Valley."
+    },
     "EnableJukeboxAmbient": {
       "AllowValues": "true, false",
       "Default": "false",
@@ -55,6 +60,16 @@
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "(Recommended) Override fish categories to the correct types. SpaceCore required."
+    },
+    "EnableRailroad": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Adds vanilla Railroad location to the Minecart network."
+    },
+    "EnableMinecartNetwork": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Adds the minecart as a new network"
     }
   },
 
@@ -62,7 +77,7 @@
     {
       "LogName": "Loading Tilesheets.",
       "Action": "Load",
-      "Target": "Maps/Floors_Set_1, Maps/Floors_Set_2, Maps/mine_dark_dangerous, Maps/mine_desert_dangerous, Maps/waterfall_tileset, Maps/zcustom_fish_shop, Maps/zFshing_people_front, Maps/Zmushroom, Maps/zpeople, Maps/zswampplant, Maps/Ztwater_tree, Maps/zsummer_daisyextras",
+      "Target": "Maps/bluelava, Maps/fallcliff, Maps/fishingfestival, Maps/flashExtras, Maps/Floors_Set_1, Maps/Floors_Set_2, Maps/greylava, Maps/JojaEnergyInterior, Maps/jukebox, Maps/Mantleby, Maps/mine_dangerous, Maps/mine_dark_dangerous, Maps/mine_desert_dangerous, Maps/pizza-place, Maps/purplelava, Maps/redlava, Maps/redlavafloor, Maps/spring_GrampletonSuburbsTilesheet, Maps/summer_extras3, Maps/summer_IslandTiles, Maps/waterfall_tileset, Maps/zcustom_fish_shop, Maps/zFshing_people_front, Maps/Zmushroom, Maps/zpeople, Maps/zsummer_daisyextras, Maps/zswampplant, Maps/Ztwater_tree",
       "FromFile": "assets/Tilesheets/{{targetWithoutPath}}.png"
     },
 
@@ -77,6 +92,18 @@
       "Action": "Load",
       "Target": "Maps/FV_FishingResortInterior",
       "FromFile": "assets/Maps/FishingResortInterior.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FV_FishingFestival",
+      "FromFile": "assets/Maps/FishingFestival.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FV_Market",
+      "FromFile": "assets/Maps/Market.tmx"
     },
 
     {
@@ -135,20 +162,32 @@
 
     {
       "Action": "Load",
-      "Target": "Maps/FV_HoshiroTaniMajula",
-      "FromFile": "assets/Maps/HTMP01.tmx"
+      "Target": "Maps/FV_JungleOasis",
+      "FromFile": "assets/Maps/JungleOasis.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FV_OCaminhodasChamasGemeas",
-      "FromFile": "assets/Maps/HTMP02.tmx"
+      "Target": "Maps/FV_JungleCrossing",
+      "FromFile": "assets/Maps/FV_JungleCrossing.tmx"
     },
 
     {
       "Action": "Load",
-      "Target": "Maps/FV_LaMilladelJardiinRea",
-      "FromFile": "assets/Maps/HTMP03.tmx"
+      "Target": "Maps/FV_JungleTree",
+      "FromFile": "assets/Maps/JungleTree.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FV_TreeHouse",
+      "FromFile": "assets/Maps/TreeHouse.tmx"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Maps/FV_Mine",
+      "FromFile": "assets/Maps/Mine.tmx"
     },
 
     {
@@ -167,7 +206,13 @@
     {
       "LogName": "Loading Locations.",
       "Action": "Include",
-      "FromFile": "code/Locations/LocationsData.json, code/Locations/MapEdits.json, code/Locations/Strings.json, code/Locations/Warps.json"
+      "FromFile": "code/Locations/LocationContext.json, code/Locations/LocationsData.json, code/Locations/MapEdits.json, code/Locations/Strings.json, code/Locations/Warps.json"
+    },
+
+    {
+      "LogName": "Loading Festivals.",
+      "Action": "Include",
+      "FromFile": "code/Festivals/Festival.json"
     },
 
     {
@@ -191,10 +236,44 @@
       "FromFile": "code/NPCs/GiftTastes.json"
     },
 
+    /*{
+      "LogName": "Loading Quests.",
+      "Action": "Include",
+      "When": { "EnableQuests": true },
+      "FromFile": "code/Quests/Quests.json"
+    },
+
+    {
+      "LogName": "Loading Special Orders.",
+      "Action": "Include",
+      "When": { "EnableSpecialOrders": true },
+      "FromFile": "code/SpecialOrders/Specialorders.json"
+    },*/
+
     {
       "LogName": "Loading Shops.",
       "Action": "Include",
-      "FromFile": "code/Shops/Shops.json"
+      "FromFile": "code/Shops/Shops.json, code/Shops/MapShops.json"
+    },
+
+    {
+      "LogName": "Loading Mails.",
+      "Action": "Include",
+      "When": { "EnableMail": true },
+      "FromFile": "code/Mail/Mail.json, code/Mail/ActionTriggers.json"
+    },
+
+    {
+      "LogName": "Loading miscellaneous stuff.",
+      "Action": "Include",
+      "FromFile": "code/Other/GarbageCans.json, code/Other/Minecarts.json"
+    },
+
+    {
+      "LogName": "Loading Warp Network Integration.",
+      "Action": "Include",
+      "When": { "HasMod | contains=tlitookilakin.warpnetwork": true },
+      "FromFile": "code/ModCompatibility/WarpNetwork.json"
     }
   ]
 }

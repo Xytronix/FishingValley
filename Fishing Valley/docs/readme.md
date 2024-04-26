@@ -10,17 +10,16 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [Features](#features)
 * [Feature Roadmap](#feature-roadmap)
 * [Fishing stats](#fishing-stats)
+  * [Jungle Beach](#jungle-beach)
   * [Jungle Pond](#jungle-pond)
   * [Jungle River](#jungle-river)
   * [Jungle Falls](#jungle-falls)
   * [Jungle Roger Bay](#jungle-roger-bay)
-  * [Jungle Sea Bay](#jungle-sea-bay)
   * [Jungle Cave](#jungle-cave)
   * [Jungle Swamp](#jungle-swamp)
   * [Serenity River](#serenity-river)
-  * [HoshiroTaniMajula](#hoshiro-tani-majula)
-  * [OCaminhodasChamasGemeas](#ocaminhodas-chamas-gemeas)
-  * [LaMilladelJardiinRea](#la-milladel-jardiin-rea)
+  * [Waterfall Cave](#waterfall-cave)
+  * [Jungle Oasis](#jungle-oasis)
   * [Saltwater Crab Pot](#saltwater-crab-pot)
   * [Freshwater Crab Pot](#freshwater-crab-pot)
 * [Gift tastes](#gift-tastes)
@@ -43,7 +42,6 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [ ] Add more fish
 * [ ] Add more maps
 * [ ] Remake some fish sprites
-* [ ] Aquarium sprites
 
 * [ ] Add mystery notes/lore on how the place exist
 * [ ] Add a Temperate and a Cold fishing zone
@@ -57,6 +55,8 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 * [ ] A way to implement a toll system for fishing and rentable beds
 
 ## Fishing stats
+
+### Jungle Beach
 
 ### Jungle Pond
 
@@ -118,8 +118,6 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 | Remora            | 12--20 | both    | common   | medium     |
 | Warty Frogfish    | 6--2   | both    | rare     | easy       |
 
-### Jugle Sea Bay
-
 ### Jungle Cave
 
 | Fish                     | Time | Weather | Rarity   | Difficulty |
@@ -135,11 +133,9 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ### Serenity River
 
-### Hoshiro Tani Majula
+### Waterfall Cave
 
-### Ocaminhodas Chamas Gemeas
-
-### La Milladel Jardiin Rea
+### Jungle Oasis
 
 ### Saltwater Crab Pot
 
@@ -176,7 +172,7 @@ This mod adds new "fish" and a new area: The Albatross Fishing Resort, that can 
 
 ### Is X mod compatible ?
 
-Just try it. We have not the time to test it with every single mod you have in mind. If you find any incompatibility let us know, so we can have a look.
+Probably yes, due to not editing vanilla assets. If you find any incompatibility let us know, so we can have a look.
 
 ### I have lots of missing fish entries on my fish collection tab, why?
 
@@ -190,4 +186,4 @@ Yes, we are working to exceed our knowledge and are open for ideas. Create a thr
 
 * [Changelog](changelog.md)
 * [Nexus](https://www.nexusmods.com/stardewvalley/mods/8668)
-* Created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403), [Xytronix](https://www.nexusmods.com/users/127861178) and [Reika K. Fujoshi](https://github.com/ReikaKFujoshi)
+* Created by [Seiyn](https://www.nexusmods.com/stardewvalley/users/47290403) and [Xytronix](https://www.nexusmods.com/users/127861178)

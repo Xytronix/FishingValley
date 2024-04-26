@@ -1,34 +1,270 @@
 {
-    "Changes": [
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "FV.Interior1": "{{i18n: string.resort.interior1}}",
+        "FV.Interior2": "{{i18n: string.resort.interior2}}",
+        "FV.Interior3": "{{i18n: string.resort.interior3}}",
+        "FV.Interior4": "{{i18n: string.resort.interior4}}",
+        "FV.Interior5": "{{i18n: string.resort.interior5}}",
+        "FV.Interior6": "{{i18n: string.resort.interior6}}",
+        "FV.Interior7": "{{i18n: string.resort.interior7}}",
+        "FV.Interior8": "{{i18n: string.resort.interior8}}",
+        "FV.Interior9": "{{i18n: string.resort.interior9}}",
+        "FV.Interior10": "{{i18n: string.resort.interior10}}",
+        "FV.Interior11": "{{i18n: string.resort.interior11}}",
+        "FV.Interior12": "{{i18n: string.resort.interior12}}",
+        "FV.Interior13": "{{i18n: string.resort.interior13}}",
+        "FV.Interior14": "{{i18n: string.resort.interior14}}",
+
+        "FV.ForestSwamp1": "{{i18n:string.forestswamp1}}",
+
+        "FV.JungleJapesMain1": "{{i18n: string.junglejapes1}}",
+        "FV.JungleJapesMain2": "{{i18n: string.junglejapes2}}",
+        "FV.JungleJapesMain3": "{{i18n: string.junglejapes3}}",
+        "FV.JungleJapesMain4": "{{i18n: string.junglejapes4}}",
+
+        "FV.JungleRiver1": "{{i18n: string.jungleriver1}}",
+        "FV.JungleRiver2": "{{i18n: string.jungleriver2}}",
+
+        "FV.SerenityRiver1": "{{i18n: string.serenityriver1}}",
+
+        "FV.WIP": "{{i18n: string.workinprogress}}",
+        "FV.NoWay": "{{i18n: string.notaccessible}}"
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingResortInterior",
+      "MapTiles": [
         {
-            "Action": "EditData",
-            "Target": "Strings/StringsFromMaps",
-            "Entries": {
-              "FV.Interior1": "{{i18n: string.resort.interior1}}",
-              "FV.Interior2": "{{i18n: string.resort.interior2}}",
-              "FV.Interior3": "{{i18n: string.resort.interior3}}",
-              "FV.Interior4": "{{i18n: string.resort.interior4}}",
-              "FV.Interior5": "{{i18n: string.resort.interior5}}",
-              "FV.Interior6": "{{i18n: string.resort.interior6}}",
-              "FV.Interior7": "{{i18n: string.resort.interior7}}",
-              "FV.Interior8": "{{i18n: string.resort.interior8}}",
-              "FV.Interior9": "{{i18n: string.resort.interior9}}",
-      
-              "FV.ForestSwamp1": "{{i18n:string.forestswamp1}}",
-      
-              "FV.JungleJapesMain1": "{{i18n: string.junglejapes1}}",
-              "FV.JungleJapesMain2": "{{i18n: string.junglejapes2}}",
-              "FV.JungleJapesMain3": "{{i18n: string.junglejapes3}}",
-              "FV.JungleJapesMain4": "{{i18n: string.junglejapes4}}",
-      
-              "FV.JungleRiver1": "{{i18n: string.jungleriver1}}",
-              "FV.JungleRiver2": "{{i18n: string.jungleriver2}}",
-      
-              "FV.SerenityRiver1": "{{i18n:string.serenityriver1}}",
-      
-              "FV.WIP": "{{i18n:string.workinprogress}}",
-              "FV.NoWay": "{{i18n:string.notaccessible}}"
-            }  
+          "Position": { "X": 17, "Y": 23 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.resort.interior5}}"
+          }
+        },
+        {
+          "Position": { "X": 19, "Y": 23 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.resort.interior6}}"
+          }
+        },
+        {
+          "Position": { "X": 21, "Y": 24 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior11}}"
+          }
+        },
+        {
+          "Position": { "X": 20, "Y": 19 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior4}}"
+          }
+        },
+        {
+          "Position": { "X": 16, "Y": 6 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior1}}"
+          }
+        },
+        {
+          "Position": { "X": 36, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior3}}"
+          }
+        },
+        {
+          "Position": { "X": 26, "Y": 25 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior12}}"
+          }
+        },
+        {
+          "Position": { "X": 27, "Y": 25 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior12}}"
+          }
+        },
+        {
+          "Position": { "X": 30, "Y": 26 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior8}}"
+          }
+        },
+        {
+          "Position": { "X": 37, "Y": 26 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior7}}"
+          }
+        },
+        {
+          "Position": { "X": 40, "Y": 26 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior13}}"
+          }
+        },
+        {
+          "Position": { "X": 40, "Y": 25 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior9}}"
+          }
+        },
+        {
+          "Position": { "X": 32, "Y": 22 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior14}}"
+          }
+        },
+        {
+          "Position": { "X": 19, "Y": 5 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.resort.interior10}}"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_ForestSwamp",
+      "MapTiles": [
+        {
+          "Position": { "X": 2, "Y": 30 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.forestswamp1}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FungusHouse",
+      "MapTiles": [
+        {
+          "Position": { "X": 12, "Y": 12 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.notaccessible}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_JungleFalls",
+      "MapTiles": [
+        {
+          "Position": { "X": 31, "Y": 10 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.junglefalls1}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_JungleJapesMain",
+      "MapTiles": [
+        {
+          "Position": { "X": 30, "Y": 12 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.junglejapes1}}"
+          }
+        },
+        {
+          "Position": { "X": 45, "Y": 16 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.junglejapes2}}"
+          }
+        },
+        {
+          "Position": { "X": 3, "Y": 19 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.junglejapes3}}"
+          }
+        },
+        {
+          "Position": { "X": 21, "Y": 39 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.junglejapes4}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_JungleRiver",
+      "MapTiles": [
+        {
+          "Position": { "X": 12, "Y": 34 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.jungleriver1}}"
+          }
+        },
+        {
+          "Position": { "X": 27, "Y": 53 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MessageSpeech {{i18n: string.jungleriver2}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_Serenityriver",
+      "MapTiles": [
+        {
+          "Position": { "X": 12, "Y": 16 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.serenityriver1}}"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_TreeHouse",
+      "MapTiles": [
+        {
+          "Position": { "X": 4, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.treehouse1}}"
+          }
+        },
+        {
+          "Position": { "X": 11, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message {{i18n: string.treehouse2}}"
+          }
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "Name": "Fishing Valley Bus Location",
+  "Author": "Seiyn, Xytronix",
+  "Description": "Adds the Albatross Fishing Resort to the Busstop.",
+  "Version": "1.1.0",
+  "UniqueID": "FishingValley.BL",
+  "MinimumApiVersion": "4.0.0-alpha",
+  "UpdateKeys": ["Nexus:8668"],
+  "ContentPackFor": {
+    "UniqueID": "hootless.BusLocations"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FishingValley.CP",
+      "IsRequired": true
+    }
+  ]
+}

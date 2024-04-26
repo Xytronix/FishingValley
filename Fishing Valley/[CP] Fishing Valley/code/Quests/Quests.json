@@ -1,0 +1,10 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adding quests",
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {}
+    }
+  ]
+}

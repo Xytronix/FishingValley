@@ -1,0 +1,70 @@
+{
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingResortInterior",
+      "MapTiles": [
+        {
+          "Position": { "X": 32, "Y": 23 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.BuffShop down 0600 2600"
+          }
+        },
+        {
+          "Position": { "X": 19, "Y": 6 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.FishShop down 0600 2600"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FungusHouse",
+      "MapTiles": [
+        {
+          "Position": { "X": 1, "Y": 12 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.FungusShop down 0800 2100"
+          }
+        },
+        {
+          "Position": { "X": 2, "Y": 12 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.FungusShop down 0800 2100"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_JungleJapesMain",
+      "MapTiles": [
+        {
+          "Position": { "X": 17, "Y": 37 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.JungleBaitShop down 0600 1800"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_WaterfallCave",
+      "MapTiles": [
+        {
+          "Position": { "X": 10, "Y": 7 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.BaitTrader down 0600 2600"
+          }
+        }
+      ]
+    }
+  ]
+}

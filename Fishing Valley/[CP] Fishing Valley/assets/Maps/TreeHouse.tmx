@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="3">
+ <properties>
+  <property name="DayTiles" value="Back 5 3 53 Back 6 3 54 Back 5 4 69 Back 6 4 70"/>
+  <property name="IgnoreLightingTiles" value="t"/>
+  <property name="NightTiles" value="Back 5 3 270 Back 6 3 271 Back 5 4 286 Back 6 4 287"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
+  <property name="SeasonOverride" value="summer"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Island_Hut_tilesheet.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="353" name="zwallpapers_2" tilewidth="16" tileheight="16" tilecount="96" columns="16">
+  <image source="wallpapers_2.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="449" name="zwalls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="1137" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
+  <image source="spring_z_extras.png" width="400" height="4096"/>
+ </tileset>
+ <layer id="1" name="Back" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJyN0UdwTVEcB+DzXmwstAhmlBB1RgkzaogSovdE9C4bvfcaInqLkjCDKFtRt7qtbqslNhaEsLEIPvMsrJ53535z/3Pn97tzzrlZIYTBDCGboQxjOCMYyShGM4axjGM8E5hIDrlMIo/JTGEq05jODGYyi9nMYS7zmM8C8nkYQtlNLnGchd4tYjFLWMoylrOClaxiNWtYyzrWs4GNbGIzW9jKNrazgwJ2sotCdlPEHvayj/0c4CCHOMwRjnKMYqw1nOAkpyihlNOcCbHrYzSEs57nOE8ZF7iI/YbLfzPxXJEp5yrXuM4NnFm4xY9ofLdl7nCXe9znQezcw6ME+o9lnvCUZzznBS95lUD/tcwb3vKO91RQyYcE+p9kPlPFF75SzTe+J9CvkfnJrz8/JOImShK1Iv/v15GpSz3q04BkGpJCIxrT5J9vNTU3ozktSKUlrUijNW1oSzva04HaSTEdzZ3oTBfS6Uo3skJMd3MPetKL3vQhg770I5P+DGAgg/gN/2CTsQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="12" name="Back1" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwlUCzMw1ABxrTB+MVxgClDNVCCeJoxfDBdYC1SzDojXC+MXGwXDAwAA6oIL0Q==
+  </data>
+ </layer>
+ <objectgroup id="11" name="Back1"/>
+ <layer id="3" name="Buildings" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+oASIK7HgKiCuBuIaIK7Fo78FiBsY8eNePPqnEKF/Lh79S4B4AiN+vBaP/i145GBgLx65I0BswsbQgEseKMdwFo/+K0Dsi0c/UI7hLh79T/DIwcBbPHJfiND/F48cCyNh/bx41IgA5USBWAyIxZHUSQHZ0kAsA8SyRNgBAupI6rSI1IMMzJH0WOHRDwA2HyEf
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="14" name="Buildings1" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6CBVkDgxXKAOi1psYqNg+AIPRoYEJPYCeusnFgAALL0FLw==
+  </data>
+ </layer>
+ <objectgroup id="13" name="Buildings1"/>
+ <layer id="5" name="Front" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFyOCMAAPDWSA+J4BfDBd4ClTzDIifC+AXwwX+AdX8B6kTxC82CgY/MGRkYDBiJF+/I1CvEwX6iQEA/6YQOQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAf4KRQfriCgfA3KXFBivvwqaWnP8l1PzXso6ZaWgMAyvwAbQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="16" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0APEMNLPLnOgXRZAbEnATgBRxAEJ
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

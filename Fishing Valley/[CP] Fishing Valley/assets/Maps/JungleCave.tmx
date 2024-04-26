@@ -5,6 +5,7 @@
   <property name="Light " value="4 1 4 12 1 4 19 1"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="indoorWater" value="true"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>

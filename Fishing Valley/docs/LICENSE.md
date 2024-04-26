@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2024 Seiyn, Xytronix and Reika K. Fujoshi
+Copyright (c) 2024 Seiyn and Xytronix
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,40 +21,50 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -----------
+Content:
+
+    [Reika K. Fujoshi](https://github.com/ReikaKFujoshi) added JungleOasis, JungleCrossing and JungleTree to Fishing Valley and fixed existing maps. 
+    She has created some lore for the mod and wants to tribute her first map for her passed mom.
+    (JungleBay was created by Seiyn and Reika K. Fujoshi)
+
+Tilesheets:
+
+    Tilesheets were used of Lumisteria, DaisyNiko, Flashshifter, xxHarvzbackxx, HisameArtWorks and asunai2.
+    Some of which are included others set as a requirement for this mod.
 
 The audio files are extracted from this recording, and covered by a different license:
 
-    "New Spirit New World" used for jungle theme
+    "New Spirit New World" used for Jungle Theme
     Recorded by Lobo Loco
     Creative Commons Attribution 4.0 International license
     https://www.musikbrause.de/index.php?route=product/product&product_id=1452&search=new+spirit+new+world
 
     "Birch Forest"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Blue Fire"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Earth Shadow"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Eternal Forest"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Regressive Form"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Santalune Forest"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Sunlight on Water"
-    Recorded by aubrianna
+    Recorded by [aubrianna](https://www.youtube.com/@aubriannashields6467)
     Creative Commons Attribution 4.0 International license
 
     "Jungle Ambient" used for jungle sounds
@@ -72,9 +82,7 @@ The audio files are extracted from this recording, and covered by a different li
     https://mixkit.co/free-sound-effects/drop/
 
 Translations:
-    Chinese by Yi Hui and abc3326404091
-    https://www.nexusmods.com/stardewvalley/users/131631813
-    https://www.nexusmods.com/stardewvalley/users/72640163
 
-    Korean by FurryChe
-    https://www.nexusmods.com/stardewvalley/users/149657268
+    Chinese by [Yi Hui](https://www.nexusmods.com/stardewvalley/users/131631813) and [abc3326404091](https://www.nexusmods.com/stardewvalley/users/72640163)
+    
+    Korean by [FurryChe](https://www.nexusmods.com/stardewvalley/users/149657268)

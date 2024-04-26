@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="17">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="36">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Doors" value="32 10 1 120 39 10 1 120 46 10 1 120"/>
   <property name="Light" value="8 2 6 19 2 6 30 9 6 34 9 6 37 9 6 41 9 6 44 9 6 14 16 6 20 16 6 25 19 6 34 19 6"/>
+  <property name="LocationContext" value="FishingValley.Inn"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -29,6 +30,12 @@
  <tileset firstgid="10196" name="zpeople" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="zpeople.png" width="64" height="256"/>
  </tileset>
+ <tileset firstgid="10260" name="zsummer_extra3" tilewidth="16" tileheight="16" tilecount="10000" columns="100">
+  <image source="summer_extra3.png" width="1600" height="1600"/>
+ </tileset>
+ <tileset firstgid="20260" name="zjukebox" tilewidth="16" tileheight="16" tilecount="6" columns="2">
+  <image source="jukebox.png" width="32" height="48"/>
+ </tileset>
  <layer id="1" name="Paths" width="50" height="30">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
@@ -37,30 +44,59 @@
  <objectgroup id="2" name="Paths"/>
  <layer id="3" name="Back" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlj1OwzAYhg0il+gFOnKGihvwq2RlQQIxlaJk7cLEgEo5QBYmJKSKC3ARRo6BLeWjb99+dkLitB2w9Mh1viT1458vHhljRv+05kpBYhPLGOoxxG4VJObK8cCYk4H5LdKe1sSxTKEWfB4PChKbW2ZQzyD2qIAe17ZPN9AvaadJOK6VEvB5vCpI7MOygHoBsTcFibm+tiHzgPf4PA73Vt1dG8fVlc+DJRJ72l8iJYZHUeHa38P1ayEPRmLY/5CH0MWDxz2r1l8Bfpv2aILmkCXrc5PDfGQ77IFjzR64Z8Sl7r24T7T94Xvur/0PeZxaziznlgtykNqVKWGgFg9p42/n4YvJPm/rgWM/ttxZJpZ7mocCPFwpjV7Eo1TuEw/tHVq+aurBa2dmebbMLS/VtbxCu78Lofd08ZC1I/s69bTb5nQG8wfT1UNctP2OXrHgfNjVg13Qh9dBm5zSJzi+6MTfC/badr9D+cpxafzk4LLtfjM5efA3AdlljyJZzR14Nne8A5iz5Pmjil3ywG865ybMKXXzxmhnz9g5A/Mf51TO8ejB8xaioPfzWS6WB8+J9o3gXJwmzb8P3P8i2ayHbz44N2tniq+h/9ycb8BDOzdoHto8aYTGoy8PHM88WXdED+0ZBvvtG4++PAql7zwv8t/aOYbXP86Zb6/F9NBq7XdKHhq4F+rmqg8PHnPOMXhN8+B8HQLnJfa68q0PbT/Ls1pubpqP84geQhr5fbH4AXePB1o=
+   eJztlj9OwzAUhw0il+gFOnKGihvwV8nKggRiKkXJ2oWpAyrlAF2YkJAqLsBFGDkGtpRHf/3l2WkTp+2ApU/BfUnw52e/eGCMGfzTmBsFiY0sQ7gOIXavIDHXTnvGnPXMX5P+uCYubWyW92Lf5/GkILGZZQrXKcQmCuhxa8d0B+OSfpqE41qbAz6PNwWJfVoWcF1A7F1BYm6sTcg84D0+j+ODVXfXx3l17etoicSeD6vE8ChKXP+nX/0t5MFIDMfftQfPe1auvwL8tu2xDppDllRzk0M+sj32wLlmD9wz4lL3Xtwn2v7wPbfp+EMe55YLy6Xlihzk6tqYMHAVD67Z4uGLOQ90b7OuhpYHy8jySHkowMO1udGbeMyV+8RDe4d4bOqirZ2p5cUys7yWv+Ul2v1tCL2njYesHdnXqafftKYzWD+Yth7iou139IoF18O2HuyCPrwOmtSULsH5RSf+XrDXrscdqleOa+MnB5ddj5vJyYO/Ccg+exTJau3As7njA8CaJc+flOyTB37TuTZhTanLG6OdPWPXDKx/XFO5xqMH5y1EQe/ns1wsD86J9o3gWpwm638fePxFsl0PXz64Nmtniu++/9ycb8FDOzdoHlqeNELz0ZUHzmeeVB3RQ3uGwXH75qMrj0IZO+dF/rd2juH1jznz7bWYHtpV+zslDw3cC3W56sKD55xrDP6meXC9DoF5ib2ufOtD28/yrFab163HeUQPIY38vlj8Ah/YCII=
   </data>
  </layer>
- <objectgroup id="4" name="Back"/>
+ <objectgroup id="4" name="Back" visible="0">
+  <object id="21" name="TileData" x="768" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+    <property name="TouchAction" value="Sleep"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="752" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="608" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="592" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+    <property name="TouchAction" value="Sleep"/>
+   </properties>
+  </object>
+  <object id="29" name="TileData" x="512" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="528" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+    <property name="TouchAction" value="Sleep"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="496" y="80" width="16" height="16">
+   <properties>
+    <property name="Bed" value="T"/>
+    <property name="TouchAction" value="Sleep"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Buildings" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="6" name="Buildings">
-  <object id="1" name="TileData" x="256" y="96" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior1&quot;"/>
-   </properties>
-  </object>
-  <object id="2" name="TileData" x="304" y="96" width="16" height="16">
-   <properties>
-    <property name="Action" value=""/>
-    <property name="Shop" value="OpenShop FV_FishShop"/>
-   </properties>
-  </object>
   <object id="3" name="TileData" x="512" y="160" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;FV.Interior2&quot;"/>
+    <property name="Action" value="Door"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="624" y="160" width="16" height="16">
@@ -71,11 +107,6 @@
   <object id="5" name="TileData" x="736" y="160" width="16" height="16">
    <properties>
     <property name="Action" value="Door"/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="576" y="176" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior3&quot;"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="256" y="304" width="16" height="16">
@@ -93,46 +124,32 @@
     <property name="Action" value="Arcade_Minecart"/>
    </properties>
   </object>
-  <object id="10" name="TileData" x="320" y="304" width="16" height="16">
+  <object id="33" name="TileData" x="384" y="336" width="16" height="16">
    <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior4&quot;"/>
+    <property name="Action" value="Jukebox"/>
    </properties>
   </object>
-  <object id="11" name="TileData" x="272" y="368" width="16" height="16">
+  <object id="34" name="TileData" x="400" y="336" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;FV.Interior5&quot;"/>
-   </properties>
-  </object>
-  <object id="12" name="TileData" x="304" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;FV.Interior6&quot;"/>
-   </properties>
-  </object>
-  <object id="13" name="TileData" x="512" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value=""/>
-    <property name="Shop" value="OpenShop FV_BuffShop"/>
-   </properties>
-  </object>
-  <object id="14" name="TileData" x="656" y="400" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior7&quot;"/>
-   </properties>
-  </object>
-  <object id="15" name="TileData" x="480" y="416" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior8&quot;"/>
-   </properties>
-  </object>
-  <object id="16" name="TileData" x="592" y="416" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.Interior9&quot;"/>
+    <property name="Action" value="Jukebox"/>
    </properties>
   </object>
  </objectgroup>
+ <layer id="12" name="Buildings1" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENQBEAREGJivTq4HeGakQBJN+Fw8z1ZQvYEACAG2pat7ZpfdMAAACmEv9vvoPNi7LPxEUDbHsFGw==
+  </data>
+ </layer>
+ <objectgroup id="11" name="Buildings1"/>
+ <layer id="14" name="Buildings2" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzwENADAIwDAcPWjFMCaeEP5WwRYBAAAAAPzu5HTBHfXIBzs1PDsBJQ==
+  </data>
+ </layer>
+ <objectgroup id="13" name="Buildings2"/>
  <layer id="7" name="Front" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0BJsY4bQT9RJ05cC1JcKxGnMqOKLGRkYljAS1v8cqOYFEeqIAfdIdDsyaAG6vxWI29D8cRjotiM43CfAhGCzA9kcTNjVjYKRDSppIDcQYCYN5EbBKBgFo2AUjIJRMApGIoD1ve5Q0H+hNrgCdcvdQeSmUUA7cH8Qx/M1PG67OojdPQpGwVAEAEMcFFI=
+   eJxjYBgFo2AU0BJsY4bQT9RJ05cC1JcKxGnMqOKLGRkYljAS1v8cqOYFEeqIAXtJdDsyaAG6vxWI29D8cRjotiM43CfAhGCzA9kcTNjVjYKRDSppIDcQYCYN5EbBKBgFo2AUjIJRMApGIoD1ve5Q0H+hNrgCdcvdQeQmaoADRgPtAtqBIG8GhmDvgXYF9cF3Q9xycQb0c8coGAUjAQAA5dYVFQ==
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>

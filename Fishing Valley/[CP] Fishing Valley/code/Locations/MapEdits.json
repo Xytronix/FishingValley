@@ -1,27 +1,102 @@
 {
-    "Changes": [
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "When": { "EditFarm": true, "FarmType": "Standard" },
-            "FromFile": "assets/Maps/Novel.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-            "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
-        },
-        {
-            "LogName": "Editing maps",
-            "Action": "EditMap",
-            "Target": "Maps/FishingValley.LaMilladelJardiinRea",
-            "FromFile": "assets/Maps/S01Novel.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-            "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
-        },
-        {
-            "Action": "EditMap",
-            "Target": "Maps/FishingValley.JungleFalls",
-            "FromFile": "assets/Maps/S02Novel.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-            "ToArea": { "X": 32, "Y": 11, "Height": 1, "Width": 1 }
-          }
-    ]
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": {
+        "EditFarm": true,
+        "FarmType": "Standard",
+        "HasMod | contains=flashshifter.immersivefarm2remastered": false,
+        "HasMod | contains=flashshifter.GrandpasFarm": false
+      },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": {
+        "EditFarm": true,
+        "HasMod | contains=flashshifter.immersivefarm2remastered": true
+      },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 46, "Y": 7, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": {
+        "EditFarm": true,
+        "HasMod |  contains=flashshifter.GrandpasFarm": true
+      },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 104, "Y": 37, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "Beach" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 84, "Y": 6, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "FourCorners" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "Hilltop" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "Riverland" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "Wilderness" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 76, "Y": 13, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "When": { "EditFarm": true, "FarmType": "MeadowlandsFarm" },
+      "FromFile": "assets/Maps/Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 91, "Y": 19, "Height": 1, "Width": 1 }
+    },
+    {
+      "LogName": "Editing maps",
+      "Action": "EditMap",
+      "Target": "Maps/FishingValley.JungleTree",
+      "FromFile": "assets/Maps/S01Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FishingValley.WaterfallCave",
+      "FromFile": "assets/Maps/S02Novel.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
+      "ToArea": { "X": 14, "Y": 7, "Height": 1, "Width": 1 }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "Name": "Fishing Valley",
-  "Author": "Seiyn, Xytronix, Reika K. Fujoshi",
+  "Author": "Seiyn, Xytronix",
   "Description": "A world that only exists in fairytales which only those who believe will be able to see.",
   "Version": "1.1.0",
   "UniqueID": "FishingValley.CP",
@@ -11,7 +11,15 @@
   },
   "Dependencies": [
     {
+      "UniqueID": "FishingValley.BL",
+      "IsRequired": false
+    },
+    {
       "UniqueID": "FishingValley.FTM",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FishingValley.PFM",
       "IsRequired": false
     },
     {

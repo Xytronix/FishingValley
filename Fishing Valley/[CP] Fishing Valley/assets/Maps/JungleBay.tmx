@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="33" height="41" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="1354">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="33" height="41" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="1354">
  <properties>
   <property name="CanBuildHere" value="T"/>
   <property name="Outdoors" type="bool" value="true"/>
   <property name="Season Override" value="summer"/>
   <property name="skipWeedGrowth" type="bool" value="true"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -1211,7 +1212,7 @@
  </tileset>
  <layer id="3" name="Back" width="33" height="41">
   <data encoding="base64" compression="zlib">
-   eJzlmEsKwjAQhqV2pXsP3SpIV7rXhU904cIj1Nc9RBTBCzjBBOI0k6YxTRQXH11EnK9/J3XiKG40xsAo4LXTDE/eVtOPaFYt/TpjAkyBGTAv+QzlUMVJRQ6sOQei9p6vmzpglzuRBf5+xo7nMVWsfeJAcQYuwKD5XkeHrYPOLUc1Mn4dEl62GVBrEynrFNXa1uwg9gp7Fj3ORZN/ZulQtU9Eb3Qd94Othy8HWw/XDpQH3iv/6qB7HnU4VM0ihAPeq/+YQ4bqpxYOWWyGLocFsJQI4XAEThIh+uEbHK7ATaIuB5WL733x7Q54pvPlIGY88X5IPTmE/N3E9eU5V5B4dmAZUDO1Twef86RgE70I6aDLAZ8DXdUzcZD70OUZx+b86fJZUGfvR1x0wPObq3cU5VBlrv91B5Paqv9kkqg4U9ZZf6/oA1c5lN23uPfEoD7jCdx430c=
+   eJzlmM0OATEQx2XtibuHXiSyJ+4crI9wcPAI6+s9RIjEC5hGm9ToVFvdljj8sofKzm//O2VqmNZqI2AY8dqqx6dsquklNIuGfp0xBgpgAkzffIZysHFSUQJLzo6oveXrpg7Y5Upkge/P2PA8CsXaJw4UR+AE9OvPdXS4OujcSlQj59cB4eWaAbU2lrJuo1rrih3EXmHvoss5afLPHR1s+0T0RsdzP7h6hHJw9fDtQHngvfKvDrr3UYWDbRYxHPBe/ccc2PfjDJhL2N47T83Q5bAHDhK/6OCjH77B4QxcJKpyULmE3hff7oBnulAOYsYT81M7kEPM301cX55zBVlgB5YBNVOHdAg5TwpWyYOYDroc8DnQVz0TB7kPfZ5xXM6fPt8Fdfa+pa8OeH7z9R1FOdjM9b/uYFJb9Z9MhvrR1cG0/lbRB75yePfc4tkzg/qMO2eJ3+A=
   </data>
  </layer>
  <objectgroup id="4" name="Back"/>
@@ -1221,15 +1222,27 @@
   </data>
  </layer>
  <objectgroup id="8" name="Buildings"/>
+ <layer id="18" name="Buildings1" width="33" height="41">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAIA7AL+ocjEZ4AYLYESwAAgK3rewAAwJUBbkAA1w==
+  </data>
+ </layer>
+ <objectgroup id="17" name="Buildings1"/>
  <layer id="1" name="Paths" width="33" height="41">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAAAAA/BoVJAAB
   </data>
  </layer>
+ <objectgroup id="15" name="Back1"/>
+ <layer id="16" name="Back1" width="33" height="41">
+  <data encoding="base64" compression="zlib">
+   eJztzkERAAAEADAB1NfXWwLubAkWAQAAU+X24MYBAIAfGpjLAUM=
+  </data>
+ </layer>
  <objectgroup id="2" name="Paths"/>
  <layer id="5" name="Front" width="33" height="41">
   <data encoding="base64" compression="zlib">
-   eJztzrENwCAUA9Ev0WZ9RiGZBJgEaDFTOBL3JNe+CADwKyni1b7ka6j6blo3Ngx9T20ZGwDgyI+74B8NAAAAuMMGxs4I5A==
+   eJztzrENgDAQBMGX3H85QCXgSrBTrosPmJE2vqsC6HeMqjNdo+/Dne0nzcYPb7ZX2o0fAAAA4G8+QycHog==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

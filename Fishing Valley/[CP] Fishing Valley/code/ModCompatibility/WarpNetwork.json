@@ -1,0 +1,66 @@
+{
+  "Changes": [
+    {
+      "LogName": "Register location with warp network",
+      "Action": "EditData",
+      "Target": "Data/WarpNetwork/Destinations",
+      "Entries": {
+        "FishingValley": {
+          "location": "FishingValley.JungleTree",
+          "x": 4,
+          "y": 4,
+          "enabled": true,
+          "label": "Fishing Valley",
+          "icon": null
+        }
+      }
+    },
+    {
+      "LogName": "Add warp",
+      "Action": "EditMap",
+      "Target": "Maps/FV_JungleTree",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 3,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "WarpNetwork FishingValley"
+          }
+        },
+        {
+          "Position": {
+            "X": 4,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "WarpNetwork FishingValley"
+          }
+        },
+        {
+          "Position": {
+            "X": 3,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "WarpNetwork FishingValley"
+          }
+        },
+        {
+          "Position": {
+            "X": 4,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "WarpNetwork FishingValley"
+          }
+        }
+      ]
+    }
+  ]
+}

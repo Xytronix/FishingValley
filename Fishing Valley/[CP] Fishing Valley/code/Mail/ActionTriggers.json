@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "LogName": "Mail Triggers",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "FishingValley.Letter.Introduction": {
+          "Id": "FishingValley.Letter.Introduction",
+          "Trigger:": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 739330, PLAYER_FISHING_LEVEL Current 2 10, !PLAYER_HAS_MAIL Current FV_Introduction_Letter",
+          "HostOnly": false,
+          "Action": "AddMail Current FV_Introduction_Letter"
+        },
+        "FishingValley.Letter.Festival": {
+          "Id": "FishingValley.Letter.Festival",
+          "Trigger:": "DayEnding",
+          "Condition": "SEASON_DAY summer 13, PLAYER_HAS_MAIL Current FV_Introduction_Letter Any",
+          "HostOnly": false,
+          "Action": "AddMail Current FV_Festival_Letter"
+        }
+      }
+    }
+  ]
+}

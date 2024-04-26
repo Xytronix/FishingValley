@@ -1,0 +1,12 @@
+{
+  "Name": "Fishing Valley Productions",
+  "Author": "Seiyn, Xytronix",
+  "Version": "1.1.0",
+  "Description": "Adds products to machines for Fishing Valley.",
+  "UniqueID": "FishingValley.PFM",
+  "UpdateKeys": ["Nexus:8668"],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod"
+  },
+  "Dependencies": [{ "UniqueID": "FishingValley.CP", "IsRequired": true }]
+}

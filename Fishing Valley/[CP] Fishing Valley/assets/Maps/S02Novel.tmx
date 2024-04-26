@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="2">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="2">
  <properties>
   <property name="Season Override" value="summer"/>
  </properties>
@@ -16,9 +16,12 @@
    </animation>
   </tile>
  </tileset>
+ <tileset firstgid="1992" name="zcave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="mine_dark_dangerous.png" width="256" height="288"/>
+ </tileset>
  <layer id="1" name="Back" width="1" height="1">
   <data encoding="csv">
-557
+2130
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -30,7 +33,7 @@
  <objectgroup id="4" name="Buildings">
   <object id="1" name="TileData" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 5 5 FishingValley.LaMilladelJardiinRea"/>
+    <property name="Action" value="Warp 4 4 FishingValley.JungleTree"/>
    </properties>
   </object>
  </objectgroup>

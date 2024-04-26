@@ -3,13 +3,61 @@
     {
       "Action": "EditMap",
       "Target": "Maps/FV_FishingResortExterior",
-      "AddWarps": ["13 17 BusStop 10 23"],
       "MapTiles": [
         {
-          "Position": { "X": 256, "Y": 160 },
+          "Position": { "X": 24, "Y": 10 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 12 27 FishingValley.FishingResortInterior 600 2100"
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+          }
+        },
+        {
+          "Position": { "X": 4, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 10 BusStop"
+          }
+        }
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingFestival",
+      "MapTiles": [
+        {
+          "Position": { "X": 24, "Y": 10 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+          }
+        },
+        {
+          "Position": { "X": 4, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 10 BusStop"
+          }
+        }
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_Market",
+      "MapTiles": [
+        {
+          "Position": { "X": 24, "Y": 10 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+          }
+        },
+        {
+          "Position": { "X": 4, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 10 BusStop"
           }
         }
       ]
@@ -19,11 +67,9 @@
       "Action": "EditMap",
       "Target": "Maps/FV_FishingResortInterior",
       "AddWarps": [
-        "12 28 FishingValley.FishingResortExterior 16 11",
-        "14 2 FishingValley.JungleJapesMain 2 48",
-        "15 2 FishingValley.JungleJapesMain 3 48",
-        "10 2 FishingValley.Serenityriver 13 23",
-        "11 2 FishingValley.Serenityriver 14 23"
+        "12 30 FishingValley.FishingResortExterior 24 11",
+        "14 2 FishingValley.JungleJapesMain 2 49",
+        "15 2 FishingValley.JungleJapesMain 3 49"
       ]
     },
 
@@ -38,10 +84,10 @@
       ],
       "MapTiles": [
         {
-          "Position": { "X": 64, "Y": 112 },
+          "Position": { "X": 4, "Y": 7 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 4 18 FishingValley.FungusHouse 800 2100"
+            "Action": "LockedDoorWarp 5 19 FishingValley.FungusHouse 0800 2100"
           }
         }
       ]
@@ -51,8 +97,8 @@
       "Action": "EditMap",
       "Target": "Maps/FV_FungusHouse",
       "AddWarps": [
-        "4 18 FishingValley.ForestSwamp 4 8",
-        "5 18  FishingValley.ForestSwamp 4 8"
+        "4 20 FishingValley.ForestSwamp 4 8",
+        "5 20  FishingValley.ForestSwamp 4 8"
       ]
     },
 
@@ -60,25 +106,39 @@
       "Action": "EditMap",
       "Target": "Maps/FV_JungleBay",
       "AddWarps": [
-        "32 19 FishingValley.JungleJapesMain 1 16",
-        "32 20 FishingValley.JungleJapesMain 1 17"
+        "33 18 FishingValley.JungleJapesMain 0 16",
+        "33 19 FishingValley.JungleJapesMain 0 17",
+        "33 20 FishingValley.JungleJapesMain 0 17",
+        "33 21 FishingValley.JungleJapesMain 0 17",
+        "33 22 FishingValley.JungleJapesMain 0 17"
+      ],
+      "MapTiles": [
+        {
+          "Position": { "X": 27, "Y": 5 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 5 19 FishingValley.PirateShed 0600 0200"
+          }
+        }
       ]
     },
 
     {
       "Action": "EditMap",
       "Target": "Maps/FV_JungleCave",
-      "AddWarps": ["10 24 FishingValley.JungleRiver 34 4"]
+      "AddWarps": ["10 25 FishingValley.JungleRiver 34 2"]
     },
 
     {
       "Action": "EditMap",
       "Target": "Maps/FV_JungleFalls",
       "AddWarps": [
-        "13 39 FishingValley.JungleRiver 9 1",
-        "14 39 FishingValley.JungleRiver 10 1",
-        "15 39 FishingValley.JungleRiver 10 1",
-        "23 9 FishingValley.WaterfallCave 7 7"
+        "13 40 FishingValley.JungleRiver 9 1",
+        "14 40 FishingValley.JungleRiver 10 1",
+        "15 40 FishingValley.JungleRiver 10 1",
+        "23 8 FishingValley.WaterfallCave 10 12",
+        "40 11 FishingValley.JungleOasis 0 96",
+        "40 12 FishingValley.JungleOasis 0 97"
       ]
     },
 
@@ -88,10 +148,12 @@
       "AddWarps": [
         "2 50 FishingValley.FishingResortInterior 14 4",
         "3 50 FishingValley.FishingResortInterior 15 4",
-        "50 14 FishingValley.JungleRiver 1 32",
-        "50 15 FishingValley.JungleRiver 1 33",
-        "-1 16 FishingValley.JungleBay 32 20",
-        "-1 17 FishingValley.JungleBay 32 19"
+        "50 14 FishingValley.JungleRiver 0 32",
+        "50 15 FishingValley.JungleRiver 0 33",
+        "-1 16 FishingValley.JungleBay 32 19",
+        "-1 17 FishingValley.JungleBay 32 20",
+        "42 50 FishingValley.JungleTree 3 0",
+        "43 50 FishingValley.JungleTree 4 0"
       ]
     },
 
@@ -105,9 +167,9 @@
         "34 0 FishingValley.JungleCave 10 23",
         "35 0 FishingValley.JungleCave 10 23",
         "36 0 FishingValley.JungleCave 10 23",
-        "8 -1 FishingValley.JungleFalls 13 38",
-        "9 -1 FishingValley.JungleFalls 13 38",
-        "10 -1 FishingValley.JungleFalls 14 38"
+        "8 -1 FishingValley.JungleFalls 13 39",
+        "9 -1 FishingValley.JungleFalls 13 39",
+        "10 -1 FishingValley.JungleFalls 14 39"
       ]
     },
 
@@ -115,82 +177,123 @@
       "Action": "EditMap",
       "Target": "Maps/FV_SerenityRiver",
       "AddWarps": [
-        "13 24 FishingValley.FishingResortInterior 10 4",
-        "14 24 FishingValley.FishingResortInterior 11 4",
-        "13 0 FishingValley.ForestSwamp 26 38",
-        "14 0 FishingValley.ForestSwamp 27 38"
+        "13 25 FishingValley.JungleCrossing 9 0",
+        "14 25 FishingValley.JungleCrossing 10 0",
+        "13 -1 FishingValley.ForestSwamp 26 39",
+        "14 -1 FishingValley.ForestSwamp 27 39"
+      ],
+      "MapTiles": [
+        {
+          "Position": { "X": 3, "Y": 4 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 8 14 FishingValley.TreeHouse 0600 0200"
+          }
+        }
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_TreeHouse",
+      "AddWarps": [
+        "7 15 FishingValley.Serenityriver 3 5",
+        "8 15 FishingValley.Serenityriver 3 5"
+      ],
+      "MapTiles": [
+        {
+          "Position": { "X": 5, "Y": 7 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp FishingValley.WaterfallCave 7 7"
+          }
+        },
+        {
+          "Position": { "X": 10, "Y": 7 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp FishingValley.JungleTree 4 4"
+          }
+        }
       ]
     },
 
     {
       "Action": "EditMap",
       "Target": "Maps/FV_WaterFallCave",
-      "AddWarps": [
-        "7 10 FishingValley.JungleFalls 23 10",
-        "5 4 FishingValley.JungleJapesMain 3 47"
+      "AddWarps": ["10 13 FishingValley.JungleFalls 23 10"],
+      "MapTiles": [
+        {
+          "Position": { "X": 7, "Y": 7 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp FishingValley.TreeHouse 5 7"
+          }
+        }
       ]
     },
 
     {
       "Action": "EditMap",
-      "Target": "Maps/FV_HoshiroTaniMajula",
+      "Target": "Maps/FV_JungleOasis",
       "When": { "EditFarm": true },
-      "AddWarps": ["99 25 Farm 76 15", "99 26 Farm 76 16"]
-    },
-
-    {
-      "Action": "EditMap",
-      "Target": "Maps/FishingValley.HoshiroTaniMajula",
       "AddWarps": [
-        "22 9 FishingValley.HoshiroTaniMajula 5 5",
-        "41 93 FishingValley.OCaminhodasChamasGemeas 8 1",
-        "42 93 FishingValley.OCaminhodasChamasGemeas 9 1",
-        "43 93 FishingValley.OCaminhodasChamasGemeas 9 1",
-        "44 93 FishingValley.OCaminhodasChamasGemeas 10 1",
-        "45 93 FishingValley.OCaminhodasChamasGemeas 10 1",
-        "46 93 FishingValley.OCaminhodasChamasGemeas 11 1",
-        "36 99 FishingValley.OCaminhodasChamasGemeas 1 1",
-        "37 99 FishingValley.OCaminhodasChamasGemeas 2 1",
-        "38 99 FishingValley.OCaminhodasChamasGemeas 3 1",
-        "48 99 FishingValley.OCaminhodasChamasGemeas 16 1",
-        "49 99 FishingValley.OCaminhodasChamasGemeas 17 1",
-        "50 99 FishingValley.OCaminhodasChamasGemeas 18 1"
+        "-1 94 FishingValley.JungleFalls 39 11",
+        "-1 95 FishingValley.JungleFalls 39 11",
+        "-1 96 FishingValley.JungleFalls 39 11",
+        "-1 97 FishingValley.JungleFalls 39 12",
+        "-1 98 FishingValley.JungleFalls 39 12",
+        "34 -1 FishingValley.JungleCrossing 1 39",
+        "35 -1 FishingValley.JungleCrossing 2 39",
+        "36 -1 FishingValley.JungleCrossing 2 39",
+        "37 -1 FishingValley.JungleCrossing 3 39",
+        "38 -1 FishingValley.JungleCrossing 3 39",
+        "39 -1 FishingValley.JungleCrossing 4 39",
+        "45 -1 FishingValley.JungleCrossing 16 39",
+        "46 -1 FishingValley.JungleCrossing 16 39",
+        "47 -1 FishingValley.JungleCrossing 16 39",
+        "48 -1 FishingValley.JungleCrossing 16 39",
+        "52 69 FishingValley.Mine 8 17",
+        "53 69 FishingValley.Mine 8 17"
       ]
     },
 
     {
       "Action": "EditMap",
-      "Target": "Maps/FishingValley.OCaminhodasChamasGemeas",
+      "Target": "Maps/FishingValley.JungleCrossing",
       "AddWarps": [
-        "1 0 FishingValley.HoshiroTaniMajula 36 98",
-        "2 0 FishingValley.HoshiroTaniMajula 37 98",
-        "3 0 FishingValley.HoshiroTaniMajula 38 98",
-        "8 0 FishingValley.HoshiroTaniMajula 41 92",
-        "9 0 FishingValley.HoshiroTaniMajula 42 92",
-        "10 0 FishingValley.HoshiroTaniMajula 45 92",
-        "11 0 FishingValley.HoshiroTaniMajula 46 92",
-        "16 0 FishingValley.HoshiroTaniMajula 48 98",
-        "17 0 FishingValley.HoshiroTaniMajula 49 98",
-        "18 0 FishingValley.HoshiroTaniMajula 50 98",
-        "1 39 FishingValley.LaMilladelJardiinRea 1 2",
-        "2 39 FishingValley.LaMilladelJardiinRea 3 2",
-        "3 39 FishingValley.LaMilladelJardiinRea 5 2",
-        "4 39 FishingValley.LaMilladelJardiinRea 6 2"
+        "8 -1 FishingValley.Serenityriver 13 24",
+        "9 -1 FishingValley.Serenityriver 13 24",
+        "10 -1 FishingValley.Serenityriver 14 24",
+        "11 -1 FishingValley.Serenityriver 14 24",
+        "1 40 FishingValley.JungleOasis 34 0",
+        "2 40 FishingValley.JungleOasis 35 0",
+        "3 40 FishingValley.JungleOasis 36 0",
+        "4 40 FishingValley.JungleOasis 37 0",
+        "15 40 FishingValley.JungleOasis 45 0",
+        "16 40 FishingValley.JungleOasis 46 0",
+        "17 40 FishingValley.JungleOasis 47 0",
+        "18 40 FishingValley.JungleOasis 48 0"
       ]
     },
 
     {
       "Action": "EditMap",
-      "Target": "Maps/FishingValley.LaMilladelJardiinRea",
+      "Target": "Maps/FishingValley.JungleTree",
       "AddWarps": [
-        "1 0 FishingValley.OCaminhodasChamasGemeas 1 38",
-        "2 0 FishingValley.OCaminhodasChamasGemeas 2 38",
-        "3 0 FishingValley.OCaminhodasChamasGemeas 2 38",
-        "4 0 FishingValley.OCaminhodasChamasGemeas 3 38",
-        "5 0 FishingValley.OCaminhodasChamasGemeas 3 38",
-        "6 0 FishingValley.OCaminhodasChamasGemeas 4 38"
-        //"3 5 FishingValley.OCaminhodasChamasGemeas 4 38"
+        "1 -1 FishingValley.JungleJapesMain 42 49",
+        "2 -1 FishingValley.JungleJapesMain 42 49",
+        "3 -1 FishingValley.JungleJapesMain 42 49",
+        "4 -1 FishingValley.JungleJapesMain 43 49",
+        "5 -1 FishingValley.JungleJapesMain 43 49",
+        "6 -1 FishingValley.JungleJapesMain 43 49"
       ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FishingValley.Mine",
+      "AddWarps": ["8 18 FishingValley.JungleOasis 53 70"]
     }
   ]
 }

@@ -4,6 +4,7 @@
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="fall"/>
   <property name="skipWeedGrowth" value="true"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -356,13 +357,7 @@
    eJy9WEtrE1EUnpiMTQrVBF87rc9VyErQ2lbwEWMFg2mTgAjVjRZ8C93U115X6j/wudZudS8+UXfiUrdqW6sgqPhdnENOjvfMvdOmPfAxc9t77/nmO+eeOZPP6SD4AnwFphJchzNBsAPYhvtO2VLs1wVkgVzC63pgLeNSDf392uauw369GX3N+XwQXFCwNe+viw/P7eDRB9Sy0B0YAepAA2gCN+DvpoJb+XZdyMY89eHzToQtXSbg9yJwCbgMXAGuAg/h76mCyQS6xJnhMZxu6XIbfu8Ad4F7wH3ggQcXo8uyniBY3mP3I2Mjx8TDGOnyDH6fAy+Al8Ar4DXwBv7eRiCj8btIl9XgsUbh4rJerO+PziTpMg2/M8A3YBb4DvwApuBvOgIZjWeAQ9jreILzI60P6wcy/2oE6XJ4js9ljPhoOSvjwucZXTbC/yamy8Q8uHA+xuLyRxrpMphx15e58PHNH8pbqct4qjWnKTRdgfHKCKscuWH41DxB5ydOl0bY4mZ47Gf+SwnzdDPyf0u2NX6cC4InufY5UhebSR4m5yoJuRwEjyrj8hE8PgkuUpcjqfb/Sx5kQyxerrhRbPdZ1vB1pEu3okuR7e86F0MKr6LgKM88xZt02RC9+8eFLmW2zudckB+eT2VHPEtCF5uZeNn24c+l9QCVGF00LqQLafue1Xhzb8sVHzP701kpK9yrQkOpi+Ri28PHjC50VpLq4uLiMlM7jzIc88gXmVu+uriMx4TsGu6vL7IuJn6l8P/69Qj3kyxftDgn0cWnb9XqcJjW81/mbqfy5YBS52x9sFbrkuSLb1/P6xz/PtDWJ9FFi7P2TqiwPPb5PpC60Fn8ybiY+7geVnsn8Dy2fTfJZ6sIXagHlxZ3HjXNK458kSZ1aUTv6Q8x70YfGwvb88XW38l+WOYL9S+zjIt5Z7vqlM24Lrb6J/thqYvW1xldtBzlcedzOBet/vFn1HSR/UvRs5/nc2w9H9Ud6nvLFi4uXX7hLP0G/gCpQhAsAdJAppB8HBZafa+PLotlPPa+unTS+PkqWnLXpgvP/QHougvYDewB9rLxILAzZiznlwvtukiONl147o+KHmk+4P3VqOXvpEst+r1hBKgvwLUu6nq/ZY6pt03gJHAKOA2cWYBrV/TNQ2a+gbrFnLPAOeAvTArxSw==
   </data>
  </layer>
- <objectgroup id="6" name="Buildings">
-  <object id="2" name="TileData" x="32" y="480" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;FV.ForestSwamp1&quot;"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="6" name="Buildings"/>
  <layer id="7" name="Front" width="35" height="40">
   <data encoding="base64" compression="zlib">
    eJztl0sOgjAQhrsxKe5cquimJ/G94BS683kQdz43PYkmuuFi/kYapCmxQqUS+iVfqIm0Yx2GDiEOh8NRbpoeIS3Yhj7swK5nJ5Ye1u3DARzCERwXHAujr+sc6y7gEq7gGm40YqnXzMURQA53WHcPD/AIT/Bs6T+6YN2rF+/TDeO7gVh4NB+j8fgTz++KfWKa9+jEEb7NG2rOG9Ckur/BkR+5ftniH+qXIGv9+gVp9WsKZwXHJOqXwFT9yot7D6spQx7bQOSxyxs1Zcgb2/VPPjNtLewPp8mzri1YdNYLvjz3VZFJzh7Hb5iJwySqvkN+PsRnVa+iyt0s+azqO1Q9jnhe5F6Fp+RuSM31SFXgAddCR84=

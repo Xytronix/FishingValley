@@ -1,0 +1,102 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": ["Default", "Destinations"],
+      "When": { "EnableRailroad": true },
+      "Entries": {
+        "Railroad": {
+          "Id": "Railroad",
+          "DisplayName": "[LocationName Railroad]",
+          "Condition": "LOCATION_ACCESSIBLE Railroad, {{RailroadMinecart}}",
+          "TargetLocation": "Railroad",
+          "TargetTile": {
+            "X": 16,
+            "Y": 39
+          },
+          "TargetDirection": "down"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": ["Default", "Destinations"],
+      "When": { "EnableMinecartNetwork": false },
+      "Entries": {
+        "FishingValley.Mine": {
+          "Id": "FishingValley.Mine",
+          "DisplayName": "[LocationName FishingValley.Mine]",
+          "Condition": "PLAYER_FISHING_LEVEL Host 2",
+          "TargetLocation": "FishingValley.Mine",
+          "TargetTile": { "X": 11, "Y": 10 },
+          "TargetDirection": "down"
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_Mine",
+      "MapTiles": [
+        {
+          "Position": { "X": 11, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport Default FishingValley.Mine"
+          }
+        },
+        {
+          "Position": { "X": 12, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport Default FishingValley.Mine"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "When": { "EnableMinecartNetwork": true },
+      "Entries": {
+        "FishingValley.Network": {
+          "UnlockCondition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+          "LockedMessage": null,
+          "ChooseDestinationMessage": null,
+          "BuyTicketMessage": null,
+          "Destinations": [
+            {
+              "Id": "FishingValley.Mine",
+              "DisplayName": "[LocationName FishingValley.Mine]",
+              "Condition": "PLAYER_FISHING_LEVEL Host 2",
+              "TargetLocation": "FishingValley.Mine",
+              "TargetTile": { "X": 11, "Y": 10 },
+              "TargetDirection": "down"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_Mine",
+      "MapTiles": [
+        {
+          "Position": { "X": 11, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport FishingValley.Network FishingValley.Mine"
+          }
+        },
+        {
+          "Position": { "X": 12, "Y": 9 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport FishingValley.Network FishingValley.Mine"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add mails.",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "FishingValley.Letter.Introduction": "[letterbg 4]{{i18n:letter.introduction.line1}}^{{i18n:letter.introduction.line2}}^^{{i18n:letter.introduction.line3}}^{{i18n:letter.introduction.line4}}^   {{i18n:letter.introduction.line5}}[#]{{i18n:letter.introduction.title}}",
+        "FishingValley.Letter.Festival": "[letterbg 5]{{i18n:letter.festival.line1}}^{{i18n:letter.festival.line2}}^^{{i18n:letter.festival.line3}}^{{i18n:letter.festival.line4}}^   {{i18n:letter.festival.line5}}[#]{{i18n:letter.festival.title}}",
+        "FishingValley.Letter.Passout": "{{i18n:letter.passout.line1}}^{{i18n:letter.passout.line2}}^^{{i18n:letter.passout.line3}}^{{i18n:letter.passout.line4}}^   {{i18n:letter.passout.line5}}[#]{{i18n:letter.passout.title}}",
+        "FishingValley.Letter.PassoutInterior": "{{i18n:letter.passoutint.line1}}^{{i18n:passoutint.festival.line2}}^^{{i18n:letter.passoutint.line3}}^{{i18n:letter.passoutint.line4}}^   {{i18n:letter.passoutint.line5}}[#]{{i18n:letter.passoutint.title}}",
+        "FishingValley.Letter.PassoutInn": "{{i18n:letter.passoutinn.line1}}^{{i18n:letter.passoutinn.line2}}^^{{i18n:letter.passoutinn.line3}}^{{i18n:letter.passoutinn.line4}}^   {{i18n:letter.passoutinn.line5}}[#]{{i18n:letter.passoutinn.title}}"
+      }
+    }
+  ]
+}

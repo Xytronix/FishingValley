@@ -4,6 +4,7 @@
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="skipWeedGrowth" value="true"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -392,18 +393,7 @@
    eJzNWltvVUUUnnN6JAFq7YWLRn0TTTDgHTGoaHjSB32wao1KYoKUi2Jiy03Q4BUvhAebWPgBpKCJ0fYFXowx0YqamLQJ4hv6A3iQa7ko32TvyZku1sysNfvQ+CVf9tmXc+bba75Zs2bvc8wY8wd4DpxXM2Z+rbm9EbwJdNjTYcw/2J4CT5ffsdsz4Fnh/nlwCryI370EPtMwV6GvUZy7XLv6ew/g2P21YrscfMjTdwD6urHfU97DQu9eFgj33T3fXDfmFnCA0betUZy7tV5oW8jEioPVdy+uua+8hwe9e1lW7u/tmL5Pz1vc2WnMCrT9MDjE6NvXKM49Ah7G/hHvnP1uCLZ/Lb7uCF8z4p0bhZ4xsL/NmHXgenADuBF8EW2/BI4x+g43inMvg8ex/2e4uWk4ENHlcAjXbC6vm4C2SXA39HwMfgJ+Cn4G7kDbO8FJRt/xRnHubaW+PQJ9VKPFCPQcBA+BX4JftaV/401wwDTHhQSS+HEax6HnZ/Ao+Av4a0Sf89fn4BC4D9wvbPM7tPdjpkYtRsEx0xwft3cZc0dXnsbxiIZcjRPgpGn6byW0PVbqWzQHeufoNMaQo9HNA5z/HoW2lRF9Eo00B1GNiyN5zELqv9jvXIs4Op9R/+VCq3Fv4lrnM+o/ivHZyAng0dnpNjV5J6XPIeY/ixPQ9Rf4t0CfJoYjiesWV8h/FCdJ7SWBNH5V/Xc95sYO8IZ6sc/1MZcXY/Fb5eXflP9SWAJdS8G7Sn2S+P2Ea75vkf+0SI0RjTYLzn+peSOEAbR7MNK2VpsF5z9u3kjlmZQ2C39MrEnU6A5S/8XyjESbhRsTdEzF0Ar/aXMKHVMxtCL/SfWlcnJ9ljFtYAO8blZxrBXzr3ReS9UF3dDUA84D55f6quY/Cxq/VtaprfCfpi6w0GjU+C9UA0rrAr9WlWqcifqvL3BfsRrB1ach/92N/HyPcA5ZjfZfAdfi9zZi+xr4Orge3NBZHOsH15Fja7qK6zYx+l19GvLfE9D2JNEXWtttxe+/B24H3wJ3ge+Wx94HPwgc+xD8CNwdWTs4/0meC/lru5mC89//Fc5/WqyY2/x8Gv1zBjwLngPPg1PgBfAieAm8DP4L/mf7En1QA+tgG9iI9Inz3zZwu0Jfr6fvB7T5e6c+D9r57jd8b0Lgvyrzr61fBoU1DNUXwm2oHRbVm/6bifqFQrJGcv7LjZ+09qOQ1tLOf9z8IcnRqdiF5o5d7WltFs5/XP3C5WiKd4TtUOxnvkfzv53vq/pv2Gsn9rycgosfl/81/uPqF0n8uHqQix+HmP8kGM7oXzs2RjP99xTm4KfLeVjy7ErrP402C+q/TdD2RqlP8uxKEz+tNosq+e/Vdnnuy9Fmkes/jTYLab5zY9A9Y4nlvxi0vouNV9/zDu4ZS27+047bWPx8z1Pk+u+b9unrodia10Ka7yiq5D+qMYZQ/FYl1gvUf5p1m0ajNn5ufFD/SWoCCslYsevxfoVGNz6q1n8WobHCvduyGk+QPo29q9f4L/TMU5NrrMa17QUl8QzlvynMaRe8eS32zDOnRrCQ5Gzqvz7wBbAbfd/j+TD0zFM7j/iQjJmZmn85SOJH/Uf79Vpps5DEj/qP9qsFN75y1x0+QvHz37/kzr9SfbF5LxQ///1Lrv9yx6yPHP9JEPJeqkagyPEfB+q/HO/RuURaT3P+S9UIVftWU+tz/kvVCJq6KqTtpPD9YG79ZzV+W1Kj1Y4JzftBif9S/3nSxNOOidBcGXv/Fst/kufi3Jjhnsekckro/RvNf65OkEI6ZrR1NOe/xzPeIUhyTs4anfqPi5ukZgjFz2py44hq49a9FM5/W8Cthn+Oz9UMPkLzSSpebt1L/4/h63b++wIcNk0fPgs+Bz4P9nr7veRcrM6Seo3+H8Ppdv89PeXpc3Hc7H0e9PYHyTnar/4c7NZD/j1pt0MlrwCfuhHA
   </data>
  </layer>
- <objectgroup id="4" name="Buildings">
-  <object id="949" name="TileData" x="192" y="544" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;FV.JungleRiver1&quot;"/>
-   </properties>
-  </object>
-  <object id="951" name="TileData" x="432" y="848" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.JungleRiver2&quot;"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="40" height="75">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAOBvLuAAAQ==

@@ -7,12 +7,57 @@
       "Entries": {
         "FishingValley.FishingResortExterior": {
           "DisplayName": "{{i18n:LocationData.FishingResortExterior}}",
-          "DefaultArrivalTile": {"X": 13, "Y": 19},
+          "DefaultArrivalTile": { "X": 13, "Y": 19 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_FishingResortExterior"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "spring_night_ambient",
+              "Condition": "TIME 1900 0200"
+            },
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleTheme"
+            }
+          ]
+        },
+
+        "FishingValley.FishingFestival": {
+          "DisplayName": "{{i18n:festival.nightmarket.name}}",
+          "DefaultArrivalTile": { "X": 13, "Y": 19 },
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FV_FishingFestival"
+          },
+          "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "spring_night_ambient",
+              "Condition": "TIME 1900 0200"
+            },
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleTheme"
+            }
+          ]
+        },
+
+        "FishingValley.Market": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "DefaultArrivalTile": { "X": 13, "Y": 19 },
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FV_Market"
+          },
+          "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "spring_night_ambient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleTheme"
@@ -22,7 +67,7 @@
 
         "FishingValley.FishingResortInterior": {
           "DisplayName": "{{i18n:LocationData.FishingResortInterior}}",
-          "DefaultArrivalTile": {"X": 12, "Y": 27},
+          "DefaultArrivalTile": { "X": 12, "Y": 27 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_FishingResortInterior"
@@ -37,12 +82,17 @@
 
         "FishingValley.ForestSwamp": {
           "DisplayName": "{{i18n:LocationData.ForestSwamp}}",
-          "DefaultArrivalTile": {"X": 4, "Y": 8},
+          "DefaultArrivalTile": { "X": 4, "Y": 8 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_ForestSwamp"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.SunlightonWater"
@@ -52,7 +102,7 @@
 
         "FishingValley.FungusHouse": {
           "DisplayName": "{{i18n:LocationData.FungusHouse}}",
-          "DefaultArrivalTile": {"X": 4, "Y": 18},
+          "DefaultArrivalTile": { "X": 4, "Y": 18 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_FungusHouse"
@@ -67,12 +117,17 @@
 
         "FishingValley.Serenityriver": {
           "DisplayName": "{{i18n:LocationData.SerenityRiver}}",
-          "DefaultArrivalTile": {"X": 13, "Y": 1},
+          "DefaultArrivalTile": { "X": 13, "Y": 1 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_Serenityriver"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.SantaluneForest"
@@ -82,7 +137,7 @@
 
         "FishingValley.WaterfallCave": {
           "DisplayName": "{{i18n:LocationData.WaterfallCave}}",
-          "DefaultArrivalTile": {"X": 7, "Y": 7},
+          "DefaultArrivalTile": { "X": 7, "Y": 7 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_WaterfallCave"
@@ -95,15 +150,20 @@
           ]
         },
 
-        "FishingValley.HoshiroTaniMajula": {
-          "DisplayName": "{{i18n:LocationData.HoshiroTaniMajula}}",
-          "DefaultArrivalTile": {"X": 36, "Y": 98},
+        "FishingValley.JungleOasis": {
+          "DisplayName": "{{i18n:LocationData.JungleOasis}}",
+          "DefaultArrivalTile": { "X": 36, "Y": 98 },
           "CreateOnLoad": {
             "AlwaysActive": true,
-            "MapPath": "Maps/FV_HoshiroTaniMajula"
+            "MapPath": "Maps/FV_JungleOasis"
           },
           "CanPlantHere": true,
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.BirchForest"
@@ -111,14 +171,19 @@
           ]
         },
 
-        "FishingValley.OCaminhodasChamasGemeas": {
-          "DisplayName": "{{i18n:LocationData.OcaminhodasChamasGemeas}}",
-          "DefaultArrivalTile": {"X": 8, "Y": 1},
+        "FishingValley.JungleCrossing": {
+          "DisplayName": "{{i18n:LocationData.JungleCrossing}}",
+          "DefaultArrivalTile": { "X": 8, "Y": 1 },
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FV_OCaminhodasChamasGemeas"
+            "MapPath": "Maps/FV_JungleCrossing"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.EternalForest"
@@ -126,14 +191,19 @@
           ]
         },
 
-        "FishingValley.LaMilladelJardiinRea": {
-          "DisplayName": "{{i18n:LocationData.LaMilladelJardiinRea}}",
-          "DefaultArrivalTile": {"X": 1, "Y": 2},
+        "FishingValley.JungleTree": {
+          "DisplayName": "{{i18n:LocationData.JungleTree}}",
+          "DefaultArrivalTile": { "X": 1, "Y": 2 },
           "CreateOnLoad": {
             "AlwaysActive": false,
-            "MapPath": "Maps/FV_LaMilladelJardiinRea"
+            "MapPath": "Maps/FV_JungleTree"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.BlueFire"
@@ -142,12 +212,17 @@
         },
         "FishingValley.JungleBay": {
           "DisplayName": "{{i18n:LocationData.JungleBay}}",
-          "DefaultArrivalTile": {"X": 32, "Y": 20},
+          "DefaultArrivalTile": { "X": 32, "Y": 20 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_JungleBay"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.EternalForest"
@@ -170,13 +245,13 @@
             {
               "Id": "FishingValley.Remora",
               "ItemId": "(O)FishingValley.Remora",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1200 2000"
+              "Condition": "LOCATION_Season Here Summer, TIME 1200 2000"
             },
 
             {
               "Id": "FishingValley.Rainbow_Runner",
               "ItemId": "(O)FishingValley.Rainbow_Runner",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
             },
 
             {
@@ -200,31 +275,36 @@
             {
               "Id": "FishingValley.Bamboo_Shark",
               "ItemId": "(O)FishingValley.Bamboo_Shark",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 1800 2600"
             },
 
             {
               "Id": "FishingValley.Panther_Grouper",
               "ItemId": "(O)FishingValley.Panther_Grouper",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0800 1800"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1800"
             },
 
             {
               "Id": "FishingValley.Giant_Trevally",
               "ItemId": "(O)FishingValley.Giant_Trevally",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0800 1700"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1700"
             }
           ]
         },
 
         "FishingValley.JungleJapesMain": {
           "DisplayName": "{{i18n:LocationData.JungleJapesMain}}",
-          "DefaultArrivalTile": {"X": 2, "Y": 48},
+          "DefaultArrivalTile": { "X": 2, "Y": 48 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_JungleJapesMain"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleTheme"
@@ -235,19 +315,19 @@
             {
               "Id": "FishingValley.Guppy",
               "ItemId": "(O)FishingValley.Guppy",
-              "Condition": "LOCATION_Season Here Spring Summer, TIME Here 0600 1800"
+              "Condition": "LOCATION_Season Here Spring Summer, TIME 0600 1800"
             },
 
             {
               "Id": "FishingValley.Redline_Puffer",
               "ItemId": "(O)FishingValley.Redline_Puffer",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Summer, TIME 1800 2600"
             },
 
             {
               "Id": "FishingValley.Halfmoon_Betta",
               "ItemId": "(O)FishingValley.Halfmoon_Betta",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Summer, TIME 1800 2600"
             },
 
             {
@@ -259,49 +339,54 @@
             {
               "Id": "FishingValley.Freshwater_Angelfish",
               "ItemId": "(O)FishingValley.Freshwater_Angelfish",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1200 2000"
+              "Condition": "LOCATION_Season Here Summer, TIME 1200 2000"
             },
 
             {
               "Id": "FishingValley.Saratoga",
               "ItemId": "(O)FishingValley.Saratoga",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME Here 0600 1800"
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 0600 1800"
             },
 
             {
               "Id": "FishingValley.Red_Tiger_Oscar",
               "ItemId": "(O)FishingValley.Red_Tiger_Oscar",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 0600 1600"
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1600"
             },
 
             {
               "Id": "FishingValley.Matamata",
               "ItemId": "(O)FishingValley.Matamata",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0900 1800"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0900 1800"
             },
 
             {
               "Id": "FishingValley.Tambaqui",
               "ItemId": "(O)FishingValley.Tambaqui",
-              "Condition": "LOCATION_Season Here Fall Summer, TIME Here 0600 1700"
+              "Condition": "LOCATION_Season Here Fall Summer, TIME 0600 1700"
             },
 
             {
               "Id": "FishingValley.Electric_Eel",
               "ItemId": "(O)FishingValley.Electric_Eel",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
             }
           ]
         },
 
         "FishingValley.JungleRiver": {
           "DisplayName": "{{i18n:LocationData.JungleRiver}}",
-          "DefaultArrivalTile": {"X": 34, "Y": 4},
+          "DefaultArrivalTile": { "X": 34, "Y": 4 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_JungleRiver"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient"
@@ -312,7 +397,7 @@
             {
               "Id": "FishingValley.Black_Piranha",
               "ItemId": "(O)FishingValley.Black_Piranha",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME Here 0600 1800"
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 0600 1800"
             },
 
             {
@@ -324,13 +409,13 @@
             {
               "Id": "FishingValley.Paraiba_Catfish",
               "ItemId": "(O)FishingValley.Paraiba_Catfish",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Rain Storm, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1800 2600"
             },
 
             {
               "Id": "FishingValley.Redtail_Catfish",
               "ItemId": "(O)FishingValley.Redtail_Catfish",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Summer, TIME 1800 2600"
             },
 
             {
@@ -354,19 +439,19 @@
             {
               "Id": "FishingValley.Arapaima",
               "ItemId": "(O)FishingValley.Arapaima",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0600 1800"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0600 1800"
             },
 
             {
               "Id": "FishingValley.Dwarf_Caiman",
               "ItemId": "(O)FishingValley.Dwarf_Caiman",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Here Sun Wind, TIME Here 0900 1700"
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0900 1700"
             },
 
             {
               "Id": "FishingValley.Black_Diamond_Stingray",
               "ItemId": "(O)FishingValley.Black_Diamond_Stingray",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Here Sun Wind, TIME Here 0600 1600"
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0600 1600"
             },
 
             {
@@ -379,12 +464,17 @@
 
         "FishingValley.JungleFalls": {
           "DisplayName": "{{i18n:LocationData.JungleFalls}}",
-          "DefaultArrivalTile": {"X": 23, "Y": 10},
+          "DefaultArrivalTile": { "X": 23, "Y": 10 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_JungleFalls"
           },
           "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.WaterfallAmbient"
@@ -401,31 +491,31 @@
             {
               "Id": "FishingValley.Longfin_Eel",
               "ItemId": "(O)FishingValley.Longfin_Eel",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Rain Storm, TIME Here 1800 2600"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1800 2600"
             },
 
             {
               "Id": "FishingValley.Bull_Shark",
               "ItemId": "(O)FishingValley.Bull_Shark",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 1600 2600"
+              "Condition": "LOCATION_Season Here Summer, TIME 1600 2600"
             },
 
             {
               "Id": "FishingValley.Zebra_Shovelnose_Catfish",
               "ItemId": "(O)FishingValley.Zebra_Shovelnose_Catfish",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Rain Storm, TIME Here 1600 2600"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1600 2600"
             },
 
             {
               "Id": "FishingValley.Yellow_Anaconda",
               "ItemId": "(O)FishingValley.Yellow_Anaconda",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0900 1800"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0900 1800"
             },
 
             {
               "Id": "FishingValley.Vampire_Crab",
               "ItemId": "(O)FishingValley.Vampire_Crab",
-              "Condition": "LOCATION_Season Here Summer, TIME Here 0600 1800"
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1800"
             },
 
             {
@@ -443,7 +533,7 @@
             {
               "Id": "FishingValley.Rainbow_Snake",
               "ItemId": "(O)FishingValley.Rainbow_Snake",
-              "Condition": "LOCATION_Season Here Summer, WEATHER Here Sun Wind, TIME Here 0900 1800"
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0900 1800"
             },
 
             {
@@ -456,7 +546,7 @@
 
         "FishingValley.JungleCave": {
           "DisplayName": "{{i18n:LocationData.JungleCave}}",
-          "DefaultArrivalTile": {"X": 10, "Y": 23},
+          "DefaultArrivalTile": { "X": 10, "Y": 23 },
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_JungleCave"
@@ -505,187 +595,40 @@
               "Condition": "LOCATION_Season Here Summer"
             }
           ]
-        }
-      }
-    },
-
-    {
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "TargetField": ["Default", "Forage"],
-      "Entries": {
-        "FishingValley.7_Spots_Ladybug": {
-          "Id": "FishingValley.7_Spots_Ladybug",
-          "ItemID": "(O)FishingValley.7_Spots_Ladybug",
-          "Condition": "Location_Season Here Spring"
         },
 
-        "FishingValley.22_Spots_Ladybird": {
-          "Id": "FishingValley.22_Spots_Ladybird",
-          "ItemID": "(O)FishingValley.22_Spots_Ladybird",
-          "Condition": "Location_Season Here Spring"
+        "FishingValley.TreeHouse": {
+          "DisplayName": "{{i18n:LocationData.TreeHouse}}",
+          "DefaultArrivalTile": { "X": 8, "Y": 13 },
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FV_TreeHouse"
+          },
+          "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.JungleAmbient",
+              "Condition": "TIME 1900 0200"
+            },
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.SantaluneForest"
+            }
+          ]
         },
-
-        "FishingValley.Bell_Cricket": {
-          "Id": "FishingValley.Bell_Cricket",
-          "ItemID": "(O)FishingValley.Bell_Cricket",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Boxelder_Bug": {
-          "Id": "FishingValley.Boxelder_Bug",
-          "ItemID": "(O)FishingValley.Boxelder_Bug",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Cairn_Birdwing": {
-          "Id": "FishingValley.Cairn_Birdwing",
-          "ItemID": "(O)FishingValley.Cairn_Birdwing",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Common_Bluebottle_Butterfly": {
-          "Id": "FishingValley.Common_Bluebottle_Butterfly",
-          "ItemID": "(O)FishingValley.Common_Bluebottle_Butterfly",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Common_Darter": {
-          "Id": "FishingValley.Common_Darter",
-          "ItemID": "(O)FishingValley.Common_Darter",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Common_Earwig": {
-          "Id": "FishingValley.Common_Earwig",
-          "ItemID": "(O)FishingValley.Common_Earwig",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Common_Scorpionfly": {
-          "Id": "FishingValley.Common_Scorpionfly",
-          "ItemID": "(O)FishingValley.Common_Scorpionfly",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Eastern_Lubber_Grasshopper": {
-          "Id": "FishingValley.Eastern_Lubber_Grasshopper",
-          "ItemID": "(O)FishingValley.Eastern_Lubber_Grasshopper",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Elephant_Beetle": {
-          "Id": "FishingValley.Elephant_Beetle",
-          "ItemID": "(O)FishingValley.Elephant_Beetle",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Giant_Cicada": {
-          "Id": "FishingValley.Giant_Cicada",
-          "ItemID": "(O)FishingValley.Giant_Cicada",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Giraffe_Stag": {
-          "Id": "FishingValley.Giraffe_Stag",
-          "ItemID": "(O)FishingValley.Giraffe_Stag",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Goliath_Birdwing": {
-          "Id": "FishingValley.Goliath_Birdwing",
-          "ItemID": "(O)FishingValley.Goliath_Birdwing",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Hercules_Beetle": {
-          "Id": "FishingValley.Hercules_Beetle",
-          "ItemID": "(O)FishingValley.Hercules_Beetle",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Horned_Atlas": {
-          "Id": "FishingValley.Horned_Atlas",
-          "ItemID": "(O)FishingValley.Horned_Atlas",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Horned_Dynastid": {
-          "Id": "FishingValley.Horned_Dynastid",
-          "ItemID": "(O)FishingValley.Horned_Dynastid",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Dead_Leaf_Mantis": {
-          "Id": "FishingValley.Dead_Leaf_Mantis",
-          "ItemID": "(O)FishingValley.Dead_Leaf_Mantis",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Luna_Moth": {
-          "Id": "FishingValley.Luna_Moth",
-          "ItemID": "(O)FishingValley.Luna_Moth",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Orchid_Mantis": {
-          "Id": "FishingValley.Orchid_Mantis",
-          "ItemID": "(O)FishingValley.Orchid_Mantis",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Painted_Skimmer": {
-          "Id": "FishingValley.Painted_Skimmer",
-          "ItemID": "(O)FishingValley.Painted_Skimmer",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Variable_Dancer": {
-          "Id": "FishingValley.Variable_Dancer",
-          "ItemID": "(O)FishingValley.Variable_Dancer",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Rajah_Brooke_Birdwing": {
-          "Id": "FishingValley.Rajah_Brooke_Birdwing",
-          "ItemID": "(O)FishingValley.Rajah_Brooke_Birdwing",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Spring_Azure_Butterfly": {
-          "Id": "FishingValley.Spring_Azure_Butterfly",
-          "ItemID": "(O)FishingValley.Spring_Azure_Butterfly",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Tiger_Swallowtail": {
-          "Id": "FishingValley.Tiger_Swallowtail",
-          "ItemID": "(O)FishingValley.Tiger_Swallowtail",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Walking_Stick": {
-          "Id": "FishingValley.Walking_Stick",
-          "ItemID": "(O)FishingValley.Walking_Stick",
-          "Condition": "Location_Season Here Fall"
-        },
-
-        "FishingValley.Wallace_Golden_Birdwing": {
-          "Id": "FishingValley.Wallace_Golden_Birdwing",
-          "ItemID": "(O)FishingValley.Wallace_Golden_Birdwing",
-          "Condition": "Location_Season Here Summer"
-        },
-
-        "FishingValley.Wild_Honey_Bee": {
-          "Id": "FishingValley.Wild_Honey_Bee",
-          "ItemID": "(O)FishingValley.Wild_Honey_Bee",
-          "Condition": "Location_Season Here Spring"
-        },
-
-        "FishingValley.Yellow-Tipped_Tigertail": {
-          "Id": "FishingValley.Yellow-Tipped_Tigertail",
-          "ItemID": "(O)FishingValley.Yellow-Tipped_Tigertail",
-          "Condition": "Location_Season Here Fall"
+        "FishingValley.Mine": {
+          "DisplayName": "{{i18n:LocationData.Mine}}",
+          "DefaultArrivalTile": { "X": 8, "Y": 16 },
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/FV_Mine"
+          },
+          "Music": [
+            {
+              "ID": "FishingValley.MapMusic",
+              "Track": "FishingValley.WaterDrop"
+            }
+          ]
         }
       }
     }

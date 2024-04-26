@@ -13,39 +13,114 @@
 
   "LocationData.FishingResortExterior": "Albatross Fishing Resort",
   "LocationData.FishingResortInterior": "Albatross Tavern",
-  "LocationData.ForestSwamp": "Forest Swamp",
+  "LocationData.ForestSwamp": "Damp Swamp",
   "LocationData.FungusHouse": "Fungus Home",
-  "LocationData.JungleBay": "Jungle Bay",
-  "LocationData.JungleCave": "Jungle Cave",
+  "LocationData.JungleBay": "Jolly Roger Bay",
+  "LocationData.JungleCave": "Ancient Cave",
   "LocationData.JungleFalls": "Jungle Falls",
-  "LocationData.JungleJapesMain": "Jungle Japes",
+  "LocationData.JungleJapesMain": "Jungle Pond",
   "LocationData.JungleRiver": "Jungle River",
   "LocationData.SerenityRiver": "Serenity River",
   "LocationData.WaterfallCave": "Waterfall Cave",
-  "LocationData.HoshiroTaniMajula": "Hoshiro Tani Majula",
-  "LocationData.OcaminhodasChamasGemeas": "O Caminhodas Chamas Gemeas",
-  "LocationData.LaMilladelJardiinRea": "La Milladel Jardiin Rea",
+  "LocationData.JungleOasis": "Jungle Oasis",
+  "LocationData.JungleCrossing": "Jungle Crosing",
+  "LocationData.JungleTree": "Mysterious Tree",
+  "LocationData.TreeHouse": "Junimo TreeHouse",
+  "LocationData.Mine": "Small Cave",
 
-  "string.resort.interior1": "Hey, did you know that you can sell fish on this counter? They also sell Farm Totems for the late night fisherman, that is until they fix the resort beds.",
+  "festival.nightmarket.name": "Night Market",
+  "festival.nightmarket.startmessage": "Night Market has begun.",
+  "festival.market.name": "Weekly Market",
+  "festival.market.startmessage": "Weekly Market in the Bay has begun.",
+
+  "dialogue1.festival.Leo1": "",
+  "dialogue2.festival.Leo2": "",
+
+  "dialogue1.festival.Linus1": "",
+  "dialogue2.festival.Linus2": "",
+
+  "dialogue.festival.Willy1": "",
+  "dialogue.festival.Willy2": "",
+
+  "dialogue.festival.Elliott1": "",
+  "dialogue.festival.Elliott2": "",
+
+  "dialogue1.festival.Gus1": "",
+  "dialogue2.festival.Gus2": "",
+
+  "dialogue1.festival.Gunther1": "",
+  "dialogue2.festival.Gunther2": "",
+
+  "letter.introduction.title": "Albatross Fishing Resort",
+  "letter.introduction.line1": "",
+  "letter.introduction.line2": "",
+  "letter.introduction.line3": "",
+  "letter.introduction.line4": "",
+  "letter.introduction.line5": "",
+
+  "letter.festival.title": "Nightmarket in Albatross Fishing Resort",
+  "letter.festival.line1": "",
+  "letter.festival.line2": "",
+  "letter.festival.line3": "",
+  "letter.festival.line4": "",
+  "letter.festival.line5": "",
+
+  "letter.passout.title": "Are you ok?",
+  "letter.passout.line1": "",
+  "letter.passout.line2": "",
+  "letter.passout.line3": "",
+  "letter.passout.line4": "",
+  "letter.passout.line5": "",
+
+  "letter.passoutint.title": "Collapsed inside",
+  "letter.passoutint.line1": "",
+  "letter.passoutint.line2": "",
+  "letter.passoutint.line3": "",
+  "letter.passoutint.line4": "",
+  "letter.passoutint.line5": "",
+
+  "letter.passoutinn.title": "Had a long night huh?",
+  "letter.passoutinn.line1": "",
+  "letter.passoutinn.line2": "",
+  "letter.passoutinn.line3": "",
+  "letter.passoutinn.line4": "",
+  "letter.passoutinn.line5": "",
+
+  "string.resort.interior1": "Hey young fisherman, you can get a bed for tonight. Please don't head into the jungle during night.",
   "string.resort.interior2": "Locked, I should try another door.",
   "string.resort.interior3": "Don't mind me, I'm just waiting for my fishing partner.",
-  "string.resort.interior4": "I lost my last coin in these arcades machines, I have no regrets.",
-  "string.resort.interior5": "Looks like he is loosing.",
+  "string.resort.interior4": "I lost my last coins in these arcades machines, I have no regrets.",
+  "string.resort.interior5": "Looks like he is losing.",
   "string.resort.interior6": "She seems focused, better not to disrupt her.",
   "string.resort.interior7": "Can't a man enjoy his tuna sandwich in peace?!",
   "string.resort.interior8": "You eat fish in order to catch more fish, but who caught the first fish?",
   "string.resort.interior9": "Unfortunately for me they only sell fish based foods. The problem? I'm vegetarian.",
+  "string.resort.interior10": "Would you step forward to the counter? I have some cozy rooms depending on your budget.",
+  "string.resort.interior11": "My son needs some lesson to be taught. Grab a beer and enjoy the time.",
+  "string.resort.interior12": "Arriving in the jungle huh? Catch some fishes and sell them at the counter. There are quite a lot of rare fishes around here.",
+  "string.resort.interior13": "You will find the rarest fishes during night and bad weather. Although its very dangerous to head out.",
+  "string.resort.interior14": "Some drink tonight? How about some fish salad or a tuna sandwich?",
 
   "string.fishshop.dialogue1": "Welcome to our fishing counter, where the catch of the day awaits! Whether you're angling for trout, bass, or something a bit more exotic, we've got it all. And the best part? You can take home your favorite fish fresh from the waters right here. So, cast your worries aside and dive into our selection. Let's hook you up with the perfect catch.",
+
   "string.buffshop.dialogue1": "Welcome to our buff counter, where flavor reigns supreme! Feast your eyes on our spread of delectable dishes that are sure to tantalize your taste buds. But that's not all – in addition to our mouthwatering buffet offerings, you can also treat yourself to a selection of expertly prepared cooked foods. From succulent grilled fish to savory seafood pasta, we've got the perfect dish to satisfy your cravings. So, grab a plate and let's elevate your dining experience to new heights!",
+
   "string.junglebaitshop.dialogue1": "Welcome to our jungle bait counter, where adventure begins! Explore our range of tantalizing baits to lure in the wildest catches. But here's the twist – not only can you find the perfect bait here, but you can also stock up on all your fishing essentials. So, whether you're after the elusive jungle giants or just looking to reel in some fun, we've got everything you need right here. Let's bait those hooks and embark on your next jungle adventure!",
-  "string.baittrader.dialogue1": "Step into our bait trader's den, where every lure tells a tale! Browse through our extensive collection of baits, each crafted to entice even the most cunning of catches. But here's the catch – we're not just about offering the finest baits; you can also stock up on all your fishing essentials right here. From shiny spinners to irresistible worms, we've got everything you need to reel in the big one. So, why wait? Dive in and let's set the bait for your next fishing escapade!",
-  "string.shop.closedmessage.bug": "Sorry, I'm bugged as I'm never supposed to close.",
   "string.junglebaitshop.closedmessage": "Sorry, we're closed. We are open from 6 am to 6 pm every day.",
+
+  "string.baittrader.dialogue1": "Step into our bait trader's den, where every lure tells a tale! Browse through our extensive collection of baits, each crafted to entice even the most cunning of catches. But here's the catch – we're not just about offering the finest baits; you can also stock up on all your fishing essentials right here. From shiny spinners to irresistible worms, we've got everything you need to reel in the big one. So, why wait? Dive in and let's set the bait for your next fishing escapade!",
+
+  "string.shop.closedmessage.bug": "Sorry, I'm bugged as I'm never supposed to close.",
+
   "string.forestswamp1": "Fungus Shop ahead.",
 
-  "string.junglejapes1": "If you want a challenge, try catching a freshwater puffer, they only bite in rainy days though.",
-  "string.junglejapes2": "To the river",
+  "string.fungusshop.dialogue1": "Welcome to Fungus Shop. I am here in representation for Fungus until he is back from his trip. What can I offer you?",
+  "string.fungusshop.closedmessage": "Noone is here to serve me. The shop is open from 8am to 9pm.",
+
+  "string.junglefalls1": "Some mystical shrine. I wonder what it reads.",
+
+  "string.junglejapes1": "If you want a challenge, try catching a freshwater puffer. They only bite in rainy days though.",
+  "string.junglejapes2": "To the River",
   "string.junglejapes3": "To Jolly Roger Bay",
   "string.junglejapes4": "You can find many small aquarium fishes in this pond. My favorite is the halfmoon betta, people say they only show when the moon is high in the sky.",
 
@@ -53,6 +128,9 @@
   "string.jungleriver2": "I used to fish there since I was a young lad. On a rainy day I even caught a Paraiba Catfish.",
 
   "string.serenityriver1": "North: Damp Swamp, East: Zenith Falls, Southeast: Meek Creek",
+
+  "string.treehouse1": "This inscription points out this path will lead to a hidden home behind the waterfall.",
+  "string.treehouse2": "A passage to the mother of the roots when luna begins to shine.",
 
   "string.workinprogress": "This is a spot for a future update. Currently work in progress.",
   "string.notaccessible": "I shouldn't go there.",

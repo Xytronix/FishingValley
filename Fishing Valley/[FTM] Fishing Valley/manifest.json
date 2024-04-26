@@ -1,0 +1,10 @@
+{
+  "Name": "Fishing Valley Forage Locations",
+  "Description": "Expands the forage experience in Fishing Valley and Pelican Town.",
+  "Author": "Seiyn, Xytronix",
+  "Version": "1.1.0",
+  "UniqueID": "FishingValley.FTM",
+  "UpdateKeys": ["Nexus:8668"],
+  "ContentPackFor": { "UniqueID": "Esca.FarmTypeManager" },
+  "Dependencies": [{ "UniqueID": "FishingValley.CP", "IsRequired": true }]
+}

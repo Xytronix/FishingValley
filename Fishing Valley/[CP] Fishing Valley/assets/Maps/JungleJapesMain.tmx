@@ -7,6 +7,7 @@
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="skipWeedGrowth" value="true"/>
+  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -435,7 +436,7 @@
  </tileset>
  <layer id="1" name="Back" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -447,37 +448,10 @@
  <objectgroup id="4" name="Paths"/>
  <layer id="5" name="Buildings" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup id="6" name="Buildings">
-  <object id="728" name="TileData" x="480" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.JungleJapesMain1&quot;"/>
-   </properties>
-  </object>
-  <object id="729" name="TileData" x="720" y="256" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;FV.JungleJapesMain2&quot;"/>
-   </properties>
-  </object>
-  <object id="730" name="TileData" x="48" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;FV.JungleJapesMain3&quot;"/>
-   </properties>
-  </object>
-  <object id="731" name="TileData" x="272" y="592" width="16" height="16">
-   <properties>
-    <property name="Action" value=""/>
-    <property name="Shop" value="OpenShop FV_JungleBaitShop"/>
-   </properties>
-  </object>
-  <object id="732" name="TileData" x="336" y="624" width="16" height="16">
-   <properties>
-    <property name="Action" value="MessageSpeech &quot;FV.JungleJapesMain4&quot;"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="6" name="Buildings"/>
  <layer id="7" name="Front" width="50" height="50">
   <data encoding="base64" compression="zlib">
    eJzt2LERABAAA0Ar2FepUFiNmYzBxf8EyaVLKQAAf5v1dgIAAAAAfrFCvqgd0iNVs89TesgeI6QHAPkOIm8EFg==
@@ -486,7 +460,7 @@
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="50" height="50">
   <data encoding="base64" compression="zlib">
-   eJztmbdOBDEQht2druQpCQVwpJrQERsK4OiINaEj9lCDRHoQ4tcgwWnPmvWM7T3Jv/R1tsee9YzHXufyqdN2bgqmYQZmYa4d3+44NiZg0sjWMuOswCqswTpsKMeu8o1Uw7QdgVEYq9Fvj7b7cACHcATHynVofDNPuwVYhKUa87ig7SVcwTXcwK1yHRrfbNNuB7qwGzCPB/o8Gu1VjW9OaHcKZ3De08c6pqQK9c0dfe4Tz7WoKFSdir2a4qxsgqzqBO042v6Ss1BiQ1tvaPtLzkKJDck4m0O6efgkOQslNiTjbHnWYVWv+M7COja09YZlvZLTRlGYct3rrBXjXterFHVzjHtdDsW41+VUE3NYrNhNnRNixW6KnPBXsWI3dU6IFbu5ckKs2G1iTijqr1Lr/Ffo27OVrPJa6NuzlazymuTt+anl3DO8wCu8tXRzr5I2r/nenn/1zrw/4BO+4FuwjhzxG+PtOXVdEkuDdFfx7Z0UdYlVrpXsHWn8hsSTVa613Dsh8eTLtXW+leXeCfGJL9eGfCuLmjbUJ/1yrfafrFZWdb7kXBwUlX+yRUVFOfUDi/4YQQ==
+   eJztmblOAzEQQLeLUvJz8AkcBRCO0HJ0nA1IXB1nDaTj7KEGietDOB9S0kTe1a5n7AngJ73O3h17NzOzTpbZ0ahn2QRO4hROY7Me/r6j3GMMx5Xutch1lnAZV3AV14TXdu1NWQYZO4TDOFJh3h5j9/EAD/EIj4XrkOzNLOPmcB4XKsRxztgLvMQrvMYb4Toke7PFuG3cwV2POO6Z86D0rkr25oRxp3iGra452r+psvjuzS1z7iLHmkj40nC8qzFqZS+g1Sd072HV60jjKFMLYzxnab8Sok/IY70vXBwh+oQ8NgvWoRWHZp8goVfiSNjwn2tVVaz65kTCRagzmdg5IcSZjAUxe62QxOy1YpB6nMQPVmfY2mjlS9+zZy208qXv2bMWWvmyzNnzYy3LnvAZX/C1JovdhTRfFp09d3gj7nf8wE/8CrAODdLZ89/A+jvXOte68KmH1rnWhU89LMq1Vs/Kpx4W5VqrZ+VbD/NyrfQ/WSla3w9l6uJvIdXFRId+HLAOQoEmzlgHocBG299Oq20e3xD5vBU=
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

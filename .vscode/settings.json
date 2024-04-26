@@ -10,7 +10,15 @@
   "files.trimFinalNewlines": true,
   "json.schemas": [
     {
-      "fileMatch": ["*.json", "!/.vscode/settings.json", "!manifest.json"],
+      "fileMatch": [
+        "*.json",
+        "!/.vscode/settings.json",
+        "!manifest.json",
+        "!/*/i18n/*.json",
+        "!/*/**BL** Fishing Valley/*.json",
+        "!/*/**FTM** Fishing Valley/*.json",
+        "!/*/**PFM** Fishing Valley/*.json"
+      ],
       "url": "https://smapi.io/schemas/content-patcher.json"
     },
 
