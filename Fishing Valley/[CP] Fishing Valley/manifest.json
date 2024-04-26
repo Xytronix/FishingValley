@@ -11,18 +11,6 @@
   },
   "Dependencies": [
     {
-      "UniqueID": "FishingValley.BL",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "FishingValley.FTM",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "FishingValley.PFM",
-      "IsRequired": false
-    },
-    {
       "UniqueID": "DaisyNiko.Tilesheets",
       "IsRequired": true
     },
