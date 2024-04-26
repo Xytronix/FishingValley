@@ -16,7 +16,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "spring_night_ambient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -36,7 +36,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "spring_night_ambient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -56,7 +56,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "spring_night_ambient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -91,7 +91,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -126,7 +126,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -162,7 +162,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -182,7 +182,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -202,7 +202,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -221,7 +221,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -303,7 +303,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -385,7 +385,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -473,7 +473,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",
@@ -608,7 +608,7 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleAmbient",
-              "Condition": "TIME 1900 0200"
+              "Condition": "TIME 1900 2600"
             },
             {
               "ID": "FishingValley.MapMusic",

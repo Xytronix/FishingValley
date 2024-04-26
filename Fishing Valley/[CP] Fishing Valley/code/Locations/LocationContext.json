@@ -56,8 +56,15 @@
                 "Y": 12
               }
             }
+          ],
+          "PassOutMail": [
+            {
+              "Id": "Default",
+              "Mail": "FishingValley.Letter.Passout",
+              "MaxPassOutCost": -1,
+              "SkipRandomSelection": false
+            }
           ]
-          //"CopyWeatherFromLocation": null
         },
         "FishingValley.Fall": {
           "Name": "FishingValley.Fall",
@@ -113,8 +120,15 @@
                 "Y": 12
               }
             }
+          ],
+          "PassOutMail": [
+            {
+              "Id": "Default",
+              "Mail": "FishingValley.Letter.Passout",
+              "MaxPassOutCost": -1,
+              "SkipRandomSelection": false
+            }
           ]
-          //"CopyWeatherFromLocation": null
         },
         "FishingValley.Winter": {
           "Name": "FishingValley.Winter",
@@ -161,8 +175,15 @@
                 "Y": 12
               }
             }
+          ],
+          "PassOutMail": [
+            {
+              "Id": "Default",
+              "Mail": "FishingValley.Letter.Passout",
+              "MaxPassOutCost": -1,
+              "SkipRandomSelection": false
+            }
           ]
-          //"CopyWeatherFromLocation": null
         },
         "FishingValley.Interior": {
           "Name": "FishingValley.Interior",

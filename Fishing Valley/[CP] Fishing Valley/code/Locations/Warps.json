@@ -8,7 +8,7 @@
           "Position": { "X": 24, "Y": 10 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 2600"
           }
         },
         {
@@ -29,7 +29,7 @@
           "Position": { "X": 24, "Y": 10 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 2600"
           }
         },
         {
@@ -50,7 +50,7 @@
           "Position": { "X": 24, "Y": 10 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 0200"
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 2600"
           }
         },
         {
@@ -68,8 +68,8 @@
       "Target": "Maps/FV_FishingResortInterior",
       "AddWarps": [
         "12 30 FishingValley.FishingResortExterior 24 11",
-        "14 2 FishingValley.JungleJapesMain 2 49",
-        "15 2 FishingValley.JungleJapesMain 3 49"
+        "14 1 FishingValley.JungleJapesMain 2 49",
+        "15 1 FishingValley.JungleJapesMain 3 49"
       ]
     },
 
@@ -117,7 +117,7 @@
           "Position": { "X": 27, "Y": 5 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 5 19 FishingValley.PirateShed 0600 0200"
+            "Action": "LockedDoorWarp 5 19 FishingValley.PirateShed 0600 2600"
           }
         }
       ]
@@ -187,7 +187,7 @@
           "Position": { "X": 3, "Y": 4 },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 8 14 FishingValley.TreeHouse 0600 0200"
+            "Action": "LockedDoorWarp 8 14 FishingValley.TreeHouse 0600 2600"
           }
         }
       ]

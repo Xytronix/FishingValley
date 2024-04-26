@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="35" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="764">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="35" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="765">
  <properties>
+  <property name="LocationContext" value="FishingValley.Main"/>
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="fall"/>
   <property name="skipWeedGrowth" value="true"/>
-  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -346,6 +346,12 @@
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
+ <layer id="12" name="Back1" width="35" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzkEJAAAIBLD7mM3+jUwhgmwJlgAAAADAT13XA9g18YsATQ==
+  </data>
+ </layer>
+ <objectgroup id="11" name="Back1"/>
  <layer id="3" name="Paths" width="35" height="40">
   <data encoding="base64" compression="zlib">
    eJzt0LENwCAMAEGPwChkE9h/GWLRojQpcHE3wesjAAAAgD96i3ja7YptvB2zSIsvZ76c5Zcqb/JLpTfwZQG40AWp
@@ -360,7 +366,7 @@
  <objectgroup id="6" name="Buildings"/>
  <layer id="7" name="Front" width="35" height="40">
   <data encoding="base64" compression="zlib">
-   eJztl0sOgjAQhrsxKe5cquimJ/G94BS683kQdz43PYkmuuFi/kYapCmxQqUS+iVfqIm0Yx2GDiEOh8NRbpoeIS3Yhj7swK5nJ5Ye1u3DARzCERwXHAujr+sc6y7gEq7gGm40YqnXzMURQA53WHcPD/AIT/Bs6T+6YN2rF+/TDeO7gVh4NB+j8fgTz++KfWKa9+jEEb7NG2rOG9Ckur/BkR+5ftniH+qXIGv9+gVp9WsKZwXHJOqXwFT9yot7D6spQx7bQOSxyxs1Zcgb2/VPPjNtLewPp8mzri1YdNYLvjz3VZFJzh7Hb5iJwySqvkN+PsRnVa+iyt0s+azqO1Q9jnhe5F6Fp+RuSM31SFXgAddCR84=
+   eJztl0sOgjAQhrsxKe5cquimJ/G54RS683kQdz43PYkmuuFi/kYapJZYoFKJ/ZIv1ETasQ5DhxCHw+GoNk2PkBZsQx92YNezE0sP6/bhAA7hCI5LjoXR53WGdedwAZdwBdcasdRr5uIIIIdbrLuDe3iAR3iy9B+dse7Fi/fpivHNQCw8mo/RePyJx3fFPjHNe3TiCF/mDTXnDWhS3d/gKI5cv2zxC/VLkLd+fYO0+jWB05JjEvVLYKp+FcW9h9VUIY9tIPLY5Y2aKuSN7fonn5k2FvaH0+RZ1xYsOusFGc99juz4DdsRvKPqO+TnQ3xW9Sqq3M2Tz6q+Q9XjiOdF7lV4Su6G1FyP9A/cAfuIR4I=
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
