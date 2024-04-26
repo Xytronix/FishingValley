@@ -332,7 +332,7 @@
   </tile>
  </tileset>
  <tileset firstgid="3420" name="ztest" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
-  <image source="zsummer_daisyextras.png" width="480" height="960"/>
+  <image source="summer_daisyextras.png" width="480" height="960"/>
   <tile id="5">
    <animation>
     <frame tileid="5" duration="75"/>

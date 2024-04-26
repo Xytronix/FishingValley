@@ -1280,7 +1280,7 @@
         },
 
         "FishingValley.Matamata": {
-          "CategoryTextOverride": "{{:matamata.categorytextoverride}}"
+          "CategoryTextOverride": "{{i18n:matamata.categorytextoverride}}"
         },
 
         "FishingValley.Olm": {

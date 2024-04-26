@@ -77,7 +77,7 @@
     {
       "LogName": "Loading Tilesheets.",
       "Action": "Load",
-      "Target": "Maps/bluelava, Maps/fallcliff, Maps/fishingfestival, Maps/flashExtras, Maps/Floors_Set_1, Maps/Floors_Set_2, Maps/greylava, Maps/JojaEnergyInterior, Maps/jukebox, Maps/Mantleby, Maps/mine_dangerous, Maps/mine_dark_dangerous, Maps/mine_desert_dangerous, Maps/pizza-place, Maps/purplelava, Maps/redlava, Maps/redlavafloor, Maps/spring_GrampletonSuburbsTilesheet, Maps/summer_extras3, Maps/summer_IslandTiles, Maps/waterfall_tileset, Maps/zcustom_fish_shop, Maps/zFshing_people_front, Maps/Zmushroom, Maps/zpeople, Maps/zsummer_daisyextras, Maps/zswampplant, Maps/Ztwater_tree",
+      "Target": "Maps/bluelava, Maps/fallcliff, Maps/fishingfestival, Maps/flashExtras, Maps/Floors_Set_1, Maps/Floors_Set_2, Maps/greylava, Maps/JojaEnergyInterior, Maps/jukebox, Maps/Mantleby, Maps/mine_dangerous, Maps/mine_dark_dangerous, Maps/mine_desert_dangerous, Maps/pizza-place, Maps/purplelava, Maps/redlava, Maps/redlavafloor, Maps/spring_GrampletonSuburbsTilesheet, Maps/summer_extras3, Maps/summer_IslandTiles, Maps/waterfall_tileset, Maps/zcustom_fish_shop, Maps/zFshing_people_front, Maps/Zmushroom, Maps/zpeople, Maps/zswampplant, Maps/Ztwater_tree",
       "FromFile": "assets/Tilesheets/{{targetWithoutPath}}.png"
     },
 
@@ -169,7 +169,7 @@
     {
       "Action": "Load",
       "Target": "Maps/FV_JungleCrossing",
-      "FromFile": "assets/Maps/FV_JungleCrossing.tmx"
+      "FromFile": "assets/Maps/JungleCrossing.tmx"
     },
 
     {

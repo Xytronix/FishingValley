@@ -9,7 +9,7 @@
         "Railroad": {
           "Id": "Railroad",
           "DisplayName": "[LocationName Railroad]",
-          "Condition": "LOCATION_ACCESSIBLE Railroad, {{RailroadMinecart}}",
+          "Condition": "LOCATION_ACCESSIBLE Railroad",
           "TargetLocation": "Railroad",
           "TargetTile": {
             "X": 16,
