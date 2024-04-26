@@ -16,9 +16,9 @@
           },
           "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
         },
-        "FishingValley.Market1": {
+        "FishingValley.SpringMarket1": {
           "DisplayName": "{{i18n:festival.market.name}}",
-          "Season": "spring summer fall winter",
+          "Season": "spring",
           "StartDay": 3,
           "Endday": 3,
           "StartMessage": "{{i18n:festival.market.startmessage}}",
@@ -27,9 +27,9 @@
           },
           "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
         },
-        "FishingValley.Market2": {
+        "FishingValley.SpringMarket2": {
           "DisplayName": "{{i18n:festival.market.name}}",
-          "Season": "spring summer fall winter",
+          "Season": "spring",
           "StartDay": 10,
           "Endday": 10,
           "StartMessage": "{{i18n:festival.market.startmessage}}",
@@ -38,9 +38,9 @@
           },
           "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
         },
-        "FishingValley.Market3": {
+        "FishingValley.SpringMarket3": {
           "DisplayName": "{{i18n:festival.market.name}}",
-          "Season": "spring summer fall winter",
+          "Season": "spring",
           "StartDay": 17,
           "Endday": 17,
           "StartMessage": "{{i18n:festival.market.startmessage}}",
@@ -49,9 +49,130 @@
           },
           "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
         },
-        "FishingValley.Market4": {
+        "FishingValley.SummerMarket1": {
           "DisplayName": "{{i18n:festival.market.name}}",
-          "Season": "summer fall winter",
+          "Season": "summer",
+          "StartDay": 3,
+          "Endday": 3,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.SummerMarket2": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "summer",
+          "StartDay": 10,
+          "Endday": 10,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.SummerMarket3": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "summer",
+          "StartDay": 17,
+          "Endday": 17,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.SummerMarket4": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "summer",
+          "StartDay": 24,
+          "Endday": 24,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.FallMarket1": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "fall",
+          "StartDay": 3,
+          "Endday": 3,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.FallMarket2": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "fall",
+          "StartDay": 10,
+          "Endday": 10,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.FallMarket3": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "fall",
+          "StartDay": 17,
+          "Endday": 17,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.FallMarket4": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "fall",
+          "StartDay": 24,
+          "Endday": 24,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.WinterMarket1": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "winter",
+          "StartDay": 3,
+          "Endday": 3,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.WinterMarket2": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "winter",
+          "StartDay": 10,
+          "Endday": 10,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.WinterMarket3": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "winter",
+          "StartDay": 17,
+          "Endday": 17,
+          "StartMessage": "{{i18n:festival.market.startmessage}}",
+          "MapReplacements": {
+            "FishingValley.FishingResortExterior": "FishingValley.Market"
+          },
+          "Condition": "PLAYER_FISHING_LEVEL Current 2 10"
+        },
+        "FishingValley.WinterMarket4": {
+          "DisplayName": "{{i18n:festival.market.name}}",
+          "Season": "winter",
           "StartDay": 24,
           "Endday": 24,
           "StartMessage": "{{i18n:festival.market.startmessage}}",

@@ -4,10 +4,10 @@
   <export target="JungleFalls.tmx" format="tbin"/>
  </editorsettings>
  <properties>
+  <property name="LocationContext" value="FishingValley.Main"/>
   <property name="Outdoors" value="True"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="skipWeedGrowth" value="true"/>
-  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -670,7 +670,7 @@
  <objectgroup id="4" name="Back"/>
  <layer id="5" name="Buildings" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   eJztljlvE0EYhj8LHyhatyAhENBCCxIK0BDaECFKEgoEFadoAspRcYaG5E+EAKHmbIiFRBouiYLjf0ASI56VZ+TRsLvzOY53XfiVHo2znp28nnnnmxEZaKCBBmppviayYJj32n6Q9bI3EtkH+6P+9Rern/w9wcNTwxHjbzhqP9+MjpVEjkOD91dq4VbTJ25PG39nouTvG8ZvIzDOON4moFkR+Vvpfg63WhvQhB1VkZ3Vot38r93M3Z5S8neTQyI3C8bmL0mPhno3L1rZ/CXpHf4+FOzR5i9NRc9hVv5iLRXsLyt/seI1XnHIW27+DlFfDgdqzGLOHt38jeLtVMBfN+u96q1FEv5+DOXPl7/eSWOmeWso+vk1I5S/JB2oixystz6f53wdo71AexEuwWW4AlfhGlyHUfrcMGfyRFnkXDl9fLdmZNW/NI3g7aTxN8X/nIYZmIXbcAfuwj24Dw9gDh4afzN4m83w52YoVP96rbP4HPe8uvOXlT/Nfu5WU3ib9vwtZeTPvWdp9vNv1uwPrME6bEATtrH+ZahAFWqwva7znJS/E/gYqXZ+z3oftX7vF9qv8BE+weeo/WwVHtPnW6Qbc6vyZ+9fzxR147npe0vRV5u/TsbRakHxTlb+tJpUzpuv5cAc+uOG6p/Npa9u7l3LGfdl/zdr8ueeF1Z53bvc/KXVO/e8sMrr3urmT1PvrPKav83uj7zmL94fr2hfwxt4q3wvr/nbhb/vtD/gJ/wyz0Nnr70H5uFvjXZdOr9Lx+r1fX+41PJ4tNTO4guev5T2uvt/u+p1Dv8B0Hy+rA==
+   eJztljtvE0EUha+FHyhatyAhENBCCxIK0BDaECFKEgoEFU/RBJRHxZuG5E+QAKHm2ZAIiTQQkCh4/A9IYsS38ow8GnZ3rmN714WP9Gmc9ezkeObMzBUZaKCBBmpqriYyb5jz2n6Q9bI3EtkH+6P+9Rern/w9xcMzwxHjbzhqPd+KjpVEjsMK7y/Xwq2mT9yeNv7ORMnfx6w5n9PGGcfbBDQqIn8r3ZnHbmoTGrCjKrKzWrSb/7WbudtTSv5uckjkZsHY/CXp8VDv5kUrm78kvcffx4I92vylqeg5zMpfrMWC/WXlL1a8xssOecvN3yHOl8OBM+ZJzh7d/I3i7VTAXyfrveqtRRL+fgzlz5e/3kljpnlbUfTzz4xQ/pJ0oC5ysN78fJ77dYz2Au1FuASX4QpchWtwHUbpc8PcyRNlkXPl9PHdMyPr/EvTCN5OGn9T/M9pmIFZuA134C7cg/vwAB7CI+NvBm+zGf7cDIXOv17rLD7HPa/u/GXlT7OfO9UU3qY9f4sZ+XPrLM1+/s2a/YF12IBNaMA21r8MFahCDbbXdZ6T8ncCHyPV9uusD1Hz936h/Qqf4DOsRa1nq7BAn2+Rbsxu5c/WX88V58YL0/eWoq82f+2Mo9W84p2s/Gk1qZw3X0uBOfTHDZ1/Npe+Oqm7ljLqZf83a/Ln3hdWedVdbv7Szjv3vrDKq25186c576zymr+t7o+85i/eH69p38BbeKd8L6/524W/77Q/4Cf8Ms9Dd6+tA/Pwt067Ie3X0rF6Xe8Pl5oej5ZaWXzJ81fSWnf/b1e9zuE/OsW/hA==
   </data>
  </layer>
  <objectgroup id="6" name="Buildings"/>
