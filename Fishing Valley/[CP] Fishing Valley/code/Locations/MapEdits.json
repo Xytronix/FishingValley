@@ -89,7 +89,7 @@
       "Target": "Maps/FishingValley.JungleTree",
       "FromFile": "assets/Maps/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
-      "ToArea": { "X": 2, "Y": 5, "Height": 1, "Width": 1 }
+      "ToArea": { "X": 4, "Y": 7, "Height": 1, "Width": 1 }
     },
     {
       "Action": "EditMap",

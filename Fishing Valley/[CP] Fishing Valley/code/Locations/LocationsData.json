@@ -622,13 +622,7 @@
           "CreateOnLoad": {
             "AlwaysActive": false,
             "MapPath": "Maps/FV_Mine"
-          },
-          "Music": [
-            {
-              "ID": "FishingValley.MapMusic",
-              "Track": "FishingValley.WaterDrop"
-            }
-          ]
+          }
         }
       }
     }

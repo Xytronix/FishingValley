@@ -1230,7 +1230,7 @@
  <objectgroup id="8" name="Buildings"/>
  <layer id="18" name="Buildings1" width="33" height="41">
   <data encoding="base64" compression="zlib">
-   eJztziEBAAAIA7AL+ocjEZ4AYLYESwAAgK3rewAAwJUBbkAA1w==
+   eJztzjEBACAMA7AeWMC/CWzwoAgX245EQRLocXb3ILkDDgDATG91DwAAqPIBGZcCgg==
   </data>
  </layer>
  <objectgroup id="17" name="Buildings1"/>
