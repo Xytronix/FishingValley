@@ -152,8 +152,8 @@
         "50 15 FishingValley.JungleRiver 0 33",
         "-1 16 FishingValley.JungleBay 32 19",
         "-1 17 FishingValley.JungleBay 32 20",
-        "42 50 FishingValley.JungleTree 5 0",
-        "43 50 FishingValley.JungleTree 6 0"
+        "42 50 FishingValley.JungleTree 5 1",
+        "43 50 FishingValley.JungleTree 6 1"
       ]
     },
 
@@ -177,8 +177,8 @@
       "Action": "EditMap",
       "Target": "Maps/FV_SerenityRiver",
       "AddWarps": [
-        "13 25 FishingValley.JungleCrossing 10 1",
-        "14 25 FishingValley.JungleCrossing 11 1",
+        "13 25 FishingValley.JungleCrossing 9 0",
+        "14 25 FishingValley.JungleCrossing 10 0",
         "13 -1 FishingValley.ForestSwamp 26 39",
         "14 -1 FishingValley.ForestSwamp 27 39"
       ],
@@ -236,23 +236,22 @@
     {
       "Action": "EditMap",
       "Target": "Maps/FV_JungleOasis",
-      "When": { "EditFarm": true },
       "AddWarps": [
         "-1 94 FishingValley.JungleFalls 39 11",
         "-1 95 FishingValley.JungleFalls 39 11",
         "-1 96 FishingValley.JungleFalls 39 11",
         "-1 97 FishingValley.JungleFalls 39 12",
         "-1 98 FishingValley.JungleFalls 39 12",
-        "34 -1 FishingValley.JungleCrossing 2 40",
-        "35 -1 FishingValley.JungleCrossing 2 40",
-        "36 -1 FishingValley.JungleCrossing 3 40",
-        "37 -1 FishingValley.JungleCrossing 3 40",
-        "38 -1 FishingValley.JungleCrossing 4 40",
-        "39 -1 FishingValley.JungleCrossing 4 40",
-        "45 -1 FishingValley.JungleCrossing 16 40",
-        "46 -1 FishingValley.JungleCrossing 16 40",
-        "47 -1 FishingValley.JungleCrossing 17 40",
-        "48 -1 FishingValley.JungleCrossing 17 40",
+        "34 -1 FishingValley.JungleCrossing 1 39",
+        "35 -1 FishingValley.JungleCrossing 2 39",
+        "36 -1 FishingValley.JungleCrossing 3 39",
+        "37 -1 FishingValley.JungleCrossing 3 39",
+        "38 -1 FishingValley.JungleCrossing 4 39",
+        "39 -1 FishingValley.JungleCrossing 4 39",
+        "45 -1 FishingValley.JungleCrossing 16 39",
+        "46 -1 FishingValley.JungleCrossing 16 39",
+        "47 -1 FishingValley.JungleCrossing 17 39",
+        "48 -1 FishingValley.JungleCrossing 17 39",
         "52 69 FishingValley.Mine 8 17",
         "53 69 FishingValley.Mine 8 17"
       ]
@@ -262,18 +261,18 @@
       "Action": "EditMap",
       "Target": "Maps/FishingValley.JungleCrossing",
       "AddWarps": [
-        "9 0 FishingValley.Serenityriver 13 24",
-        "10 0 FishingValley.Serenityriver 13 24",
-        "11 0 FishingValley.Serenityriver 14 24",
-        "12 0 FishingValley.Serenityriver 14 24",
-        "2 41 FishingValley.JungleOasis 34 0",
-        "3 41 FishingValley.JungleOasis 35 0",
-        "4 41 FishingValley.JungleOasis 36 0",
-        "5 41 FishingValley.JungleOasis 37 0",
-        "16 41 FishingValley.JungleOasis 45 0",
-        "17 41 FishingValley.JungleOasis 46 0",
-        "18 41 FishingValley.JungleOasis 47 0",
-        "19 41 FishingValley.JungleOasis 48 0"
+        "8 -1 FishingValley.Serenityriver 13 24",
+        "9 -1 FishingValley.Serenityriver 13 24",
+        "10 -1 FishingValley.Serenityriver 14 24",
+        "11 -1 FishingValley.Serenityriver 14 24",
+        "1 40 FishingValley.JungleOasis 34 0",
+        "2 40 FishingValley.JungleOasis 35 0",
+        "3 40 FishingValley.JungleOasis 36 0",
+        "4 40 FishingValley.JungleOasis 37 0",
+        "15 40 FishingValley.JungleOasis 45 0",
+        "16 40 FishingValley.JungleOasis 46 0",
+        "17 40 FishingValley.JungleOasis 47 0",
+        "18 40 FishingValley.JungleOasis 48 0"
       ]
     },
 
@@ -281,12 +280,12 @@
       "Action": "EditMap",
       "Target": "Maps/FishingValley.JungleTree",
       "AddWarps": [
-        "3 -1 FishingValley.JungleJapesMain 42 49",
-        "4 -1 FishingValley.JungleJapesMain 42 49",
-        "5 -1 FishingValley.JungleJapesMain 42 49",
-        "6 -1 FishingValley.JungleJapesMain 43 49",
-        "7 -1 FishingValley.JungleJapesMain 43 49",
-        "8 -1 FishingValley.JungleJapesMain 43 49"
+        "3 0 FishingValley.JungleJapesMain 42 49",
+        "4 0 FishingValley.JungleJapesMain 42 49",
+        "5 0 FishingValley.JungleJapesMain 42 49",
+        "6 0 FishingValley.JungleJapesMain 43 49",
+        "7 0 FishingValley.JungleJapesMain 43 49",
+        "8 0 FishingValley.JungleJapesMain 43 49"
       ]
     },
 
