@@ -114,7 +114,7 @@
       ],
       "MapTiles": [
         {
-          "Position": { "X": 27, "Y": 5 },s
+          "Position": { "X": 27, "Y": 5 },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "LockedDoorWarp 5 19 FishingValley.PirateShed 0300 0600"
@@ -284,9 +284,9 @@
         "3 -1 FishingValley.JungleJapesMain 42 49",
         "4 -1 FishingValley.JungleJapesMain 42 49",
         "5 -1 FishingValley.JungleJapesMain 42 49",
-        "6 -1 FishingValley.JungleJapesMain 43 49"
+        "6 -1 FishingValley.JungleJapesMain 43 49",
         "7 -1 FishingValley.JungleJapesMain 43 49",
-        "8 -1 FishingValley.JungleJapesMain 43 49",
+        "8 -1 FishingValley.JungleJapesMain 43 49"
       ]
     },
 
