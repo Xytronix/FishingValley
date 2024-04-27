@@ -33,13 +33,13 @@
  <objectgroup id="8" name="Paths"/>
  <layer id="5" name="Front" width="18" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPmADFAwFoae8hRhoaTkXwlJGhgRrmfKWSOZZMDAeoYc5gA8PVX9QA1MqH5JhjzkS5vQcYEZgU90xAoiegmTOBARWjAwDsCxGl
+   eJxjYKAPmADFAwFoae8hRhoaTkXwlJGhgRrmfKWSOZZMDAeoYc5gA8PVX9QA1MqHA1WOHGBEYGRAyD0TkOgJaOZMYEDF6AAAwxURbA==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
  <layer id="11" name="AlwaysFront" width="18" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILhDcyZKDdjPSMC08scAGgfBFo=
+   eJxjYBgFo2AUjILhC5YyMiSYM4HpB5SYs54RgellDgA3Gwbm
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
