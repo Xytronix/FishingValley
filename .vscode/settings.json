@@ -17,7 +17,8 @@
         "!/*/i18n/*.json",
         "!/*/**BL** Fishing Valley/*.json",
         "!/*/**FTM** Fishing Valley/*.json",
-        "!/*/**PFM** Fishing Valley/*.json"
+        "!/*/**PFM** Fishing Valley/*.json",
+        "!/*/**TS** Fishing Valley/*.json"
       ],
       "url": "https://smapi.io/schemas/content-patcher.json"
     },

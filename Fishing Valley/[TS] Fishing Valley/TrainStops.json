@@ -1,0 +1,14 @@
+{
+  "BoatStops": [
+    {
+      "TargetMapName": "FishingValley.FishingResortExterior",
+      "LocalizedDisplayName": {
+        "en": "Albatross Fishing Resort"
+      },
+      "TargetX": 30,
+      "TargetY": 56,
+      "Cost": 200,
+      "FacingDirectionAfterWarp": -2
+    }
+  ]
+}

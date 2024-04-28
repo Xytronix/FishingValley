@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="100">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="101">
  <properties>
   <property name="LocationContext" value="FishingValley.Main"/>
   <property name="Outdoors" value="true"/>
@@ -1454,7 +1454,13 @@
    eJzt2VlwU1Ucx/FD0qZLiiyTpK21PNB0jwtuBYq+SqGb6+iMtQqCL+r4xjgCVuXB5cEHlyKL3XAbeUFfxI0Z6QIIpYKKCoqy2L3qjAvQze+d3gwhvffmJrlpm875zXy4vbkn5/ybnHPvmVLvEmIrLiRMj4s4hVdRg1qUw2zqXcbXG+xCNKLJPvnckSpES5r2+wa5PmTX79d/fZFz8rV1Ftb/CWPsxafqWIHnH9qE2G0zP1Zw9vDej/AxElMvv25l/d9Q5zEcR7bzyvN9UdTuTzt9dNiu/B6snD9K+qn1JbyMV+wT58cY8zi+xXf4XnUixM8nVD/gR/yEk0Gfw2bqf9YkM/Un0K6Zmluwyz5xrqSbcXvQiz70h2EAgxiK4jusNVG/Q52Xn1H35/giYE0OM/YIRjGG8TAI+pkDm8EaD5UNJj9/vcxj7PlYgIUGVuhwwxNF/co9d69a/3CCvpEgo+r8yWFsLwp05CIP+QZtiuyXxw8eJxSljg1RfP4ljL3UwDIsR6nO538bbg/6/F9MMT9+jSt0/V0G11cz9t2Mdw/uVfnPy7lWgUpUoTqAksxkIVJZB3cpfZicQ08F/W5a9XeVmutLSS3jPk6fT+BJlf88VJZQfxb1r6ePxyJcA4H1l5VE1sd0xsz8mcmJpP4vA9qPL+afHPYuOdbVNLbYfFul/qfj/POvkfVPW2T905d9rtD1Gz17rYwzW4i07PDfp9R+X5RjP+IRYg3WeqLsKILcjwdi0G+rO7zXI41SeydOx+ColakaR0ZmpqePPV8/Bizc+0WSLYXm25Z6Rd1yLMNS3OQV4mbv5HZcF7RT2luew9R7BJ04iq4w6n+Bmp/Hc6jDM9S3UaNGrgvaKe0tj6tICDc8SEdGkXa7Wvfk86+p+RAO4gD2U18r2tCODvC64LqgndLe0myihkqLn0HBUfrfFKMxVrBHyAqi9VqWzl5Cq51enzL6sfmEsCMBiXAgCclIQapPe/4fKmTu4wA60I42tGI/voJVNdoD1o6Dn5O88Tv/K6m9yms812fa/H+Nel/HG3gT9diKt7AN27EDO9XvqYFjI5rQHIP7drg5SQ2n8DN+wWn8it9wBmdxDufVWrs59qAXfTOg/pxcIbzIRR7yUYBCFKEYPlyL63A9bsAS3JirvX7/LhDiH/yL/3ABF3EJwxjBKMYwDsGzfQ5sYTzjjRKv69cf+fxiX5bHvgxb8qZmvBH2Z6MYw7iyVytmTsIGOxKQCAeSkIyU4tD9Hqb+I+jEUXRNwe9zB3WtRBlWYTXKUYFKVKEadxZrr98F+UIszJ84d3F0w4N0ZCAzP7b1y/Ub/+t3tmTjFN1/AuPgmZiEZKQgFU6kYS6uwjzML5i8ftuodyXrswyr0Mp5OccKVKIK1XL9GiYW61dvTcvMvrjY17vhQToykImrkYVrkI1FOvv/bTyXt2MHduJtNKARTWhGC3bhHbyL9/A+PjCxJwmVB6mrBg+hFg+rda7huBaPYh3We7X3D2eo4SzO4Tx+Rzd60Is+9GMAgxjCH/gTf1lQv1LDQeXvCAb3B6PrZt+rjHOLT4hbUeKLrubABH+msUqsxgnn/qnY7J441rnN3zv17p+9LuYX+uP0/3svUfcwRuK0fiffYRrmTtEclpGRkZGRkZGRkZGRkZld+R9CI8xu
   </data>
  </layer>
- <objectgroup id="11" name="Buildings"/>
+ <objectgroup id="11" name="Buildings">
+  <object id="100" x="416" y="784" width="16" height="16">
+   <properties>
+    <property name="Action" value="BoatTicket"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="15" name="Buildings1" width="48" height="80">
   <data encoding="base64" compression="zlib">
    eJzt1UtOwmAYheEvqaixMXIxTkx10hmQqGxDwAtGWvej7sCpl82ITnUPgJvwNNGgiYLF5P+teZ/kDZeW5gwoXK3bVFuh2UVgdqm2V8zOg8nrKJyclz1/f5195knHn4OvrxnNOA4AgCulyPeC31kt+H4AAPDZfd1soB7UY933mvzKDbOKqqpaw/ea/PranKhUnRVw/7U236hbdVfA/UNtHqmxeing/p2m2a7aU62m7zUAkN/mxs/e831N/A0LsVlJLaoltRx/f+6ajpVVRVWnnOfSvna0VUd11YE6VEfqWPXUydvWUz32VaLSHPv5/gNu8P8F4CPuX8ANV/ca9y+A/4bfTwAAAAAAMI9XKqsjnQ==

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="100">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="101">
  <properties>
+  <property name="LocationContext" value="FishingValley.Main"/>
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="summer"/>
   <property name="TouchAction" value="DesertBus"/>
   <property name="skipWeedGrowth" value="true"/>
-  <property name="LocationContext" value="FishingValley.Main"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -1454,7 +1454,13 @@
    eJztmUtME0Ech4e2IFCMj7RVxHKxUuPNEyroWZSXz2hirYLgRY034gH06OPgEW8+8KYX9SK+uKBGDgZBRcXEowLCWQXUb9NtKMvudtvdvsx8yZdldnbn/+t2ZroJvT4hruNPT278hV/wGkYwio1olV6fef8NtxA38ZZ7abukXIi+Cv37pumfcRuPG++v9i7t63Aw/yNq9ONjtVZi+65LiHsu67W03OfeB/gQi8sXzjuZ/y05R3AUg97F7QEb2eO8ZIxXrsXfg5PzR2GKrJfxCl51x9oj1BzFd/geP6iOJfl7TPUjfsLPOK55Dj3kv2BRK/k9XHebzH14xx1rK3yj7necwEmcSsEfOI0zNr7DqIX8Jeq8fELup/gsYU3OUnsO5/EP/k1BwThF6DJZ48nosvj8jVhB7ZW4ClebWG+gHwM28it7br+af9Zj7JzGeXX+bKB2CDcZuBFrMGxyzWb3Qn1tnWQqObpsPP9aam81cRtuxzqD578Dd2qe/6Uy6/UjvuT5h03691B7P/UO4EHVeLuRviZsxhZsTVChslSIctbBPmUMi3PonOaz6eUfrrM2lkKUuqcZ8wyeVY23k7GF/FXk72SMU2mugcT8DbXpjZFLrMyffCad/M/z6PMq+c/nUZ5UUfJHZP6cIfPnjgFf8vxmv71O4g0KURFM/T4l+yGbtU8EhGjD9oDNgdLgsLCfX49Bf2rn0+UIvsGvGTjqka06EolEUshE/ebtXNBNhuYM51DG785QjXreEaoS1DuX2KdF7zq9++tz8C7yvyHnv/PI+S/JFnL9Oo9cv5JsIdev88j1K8kWcv06j9Fas7N+9frzdf0O5Wkuq4znOL8vJIQfA7gG12IlrsMqXI9BrA4ZDBAWoghd4VjTw7EYS3AZlmJZOHP5j5IrgscwisfVnG0c2/EkdmBnaOl+86JGiF1ka8DdOEi7kWMTNmMLtuLeDOZXeE2uIZP9wazf6r2Z2muztYdnqk4q+6dijz92vOg3vsbonUjLhE+ISZwq0P/3/ib3LM4VaH4v32EFLs+D9xCJRCKRSCQSiUQikRQe/wDU9DN5
   </data>
  </layer>
- <objectgroup id="11" name="Buildings"/>
+ <objectgroup id="11" name="Buildings">
+  <object id="100" x="416" y="880" width="16" height="16">
+   <properties>
+    <property name="Action" value="BoatTicket"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="15" name="Buildings1" width="48" height="80">
   <data encoding="base64" compression="zlib">
    eJzt1EsKglAUxvED0iQpetEkrAXognrsp9pB0x6bsZrWHnpsouMghJ6Y4PXE/wcfeK96+QYeFx35qO+LzDyRuWZQFZl66Trw0+eS6/s6eeeg94/e6zODL/cBAChKJXDdIJ+a8f5AWdSZJQAlEYciW81Osw9dt8muEYk0NS1NO3LdJruhdh5pxpqJwf5L7bzSrDUbg/1P2vmsuWiuBvsDgHW97vP6cS/vme/2ANf4/gG7mF/ALuYXsKuoWWN+Afwb/p8AAAAAAOAXNy+kG7M=

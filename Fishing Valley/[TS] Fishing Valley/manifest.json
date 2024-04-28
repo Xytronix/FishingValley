@@ -1,0 +1,12 @@
+{
+  "Name": "Boat Stop for Fishing Valley",
+  "Author": "Seiyn, Xytronix",
+  "Version": "1.1.0",
+  "Description": "Adds a boat destination for Fishing Valley.",
+  "UniqueID": "FishingValley.TS",
+  "UpdateKeys": ["Nexus:8668"],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.TrainStation"
+  },
+  "Dependencies": [{ "UniqueID": "FishingValley.CP", "IsRequired": true }]
+}
