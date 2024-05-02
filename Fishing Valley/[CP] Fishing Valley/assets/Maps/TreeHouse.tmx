@@ -4,8 +4,8 @@
   <property name="DayTiles" value="Back 5 3 53 Back 6 3 54 Back 5 4 69 Back 6 4 70"/>
   <property name="IgnoreLightingTiles" value="t"/>
   <property name="NightTiles" value="Back 5 3 270 Back 6 3 271 Back 5 4 286 Back 6 4 287"/>
-  <property name="LocationContext" value="FishingValley.Main"/>
-  <property name="SeasonOverride" value="summer"/>
+  <property name="LocationContext" value="FishingValley.Fall"/>
+  <property name="SeasonOverride" value="fall"/>
  </properties>
  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>

@@ -16,12 +16,6 @@
    </animation>
   </tile>
  </tileset>
- <layer id="1" name="Back" width="1" height="1">
-  <data encoding="csv">
-176
-</data>
- </layer>
- <objectgroup id="4" name="Back"/>
  <layer id="2" name="Buildings" width="1" height="1">
   <data encoding="csv">
 1976

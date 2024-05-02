@@ -3,7 +3,7 @@
  <properties>
   <property name="LocationContext" value="FishingValley.Main"/>
   <property name="Outdoors" value="true"/>
-  <property name="SeasonOverride" value="fall"/>
+  <property name="SeasonOverride" value="spring"/>
   <property name="skipWeedGrowth" value="true"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">

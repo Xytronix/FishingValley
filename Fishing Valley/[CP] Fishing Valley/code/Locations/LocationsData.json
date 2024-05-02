@@ -22,6 +22,98 @@
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleTheme"
             }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Goliath_Grouper",
+              "ItemId": "(O)FishingValley.Goliath_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Warty_Frogfish",
+              "ItemId": "(O)FishingValley.Warty_Frogfish",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Remora",
+              "ItemId": "(O)FishingValley.Remora",
+              "Condition": "LOCATION_Season Here Summer, TIME 1200 2000"
+            },
+
+            {
+              "Id": "FishingValley.Rainbow_Runner",
+              "ItemId": "(O)FishingValley.Rainbow_Runner",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Titan_Triggerfish",
+              "ItemId": "(O)FishingValley.Titan_Triggerfish",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Humphead_Wrasse",
+              "ItemId": "(O)FishingValley.Humphead_Wrasse",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Coral_Grouper",
+              "ItemId": "(O)FishingValley.Coral_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Bamboo_Shark",
+              "ItemId": "(O)FishingValley.Bamboo_Shark",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Panther_Grouper",
+              "ItemId": "(O)FishingValley.Panther_Grouper",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1800"
+            },
+
+            {
+              "Id": "FishingValley.Giant_Trevally",
+              "ItemId": "(O)FishingValley.Giant_Trevally",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1700"
+            },
+
+            {
+              "Id": "FishingValley.Black_Sea_Bass",
+              "ItemId": "(O)FishingValley.Black_Sea_Bass",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Chain_Pickerel",
+              "ItemId": "(O)FishingValley.Chain_Pickerel",
+              "Condition": "LOCATION_Season Here Spring Winter, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Grey_Triggerfish",
+              "ItemId": "(O)FishingValley.Grey_Triggerfish",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Sandbar_Shark",
+              "ItemId": "(O)FishingValley.Sandbar_Shark",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1700 2600, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Torpedo_Ray",
+              "ItemId": "(O)FishingValley.Torpedo_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            }
           ]
         },
 
@@ -42,6 +134,98 @@
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleTheme"
             }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Goliath_Grouper",
+              "ItemId": "(O)FishingValley.Goliath_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Warty_Frogfish",
+              "ItemId": "(O)FishingValley.Warty_Frogfish",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Remora",
+              "ItemId": "(O)FishingValley.Remora",
+              "Condition": "LOCATION_Season Here Summer, TIME 1200 2000"
+            },
+
+            {
+              "Id": "FishingValley.Rainbow_Runner",
+              "ItemId": "(O)FishingValley.Rainbow_Runner",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Titan_Triggerfish",
+              "ItemId": "(O)FishingValley.Titan_Triggerfish",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Humphead_Wrasse",
+              "ItemId": "(O)FishingValley.Humphead_Wrasse",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Coral_Grouper",
+              "ItemId": "(O)FishingValley.Coral_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Bamboo_Shark",
+              "ItemId": "(O)FishingValley.Bamboo_Shark",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Panther_Grouper",
+              "ItemId": "(O)FishingValley.Panther_Grouper",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1800"
+            },
+
+            {
+              "Id": "FishingValley.Giant_Trevally",
+              "ItemId": "(O)FishingValley.Giant_Trevally",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1700"
+            },
+
+            {
+              "Id": "FishingValley.Black_Sea_Bass",
+              "ItemId": "(O)FishingValley.Black_Sea_Bass",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Chain_Pickerel",
+              "ItemId": "(O)FishingValley.Chain_Pickerel",
+              "Condition": "LOCATION_Season Here Spring Winter, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Grey_Triggerfish",
+              "ItemId": "(O)FishingValley.Grey_Triggerfish",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Sandbar_Shark",
+              "ItemId": "(O)FishingValley.Sandbar_Shark",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1700 2600, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Torpedo_Ray",
+              "ItemId": "(O)FishingValley.Torpedo_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            }
           ]
         },
 
@@ -61,6 +245,98 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.JungleTheme"
+            }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Goliath_Grouper",
+              "ItemId": "(O)FishingValley.Goliath_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Warty_Frogfish",
+              "ItemId": "(O)FishingValley.Warty_Frogfish",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Remora",
+              "ItemId": "(O)FishingValley.Remora",
+              "Condition": "LOCATION_Season Here Summer, TIME 1200 2000"
+            },
+
+            {
+              "Id": "FishingValley.Rainbow_Runner",
+              "ItemId": "(O)FishingValley.Rainbow_Runner",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Titan_Triggerfish",
+              "ItemId": "(O)FishingValley.Titan_Triggerfish",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Humphead_Wrasse",
+              "ItemId": "(O)FishingValley.Humphead_Wrasse",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Coral_Grouper",
+              "ItemId": "(O)FishingValley.Coral_Grouper",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+
+            {
+              "Id": "FishingValley.Bamboo_Shark",
+              "ItemId": "(O)FishingValley.Bamboo_Shark",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Panther_Grouper",
+              "ItemId": "(O)FishingValley.Panther_Grouper",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1800"
+            },
+
+            {
+              "Id": "FishingValley.Giant_Trevally",
+              "ItemId": "(O)FishingValley.Giant_Trevally",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1700"
+            },
+
+            {
+              "Id": "FishingValley.Black_Sea_Bass",
+              "ItemId": "(O)FishingValley.Black_Sea_Bass",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Chain_Pickerel",
+              "ItemId": "(O)FishingValley.Chain_Pickerel",
+              "Condition": "LOCATION_Season Here Spring Winter, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Grey_Triggerfish",
+              "ItemId": "(O)FishingValley.Grey_Triggerfish",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Sandbar_Shark",
+              "ItemId": "(O)FishingValley.Sandbar_Shark",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1700 2600, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Torpedo_Ray",
+              "ItemId": "(O)FishingValley.Torpedo_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
             }
           ]
         },
@@ -97,6 +373,14 @@
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.SunlightonWater"
             }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Paddlefish",
+              "ItemId": "(O)FishingValley.Paddlefish",
+              "Condition": "LOCATION_Season Here Spring, WEATHER RAIN, TIME 1700 2600"
+            }
           ]
         },
 
@@ -131,6 +415,62 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.SantaluneForest"
+            }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Black_Piranha",
+              "ItemId": "(O)FishingValley.Black_Piranha",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 0600 1800"
+            },
+
+            {
+              "Id": "FishingValley.Dwarf_Caiman",
+              "ItemId": "(O)FishingValley.Dwarf_Caiman",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0900 1700"
+            },
+
+            {
+              "Id": "FishingValley.Brook_Trout",
+              "ItemId": "(O)FishingValley.Brook_Trout",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Rain, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Pumpkinseed",
+              "ItemId": "(O)FishingValley.Pumpkinseed",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Black_Diamond_Stingray",
+              "ItemId": "(O)FishingValley.Black_Diamond_Stingray",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Lightning_Trout",
+              "ItemId": "(O)FishingValley.Lightning_Trout",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Muskellunge",
+              "ItemId": "(O)FishingValley.Muskellunge",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+            },
+
+            {
+              "Id": "FishingValley.Taimen",
+              "ItemId": "(O)FishingValley.Taimen",
+              "Condition": "LOCATION_Season Here Fall, TIME 0600 0900 1600 2000, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Wels_Catfish",
+              "ItemId": "(O)FishingValley.Wels_Catfish",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, TIME 1900 2600"
             }
           ]
         },
@@ -167,6 +507,188 @@
             {
               "ID": "FishingValley.MapMusic",
               "Track": "FishingValley.BirchForest"
+            }
+          ],
+
+          "Fish": [
+            {
+              "Id": "FishingValley.Aquatic_Caecilian",
+              "ItemId": "(O)FishingValley.Aquatic_Caecilian",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Fire_Eel",
+              "ItemId": "(O)FishingValley.Fire_Eel",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Black_Piranha",
+              "ItemId": "(O)FishingValley.Black_Piranha",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, TIME 0600 1800"
+            },
+
+            {
+              "Id": "FishingValley.Barramundi",
+              "ItemId": "(O)FishingValley.Barramundi",
+              "Condition": "LOCATION_Season Here Spring Summer"
+            },
+
+            {
+              "Id": "FishingValley.Longfin_Eel",
+              "ItemId": "(O)FishingValley.Longfin_Eel",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Black_Diamond_Stingray",
+              "ItemId": "(O)FishingValley.Black_Diamond_Stingray",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Bull_Shark",
+              "ItemId": "(O)FishingValley.Bull_Shark",
+              "Condition": "LOCATION_Season Here Summer, TIME 1600 2600"
+            },
+
+            {
+              "Id": "FishingValley.Zebra_Shovelnose_Catfish",
+              "ItemId": "(O)FishingValley.Zebra_Shovelnose_Catfish",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1600 2600"
+            },
+
+            {
+              "Id": "FishingValley.Yellow_Anaconda",
+              "ItemId": "(O)FishingValley.Yellow_Anaconda",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0900 1800"
+            },
+
+            {
+              "Id": "FishingValley.Vampire_Crab",
+              "ItemId": "(O)FishingValley.Vampire_Crab",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1800"
+            },
+
+            {
+              "Id": "FishingValley.Siamese_Tiger_Perch",
+              "ItemId": "(O)FishingValley.Siamese_Tiger_Perch",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.River_Dolphin",
+              "ItemId": "(O)FishingValley.River_Dolphin",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Rainbow_Snake",
+              "ItemId": "(O)FishingValley.Rainbow_Snake",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0900 1800"
+            },
+
+            {
+              "Id": "FishingValley.Payara",
+              "ItemId": "(O)FishingValley.Payara",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Lightning_Trout",
+              "ItemId": "(O)FishingValley.Lightning_Trout",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Brook_Trout",
+              "ItemId": "(O)FishingValley.Brook_Trout",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Rain, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Cownose_Ray",
+              "ItemId": "(O)FishingValley.Cownose_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900"
+            },
+
+            {
+              "Id": "FishingValley.Guitarfish",
+              "ItemId": "(O)FishingValley.Guitarfish",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Muskellunge",
+              "ItemId": "(O)FishingValley.Muskellunge",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+            },
+
+            {
+              "Id": "FishingValley.Snakehead",
+              "ItemId": "(O)FishingValley.Snakehead",
+              "Condition": "LOCATION_Season Here Spring Summer, TIME 0600 0900"
+            },
+
+            {
+              "Id": "FishingValley.Arapaima",
+              "ItemId": "(O)FishingValley.Arapaima",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0600 1800"
+            },
+
+            {
+              "Id": "FishingValley.Bowfin",
+              "ItemId": "(O)FishingValley.Bowfin",
+              "Condition": "LOCATION_Season Here Spring Summer, TIME 1600 2600"
+            },
+
+            {
+              "Id": "FishingValley.Pumpkinseed",
+              "ItemId": "(O)FishingValley.Pumpkinseed",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Dwarf_Caiman",
+              "ItemId": "(O)FishingValley.Dwarf_Caiman",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter, WEATHER Sun Wind, TIME 0900 1700"
+            },
+
+            {
+              "Id": "FishingValley.Bichir",
+              "ItemId": "(O)FishingValley.Bichir",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Wels_Catfish",
+              "ItemId": "(O)FishingValley.Wels_Catfish",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Redtail_Catfish",
+              "ItemId": "(O)FishingValley.Redtail_Catfish",
+              "Condition": "LOCATION_Season Here Summer, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Paraiba_Catfish",
+              "ItemId": "(O)FishingValley.Paraiba_Catfish",
+              "Condition": "LOCATION_Season Here Summer, WEATHER Rain Storm, TIME 1800 2600"
+            },
+
+            {
+              "Id": "FishingValley.Warty_Frogfish",
+              "ItemId": "(O)FishingValley.Warty_Frogfish",
+              "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.King_Emperor_Piranha",
+              "ItemId": "(O)FishingValley.King_Emperor_Piranha",
+              "Condition": "LOCATION_Season Here Summer"
             }
           ]
         },
@@ -288,6 +810,36 @@
               "Id": "FishingValley.Giant_Trevally",
               "ItemId": "(O)FishingValley.Giant_Trevally",
               "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind, TIME 0800 1700"
+            },
+
+            {
+              "Id": "FishingValley.Black_Sea_Bass",
+              "ItemId": "(O)FishingValley.Black_Sea_Bass",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Chain_Pickerel",
+              "ItemId": "(O)FishingValley.Chain_Pickerel",
+              "Condition": "LOCATION_Season Here Spring Winter, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Grey_Triggerfish",
+              "ItemId": "(O)FishingValley.Grey_Triggerfish",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Sandbar_Shark",
+              "ItemId": "(O)FishingValley.Sandbar_Shark",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1700 2600, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Torpedo_Ray",
+              "ItemId": "(O)FishingValley.Torpedo_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
             }
           ]
         },
@@ -370,6 +922,30 @@
               "Id": "FishingValley.Electric_Eel",
               "ItemId": "(O)FishingValley.Electric_Eel",
               "Condition": "LOCATION_Season Here Summer, WEATHER Sun Wind"
+            },
+
+            {
+              "Id": "FishingValley.Snapping_Turtle",
+              "ItemId": "(O)FishingValley.Snapping_Turtle",
+              "Condition": "LOCATION_Season Here Spring Summer Fall"
+            },
+
+            {
+              "Id": "FishingValley.Brook_Trout",
+              "ItemId": "(O)FishingValley.Brook_Trout",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Rain, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Muskellunge",
+              "ItemId": "(O)FishingValley.Muskellunge",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+            },
+
+            {
+              "Id": "FishingValley.Wels_Catfish",
+              "ItemId": "(O)FishingValley.Wels_Catfish",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, TIME 1900 2600"
             }
           ]
         },
@@ -458,6 +1034,48 @@
               "Id": "FishingValley.Barramundi",
               "ItemId": "(O)FishingValley.Barramundi",
               "Condition": "LOCATION_Season Here Spring Summer"
+            },
+
+            {
+              "Id": "FishingValley.Bowfin",
+              "ItemId": "(O)FishingValley.Bowfin",
+              "Condition": "LOCATION_Season Here Spring Summer, TIME 1600 2600"
+            },
+
+            {
+              "Id": "FishingValley.Snakehead",
+              "ItemId": "(O)FishingValley.Snakehead",
+              "Condition": "LOCATION_Season Here Spring Summer, TIME 0600 0900"
+            },
+
+            {
+              "Id": "FishingValley.Lightning_Trout",
+              "ItemId": "(O)FishingValley.Lightning_Trout",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Brook_Trout",
+              "ItemId": "(O)FishingValley.Brook_Trout",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Rain, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Muskellunge",
+              "ItemId": "(O)FishingValley.Muskellunge",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+            },
+
+            {
+              "Id": "FishingValley.Pumpkinseed",
+              "ItemId": "(O)FishingValley.Pumpkinseed",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Wels_Catfish",
+              "ItemId": "(O)FishingValley.Wels_Catfish",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, TIME 1900 2600"
             }
           ]
         },
@@ -540,6 +1158,42 @@
               "Id": "FishingValley.Payara",
               "ItemId": "(O)FishingValley.Payara",
               "Condition": "LOCATION_Season Here Summer"
+            },
+
+            {
+              "Id": "FishingValley.Lightning_Trout",
+              "ItemId": "(O)FishingValley.Lightning_Trout",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Brook_Trout",
+              "ItemId": "(O)FishingValley.Brook_Trout",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Rain, TIME 0600 0900 1500 1800"
+            },
+
+            {
+              "Id": "FishingValley.Cownose_Ray",
+              "ItemId": "(O)FishingValley.Cownose_Ray",
+              "Condition": "LOCATION_Season Here Summer, TIME 0600 0900"
+            },
+
+            {
+              "Id": "FishingValley.Guitarfish",
+              "ItemId": "(O)FishingValley.Guitarfish",
+              "Condition": "LOCATION_Season Here Summer Fall, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Pumpkinseed",
+              "ItemId": "(O)FishingValley.Pumpkinseed",
+              "Condition": "LOCATION_Season Here Spring Summer Fall Winter, TIME 0600 1700"
+            },
+
+            {
+              "Id": "FishingValley.Wels_Catfish",
+              "ItemId": "(O)FishingValley.Wels_Catfish",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, TIME 1900 2600"
             }
           ]
         },

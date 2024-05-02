@@ -1,4 +1,27 @@
 {
+  "DynamicTokens": [
+    {
+      "Name": "Festival_MagicBoat",
+      "Value": "Festival_NightMarket_MagicBoat_Day1",
+      "When": {
+        "Day": "14"
+      }
+    },
+    {
+      "Name": "Festival_MagicBoat",
+      "Value": "Festival_NightMarket_MagicBoat_Day2",
+      "When": {
+        "Day": "15"
+      }
+    },
+    {
+      "Name": "Festival_MagicBoat",
+      "Value": "Festival_NightMarket_MagicBoat_Day3",
+      "When": {
+        "Day": "16"
+      }
+    }
+  ],
   "Changes": [
     {
       "Action": "EditMap",
@@ -62,6 +85,47 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "OpenShop FishingValley.BaitTrader down 0600 2600"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingFestival",
+      "MapTiles": [
+        {
+          "Position": { "X": 18, "Y": 34 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop FishingValley.AnglerShop down 1700 2600"
+          }
+        },
+        {
+          "Position": { "X": 33, "Y": 30 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop Traveler down 1700 2600"
+          }
+        },
+        {
+          "Position": { "X": 30, "Y": 34 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop Festival_NightMarket_DecorationBoat down 1700 2600"
+          }
+        },
+        {
+          "Position": { "X": 31, "Y": 34 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop Festival_NightMarket_DecorationBoat down 1700 2600"
+          }
+        },
+        {
+          "Position": { "X": 29, "Y": 42 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop {{Festival_MagicBoat}} down 1700 2600"
           }
         }
       ]

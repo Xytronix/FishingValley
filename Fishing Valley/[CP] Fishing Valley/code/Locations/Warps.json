@@ -17,6 +17,13 @@
           "SetProperties": {
             "Action": "Warp 12 10 BusStop"
           }
+        },
+        {
+          "Position": { "X": 16, "Y": 54 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 15 Submarine 1700 2300"
+          }
         }
       ]
     },
@@ -38,6 +45,13 @@
           "SetProperties": {
             "Action": "Warp 12 10 BusStop"
           }
+        },
+        {
+          "Position": { "X": 16, "Y": 54 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 15 Submarine 1700 2300"
+          }
         }
       ]
     },
@@ -58,6 +72,13 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "Warp 12 10 BusStop"
+          }
+        },
+        {
+          "Position": { "X": 16, "Y": 54 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 15 Submarine 1700 2300"
           }
         }
       ]

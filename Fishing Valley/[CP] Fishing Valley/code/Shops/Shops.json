@@ -7,7 +7,7 @@
         "FishingValley.FishShop": {
           "Owners": [
             {
-              "Name": "None",
+              "Name": "AnyOrNone",
               "Portrait": null,
               "Dialogues": [
                 {
@@ -1142,7 +1142,7 @@
         "FishingValley.BuffShop": {
           "Owners": [
             {
-              "Name": "None",
+              "Name": "AnyOrNone",
               "Portrait": null,
               "Dialogues": [
                 {
@@ -1248,7 +1248,7 @@
         "FishingValley.JungleBaitShop": {
           "Owners": [
             {
-              "Name": "None",
+              "Name": "AnyOrNone",
               "Portrait": null,
               "Dialogues": [
                 {
@@ -1308,7 +1308,7 @@
         "FishingValley.BaitTrader": {
           "Owners": [
             {
-              "Name": "None",
+              "Name": "AnyOrNone",
               "Portrait": null,
               "Dialogues": [
                 {
@@ -1338,7 +1338,7 @@
         "FishingValley.FungusShop": {
           "Owners": [
             {
-              "Name": "None",
+              "Name": "AnyOrNone",
               "Portrait": null,
               "Dialogues": [
                 {
@@ -3407,6 +3407,72 @@
               "QualityModifierMode": "Stack",
               "ModData": null,
               "PerItemCondition": null
+            }
+          ]
+        },
+
+        "FishingValley.AnglerShop": {
+          "Owners": [
+            {
+              "Name": "AnyOrNone",
+              "Portrait": "assets/Characters/Portraits/Trent_Icon.png",
+              "Dialogues": [
+                {
+                  "Id": "FishingValleyAnglerShop.Dialogue1",
+                  "Dialogue": "{{i18n:string.anglershop.dialogue1}}"
+                }
+              ],
+              "ClosedMessage": "{{i18n:string.anglershop.closedmessage}}"
+            }
+          ],
+          "ApplyProfitMargins": true,
+          "SalableItemTags": [
+            "category_fish",
+            "category_bait",
+            "category_tackle",
+            "category_sell_at_fish_shop"
+          ],
+          "Condition": "TIME 0600 2600",
+          "Items": [
+            {
+              "Itemid": "(O)219",
+              "Price": 200
+            },
+            {
+              "Itemid": "(O)856",
+              "Price": 1000
+            },
+            {
+              "Itemid": "(O)877",
+              "Price": 600
+            },
+            {
+              "Itemid": "(O)727",
+              "Price": 250
+            },
+            {
+              "Itemid": "(O)1116",
+              "Price": 10000
+            },
+            {
+              "Itemid": "(O)242",
+              "Price": 750
+            },
+            {
+              "Itemid": "(O)733",
+              "Price": 500
+            },
+            {
+              "Itemid": "(O)265",
+              "Price": 2000
+            },
+            {
+              "Itemid": "(O)730",
+              "Price": 2000
+            },
+            {
+              "Itemid": "(O)908",
+              "Price": 2000
             }
           ]
         }

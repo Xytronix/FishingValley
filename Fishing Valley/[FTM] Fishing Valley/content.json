@@ -758,6 +758,138 @@
       },
       {
         "SpringItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "SummerItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "FallItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Beach Forage Jungle Bay",
+        "MapName": "FV_JungleBay",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": ["Sand"],
+        "ExcludeTerrainTypes": ["Quarry", "Stone", "Wood", "Grass"],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "SummerItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "FallItemIndex": [
+          "Clam",
+          "Cockle",
+          "Coral",
+          "Mussel",
+          "Nautilus Shell",
+          "Oyster",
+          "Rainbow Shell",
+          "Sea Urchin",
+          "Seaweed"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Beach Forage Fishing Resort Beach",
+        "MapName": "FV_FishingResortExterior",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": ["Sand"],
+        "ExcludeTerrainTypes": ["Quarry", "Stone", "Wood", "Grass"],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
           "7 Spots LadyBug",
           "22 Spots Ladybird",
           "Eastern Lubber Grasshopper",

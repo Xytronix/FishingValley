@@ -110,6 +110,9 @@
 
   "string.baittrader.dialogue1": "Step into our bait trader's den, where every lure tells a tale! Browse through our extensive collection of baits, each crafted to entice even the most cunning of catches. But here's the catch – we're not just about offering the finest baits; you can also stock up on all your fishing essentials right here. From shiny spinners to irresistible worms, we've got everything you need to reel in the big one. So, why wait? Dive in and let's set the bait for your next fishing escapade!",
 
+  "string.anglershop.dialogue1": "Hey! I've got a selection of items for fishermen and aquarists!",
+  "string.anglershop.closedmessage": "Sorry, we are unfortunately closed. See us the next day.",
+
   "string.shop.closedmessage.bug": "Sorry, I'm bugged as I'm never supposed to close.",
 
   "string.forestswamp1": "Fungus Shop ahead.",
@@ -177,8 +180,8 @@
   "object.bowfin.name": "Bowfin",
   "object.bowfin.description": "Is a bony fish able to breathe both water and air.",
 
-  "object.brigit.name": "Brigit",
-  "object.brigit.description": "A small colourful trout.",
+  "object.lightning_trout.name": "Lightning Trout",
+  "object.lightning_trout.description": "A small colourful trout.",
 
   "object.brook_trout.name": "Brook Trout",
   "object.brook_trout.description": "This trout can hybridise with the brown trout, creating the tiger trout.",
@@ -320,7 +323,7 @@
   "object.payara.name": "Payara",
   "object.payara.description": "A large predator with long saber like teeth in the lower jaw.",
 
-  "object.pumpkinseed.name": "Pumpkinseed",
+  "object.pumpkinseed.name": "Pumpkinseed Sunfish",
   "object.pumpkinseed.description": "It is a freshwater fish typically referred as a sunfish. Typically found in warm lakes.",
 
   "object.rainbow_runner.name": "Rainbow Runner",

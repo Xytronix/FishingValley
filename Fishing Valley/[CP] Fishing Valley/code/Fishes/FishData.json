@@ -168,10 +168,10 @@
           "Edibility": 0
         },
 
-        "FishingValley.Brigit": {
-          "Name": "Brigit",
-          "DisplayName": "{{i18n: object.brigit.name}}",
-          "Description": "{{i18n: object.brigit.description}}",
+        "FishingValley.Lightning_Trout": {
+          "Name": "Lightning Trout",
+          "DisplayName": "{{i18n: object.lightning_trout.name}}",
+          "Description": "{{i18n: object.lightning_trout.description}}",
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
@@ -697,7 +697,7 @@
         },
 
         "FishingValley.Pumpkinseed": {
-          "Name": "Pumpkinseed",
+          "Name": "Pumpkinseed Sunfish",
           "DisplayName": "{{i18n: object.pumpkinseed.name}}",
           "Description": "{{i18n: object.pumpkinseed.description}}",
           "Type": "Fish",
@@ -1026,140 +1026,85 @@
       "Action": "EditData",
       "Target": "Data/Fish",
       "Entries": {
-        "FishingValley.Aquatic_Caecilian": "Aquatic Caecilian/40/smooth/13/22/600 2600/summer/both/683 .4/4/.6/.4/2",
-        "FishingValley.Arapaima": "Arapaima/60/dart/80/120/600 1800/summer/sunny/683 .4/2/.2/.2/6",
+        "FishingValley.Aquatic_Caecilian": "Aquatic Caecilian/40/smooth/13/22/0600 2600/summer/both/683 .4/4/.6/.4/2",
+        "FishingValley.Arapaima": "Arapaima/60/dart/80/120/0600 1800/summer/sunny/683 .4/2/.2/.2/6",
         "FishingValley.Bamboo_Shark": "Bamboo Shark/60/mixed/16/32/1800 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-        "FishingValley.Barramundi": "Barramundi/75/floater/43/60/600 2600/spring summer/both/683 .4/4/.6/.4/4",
-        "FishingValley.Bichir": "Bichir/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-        "FishingValley.Black_Diamond_Stingray": "Black Diamond Stingray/35/sinker/16/30/600 1600/spring summer fall winter/sunny/683 .4/6/.4/.6/3",
-        "FishingValley.Black_Piranha": "Red Eye Piranha/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
-
-        // Not Done
-        "FishingValley.Black_Sea_Bass": "Black Sea Bass/50/mixed/6/14/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
-
-        // Done
-        "FishingValley.Blind_Cave_Eel": "Blind Cave Eel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Not Done
-        "FishingValley.Bowfin": "Bowfin/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-        "FishingValley.Brigit": "Brigit/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-        "FishingValley.Brook_Trout": "Brook Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-        "FishingValley.Brown_Trout": "Brown Trout/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Done
+        "FishingValley.Barramundi": "Barramundi/75/floater/43/60/0600 2600/spring summer/both/683 .4/4/.6/.4/4",
+        "FishingValley.Bichir": "Bichir/20/mixed/10/22/0600 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Black_Diamond_Stingray": "Black Diamond Stingray/35/sinker/16/30/0600 1600/spring summer fall winter/sunny/683 .4/6/.4/.6/3",
+        "FishingValley.Black_Piranha": "Red Eye Piranha/50/mixed/6/14/0600 1800/spring summer fall winter/both/683 .4/6/.4/.6/1",
+        "FishingValley.Black_Sea_Bass": "Black Sea Bass/50/dart/9/29/0600 0900 1900 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Blind_Cave_Eel": "Blind Cave Eel/50/dart/6/15/0600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Bowfin": "Bowfin/50/smooth/15/41/1600 2600/spring summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Lightning_Trout": "Lightning Trout/45/mixed/6/12/0600 1600/summer fall/both/683 .4/2/.2/.2/1",
+        "FishingValley.Brook_Trout": "Brook Trout/30/smooth/6/15/0600 0900 1500 1800/spring summer fall/rainy/683 .4/2/.2/.2/1",
+        "FishingValley.Brown_Trout": "Brown Trout/30/smooth/6/15/0600 0900 1500 1800/spring summer fall/rainy/683 .4/2/.2/.2/1",
         "FishingValley.Bull_Shark": "Bull Shark/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
-
-        // Not Done
-        "FishingValley.Snakehead": "Snakehead/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Done
-        "FishingValley.Cave_Molly": "Cave Molly/20/mixed/1/5/600 2600/summer/both/683 .4/4/.6/.4/0",
-        "FishingValley.Cave_Salamander": "Cave Salamander/30/mixed/3/6/600 2600/summer/both/683 .4/6/.4/.6/1",
-
-        // Not Done
-        "FishingValley.Chain_Pickerel": "Chain Pickerel/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-        "FishingValley.Cod": "Cod/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Done
-        "FishingValley.Coral_Grouper": "Coral Grouper/45/sinker/6/15/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-
-        // Not Done
-        "FishingValley.Cownose_Ray": "Cownose Ray/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Done
-        "FishingValley.Dragon_Snakehead": "Dragon Snakehead/50/smooth/1/4/600 2600/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Cave_Molly": "Cave Molly/20/mixed/1/5/0600 2600/summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Cave_Salamander": "Cave Salamander/30/mixed/3/6/0600 2600/summer/both/683 .4/6/.4/.6/1",
+        "FishingValley.Chain_Pickerel": "Chain Pickerel/60/dart/10/36/0600 0900 1500 1800/spring winter/both/683 .4/6/.4/.6/1",
+        "FishingValley.Cod": "Cod/85/sinker/39/71/0600 2600/winter/both/683 .4/1/.1/.1/6",
+        "FishingValley.Coral_Grouper": "Coral Grouper/45/sinker/6/15/0600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+        "FishingValley.Cownose_Ray": "Cownose Ray/85/sinker/45/84/0600 0900/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Dragon_Snakehead": "Dragon Snakehead/50/smooth/1/4/0600 2600/summer/both/683 .4/4/.6/.4/0",
         "FishingValley.Dwarf_Caiman": "Dwarf Caiman/80/dart/45/65/900 1700/spring summer fall winter/sunny/683 .4/2/.2/.2/7",
-        "FishingValley.Electric_Eel": "Electric Eel/40/smooth/57/70/600 2600/summer/sunny/683 .4/2/.2/.2/3",
-        "FishingValley.Fire_Eel": "Fire Eel/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
+        "FishingValley.Electric_Eel": "Electric Eel/40/smooth/57/70/0600 2600/summer/sunny/683 .4/2/.2/.2/3",
+        "FishingValley.Fire_Eel": "Fire Eel/20/dart/20/40/0600 2600/summer/both/683 .4/4/.6/.4/1",
 
         // Not Done
-        "FishingValley.Flashlight_Fish": "Flashlight Fish/50/dart/6/15/600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Flashlight_Fish": "Flashlight Fish/50/dart/6/15/0600 2600/winter/both/683 .4/2/.2/.2/4",
 
         // Done
         "FishingValley.Freshwater_Angelfish": "Freshwater Angelfish/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-        "FishingValley.Giant_Gourami": "Giant Gourami/85/smooth/17/27/600 2600/summer/both/683 .4/6/.4/.6/4",
+        "FishingValley.Giant_Gourami": "Giant Gourami/85/smooth/17/27/0600 2600/summer/both/683 .4/6/.4/.6/4",
         "FishingValley.Giant_Trevally": "Giant Trevally/75/dart/35/50/800 1700/summer/sunny/683 .4/2/.2/.2/4",
-        "FishingValley.Goliath_Grouper": "Goliath Grouper/65/dart/50/70/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/3",
-
-        // Not Done
-        "FishingValley.Grey_Triggerfish": "Grey Triggerfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-        "FishingValley.Guitarfish": "Guitarfish/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-        "FishingValley.Gulper_Eel": "Gulper Eel/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-
-        // Done
-        "FishingValley.Guppy": "Guppy/15/smooth/1/2/600 1800/spring summer/both/683 .4/4/.6/.4/0",
+        "FishingValley.Goliath_Grouper": "Goliath Grouper/65/dart/50/70/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/3",
+        "FishingValley.Grey_Triggerfish": "Grey Triggerfish/90/sinker/10/22/0600 1700/summer/both/683 .4/2/.2/.2/6",
+        "FishingValley.Guitarfish": "Guitarfish/50/smooth/39/64/1900 2600/summer fall/both/683 .4/2/.2/.2/4",
+        "FishingValley.Gulper_Eel": "Gulper Eel/40/sinker/3/24/0600 2600/spring summer fall winter/both/683 .4/4/.6/.4/1",
+        "FishingValley.Guppy": "Guppy/15/smooth/1/2/0600 1800/spring summer/both/683 .4/4/.6/.4/0",
         "FishingValley.Halfmoon_Betta": "Halfmoon Betta/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
 
-        // Not Done
-        "FishingValley.Hellbender": "Hellbender/20/mixed/10/22/600 2600/summer/both/683 .4/6/.4/.6/1",
-
         //Done
-        "FishingValley.Humphead_Wrasse": "Humphead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-        "FishingValley.King_Emperor_Piranha": "King Emperor Piranha/25/smooth/7/17/600 2600/summer/both/683 .4/4/.6/.4/1",
-
-        // Not Done
-        "FishingValley.Leopard_Shark": "Leopard Shark/20/dart/20/40/600 2600/summer/both/683 .4/4/.6/.4/1",
-
-        // Done
+        "FishingValley.Humphead_Wrasse": "Humphead Wrasse/70/dart/58/75/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.King_Emperor_Piranha": "King Emperor Piranha/25/smooth/7/17/0600 2600/summer/both/683 .4/4/.6/.4/1",
+        "FishingValley.Leopard_Shark": "Leopard Shark/55/dart/20/40/0600 0900 1700 2600/winter/sunny/683 .4/2/.2/.2/2",
         "FishingValley.Longfin_Eel": "Longfin Eel/50/sinker/38/55/1800 2600/summer/rainy/683 .4/2/.2/.2/3",
         "FishingValley.Matamata": "Matamata/45/sinker/11/18/900 1800/summer/sunny/683 .4/2/.2/.2/2",
-
-        // Not Done
-        "FishingValley.Muskellunge": "Muskellunge/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-        "FishingValley.Nursehound_Shark": "Nursehound Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-        // Done
-        "FishingValley.Olm": "Olm/50/mixed/5/12/600 2600/summer/both/683 .4/2/.2/.2/3",
-
-        // Not Done
-        "FishingValley.Paddlefish": "Paddlefish/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-        // Done
+        "FishingValley.Muskellunge": "Muskellunge/85/dart/39/72/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
+        "FishingValley.Nursehound_Shark": "Nursehound Shark/30/smooth/51/60/1900 2600/summer/sunny/683 .4/2/.2/.2/4",
+        "FishingValley.Olm": "Olm/50/mixed/5/12/0600 2600/summer/both/683 .4/2/.2/.2/3",
+        "FishingValley.Paddlefish": "Paddlefish/90/sinker/5/7/1700 2600/spring/rainy/683 .4/2/.2/.2/4",
         "FishingValley.Panther_Grouper": "Panther Grouper/40/sinker/18/27/800 1800/summer/sunny/683 .4/6/.4/.6/2",
         "FishingValley.Paraiba": "Paraiba Catfish/70/dart/100/133/1800 2600/summer/rainy/683 .4/2/.2/.2/6",
-        "FishingValley.Payara": "Payara/50/mixed/27/43/600 2600/summer/both/683 .4/2/.2/.2/4",
-
-        // Not Done
-        "FishingValley.Pumpkinseed": "Pumpkinseed/80/dart/60/90/1600 2600/summer/both/683 .4/1/.1/.1/6",
-
-        // Done
-        "FishingValley.Rainbow_Runner": "Rainbow Runner/60/mixed/35/50/600 2600/summer/sunny/683 .4/6/.4/.6/3",
+        "FishingValley.Payara": "Payara/50/mixed/27/43/0600 2600/summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Pumpkinseed": "Pumpkinseed Sunfish/30/mixed/4/11/0600 1700/spring summer fall winter/both/683 .4/4/.6/.4/1",
+        "FishingValley.Rainbow_Runner": "Rainbow Runner/60/mixed/35/50/0600 2600/summer/sunny/683 .4/6/.4/.6/3",
         "FishingValley.Rainbow_Snake": "Rainbow Snake/50/smooth/40/62/900 1800/summer/sunny/683 .4/6/.4/.6/2",
-        "FishingValley.Red_Tiger_Oscar": "Red Tiger Oscar/45/mixed/10/15/600 1600/summer/both/683 .4/4/.6/.4/2",
+        "FishingValley.Red_Tiger_Oscar": "Red Tiger Oscar/45/mixed/10/15/0600 1600/summer/both/683 .4/4/.6/.4/2",
         "FishingValley.Redline_Puffer": "Redline Puffer/60/dart/9/15/1800 2600/summer/both/683 .4/2/.2/.2/4",
         "FishingValley.Redtail_Catfish": "Redtail Catfish/50/dart/40/55/1800 2600/summer/both/683 .4/6/.4/.6/4",
         "FishingValley.Remora": "Remora/40/smooth/15/35/1200 2000/summer/both/683 .4/4/.6/.4/1",
-        "FishingValley.River_Dolphin": "River Dolphin/75/dart/70/95/600 2600/summer/both/683 .4/1/.1/.1/6",
+        "FishingValley.River_Dolphin": "River Dolphin/75/dart/70/95/0600 2600/summer/both/683 .4/1/.1/.1/6",
+        "FishingValley.Sandbar_Shark": "Sandbar Shark/40/dart/72/90/1700 2600/summer fall/sunny/683 .4/6/.4/.6/4",
+        "FishingValley.Saratoga": "Saratoga/65/floater/14/35/0600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
 
         // Not Done
-        "FishingValley.Sandbar_Shark": "Sandbar Shark/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
+        "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/70/dart/58/75/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
 
-        // Done
-        "FishingValley.Saratoga": "Saratoga/65/floater/14/35/600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
-
-        // Not Done
-        "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-        "FishingValley.Snapping_Turtle": "Alligator Snapping Turtle/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-        "FishingValley.Snowy_Grouper": "Snowy Grouper/70/dart/58/75/600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-        "FishingValley.Southern_Opah": "Southern Opah/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-        "FishingValley.Taimen": "Taimen/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
-
-        // Done
-        "FishingValley.Tambaqui": "Tambaqui/30/mixed/22/38/600 1700/summer fall/both/683 .4/4/.6/.4/2",
-        "FishingValley.Tiger_Perch": "Siamese Tiger Perch/20/mixed/7/16/600 2600/summer/both/683 .4/2/.3/.2/1",
-        "FishingValley.Titan_Triggerfish": "Titan Triggerfish/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-
-        // Not Done
-        "FishingValley.Torpedo_Ray": "Torpedo Ray/40/dart/18/30/600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
-
-        // Done
-        "FishingValley.Vampire_Crab": "Vampire Crab/15/mixed/1/2/600 1800/summer/both/683 .4/4/.6/.4/1",
-        "FishingValley.Warty_Frogfish": "Warty Frogfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
-
-        // Not Done
-        "FishingValley.Wels_Catfish": "Wels Catfish/15/mixed/2/6/600 2600/summer/both/683 .4/2/.2/.2/1",
-
-        // Done
+        // done
+        "FishingValley.Snakehead": "Snakehead/75/smooth/12/40/0600 0900/spring summer/both/683 .4/2/.2/.2/4",
+        "FishingValley.Snapping_Turtle": "Alligator Snapping Turtle/50/sinker/8/19/0600 2600/spring summer fall/both/683 .4/1/.1/.1/6",
+        "FishingValley.Snowy_Grouper": "Snowy Grouper/40/sinker/12/48/0600 0900/spring/both/683 .4/2/.2/.2/4",
+        "FishingValley.Southern_Opah": "Southern Opah/50/dart/36/43/1900 2600/spring summer fall winter/both/683 .4/4/.6/.4/0",
+        "FishingValley.Taimen": "Taimen/85/dart/60/83/0600 0900 1600 2000/fall/sunny/683 .4/2/.2/.2/4",
+        "FishingValley.Tambaqui": "Tambaqui/30/mixed/22/38/0600 1700/summer fall/both/683 .4/4/.6/.4/2",
+        "FishingValley.Tiger_Perch": "Siamese Tiger Perch/20/mixed/7/16/0600 2600/summer/both/683 .4/2/.3/.2/1",
+        "FishingValley.Titan_Triggerfish": "Titan Triggerfish/40/dart/18/30/0600 2600/spring summer fall winter/both/683 .4/6/.4/.6/3",
+        "FishingValley.Torpedo_Ray": "Torpedo Ray/40/sinker/24/72/1900 2600/summer/both/683 .4/6/.4/.6/4",
+        "FishingValley.Vampire_Crab": "Vampire Crab/15/mixed/1/2/0600 1800/summer/both/683 .4/4/.6/.4/1",
+        "FishingValley.Warty_Frogfish": "Warty Frogfish/15/mixed/2/6/0600 2600/summer/both/683 .4/2/.2/.2/1",
+        "FishingValley.Wels_Catfish": "Wels Catfish/95/mixed/51/87/1900 2600/spring summer fall/both/683 .4/1/.1/.1/6",
         "FishingValley.Yellow_Anaconda": "Yellow Anaconda/80/smooth/120/190/900 1800/summer/sunny/683 .4/2/.2/.2/6",
         "FishingValley.Zebra_Shovelnose_Catfish": "Zebra Shovelnose Catfish/40/smooth/15/23/1600 2600/summer/rainy/683 .4/6/.4/.6/3"
       }
@@ -1177,7 +1122,8 @@
         "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
         "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
         "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
-        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
+        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5",
+        "FishingValley.Hellbender": "Hellbender/trap/.2/682 .45/freshwater/9/16"
       }
     },
 
@@ -1193,7 +1139,8 @@
         "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
         "FishingValley.Mantis_Shrimp": "Mantis Shrimp/trap/.05/682 .45/ocean/2/12",
         "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
-        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5"
+        "FishingValley.Xenopus": "Xenopus/trap/.2/682 .45/freshwater/2/5",
+        "FishingValley.Hellbender": "Hellbender/trap/.2/682 .45/freshwater/9/16"
       }
     },
 
@@ -1207,7 +1154,8 @@
         "FishingValley.Fire_Salamander": "Fire Salamander/trap/.05/682 .45/freshwater/6/12",
         "FishingValley.Giant_Southern_Crab": "Giant Deepwater Crab/trap/.1/682 .45/ocean/10/20",
         "FishingValley.Horsehoe_Crab": "Horseshoe Crab/trap/.05/682 .45/ocean/14/20",
-        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2"
+        "FishingValley.Ramshorn_Snail": "Ramshorn Snail/trap/.2/682 .45/freshwater/1/2",
+        "FishingValley.Hellbender": "Hellbender/trap/.2/682 .45/freshwater/9/16"
       }
     },
 
