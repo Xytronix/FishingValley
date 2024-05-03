@@ -4,7 +4,7 @@
   <property name="Outdoors" value="true"/>
   <property name="SeasonOverride" value="fall"/>
   <property name="skipWeedGrowth" value="true"/>
-  <property name="LocationContext" value="FishingValley.Falll"/>
+  <property name="LocationContext" value="FishingValley.Fall"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>

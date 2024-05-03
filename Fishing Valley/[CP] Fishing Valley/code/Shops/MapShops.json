@@ -1,27 +1,4 @@
 {
-  "DynamicTokens": [
-    {
-      "Name": "Festival_MagicBoat",
-      "Value": "Festival_NightMarket_MagicBoat_Day1",
-      "When": {
-        "Day": "14"
-      }
-    },
-    {
-      "Name": "Festival_MagicBoat",
-      "Value": "Festival_NightMarket_MagicBoat_Day2",
-      "When": {
-        "Day": "15"
-      }
-    },
-    {
-      "Name": "Festival_MagicBoat",
-      "Value": "Festival_NightMarket_MagicBoat_Day3",
-      "When": {
-        "Day": "16"
-      }
-    }
-  ],
   "Changes": [
     {
       "Action": "EditMap",

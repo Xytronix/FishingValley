@@ -1,5 +1,95 @@
 {
   "Changes": [
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Submarine",
+      "When": { "DayEvent | contains=nightmarket": "false" },
+      "AddWarps": ["14 16 FishingValley.FishingResortExterior 16 55"]
+    },*/
+
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Submarine",
+      "When": { "DayEvent | contains=nightmarket": "false" },
+      "AddWarps": ["4 11 FishingValley.FishingFestival 30 55"]
+    },*/
+
+    /*{
+      "Action": "EditMap",
+      "Target": "Maps/Submarine",
+      "When": {
+        "Season | contains=Winter": "false",
+        "Day | contains=15, 16, 17": "false"
+      },
+      "AddWarps": ["14 16 FishingValley.FishingResortExterior 16 55"]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MermaidHouse",
+      "When": {
+        "Season | contains=Winter": "false",
+        "Day | contains=15, 16, 17": "false"
+      },
+      "AddWarps": ["4 11 FishingValley.FishingFestival 30 55"]
+    },*/
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Submarine",
+      "MapTiles": [
+        {
+          "Position": { "X": 14, "Y": 16 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp FishingValley.FishingResortExterior 16 55"
+          }
+        }
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/MermaidHouse",
+      "MapTiles": [
+        {
+          "Position": { "X": 4, "Y": 11 },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp FishingValley.FishingFestival 16 55"
+          }
+        }
+      ]
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/FV_FishingResortExterior",
+      "MapTiles": [
+        {
+          "Position": { "X": 24, "Y": 10 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 12 29 FishingValley.FishingResortInterior 0600 2600"
+          }
+        },
+        {
+          "Position": { "X": 4, "Y": 11 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 10 BusStop"
+          }
+        },
+        {
+          "Position": { "X": 16, "Y": 54 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 15 Submarine 1700 2300"
+          }
+        }
+      ]
+    },
+
     {
       "Action": "EditMap",
       "Target": "Maps/FV_FishingResortExterior",
@@ -51,6 +141,14 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "LockedDoorWarp 14 15 Submarine 1700 2300"
+          }
+        },
+
+        {
+          "Position": { "X": 58, "Y": 31 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 4 10 MermaidHouse 1700 2430"
           }
         }
       ]
@@ -313,7 +411,7 @@
     {
       "Action": "EditMap",
       "Target": "Maps/FishingValley.Mine",
-      "AddWarps": ["8 19 FishingValley.JungleOasis 53 70"]
+      "AddWarps": ["8 18 FishingValley.JungleOasis 53 70"]
     }
   ]
 }

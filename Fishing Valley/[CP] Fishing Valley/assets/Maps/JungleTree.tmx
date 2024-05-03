@@ -558,6 +558,142 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="1976" name="submarine tiles" tilewidth="16" tileheight="16" tilecount="528" columns="24">
+  <image source="submarine_tilesheet.png" width="384" height="352"/>
+  <tile id="186">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <animation>
+    <frame tileid="193" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="445" duration="100"/>
+    <frame tileid="446" duration="100"/>
+    <frame tileid="445" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+    <frame tileid="444" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer id="1" name="Back" width="12" height="11">
   <data encoding="csv">
 176,176,176,176,176,176,176,176,176,176,176,176,
@@ -624,11 +760,11 @@
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="12" height="11">
   <data encoding="csv">
-0,0,0,947,947,947,947,947,947,0,0,0,
-0,0,0,3221226542,3221226541,3221226540,3221226539,3221226540,3221226539,0,0,0,
-0,0,967,968,969,968,968,969,968,970,0,0,
-0,0,992,42,43,44,45,46,47,995,0,0,
-0,0,1017,67,68,69,70,71,72,995,0,0,
+947,947,947,947,947,947,947,947,947,947,947,947,
+947,941,3221226543,3221226542,3221226541,3221226540,3221226539,3221226540,3221226539,947,947,947,
+947,0,967,968,969,968,968,969,968,970,947,947,
+947,0,992,42,43,44,45,46,47,995,0,947,
+0,0,1017,67,68,69,70,71,72,995,0,947,
 0,0,1017,92,93,94,95,96,97,1020,0,0,
 0,0,1042,1018,0,119,120,0,1019,1045,0,0,
 0,0,1016,1017,0,0,0,0,1020,1021,0,0,
