@@ -86,14 +86,14 @@
     {
       "LogName": "Editing maps",
       "Action": "EditMap",
-      "Target": "Maps/FishingValley.JungleTree",
+      "Target": "Maps/FV_JungleTree",
       "FromFile": "assets/Maps/S01Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 4, "Y": 7, "Height": 1, "Width": 1 }
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/FishingValley.WaterfallCave",
+      "Target": "Maps/FV_WaterfallCave",
       "FromFile": "assets/Maps/S02Novel.tmx",
       "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 1 },
       "ToArea": { "X": 14, "Y": 7, "Height": 1, "Width": 1 }
