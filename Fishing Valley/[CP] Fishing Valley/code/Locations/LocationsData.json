@@ -113,6 +113,18 @@
               "Id": "FishingValley.Torpedo_Ray",
               "ItemId": "(O)FishingValley.Torpedo_Ray",
               "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Sheephead_Wrasse",
+              "ItemId": "(O)FishingValley.Sheephead_Wrasse",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Leopard_Shark",
+              "ItemId": "(O)FishingValley.Leopard_Shark",
+              "Condition": "LOCATION_Season Here Winter, WEATHER Sun Wind, TIME 1700 2600"
             }
           ]
         },
@@ -225,6 +237,18 @@
               "Id": "FishingValley.Torpedo_Ray",
               "ItemId": "(O)FishingValley.Torpedo_Ray",
               "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Sheephead_Wrasse",
+              "ItemId": "(O)FishingValley.Sheephead_Wrasse",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Leopard_Shark",
+              "ItemId": "(O)FishingValley.Leopard_Shark",
+              "Condition": "LOCATION_Season Here Winter, WEATHER Sun Wind, TIME 1700 2600"
             }
           ]
         },
@@ -337,6 +361,18 @@
               "Id": "FishingValley.Torpedo_Ray",
               "ItemId": "(O)FishingValley.Torpedo_Ray",
               "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Sheephead_Wrasse",
+              "ItemId": "(O)FishingValley.Sheephead_Wrasse",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Leopard_Shark",
+              "ItemId": "(O)FishingValley.Leopard_Shark",
+              "Condition": "LOCATION_Season Here Winter, WEATHER Sun Wind, TIME 1700 2600"
             }
           ]
         },
@@ -840,6 +876,18 @@
               "Id": "FishingValley.Torpedo_Ray",
               "ItemId": "(O)FishingValley.Torpedo_Ray",
               "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
+            },
+
+            {
+              "Id": "FishingValley.Sheephead_Wrasse",
+              "ItemId": "(O)FishingValley.Sheephead_Wrasse",
+              "Condition": "LOCATION_Season Here Spring Summer Fall, WEATHER Sun Wind, TIME 0600 1600"
+            },
+
+            {
+              "Id": "FishingValley.Leopard_Shark",
+              "ItemId": "(O)FishingValley.Leopard_Shark",
+              "Condition": "LOCATION_Season Here Winter, WEATHER Sun Wind, TIME 1700 2600"
             }
           ]
         },
@@ -1277,6 +1325,48 @@
             "AlwaysActive": false,
             "MapPath": "Maps/FV_Mine"
           }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": ["Submarine", "Fish"],
+      "Entries": {
+        "FishingValley.Gulper_Eel": {
+          "Id": "FishingValley.Gulper_Eel",
+          "ItemId": "(O)FishingValley.Gulper_Eel",
+          "Condition": ""
+        },
+        "FishingValley.Cod": {
+          "Id": "FishingValley.Cod",
+          "ItemId": "(O)FishingValley.Cod",
+          "Condition": "LOCATION_Season Here Winter"
+        },
+        "FishingValley.Flashlight_Fish": {
+          "Id": "FishingValley.Flashlight_Fish",
+          "ItemId": "(O)FishingValley.Flashlight_Fish",
+          "Condition": ""
+        },
+        "FishingValley.Sandbar_Shark": {
+          "Id": "FishingValley.Sandbar_Shark",
+          "ItemId": "(O)FishingValley.Sandbar_Shark",
+          "Condition": "LOCATION_Season Here Summer Fall, TIME 1700 2600"
+        },
+        "FishingValley.Snowy_Grouper": {
+          "Id": "FishingValley.Snowy_Grouper",
+          "ItemId": "(O)FishingValley.Snowy_Grouper",
+          "Condition": "LOCATION_Season Here Spring, TIME 0600 0900"
+        },
+        "FishingValley.Southern_Opah": {
+          "Id": "FishingValley.Southern_Opah",
+          "ItemId": "(O)FishingValley.Southern_Opah",
+          "Condition": "TIME 1900 2600"
+        },
+        "FishingValley.Torpedo_Ray": {
+          "Id": "FishingValley.Torpedo_Ray",
+          "ItemId": "(O)FishingValley.Torpedo_Ray",
+          "Condition": "LOCATION_Season Here Summer, TIME 1900 2600"
         }
       }
     }
