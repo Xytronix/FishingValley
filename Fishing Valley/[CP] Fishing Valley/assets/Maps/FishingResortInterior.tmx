@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="36">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="37">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Doors" value="32 10 1 120 39 10 1 120 46 10 1 120"/>
@@ -35,6 +35,47 @@
  </tileset>
  <tileset firstgid="20260" name="zjukebox" tilewidth="16" tileheight="16" tilecount="6" columns="2">
   <image source="jukebox.png" width="32" height="48"/>
+ </tileset>
+ <tileset firstgid="20266" name="untitled tile sheet2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2" width="512" height="656"/>
+  <tile id="1218">
+   <animation>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1219" duration="125"/>
+    <frame tileid="1220" duration="125"/>
+    <frame tileid="1219" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+    <frame tileid="1218" duration="125"/>
+   </animation>
+  </tile>
+  <tile id="1250">
+   <animation>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1251" duration="125"/>
+    <frame tileid="1252" duration="125"/>
+    <frame tileid="1251" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+    <frame tileid="1250" duration="125"/>
+   </animation>
+  </tile>
  </tileset>
  <layer id="1" name="Paths" width="50" height="30">
   <data encoding="base64" compression="zlib">
@@ -134,10 +175,15 @@
     <property name="Action" value="Jukebox"/>
    </properties>
   </object>
+  <object id="36" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Bobbers"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="12" name="Buildings1" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt18ENQBEAREGJivTq4HeGakQBJN+Fw8z1ZQvYEACAG2pat7ZpfdMAAACmEv9vvoPNi7LPxEUDbHsFGw==
+   eJzt18EJgDAQBMCAX0vxYy1amg/tTK3BIiQFGFACF2TmuyzsPS8lWnZN0Qvq6OfoBXUMP7kDaMM+PmdHITsLGQAAQLZ27zvbh06LFj8TgW6fUwc6
   </data>
  </layer>
  <objectgroup id="11" name="Buildings1"/>

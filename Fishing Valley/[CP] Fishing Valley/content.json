@@ -3,8 +3,8 @@
   "ConfigSchema": {
     "EditFarm": {
       "AllowValues": "true, false",
-      "Default": "true",
-      "Description": "Adds teleportation tiles on the farm to Fishing Valley."
+      "Default": "false",
+      "Description": "Adds teleportation book on the farm to Fishing Resort."
     },
     "AddFishesToTown": {
       "AllowValues": "true, false",

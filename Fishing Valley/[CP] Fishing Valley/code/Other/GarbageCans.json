@@ -9,6 +9,11 @@
           "BaseChance": 0.3,
           "Items": [
             {
+              "ID": "FishingValley.Totem.JungleTree",
+              "Condition": "RANDOM 0.20",
+              "ItemId": "(O)FishingValley.Totem.JungleTree"
+            },
+            {
               "IgnoreBaseChance": false,
               "IsMegaSuccess": false,
               "IsDoubleMegaSuccess": false,
@@ -87,6 +92,11 @@
         "FishingValley.FishingResortInterior": {
           "BaseChance": 0.3,
           "Items": [
+            {
+              "ID": "FishingValley.Totem.JungleTree",
+              "Condition": "RANDOM 0.20",
+              "ItemId": "(O)FishingValley.Totem.JungleTree"
+            },
             {
               "IgnoreBaseChance": false,
               "IsMegaSuccess": false,

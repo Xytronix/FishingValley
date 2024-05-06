@@ -1,0 +1,77 @@
+{
+  "Changes": [
+    {
+      "LogName": "Loading objects",
+      "Action": "Load",
+      "Target": "Mods\\FishingValley.CP\\Objects\\Objects",
+      "FromFile": "assets/Objects/objects.png"
+    },
+    {
+      "LogName": "Initialising objects.",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": { "HasMod": "spacechase0.SpaceCore" },
+      "Entries": {
+        "FishingValley.Totem.JungleTree_Dark": {
+          "Name": "Albatross Resort Totem",
+          "DisplayName": "{{i18n: object.totem.jungletree.name}}",
+          "Description": "{{i18n: object.totem.jungletree.description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "ContextTags": ["color_brown", "not_placeable", "totem_item"],
+          "Price": 1000,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Objects",
+          "SpriteIndex": 0
+        },
+        "FishingValley.Totem.JungleTree": {
+          "Name": "Albatross Resort Totem",
+          "DisplayName": "{{i18n: object.totem.jungletree.name}}",
+          "Description": "{{i18n: object.totem.jungletree.description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "ContextTags": ["color_brown", "not_placeable", "totem_item"],
+          "Price": 1000,
+          "Texture": "Mods\\FishingValley.CP\\Objects\\Objects",
+          "SpriteIndex": 1
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "When": { "HasMod": "spacechase0.SpaceCore" },
+      "Entries": {
+        "FishingValley.Totem.JungleTree_Dark": {
+          "TotemWarp": {
+            "Location": "FishingValley.JungleTree",
+            "Position": "5, 5"
+            //"Color": { "R": 0, "G": 0, "B": 255, "A": 255 }
+          }
+        },
+        "FishingValley.Totem.JungleTree": {
+          "TotemWarp": {
+            "Location": "FishingValley.JungleTree",
+            "Position": "5, 5"
+            //"Color": { "R": 0, "G": 0, "B": 255, "A": 255 }
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": ["Default", "ArtifactSpots"],
+      "Entries": {
+        "FishingValley.Totem.JungleTree": {
+          "Chance": 0.03,
+          "ApplyGenerousEnchantment": true,
+          "OneDebrisPerDrop": true,
+          "Precedence": -100,
+          "ContinueOnDrop": true,
+          "Id": "FishingValley.Totem.JungleTree",
+          "ItemId": "(O)FishingValley.Totem.JungleTree"
+        }
+      }
+    }
+  ]
+}

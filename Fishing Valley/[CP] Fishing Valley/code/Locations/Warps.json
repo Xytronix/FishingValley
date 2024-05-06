@@ -37,29 +37,25 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Submarine",
-      "MapTiles": [
-        {
-          "Position": { "X": 14, "Y": 16 },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "Warp FishingValley.FishingResortExterior 16 55"
-          }
-        }
-      ]
+      "When": {
+        "Season | contains=Winter": "false",
+        "Day | contains=15, 16, 17": "false"
+      },
+      "MapProperties": {
+        "Warp": "14 16 FishingValley.FishingResortExterior 16 55"
+      }
     },
 
     {
       "Action": "EditMap",
       "Target": "Maps/MermaidHouse",
-      "MapTiles": [
-        {
-          "Position": { "X": 4, "Y": 11 },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "Warp FishingValley.FishingFestival 16 55"
-          }
-        }
-      ]
+      "When": {
+        "Season | contains=Winter": "false",
+        "Day | contains=15, 16, 17": "false"
+      },
+      "MapProperties": {
+        "Warp": "4 11 FishingValley.FishingFestival 30 55"
+      }
     },
 
     {
