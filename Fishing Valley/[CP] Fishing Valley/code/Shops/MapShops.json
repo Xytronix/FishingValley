@@ -111,10 +111,10 @@
       "LogName": "Fishing Festival Closed",
       "Action": "EditMap",
       "PatchMode": "Overlay",
-      "Target": "Maps/FishingFestival",
+      "Target": "Maps/FV_FishingFestival",
       "When": { "Time": "{{Range: 0600, 1659}}" },
       "Update": "OnTimeChange",
-      "FromFile": "assets/Maps/FishingFestival_Closed.tmx",
+      "FromFile": "assets/Maps/FishingFestival-Closed.tmx",
       "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
       "ToArea": { "X": 47, "Y": 79, "Width": 1, "Height": 1 }
     }
