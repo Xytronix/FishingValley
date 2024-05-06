@@ -3,7 +3,7 @@
     {
       "LogName": "Loading fishes",
       "Action": "Load",
-      "Target": "Mods\\FishingValley.CP\\Objects\\Fishes",
+      "Target": "Mods\\{{ModId}}\\Objects\\Fishes",
       "FromFile": "assets/Objects/fishes.png"
     },
 
@@ -19,7 +19,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 60,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "0",
           "Edibility": 20
         },
@@ -31,7 +31,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "1",
           "Edibility": 20
         },
@@ -43,7 +43,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 280,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "2",
           "Edibility": 80
         },
@@ -55,7 +55,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 70,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "3",
           "Edibility": 0
         },
@@ -67,7 +67,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 140,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "4",
           "Edibility": 40
         },
@@ -79,7 +79,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "5",
           "Edibility": 30
         },
@@ -91,7 +91,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "6",
           "Edibility": 10
         },
@@ -103,7 +103,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "7",
           "Edibility": 20
         },
@@ -115,7 +115,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 70,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "8",
           "Edibility": 20
         },
@@ -127,7 +127,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 120,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "9",
           "Edibility": 35
         },
@@ -139,7 +139,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "10",
           "Edibility": 15
         },
@@ -151,7 +151,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "11",
           "Edibility": 0
         },
@@ -163,7 +163,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "12",
           "Edibility": 0
         },
@@ -175,7 +175,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "13",
           "Edibility": 10
         },
@@ -187,7 +187,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "14",
           "Edibility": 35
         },
@@ -199,7 +199,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "15",
           "Edibility": 35
         },
@@ -211,7 +211,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 220,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "16",
           "Edibility": 80
         },
@@ -223,7 +223,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "17",
           "Edibility": 30
         },
@@ -235,7 +235,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "18",
           "Edibility": 15
         },
@@ -247,7 +247,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "19",
           "Edibility": -75
         },
@@ -259,7 +259,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "20",
           "Edibility": 35
         },
@@ -271,7 +271,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "21",
           "Edibility": 30
         },
@@ -283,7 +283,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "22",
           "Edibility": 30
         },
@@ -295,7 +295,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 110,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "23",
           "Edibility": 25
         },
@@ -307,7 +307,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "24",
           "Edibility": 20
         },
@@ -319,7 +319,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 250,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "25",
           "Edibility": 60
         },
@@ -331,7 +331,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "26",
           "Edibility": 30
         },
@@ -343,7 +343,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "27",
           "Edibility": 30
         },
@@ -355,7 +355,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "28",
           "Edibility": -50
         },
@@ -367,7 +367,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "29",
           "Edibility": 20
         },
@@ -379,7 +379,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 60,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "30",
           "Edibility": 15
         },
@@ -391,7 +391,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 190,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "31",
           "Edibility": 45
         },
@@ -403,7 +403,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "32",
           "Edibility": 10
         },
@@ -415,7 +415,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "33",
           "Edibility": 50
         },
@@ -427,7 +427,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "34",
           "Edibility": 30
         },
@@ -439,7 +439,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "35",
           "Edibility": 30
         },
@@ -451,7 +451,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 220,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "36",
           "Edibility": 45
         },
@@ -463,7 +463,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "37",
           "Edibility": 35
         },
@@ -475,7 +475,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 70,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "38",
           "Edibility": 15
         },
@@ -487,7 +487,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "39",
           "Edibility": 15
         },
@@ -499,7 +499,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "40",
           "Edibility": 5
         },
@@ -511,7 +511,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "41",
           "Edibility": 5
         },
@@ -523,7 +523,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "42",
           "Edibility": 5
         },
@@ -535,7 +535,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "43",
           "Edibility": 15
         },
@@ -547,7 +547,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "44",
           "Edibility": 60
         },
@@ -559,7 +559,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 60,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "45",
           "Edibility": 20
         },
@@ -571,7 +571,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 250,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "46",
           "Edibility": 50
         },
@@ -583,7 +583,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "47",
           "Edibility": 50
         },
@@ -595,7 +595,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "48",
           "Edibility": 20
         },
@@ -607,7 +607,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "49",
           "Edibility": 40
         },
@@ -619,7 +619,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "50",
           "Edibility": 30
         },
@@ -631,7 +631,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "51",
           "Edibility": 20
         },
@@ -643,7 +643,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 160,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "52",
           "Edibility": 5
         },
@@ -655,7 +655,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "53",
           "Edibility": 60
         },
@@ -667,7 +667,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "54",
           "Edibility": 20
         },
@@ -679,7 +679,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 350,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "55",
           "Edibility": 100
         },
@@ -691,7 +691,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 180,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "56",
           "Edibility": 40
         },
@@ -703,7 +703,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "57",
           "Edibility": 35
         },
@@ -715,7 +715,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "58",
           "Edibility": 35
         },
@@ -727,7 +727,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "59",
           "Edibility": 15
         },
@@ -739,7 +739,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "60",
           "Edibility": 20
         },
@@ -751,7 +751,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "61",
           "Edibility": 20
         },
@@ -763,7 +763,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 180,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "62",
           "Edibility": -45
         },
@@ -775,7 +775,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 180,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "63",
           "Edibility": 60
         },
@@ -787,7 +787,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "64",
           "Edibility": 15
         },
@@ -799,7 +799,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 240,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "65",
           "Edibility": 70
         },
@@ -811,7 +811,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 300,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "66",
           "Edibility": 80
         },
@@ -823,7 +823,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "67",
           "Edibility": 40
         },
@@ -835,7 +835,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "68",
           "Edibility": 30
         },
@@ -847,7 +847,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 180,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "69",
           "Edibility": 70
         },
@@ -859,7 +859,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "70",
           "Edibility": 50
         },
@@ -871,7 +871,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "71",
           "Edibility": 80
         },
@@ -883,7 +883,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "72",
           "Edibility": 65
         },
@@ -895,7 +895,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "73",
           "Edibility": 45
         },
@@ -907,7 +907,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "74",
           "Edibility": 15
         },
@@ -919,7 +919,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 120,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "75",
           "Edibility": 45
         },
@@ -931,7 +931,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "76",
           "Edibility": 25
         },
@@ -943,7 +943,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "77",
           "Edibility": 5
         },
@@ -955,7 +955,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 110,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "78",
           "Edibility": 15
         },
@@ -967,7 +967,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "79",
           "Edibility": 15
         },
@@ -979,7 +979,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "80",
           "Edibility": 45
         },
@@ -991,7 +991,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "81",
           "Edibility": 20
         },
@@ -1003,7 +1003,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 200,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "82",
           "Edibility": 60
         },
@@ -1015,7 +1015,7 @@
           "Type": "Fish",
           "Category": -4,
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Fishes",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Fishes",
           "SpriteIndex": "83",
           "Edibility": 30
         }

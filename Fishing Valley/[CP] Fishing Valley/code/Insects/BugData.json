@@ -3,7 +3,7 @@
     {
       "LogName": "Loading bugs",
       "Action": "Load",
-      "Target": "Mods\\FishingValley.CP\\Objects\\Bugs",
+      "Target": "Mods\\{{ModId}}\\Objects\\Bugs",
       "FromFile": "assets/Objects/insects.png"
     },
     {
@@ -19,7 +19,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 60,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "0",
           "Edibility": 0
         },
@@ -31,7 +31,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "1",
           "Edibility": 0
         },
@@ -43,7 +43,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "2",
           "Edibility": 0
         },
@@ -55,7 +55,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "3",
           "Edibility": 0
         },
@@ -67,7 +67,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 130,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "4",
           "Edibility": 0
         },
@@ -79,7 +79,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "5",
           "Edibility": 0
         },
@@ -91,7 +91,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 70,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "6",
           "Edibility": 0
         },
@@ -103,7 +103,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "7",
           "Edibility": 0
         },
@@ -115,7 +115,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "8",
           "Edibility": 0
         },
@@ -127,7 +127,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 120,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "9",
           "Edibility": 0
         },
@@ -139,7 +139,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "10",
           "Edibility": 0
         },
@@ -151,7 +151,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "11",
           "Edibility": 0
         },
@@ -163,7 +163,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "12",
           "Edibility": 0
         },
@@ -175,7 +175,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 110,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "13",
           "Edibility": 0
         },
@@ -187,7 +187,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 125,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "14",
           "Edibility": 0
         },
@@ -199,7 +199,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 90,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "15",
           "Edibility": 0
         },
@@ -211,7 +211,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "16",
           "Edibility": 0
         },
@@ -223,7 +223,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 120,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "17",
           "Edibility": 0
         },
@@ -235,7 +235,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 160,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "18",
           "Edibility": 0
         },
@@ -247,7 +247,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "19",
           "Edibility": 0
         },
@@ -259,7 +259,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "20",
           "Edibility": 0
         },
@@ -271,7 +271,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 110,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "21",
           "Edibility": 0
         },
@@ -283,7 +283,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 110,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "22",
           "Edibility": 0
         },
@@ -295,7 +295,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 60,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "23",
           "Edibility": 0
         },
@@ -307,7 +307,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "24",
           "Edibility": 0
         },
@@ -319,7 +319,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 150,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "25",
           "Edibility": 0
         },
@@ -331,7 +331,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 180,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "26",
           "Edibility": 0
         },
@@ -343,7 +343,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 50,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "27",
           "Edibility": 0
         },
@@ -355,7 +355,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 100,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "28",
           "Edibility": 0
         },
@@ -367,7 +367,7 @@
           "Category": -81,
           "ContextTags": ["color_white", "item_bug"],
           "Price": 80,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Bugs",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Bugs",
           "SpriteIndex": "29",
           "Edibility": 0
         }

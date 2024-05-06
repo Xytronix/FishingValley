@@ -533,5 +533,8 @@
   "object.yellowjacket.categorytextoverride": "Insect",
 
   "object.totem.jungletree.name": "Albatross Resort Totem",
-  "object.totem.jungletree.description": "A totem that brings you to the valley of Fishing Valley."
+  "object.totem.jungletree.description": "A totem that brings you to the valley of Fishing Valley.",
+
+  "furniture.bench.name": "Bench",
+  "furniture.bench.description": "A bench made out of tropical wood."
 }

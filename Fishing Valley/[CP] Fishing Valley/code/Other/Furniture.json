@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Furnitures/Bench",
+      "FromFile": "assets/Objects/bench.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Furniture",
+      "Entries": {
+        "FV.Bench.Name": "{{i18n: furniture.bench.name}}",
+        "FV.Bench.Description": "{{i18n: furniture.bench.description}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "FishingValley.Bench": "Bench/1/-1/-1/4/750/[LocalizedText Strings\\Furniture:FV.Bench.Name]/0/Mods\\{{ModId}}\\Furnitures\\Bench/true/none"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        "bench/0/0": "2/1/down/bench/1/1/false/assets\\Objects\\bench"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+      "When": { "HasMod": "spacechase0.SpaceCore" },
+      "Entries": {
+        "FishingValley.Bench": {
+          "DescriptionOverride": "{{i18n: furniture.bench.description}}"
+        }
+      }
+    }
+  ]
+}

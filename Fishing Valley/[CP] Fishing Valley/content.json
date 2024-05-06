@@ -290,7 +290,7 @@
     {
       "LogName": "Loading miscellaneous stuff.",
       "Action": "Include",
-      "FromFile": "code/Other/GarbageCans.json, code/Other/Minecarts.json"
+      "FromFile": "code/Other/Furniture.json, code/Other/GarbageCans.json, code/Other/Minecarts.json"
     },
 
     {

@@ -3,7 +3,7 @@
     {
       "LogName": "Loading objects",
       "Action": "Load",
-      "Target": "Mods\\FishingValley.CP\\Objects\\Objects",
+      "Target": "Mods\\{{ModId}}\\Objects\\Objects",
       "FromFile": "assets/Objects/objects.png"
     },
     {
@@ -20,7 +20,7 @@
           "Category": 0,
           "ContextTags": ["color_brown", "not_placeable", "totem_item"],
           "Price": 1000,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Objects",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Objects",
           "SpriteIndex": 0
         },
         "FishingValley.Totem.JungleTree": {
@@ -31,7 +31,7 @@
           "Category": 0,
           "ContextTags": ["color_brown", "not_placeable", "totem_item"],
           "Price": 1000,
-          "Texture": "Mods\\FishingValley.CP\\Objects\\Objects",
+          "Texture": "Mods\\{{ModId}}\\Objects\\Objects",
           "SpriteIndex": 1
         }
       }
