@@ -1050,11 +1050,7 @@
         "FishingValley.Dwarf_Caiman": "Dwarf Caiman/80/dart/45/65/900 1700/spring summer fall winter/sunny/683 .4/2/.2/.2/7",
         "FishingValley.Electric_Eel": "Electric Eel/40/smooth/57/70/0600 2600/summer/sunny/683 .4/2/.2/.2/3",
         "FishingValley.Fire_Eel": "Fire Eel/20/dart/20/40/0600 2600/summer/both/683 .4/4/.6/.4/1",
-
-        // Not Done
-        "FishingValley.Flashlight_Fish": "Flashlight Fish/50/dart/6/15/0600 2600/winter/both/683 .4/2/.2/.2/4",
-
-        // Done
+        "FishingValley.Flashlight_Fish": "Flashlight Fish/35/mixed/4/12/0600 2600/spring summer fall winter/both/683 .4/4/.6/.4/1",
         "FishingValley.Freshwater_Angelfish": "Freshwater Angelfish/25/smooth/2/6/1200 2000/summer/both/683 .4/4/.6/.4/0",
         "FishingValley.Giant_Gourami": "Giant Gourami/85/smooth/17/27/0600 2600/summer/both/683 .4/6/.4/.6/4",
         "FishingValley.Giant_Trevally": "Giant Trevally/75/dart/35/50/800 1700/summer/sunny/683 .4/2/.2/.2/4",
@@ -1064,8 +1060,6 @@
         "FishingValley.Gulper_Eel": "Gulper Eel/40/sinker/3/24/0600 2600/spring summer fall winter/both/683 .4/4/.6/.4/1",
         "FishingValley.Guppy": "Guppy/15/smooth/1/2/0600 1800/spring summer/both/683 .4/4/.6/.4/0",
         "FishingValley.Halfmoon_Betta": "Halfmoon Betta/20/mixed/1/3/1800 2600/summer/both/683 .4/6/.4/.6/0",
-
-        //Done
         "FishingValley.Humphead_Wrasse": "Humphead Wrasse/70/dart/58/75/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
         "FishingValley.King_Emperor_Piranha": "King Emperor Piranha/25/smooth/7/17/0600 2600/summer/both/683 .4/4/.6/.4/1",
         "FishingValley.Leopard_Shark": "Leopard Shark/55/dart/20/40/0600 0900 1700 2600/winter/sunny/683 .4/2/.2/.2/2",
@@ -1088,11 +1082,7 @@
         "FishingValley.River_Dolphin": "River Dolphin/75/dart/70/95/0600 2600/summer/both/683 .4/1/.1/.1/6",
         "FishingValley.Sandbar_Shark": "Sandbar Shark/40/dart/72/90/1700 2600/summer fall/sunny/683 .4/6/.4/.6/4",
         "FishingValley.Saratoga": "Saratoga/65/floater/14/35/0600 1800/spring summer fall winter/both/683 .4/6/.4/.6/2",
-
-        // Not Done
-        "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/70/dart/58/75/0600 2600/spring summer fall winter/both/683 .4/2/.2/.2/4",
-
-        // done
+        "FishingValley.Sheephead_Wrasse": "Sheephead Wrasse/75/dart/5/39/0600 1600/spring summer fall/sunny/683 .4/2/.3/.2/1",
         "FishingValley.Snakehead": "Snakehead/75/smooth/12/40/0600 0900/spring summer/both/683 .4/2/.2/.2/4",
         "FishingValley.Snapping_Turtle": "Alligator Snapping Turtle/50/sinker/8/19/0600 2600/spring summer fall/both/683 .4/1/.1/.1/6",
         "FishingValley.Snowy_Grouper": "Snowy Grouper/40/sinker/12/48/0600 0900/spring/both/683 .4/2/.2/.2/4",

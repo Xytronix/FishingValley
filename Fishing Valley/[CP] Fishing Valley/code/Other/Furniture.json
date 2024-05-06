@@ -33,7 +33,7 @@
       "When": { "HasMod": "spacechase0.SpaceCore" },
       "Entries": {
         "FishingValley.Bench": {
-          "DescriptionOverride": "{{i18n: furniture.bench.description}}"
+          "DescriptionOverride": "[LocalizedText Strings\\Furniture:FV.Bench.Description]"
         }
       }
     }
