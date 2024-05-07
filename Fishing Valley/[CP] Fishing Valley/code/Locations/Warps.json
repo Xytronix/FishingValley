@@ -141,7 +141,7 @@
         },
 
         {
-          "Position": { "X": 58, "Y": 31 },
+          "Position": { "X": 30, "Y": 54 },
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "LockedDoorWarp 4 10 MermaidHouse 1700 2430"
